@@ -1,5 +1,7 @@
 import json
+import os
 import sys
+import tempfile
 import unittest
 from io import BytesIO
 from pathlib import Path
@@ -7,7 +9,7 @@ from urllib.error import HTTPError
 from unittest.mock import patch
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "starter"))
-from openai_controller import OpenAICompatibleController
+from openai_controller import OpenAICompatibleController, _load_env_file
 
 
 class FakeResponse:
@@ -72,10 +74,41 @@ class OpenAIControllerTests(unittest.TestCase):
         self.assertEqual(action["citations"], ["chunk-1"])
 
     def test_requires_credentials_and_model(self):
-        with self.assertRaisesRegex(ValueError, "OPENAI_API_KEY"):
-            OpenAICompatibleController(api_key="", model="test")
-        with self.assertRaisesRegex(ValueError, "OPENAI_MODEL"):
-            OpenAICompatibleController(api_key="test", model="")
+        with patch("openai_controller._load_env_file"), patch.dict(
+            os.environ, {"OPENAI_API_KEY": "", "OPENAI_MODEL": ""}
+        ):
+            with self.assertRaisesRegex(ValueError, "OPENAI_API_KEY"):
+                OpenAICompatibleController(api_key="", model="test")
+            with self.assertRaisesRegex(ValueError, "OPENAI_MODEL"):
+                OpenAICompatibleController(api_key="test", model="")
+
+    def test_load_env_file_reads_settings_without_overriding_environment(self):
+        with tempfile.TemporaryDirectory() as temp_dir:
+            env_file = Path(temp_dir) / ".env"
+            env_file.write_text(
+                "OPENAI_API_KEY=local-key\n"
+                "OPENAI_MODEL='file-model'\n"
+                "OPENAI_BASE_URL=https://example.test/v1\n",
+                encoding="utf-8",
+            )
+            with patch.dict(os.environ, {
+                "OPENAI_API_KEY": "",
+                "OPENAI_MODEL": "shell-model",
+                "OPENAI_BASE_URL": "",
+            }):
+                _load_env_file(env_file)
+                self.assertEqual(os.environ["OPENAI_API_KEY"], "local-key")
+                self.assertEqual(os.environ["OPENAI_MODEL"], "shell-model")
+                self.assertEqual(
+                    os.environ["OPENAI_BASE_URL"], "https://example.test/v1"
+                )
+
+    def test_load_env_file_rejects_malformed_entries(self):
+        with tempfile.TemporaryDirectory() as temp_dir:
+            env_file = Path(temp_dir) / ".env"
+            env_file.write_text("NOT_ALLOWED=value\n", encoding="utf-8")
+            with self.assertRaisesRegex(ValueError, r"line 1"):
+                _load_env_file(env_file)
 
     @patch("openai_controller.urlopen")
     def test_provider_error_includes_safe_diagnostic_message(self, urlopen):

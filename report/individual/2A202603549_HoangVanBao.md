@@ -6,7 +6,7 @@
 - **Quyền sử dụng:** manifest Day 6 ghi CC BY-NC-SA 4.0. Cần đối chiếu giấy phép ở nguồn trước khi chia sẻ bản trích xuất hoặc gửi nội dung tới dịch vụ ngoài.
 - **Vector store/index:** Chroma persistent, collection `chunks_B`, Day 6 index `chroma_v2_b1000`; 224 chunks paragraph-based, giới hạn chunk 1,000 ký tự.
 - **Embedding:** `BAAI/bge-small-en-v1.5`, FastEmbed 0.9.1, 384 chiều; truy vấn bằng cùng model với index.
-- **Agent model:** Chưa chạy agent thật vì môi trường hiện tại chưa cấu hình `OPENAI_API_KEY` và `OPENAI_MODEL`. Đã thêm controller tương thích OpenAI Chat Completions; không dùng mock để báo cáo chất lượng.
+- **Agent model:** `gpt-4o-mini`, OpenAI Chat Completions tool calling. Chạy thật trên 23 câu dev và 7 câu test, không dùng mock; provider errors đều bằng 0.
 - **Benchmark:** 21 câu có đáp án + 2 câu thiếu evidence ở dev; 5 câu có đáp án + 2 câu thiếu evidence ở test. Sáu câu test Day 6 đã chuyển sang dev vì kết quả của chúng đã được xem. Test Day 7 gồm câu mới, được giữ lại đến khi chốt cấu hình retrieval.
 - **Evidence:** script xác minh nguồn, trang và quote trong chunks; phép đối chiếu chuẩn hóa dấu câu/ký tự hỏng khi trích PDF. Các lý do thiếu evidence đã kiểm tra trên corpus, nhưng cần người nộp rà soát trước khi dùng làm nhãn cuối.
 
@@ -33,18 +33,24 @@ Một số lỗi test retrieval đã xem: q23 không có evidence trong top-3 hy
 
 - **Trace retrieval:** `starter/results/day7-retrieval/{tfidf-dev,dense-dev,hybrid-dev,hybrid-k5-dev,hybrid-k5-b1600-dev,tfidf-test,hybrid-k5-b1600-test}/`.
 - **Lệnh chạy:** xem mục “Benchmark retrieval” trong `starter/README.md`; dùng Python environment Day 6 có Chroma/FastEmbed.
-- **Giới hạn:** test chỉ có 5 câu trả lời được; TF-IDF tokenize đơn giản; context vẫn bỏ sót evidence. Phí model trả lời chưa đo vì agent chưa chạy.
+- **Giới hạn:** test retrieval chỉ có 5 câu trả lời được; TF-IDF tokenize đơn giản; context vẫn bỏ sót evidence. Agent đã chạy thật; token usage có ghi nhưng chi phí USD chưa tính.
 
 ## Agent và đánh giá
 
 - **Tool/agent:** `agent_runner.py` gọi `OpenAICompatibleController` với tool `search`, dùng dense Chroma Day 6. Mặc định tối đa 3 lượt search, top-3 và budget 1,600 ký tự; lỗi được lưu riêng, không dùng kết quả giả.
-- **Model:** Chưa cấu hình/chạy. Thiết lập `OPENAI_API_KEY`, `OPENAI_MODEL` (và tùy chọn `OPENAI_BASE_URL`) trong môi trường local; không commit secret. Chỉ gửi tài liệu tới provider được phép xử lý nội dung này.
-- **Grounded answer, citation support, abstention:** Chưa có kết quả agent thật; cần chạy model, đọc từng trace/citation và chấm thủ công. Các test mock chỉ kiểm tra code, không phải benchmark chất lượng.
-- **Trace agent và nhãn:** Chưa tạo. `agent_runner.py` ghi `cases.json` và `traces.json`; tạo `reviews.json` thủ công trước khi chạy `agent_metrics.py`. Token usage được ghi khi provider trả usage; chi phí phải tính theo giá của model/provider.
+- **Model:** `gpt-4o-mini`, cấu hình bằng `.env` local (không commit secret). Chỉ gửi tài liệu tới provider được phép xử lý nội dung này.
+- **Cấu hình được đánh giá:** dense Day 6 strategy B, top-3, tối đa 3 lượt search, context budget 1,600 ký tự. Đây là cấu hình của agent runner, **không phải** cấu hình hybrid top-5 đã chọn trong benchmark retrieval; lần chạy này không so sánh chất lượng model giữa hai retrieval method.
+- **Chấm thủ công:** Đã đọc toàn bộ 23 câu dev và 7 câu test, gồm 5 câu test có đáp án và 2 câu test thiếu evidence. Citation chỉ được chấm đúng khi có trong context và hỗ trợ phát biểu tương ứng. Nhãn cùng lý do nằm trong `starter/results/agent-{dev,test}/reviews.json`; summary được tạo bằng `agent_metrics.py`.
 
-| Cấu hình / split | Tool use | Số lượt gọi | Grounded answer 0/1/2 và trung bình | Citation hợp lệ | Câu có citation | Abstention đúng | Từ chối nhầm |
-|---|---|---|---|---|---|---|---|
-| Agent thật | Chưa chạy — thiếu cấu hình provider | — | — | — | — | — | — |
+| Split | Tool use | Grounded answer (0/1/2; trung bình /2) | Citation hợp lệ | Câu trả lời có citation | Abstention đúng | Từ chối nhầm | Provider errors | Token usage |
+|---|---:|---|---:|---:|---:|---:|---:|---:|
+| dev | 23/23 | 7 / 0 / 14; **1.33** (21 câu có đáp án) | 15/23 (65.2%) | 19/19 | 2/2 | 2/21 (9.5%) | 0/23 | 15,039 prompt + 2,766 completion = 17,805 |
+| test | 7/7 | 1 / 1 / 3; **1.40** (5 câu có đáp án) | 6/6 | 4/4 | 2/2 | 1/5 (20.0%) | 0/7 | 6,038 prompt + 746 completion = 6,784 |
+
+- **Nhận xét lỗi:** Dev q02 và q13, test q24 bị từ chối nhầm sau khi retrieval không đưa được evidence vào context. Dev q06, q07, q08, q09 và q17 có câu trả lời sai hoặc citation không hỗ trợ câu trả lời. Các trường hợp này được chấm 0; citation ID hợp lệ về cú pháp không tự chứng minh grounding.
+- **Số lượt search:** Dev có 20 câu chạy 1 lượt và 3 câu chạy 3 lượt; test có 4 câu chạy 1 lượt và 3 câu chạy 3 lượt.
+- **Chi phí:** Runner ghi token usage nhưng không trả giá tiền. Cần tính theo bảng giá của model/provider tại thời điểm chạy; chưa ghi USD để tránh ước lượng sai.
+- **Trace agent:** `starter/results/agent-dev/{cases.json,traces.json,reviews.json,summary.json}` và `starter/results/agent-test/{cases.json,traces.json,reviews.json,summary.json}`. Các kết quả nằm trong thư mục bị Git ignore; không commit API key, trace hoặc dữ liệu nguồn.
 
 ## Thử thách nâng cao
 

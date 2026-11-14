@@ -2,8 +2,30 @@
 import json
 import os
 import re
+from pathlib import Path
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
+
+
+_ENV_VARIABLES = {"OPENAI_API_KEY", "OPENAI_MODEL", "OPENAI_BASE_URL"}
+
+
+def _load_env_file(path: Path) -> None:
+    if not path.is_file():
+        return
+    for line_number, raw_line in enumerate(path.read_text(encoding="utf-8").splitlines(), 1):
+        line = raw_line.strip()
+        if not line or line.startswith("#"):
+            continue
+        name, separator, value = line.partition("=")
+        name = name.strip()
+        if not separator or name not in _ENV_VARIABLES:
+            raise ValueError(f"Invalid .env entry on line {line_number}")
+        value = value.strip()
+        if len(value) >= 2 and value[0] == value[-1] and value[0] in ("'", '"'):
+            value = value[1:-1]
+        if value and not os.environ.get(name):
+            os.environ[name] = value
 
 
 _SYSTEM_PROMPT = """You answer questions using only the retrieved evidence.
@@ -36,6 +58,7 @@ class OpenAICompatibleController:
         base_url: str | None = None,
         timeout_seconds: float = 60,
     ) -> None:
+        _load_env_file(Path(__file__).resolve().parents[1] / ".env")
         self._api_key = api_key or os.environ.get("OPENAI_API_KEY")
         self.model = model or os.environ.get("OPENAI_MODEL")
         self._base_url = (base_url or os.environ.get(

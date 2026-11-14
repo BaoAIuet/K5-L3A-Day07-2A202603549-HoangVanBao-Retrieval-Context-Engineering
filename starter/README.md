@@ -86,16 +86,14 @@ Hybrid dùng Reciprocal Rank Fusion (RRF) với `rrf-k=60`; thay đổi `--top-k
 
 ## 6. Chạy model thật
 
-`OpenAICompatibleController` dùng Chat Completions tool calling. Cấu hình trong PowerShell; không ghi key vào repo, trace hoặc commit:
+`OpenAICompatibleController` dùng Chat Completions tool calling. Mở `.env` ở thư mục gốc repo (nếu chưa có, sao chép `.env.example`) và điền key mới sau `OPENAI_API_KEY=`. Không thêm key vào repo, trace hoặc commit; `.env` đã được Git bỏ qua. File được nạp tự động khi chạy controller.
 
 ```powershell
-$env:OPENAI_API_KEY = "<your-key>"
-$env:OPENAI_MODEL = "<tool-calling-model>"
-$env:OPENAI_BASE_URL = "https://api.openai.com/v1"
+notepad .env
 python starter\agent_runner.py --questions data\day7_questions.json --split dev --limit 1 --day6-index "D:\path\to\Day06\starter\data\chroma_v2_b1000" --strategy B --top-k 3 --max-searches 3 --budget 1600 --output starter\results\agent-smoke
 ```
 
-Có thể bỏ `OPENAI_BASE_URL` để dùng endpoint mặc định. Thay `--limit 1` bằng `--limit 23` hoặc bỏ `--limit` để chạy toàn split sau khi smoke test thành công. Chỉ dùng endpoint/model được phép gửi tài liệu tới; runner ghi token usage nhưng không đoán giá vì chi phí phụ thuộc provider/model. Nó tạo `cases.json` và `traces.json`; hãy đọc trace/citation và tự chấm `reviews.json` trước khi chạy `agent_metrics.py`. Không đánh giá chất lượng agent bằng mock.
+Nếu biến môi trường đã được đặt trong PowerShell, biến đó được ưu tiên hơn `.env`; hãy mở cửa sổ PowerShell mới nếu trước đó đã gán nhầm giá trị. Thay `--limit 1` bằng `--limit 23` hoặc bỏ `--limit` để chạy toàn split sau khi smoke test thành công. Chỉ dùng endpoint/model được phép gửi tài liệu tới; runner ghi token usage nhưng không đoán giá vì chi phí phụ thuộc provider/model. Nó tạo `cases.json` và `traces.json`; hãy đọc trace/citation và tự chấm `reviews.json` trước khi chạy `agent_metrics.py`. Không đánh giá chất lượng agent bằng mock.
 
 ## 7. Tổng hợp đánh giá agent
 
