@@ -1,0 +1,28 @@
+{
+  "split": "dev",
+  "model": "gpt-4o-mini",
+  "method": "hybrid",
+  "strategy": "B",
+  "candidate_k": 10,
+  "rrf_k": 60,
+  "top_k": 5,
+  "max_searches": 3,
+  "context_budget_chars": 1600,
+  "cases": 23,
+  "provider_errors": 0,
+  "usage_tokens": {
+    "prompt_tokens": 16401,
+    "completion_tokens": 2591,
+    "total_tokens": 18992,
+    "cached_prompt_tokens": 0
+  },
+  "estimated_cost_usd": 0.00401475,
+  "price_per_million_tokens": {
+    "input": 0.15,
+    "output": 0.6,
+    "cached_input": 0.075
+  },
+  "cost_note": "Estimate based on supplied standard token rates; check provider billing for actual charges.",
+  "output": "submission\\results\\agent-hybrid-dev",
+  "elapsed_ms_total": 80247.88189999526
+}

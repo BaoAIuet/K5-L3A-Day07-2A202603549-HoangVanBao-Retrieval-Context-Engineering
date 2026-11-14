@@ -1,0 +1,9 @@
+[
+  {"query_id":"q22","answer_grade":2,"citation_support":[true],"review_note":"All six decision-making steps are correct and present in the cited context."},
+  {"query_id":"q23","answer_grade":1,"citation_support":[true,true],"review_note":"Partially correct: citations support more options and related benefits, but the answer omits the benchmark's bias-reduction benefit."},
+  {"query_id":"q24","answer_grade":0,"citation_support":[],"review_note":"False abstention; the definition is in the corpus but not in retrieved context."},
+  {"query_id":"q25","answer_grade":2,"citation_support":[true],"review_note":"Correctly names both behavior sets; citation states them explicitly."},
+  {"query_id":"q26","answer_grade":2,"citation_support":[true,true],"review_note":"Correct path-to-goal answer and supported additional group-needs statement."},
+  {"query_id":"test-no-evidence-01","citation_support":[],"abstention_correct":true,"review_note":"Correctly abstains; no season win-loss record appears in the source."},
+  {"query_id":"test-no-evidence-02","citation_support":[],"abstention_correct":true,"review_note":"Correctly abstains; no satisfaction percentage is given."}
+]

@@ -3,10 +3,10 @@
 ## Dữ liệu và benchmark
 
 - **Nguồn:** OpenStax, *Principles of Management*, chương 2 và 13; phạm vi 49 trang PDF (35–58 và 375–399), 165,375 ký tự theo manifest Day 6.
-- **Quyền sử dụng:** manifest Day 6 ghi CC BY-NC-SA 4.0. Cần đối chiếu giấy phép ở nguồn trước khi chia sẻ bản trích xuất hoặc gửi nội dung tới dịch vụ ngoài.
+- **Quyền sử dụng:** _Principles of Management_ của OpenStax/Rice University có giấy phép CC BY-NC-SA 4.0 theo [trang license chính thức](https://openstax.org/books/principles-management/pages/preface). Các trace có trích đoạn được chia sẻ phi thương mại kèm attribution trong `submission/results/README.md`.
 - **Vector store/index:** Chroma persistent, collection `chunks_B`, Day 6 index `chroma_v2_b1000`; 224 chunks paragraph-based, giới hạn chunk 1,000 ký tự.
 - **Embedding:** `BAAI/bge-small-en-v1.5`, FastEmbed 0.9.1, 384 chiều; truy vấn bằng cùng model với index.
-- **Agent model:** `gpt-4o-mini`, OpenAI Chat Completions tool calling. Chạy thật trên 23 câu dev và 7 câu test, không dùng mock; provider errors đều bằng 0.
+- **Agent model:** `gpt-4o-mini`, OpenAI Chat Completions tool calling. Chạy dense baseline và hybrid được chọn, mỗi cấu hình gồm 23 câu dev và 7 câu test; provider errors đều bằng 0.
 - **Benchmark:** 21 câu có đáp án + 2 câu thiếu evidence ở dev; 5 câu có đáp án + 2 câu thiếu evidence ở test. Sáu câu test Day 6 đã chuyển sang dev vì kết quả của chúng đã được xem. Test Day 7 gồm câu mới, được giữ lại đến khi chốt cấu hình retrieval.
 - **Evidence:** script xác minh nguồn, trang và quote trong chunks; phép đối chiếu chuẩn hóa dấu câu/ký tự hỏng khi trích PDF. Các lý do thiếu evidence đã kiểm tra trên corpus, nhưng cần người nộp rà soát trước khi dùng làm nhãn cuối.
 
@@ -31,7 +31,7 @@ Hai lỗi dev đã xem:
 
 Một số lỗi test retrieval đã xem: q23 không có evidence trong top-3 hybrid; q22 và q24 có evidence trong danh sách kết quả nhưng context cuối không giữ được. Chưa chỉnh cấu hình dựa trên test.
 
-- **Trace retrieval:** `starter/results/day7-retrieval/{tfidf-dev,dense-dev,hybrid-dev,hybrid-k5-dev,hybrid-k5-b1600-dev,tfidf-test,hybrid-k5-b1600-test}/`.
+- **Trace retrieval:** `submission/results/retrieval/{tfidf-dev,dense-dev,hybrid-dev,hybrid-k5-dev,hybrid-k5-b1600-dev,tfidf-test,hybrid-k5-b1600-test}/`.
 - **Lệnh chạy:** xem mục “Benchmark retrieval” trong `starter/README.md`; dùng Python environment Day 6 có Chroma/FastEmbed.
 - **Giới hạn:** test retrieval chỉ có 5 câu trả lời được; TF-IDF tokenize đơn giản; context vẫn bỏ sót evidence. Agent đã chạy thật; token usage có ghi nhưng chi phí USD chưa tính.
 
@@ -39,18 +39,23 @@ Một số lỗi test retrieval đã xem: q23 không có evidence trong top-3 hy
 
 - **Tool/agent:** `agent_runner.py` gọi `OpenAICompatibleController` với tool `search`, dùng dense Chroma Day 6. Mặc định tối đa 3 lượt search, top-3 và budget 1,600 ký tự; lỗi được lưu riêng, không dùng kết quả giả.
 - **Model:** `gpt-4o-mini`, cấu hình bằng `.env` local (không commit secret). Chỉ gửi tài liệu tới provider được phép xử lý nội dung này.
-- **Cấu hình được đánh giá:** dense Day 6 strategy B, top-3, tối đa 3 lượt search, context budget 1,600 ký tự. Đây là cấu hình của agent runner, **không phải** cấu hình hybrid top-5 đã chọn trong benchmark retrieval; lần chạy này không so sánh chất lượng model giữa hai retrieval method.
-- **Chấm thủ công:** Đã đọc toàn bộ 23 câu dev và 7 câu test, gồm 5 câu test có đáp án và 2 câu test thiếu evidence. Citation chỉ được chấm đúng khi có trong context và hỗ trợ phát biểu tương ứng. Nhãn cùng lý do nằm trong `starter/results/agent-{dev,test}/reviews.json`; summary được tạo bằng `agent_metrics.py`.
+- **Cấu hình được đánh giá:** Dense baseline: Day 6 strategy B, top-3. Cấu hình đã chọn: Hybrid RRF với Dense Day 6 + TF-IDF, candidate-10, RRF-k=60, top-5. Cả hai dùng tối đa 3 lượt search và context budget 1,600 ký tự.
+- **Chấm thủ công:** Đã đọc toàn bộ 23 câu dev và 7 câu test, gồm 5 câu test có đáp án và 2 câu test thiếu evidence. Citation chỉ được chấm đúng khi có trong context và hỗ trợ phát biểu tương ứng. Mỗi query, tool call, context, câu trả lời, thời gian, token usage, nhãn và lý do được lưu trong `submission/results/`.
 
-| Split | Tool use | Grounded answer (0/1/2; trung bình /2) | Citation hợp lệ | Câu trả lời có citation | Abstention đúng | Từ chối nhầm | Provider errors | Token usage |
-|---|---:|---|---:|---:|---:|---:|---:|---:|
-| dev | 23/23 | 7 / 0 / 14; **1.33** (21 câu có đáp án) | 15/23 (65.2%) | 19/19 | 2/2 | 2/21 (9.5%) | 0/23 | 15,039 prompt + 2,766 completion = 17,805 |
-| test | 7/7 | 1 / 1 / 3; **1.40** (5 câu có đáp án) | 6/6 | 4/4 | 2/2 | 1/5 (20.0%) | 0/7 | 6,038 prompt + 746 completion = 6,784 |
+| Cấu hình / split | Tool use | Grounded answer (0/1/2; TB /2) | Citation hợp lệ | Câu trả lời có citation | Abstention đúng | Từ chối nhầm | Provider errors | Token usage | Chi phí ước tính |
+|---|---:|---|---:|---:|---:|---:|---:|---:|---:|
+| Dense / dev | 23/23 | 7 / 0 / 14; **1.33** | 15/23 | 19/19 | 2/2 | 2/21 | 0/23 | 15,039 + 2,766 = 17,805 | $0.00391545 |
+| Dense / test | 7/7 | 1 / 1 / 3; **1.40** | 6/6 | 4/4 | 2/2 | 1/5 | 0/7 | 6,038 + 746 = 6,784 | $0.00135330 |
+| Hybrid / dev | 23/23 | 7 / 1 / 13; **1.29** | 14/18 | 17/17 | 2/2 | 4/21 | 0/23 | 16,401 + 2,591 = 18,992 | $0.00401475 |
+| Hybrid / test | 7/7 | 1 / 1 / 3; **1.40** | 5/5 | 4/4 | 2/2 | 1/5 | 0/7 | 6,733 + 714 = 7,447 | $0.00143835 |
 
-- **Nhận xét lỗi:** Dev q02 và q13, test q24 bị từ chối nhầm sau khi retrieval không đưa được evidence vào context. Dev q06, q07, q08, q09 và q17 có câu trả lời sai hoặc citation không hỗ trợ câu trả lời. Các trường hợp này được chấm 0; citation ID hợp lệ về cú pháp không tự chứng minh grounding.
-- **Số lượt search:** Dev có 20 câu chạy 1 lượt và 3 câu chạy 3 lượt; test có 4 câu chạy 1 lượt và 3 câu chạy 3 lượt.
-- **Chi phí:** Runner ghi token usage nhưng không trả giá tiền. Cần tính theo bảng giá của model/provider tại thời điểm chạy; chưa ghi USD để tránh ước lượng sai.
-- **Trace agent:** `starter/results/agent-dev/{cases.json,traces.json,reviews.json,summary.json}` và `starter/results/agent-test/{cases.json,traces.json,reviews.json,summary.json}`. Các kết quả nằm trong thư mục bị Git ignore; không commit API key, trace hoặc dữ liệu nguồn.
+Grounded-answer counts chỉ tính câu có đáp án; citation validity là citation có trong context và hỗ trợ câu trả lời. Số token là input + output. Giá ước tính theo standard `gpt-4o-mini`: $0.15/1M input, $0.075/1M cached input, $0.60/1M output; tổng bốn lần chạy full-split khoảng **$0.01072185**. Hai lần dense không lưu số cached token nên giả định input uncached; xem [README kết quả](../../submission/results/README.md) và [bảng giá OpenAI](https://developers.openai.com/api/docs/pricing/) để biết cách tính. Giá thực tế có thể khác hóa đơn.
+
+- **Nhận xét lỗi:** Hybrid dev từ chối nhầm q02, q07, q13, q19; test từ chối nhầm q22. Evidence có lúc nằm trong ranking nhưng không được pack vào context cuối. Dev q08, q17, q20 trả lời sai hoặc không được citation hỗ trợ; q01 trả lời một phần. Test q23 trả lời một phần vì bỏ sót lợi ích giảm bias. Các nhãn lỗi được giữ nguyên, không chỉnh theo test.
+- **Ví dụ đã rà soát:** q05 trả lời đúng với citation hỗ trợ; `test-no-evidence-01` từ chối đúng; q20 là câu trả lời không được evidence hỗ trợ.
+- **Số lượt search:** Mỗi split dev có 19 câu 1 lượt và 4 câu 3 lượt; mỗi split test có 4 câu 1 lượt và 3 câu 3 lượt.
+- **Validation:** 34 unit tests pass; syntax và diagnostics Pylance cho các file Python đã sửa không có lỗi.
+- **Trace agent:** `submission/results/agent-dense-{dev,test}/` và `submission/results/agent-hybrid-{dev,test}/`; mỗi thư mục có `cases.json`, `traces.json`, `reviews.json`, `metrics.json` và `run.json`.
 
 ## Thử thách nâng cao
 

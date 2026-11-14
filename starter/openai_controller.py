@@ -130,6 +130,16 @@ class OpenAICompatibleController:
                 value = usage.get(key)
                 if isinstance(value, int) and not isinstance(value, bool):
                     self.total_usage[key] = self.total_usage.get(key, 0) + value
+            prompt_details = usage.get("prompt_tokens_details")
+            cached_tokens = (
+                prompt_details.get("cached_tokens")
+                if isinstance(prompt_details, dict)
+                else None
+            )
+            if isinstance(cached_tokens, int) and not isinstance(cached_tokens, bool):
+                self.total_usage["cached_prompt_tokens"] = (
+                    self.total_usage.get("cached_prompt_tokens", 0) + cached_tokens
+                )
 
         choices = result.get("choices")
         if not isinstance(choices, list) or len(choices) != 1:

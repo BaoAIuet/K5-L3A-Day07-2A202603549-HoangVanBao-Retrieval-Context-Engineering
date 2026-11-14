@@ -44,7 +44,12 @@ class OpenAIControllerTests(unittest.TestCase):
                     }]
                 }
             }],
-            "usage": {"prompt_tokens": 10, "completion_tokens": 2, "total_tokens": 12},
+            "usage": {
+                "prompt_tokens": 10,
+                "prompt_tokens_details": {"cached_tokens": 4},
+                "completion_tokens": 2,
+                "total_tokens": 12,
+            },
         })
         controller = self.make_controller()
 
@@ -55,6 +60,7 @@ class OpenAIControllerTests(unittest.TestCase):
 
         self.assertEqual(action, {"action": "search", "query": "leader power"})
         self.assertEqual(controller.total_usage["total_tokens"], 12)
+        self.assertEqual(controller.total_usage["cached_prompt_tokens"], 4)
         request = urlopen.call_args.args[0]
         payload = json.loads(request.data)
         self.assertEqual(payload["model"], "test-model")

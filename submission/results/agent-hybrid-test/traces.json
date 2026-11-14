@@ -1,0 +1,1916 @@
+[
+  {
+    "query_id": "q22",
+    "split": "test",
+    "question": "What six steps does the chapter list for the decision-making process?",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "six steps decision-making process",
+        "filter": null,
+        "results": [
+          {
+            "id": "principles-management-p056-pg00",
+            "text": "bad for the organization in the long-term.\n3. What factors would you take into consideration if you were thinking about leaving your job rather than do something unethical?\n1. Explain what satisficing is and when it may be a good strategy.\n2. What are the six steps in the decision-making process?\n3. What are the four steps involved in ethical decision-making?\n2.6 Group Decision-Making\n6. What are the advantages and disadvantages of group decision-making, and how can a manager improve the quality of group decision-making?\nInvolving more people in the decision-making process can greatly improve the quality of a manager's decisions and outcomes. However, involving more people can also increase conflict and generate other challenges. We turn now to the advantages and disadvantages of group decision-making.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 56,
+            "score": 0.03252247488101534,
+            "metadata": {
+              "page": 56,
+              "document_id": "principles-management",
+              "chars": 3356,
+              "section": "2.6 Group Decision-Making",
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "chunk_index": 0,
+              "strategy": "paragraph",
+              "empty": false,
+              "low_text": false,
+              "chapter": 2
+            },
+            "retrieval_sources": [
+              "dense",
+              "tfidf"
+            ],
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "principles-management-p042-pg02",
+            "text": "The best the manager can do in this situation is to gather as much relevant information as possible and make an educated guess as to whether the new technology will be worthwhile. Clearly, nonprogrammed decisions present the greater challenge.\nThe Decision-Making Process\nWhile decisions makers can use mental shortcuts with programmed decisions, they should use a systematic process with nonprogrammed decisions. The decision-making process is illustrated in Exhibit 2.4 and can be broken down into a series of six steps, as follows:\n1. Recognize that a decision needs to be made.\n2. Generate multiple alternatives.\n3. Analyze the alternatives.\n4. Select an alternative.\n5. Implement the selected alternative.\n6. Evaluate its effectiveness.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 42,
+            "score": 0.032018442622950824,
+            "metadata": {
+              "low_text": false,
+              "strategy": "paragraph",
+              "page": 42,
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "document_id": "principles-management",
+              "empty": false,
+              "chunk_index": 2,
+              "section": "Nonprogrammed Decisions",
+              "chapter": 2,
+              "chars": 3163
+            },
+            "retrieval_sources": [
+              "dense",
+              "tfidf"
+            ],
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "principles-management-p048-pg02",
+            "text": "This allows you to finish the task quickly at a reasonably low cost.\nTechniques for Making Better Nonprogrammed Decisions\nFor situations in which the quality of the decision is more critical than the time spent on the decision, decision makers can use several tactics. As stated previously, nonprogrammed decisions should be addressed using a systematic process. We therefore discuss these tactics within the context of the decision-making steps. To review, the steps include the following:\n1. Recognize that a decision needs to be made.\n2. Generate multiple alternatives.\n3. Analyze the alternatives.\n4. Select an alternative.\n5. Implement the selected alternative.\n6. Evaluate its effectiveness.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 48,
+            "score": 0.03125763125763126,
+            "metadata": {
+              "chars": 2688,
+              "section": "Techniques for Making Better Programmed Decisions",
+              "chunk_index": 2,
+              "empty": false,
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "strategy": "paragraph",
+              "chapter": 2,
+              "document_id": "principles-management",
+              "page": 48,
+              "low_text": false
+            },
+            "retrieval_sources": [
+              "dense",
+              "tfidf"
+            ],
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "principles-management-p047-pg02",
+            "text": "Summary of Techniques That May Improve Individual Decision-Making\nType of Decision Technique Benefit Programmed decisions Heuristics (mental shortcuts) Saves time Satisficing (choosing first acceptable solution) Saves time Nonprogrammed decisions Systematically go through the six steps of the decision-making process. Improves quality Talk to other people. Improves quality: generates more options, reduces bias Table 2.1 (Attribution: Copyright Rice University, OpenStax, under CC-BY 4.0 license)",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 47,
+            "score": 0.031024531024531024,
+            "metadata": {
+              "empty": false,
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "document_id": "principles-management",
+              "chapter": 2,
+              "page": 47,
+              "section": "Summary of Techniques That May Improve Individual Decision-Making",
+              "chunk_index": 2,
+              "chars": 2336,
+              "low_text": false,
+              "strategy": "paragraph"
+            },
+            "retrieval_sources": [
+              "dense",
+              "tfidf"
+            ],
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "principles-management-p035-pg00",
+            "text": "Introduction\nLearning Outcomes After reading this chapter, you should be able to answer these questions:\n1. What are the basic characteristics of managerial decision-making?\n2. What are the two systems of decision-making in the brain?\n3. What is the difference between programmed and nonprogrammed decisions?\n4. What barriers exist that make effective decision-making difficult?\n5. How can a manager improve the quality of her individual decision-making?\n6. What are the advantages and disadvantages of group decision-making, and how can a manager improve the quality of group decision-making?",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 35,
+            "score": 0.029857397504456328,
+            "metadata": {
+              "section": "Introduction",
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "page": 35,
+              "empty": false,
+              "chapter": 2,
+              "chunk_index": 0,
+              "strategy": "paragraph",
+              "chars": 1877,
+              "document_id": "principles-management",
+              "low_text": false
+            },
+            "retrieval_sources": [
+              "dense",
+              "tfidf"
+            ],
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[principles-management-p056-pg00 | https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf | page 56]\nbad for the organization in the long-term.\n3. What factors would you take into consideration if you were thinking about leaving your job rather than do something unethical?\n1. Explain what satisficing is and when it may be a good strategy.\n2. What are the six steps in the decision-making process?\n3. What are the four steps involved in ethical decision-making?\n2.6 Group Decision-Making\n6. What are the advantages and disadvantages of group decision-making, and how can a manager improve the quality of group decision-making?\nInvolving more people in the decision-making process can greatly improve the quality of a manager's decisions and outcomes. However, involving more people can also increase conflict and generate other challenges. We turn now to the advantages and disadvantages of group decision-making.\n\n[principles-management-p047-pg02 | https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf | page 47]\nSummary of Techniques That May Improve Individual Decision-Making\nType of Decision Technique Benefit Programmed decisions Heuristics (mental shortcuts) Saves time Satisficing (choosing first acceptable solution) Saves time Nonprogrammed decisions Systematically go through the six steps of the decision-making process. Improves quality Talk to other people. Improves quality: generates more options, reduces bias Table 2.1 (Attribution: Copyright Rice University, OpenStax, under CC-BY 4.0 license)",
+        "context_ids": [
+          "principles-management-p056-pg00",
+          "principles-management-p047-pg02"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "six steps in the decision-making process",
+        "filter": null,
+        "results": [
+          {
+            "id": "principles-management-p056-pg00",
+            "text": "bad for the organization in the long-term.\n3. What factors would you take into consideration if you were thinking about leaving your job rather than do something unethical?\n1. Explain what satisficing is and when it may be a good strategy.\n2. What are the six steps in the decision-making process?\n3. What are the four steps involved in ethical decision-making?\n2.6 Group Decision-Making\n6. What are the advantages and disadvantages of group decision-making, and how can a manager improve the quality of group decision-making?\nInvolving more people in the decision-making process can greatly improve the quality of a manager's decisions and outcomes. However, involving more people can also increase conflict and generate other challenges. We turn now to the advantages and disadvantages of group decision-making.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 56,
+            "score": 0.03252247488101534,
+            "metadata": {
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "document_id": "principles-management",
+              "strategy": "paragraph",
+              "page": 56,
+              "empty": false,
+              "low_text": false,
+              "chars": 3356,
+              "chapter": 2,
+              "section": "2.6 Group Decision-Making",
+              "chunk_index": 0
+            },
+            "retrieval_sources": [
+              "dense",
+              "tfidf"
+            ],
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "principles-management-p042-pg02",
+            "text": "The best the manager can do in this situation is to gather as much relevant information as possible and make an educated guess as to whether the new technology will be worthwhile. Clearly, nonprogrammed decisions present the greater challenge.\nThe Decision-Making Process\nWhile decisions makers can use mental shortcuts with programmed decisions, they should use a systematic process with nonprogrammed decisions. The decision-making process is illustrated in Exhibit 2.4 and can be broken down into a series of six steps, as follows:\n1. Recognize that a decision needs to be made.\n2. Generate multiple alternatives.\n3. Analyze the alternatives.\n4. Select an alternative.\n5. Implement the selected alternative.\n6. Evaluate its effectiveness.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 42,
+            "score": 0.032266458495966696,
+            "metadata": {
+              "document_id": "principles-management",
+              "page": 42,
+              "empty": false,
+              "chapter": 2,
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "chunk_index": 2,
+              "section": "Nonprogrammed Decisions",
+              "chars": 3163,
+              "strategy": "paragraph",
+              "low_text": false
+            },
+            "retrieval_sources": [
+              "dense",
+              "tfidf"
+            ],
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "principles-management-p048-pg02",
+            "text": "This allows you to finish the task quickly at a reasonably low cost.\nTechniques for Making Better Nonprogrammed Decisions\nFor situations in which the quality of the decision is more critical than the time spent on the decision, decision makers can use several tactics. As stated previously, nonprogrammed decisions should be addressed using a systematic process. We therefore discuss these tactics within the context of the decision-making steps. To review, the steps include the following:\n1. Recognize that a decision needs to be made.\n2. Generate multiple alternatives.\n3. Analyze the alternatives.\n4. Select an alternative.\n5. Implement the selected alternative.\n6. Evaluate its effectiveness.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 48,
+            "score": 0.03125,
+            "metadata": {
+              "chars": 2688,
+              "chapter": 2,
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "strategy": "paragraph",
+              "low_text": false,
+              "empty": false,
+              "document_id": "principles-management",
+              "page": 48,
+              "section": "Techniques for Making Better Programmed Decisions",
+              "chunk_index": 2
+            },
+            "retrieval_sources": [
+              "dense",
+              "tfidf"
+            ],
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "principles-management-p047-pg02",
+            "text": "Summary of Techniques That May Improve Individual Decision-Making\nType of Decision Technique Benefit Programmed decisions Heuristics (mental shortcuts) Saves time Satisficing (choosing first acceptable solution) Saves time Nonprogrammed decisions Systematically go through the six steps of the decision-making process. Improves quality Talk to other people. Improves quality: generates more options, reduces bias Table 2.1 (Attribution: Copyright Rice University, OpenStax, under CC-BY 4.0 license)",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 47,
+            "score": 0.03076923076923077,
+            "metadata": {
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "strategy": "paragraph",
+              "section": "Summary of Techniques That May Improve Individual Decision-Making",
+              "page": 47,
+              "chunk_index": 2,
+              "chapter": 2,
+              "document_id": "principles-management",
+              "empty": false,
+              "low_text": false,
+              "chars": 2336
+            },
+            "retrieval_sources": [
+              "dense",
+              "tfidf"
+            ],
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "principles-management-p035-pg00",
+            "text": "Introduction\nLearning Outcomes After reading this chapter, you should be able to answer these questions:\n1. What are the basic characteristics of managerial decision-making?\n2. What are the two systems of decision-making in the brain?\n3. What is the difference between programmed and nonprogrammed decisions?\n4. What barriers exist that make effective decision-making difficult?\n5. How can a manager improve the quality of her individual decision-making?\n6. What are the advantages and disadvantages of group decision-making, and how can a manager improve the quality of group decision-making?",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 35,
+            "score": 0.03007688828584351,
+            "metadata": {
+              "chunk_index": 0,
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "low_text": false,
+              "page": 35,
+              "chars": 1877,
+              "empty": false,
+              "document_id": "principles-management",
+              "section": "Introduction",
+              "chapter": 2,
+              "strategy": "paragraph"
+            },
+            "retrieval_sources": [
+              "dense",
+              "tfidf"
+            ],
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[principles-management-p056-pg00 | https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf | page 56]\nbad for the organization in the long-term.\n3. What factors would you take into consideration if you were thinking about leaving your job rather than do something unethical?\n1. Explain what satisficing is and when it may be a good strategy.\n2. What are the six steps in the decision-making process?\n3. What are the four steps involved in ethical decision-making?\n2.6 Group Decision-Making\n6. What are the advantages and disadvantages of group decision-making, and how can a manager improve the quality of group decision-making?\nInvolving more people in the decision-making process can greatly improve the quality of a manager's decisions and outcomes. However, involving more people can also increase conflict and generate other challenges. We turn now to the advantages and disadvantages of group decision-making.\n\n[principles-management-p047-pg02 | https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf | page 47]\nSummary of Techniques That May Improve Individual Decision-Making\nType of Decision Technique Benefit Programmed decisions Heuristics (mental shortcuts) Saves time Satisficing (choosing first acceptable solution) Saves time Nonprogrammed decisions Systematically go through the six steps of the decision-making process. Improves quality Talk to other people. Improves quality: generates more options, reduces bias Table 2.1 (Attribution: Copyright Rice University, OpenStax, under CC-BY 4.0 license)",
+        "context_ids": [
+          "principles-management-p056-pg00",
+          "principles-management-p047-pg02"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "six steps in the decision-making process",
+        "filter": null,
+        "results": [
+          {
+            "id": "principles-management-p056-pg00",
+            "text": "bad for the organization in the long-term.\n3. What factors would you take into consideration if you were thinking about leaving your job rather than do something unethical?\n1. Explain what satisficing is and when it may be a good strategy.\n2. What are the six steps in the decision-making process?\n3. What are the four steps involved in ethical decision-making?\n2.6 Group Decision-Making\n6. What are the advantages and disadvantages of group decision-making, and how can a manager improve the quality of group decision-making?\nInvolving more people in the decision-making process can greatly improve the quality of a manager's decisions and outcomes. However, involving more people can also increase conflict and generate other challenges. We turn now to the advantages and disadvantages of group decision-making.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 56,
+            "score": 0.03252247488101534,
+            "metadata": {
+              "chapter": 2,
+              "section": "2.6 Group Decision-Making",
+              "page": 56,
+              "document_id": "principles-management",
+              "chunk_index": 0,
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "chars": 3356,
+              "empty": false,
+              "strategy": "paragraph",
+              "low_text": false
+            },
+            "retrieval_sources": [
+              "dense",
+              "tfidf"
+            ],
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "principles-management-p042-pg02",
+            "text": "The best the manager can do in this situation is to gather as much relevant information as possible and make an educated guess as to whether the new technology will be worthwhile. Clearly, nonprogrammed decisions present the greater challenge.\nThe Decision-Making Process\nWhile decisions makers can use mental shortcuts with programmed decisions, they should use a systematic process with nonprogrammed decisions. The decision-making process is illustrated in Exhibit 2.4 and can be broken down into a series of six steps, as follows:\n1. Recognize that a decision needs to be made.\n2. Generate multiple alternatives.\n3. Analyze the alternatives.\n4. Select an alternative.\n5. Implement the selected alternative.\n6. Evaluate its effectiveness.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 42,
+            "score": 0.032266458495966696,
+            "metadata": {
+              "strategy": "paragraph",
+              "chapter": 2,
+              "low_text": false,
+              "document_id": "principles-management",
+              "empty": false,
+              "section": "Nonprogrammed Decisions",
+              "chars": 3163,
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "page": 42,
+              "chunk_index": 2
+            },
+            "retrieval_sources": [
+              "dense",
+              "tfidf"
+            ],
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "principles-management-p048-pg02",
+            "text": "This allows you to finish the task quickly at a reasonably low cost.\nTechniques for Making Better Nonprogrammed Decisions\nFor situations in which the quality of the decision is more critical than the time spent on the decision, decision makers can use several tactics. As stated previously, nonprogrammed decisions should be addressed using a systematic process. We therefore discuss these tactics within the context of the decision-making steps. To review, the steps include the following:\n1. Recognize that a decision needs to be made.\n2. Generate multiple alternatives.\n3. Analyze the alternatives.\n4. Select an alternative.\n5. Implement the selected alternative.\n6. Evaluate its effectiveness.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 48,
+            "score": 0.03125,
+            "metadata": {
+              "chapter": 2,
+              "document_id": "principles-management",
+              "empty": false,
+              "low_text": false,
+              "chars": 2688,
+              "section": "Techniques for Making Better Programmed Decisions",
+              "strategy": "paragraph",
+              "chunk_index": 2,
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "page": 48
+            },
+            "retrieval_sources": [
+              "dense",
+              "tfidf"
+            ],
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "principles-management-p047-pg02",
+            "text": "Summary of Techniques That May Improve Individual Decision-Making\nType of Decision Technique Benefit Programmed decisions Heuristics (mental shortcuts) Saves time Satisficing (choosing first acceptable solution) Saves time Nonprogrammed decisions Systematically go through the six steps of the decision-making process. Improves quality Talk to other people. Improves quality: generates more options, reduces bias Table 2.1 (Attribution: Copyright Rice University, OpenStax, under CC-BY 4.0 license)",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 47,
+            "score": 0.03076923076923077,
+            "metadata": {
+              "chars": 2336,
+              "chunk_index": 2,
+              "chapter": 2,
+              "document_id": "principles-management",
+              "section": "Summary of Techniques That May Improve Individual Decision-Making",
+              "strategy": "paragraph",
+              "low_text": false,
+              "empty": false,
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "page": 47
+            },
+            "retrieval_sources": [
+              "dense",
+              "tfidf"
+            ],
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "principles-management-p035-pg00",
+            "text": "Introduction\nLearning Outcomes After reading this chapter, you should be able to answer these questions:\n1. What are the basic characteristics of managerial decision-making?\n2. What are the two systems of decision-making in the brain?\n3. What is the difference between programmed and nonprogrammed decisions?\n4. What barriers exist that make effective decision-making difficult?\n5. How can a manager improve the quality of her individual decision-making?\n6. What are the advantages and disadvantages of group decision-making, and how can a manager improve the quality of group decision-making?",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 35,
+            "score": 0.03007688828584351,
+            "metadata": {
+              "page": 35,
+              "document_id": "principles-management",
+              "section": "Introduction",
+              "strategy": "paragraph",
+              "chunk_index": 0,
+              "chapter": 2,
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "low_text": false,
+              "empty": false,
+              "chars": 1877
+            },
+            "retrieval_sources": [
+              "dense",
+              "tfidf"
+            ],
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[principles-management-p056-pg00 | https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf | page 56]\nbad for the organization in the long-term.\n3. What factors would you take into consideration if you were thinking about leaving your job rather than do something unethical?\n1. Explain what satisficing is and when it may be a good strategy.\n2. What are the six steps in the decision-making process?\n3. What are the four steps involved in ethical decision-making?\n2.6 Group Decision-Making\n6. What are the advantages and disadvantages of group decision-making, and how can a manager improve the quality of group decision-making?\nInvolving more people in the decision-making process can greatly improve the quality of a manager's decisions and outcomes. However, involving more people can also increase conflict and generate other challenges. We turn now to the advantages and disadvantages of group decision-making.\n\n[principles-management-p047-pg02 | https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf | page 47]\nSummary of Techniques That May Improve Individual Decision-Making\nType of Decision Technique Benefit Programmed decisions Heuristics (mental shortcuts) Saves time Satisficing (choosing first acceptable solution) Saves time Nonprogrammed decisions Systematically go through the six steps of the decision-making process. Improves quality Talk to other people. Improves quality: generates more options, reduces bias Table 2.1 (Attribution: Copyright Rice University, OpenStax, under CC-BY 4.0 license)",
+        "context_ids": [
+          "principles-management-p056-pg00",
+          "principles-management-p047-pg02"
+        ]
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "elapsed_ms": 4460.650099994382,
+    "usage_tokens": {
+      "prompt_tokens": 1628,
+      "completion_tokens": 74,
+      "total_tokens": 1702,
+      "cached_prompt_tokens": 0
+    },
+    "estimated_cost_usd": 0.00028859999999999997
+  },
+  {
+    "query_id": "q23",
+    "split": "test",
+    "question": "What decision-making benefits does the chapter attribute to talking to other people?",
+    "status": "answered",
+    "answer": "The chapter attributes several decision-making benefits to talking to other people:\n\n1. **Clarification of Choices**: Discussing decisions with others can help clarify whether you are making the best possible choice among available options. This process can enhance your understanding of the decision at hand [principles-management-p054-pg02].\n\n2. **Different Perspectives**: Involving others in the decision-making process can improve the quality of decisions by introducing diverse perspectives. People with different life experiences can offer alternative viewpoints and solutions that you might not have considered [principles-management-p049-pg02].\n\n3. **New Insights**: Sharing information verbally can lead to new insights, as it causes our brains to process information differently, potentially bringing greater clarity to the decision-making process [principles-management-p054-pg02].\n\n4. **Mentorship Benefits**: For new managers, discussing decisions with a mentor can be particularly beneficial, as experienced individuals can suggest more options and provide guidance based on their expertise [principles-management-p049-pg02].",
+    "citations": [
+      "principles-management-p054-pg02",
+      "principles-management-p049-pg02"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "decision-making benefits talking to other people",
+        "filter": null,
+        "results": [
+          {
+            "id": "principles-management-p054-pg02",
+            "text": "Talk to other people\nThis is another point in the process at which talking to others can be helpful. Selecting one of the alternatives will ultimately be your responsibility, but when faced with a difficult decision, talking through your choice with someone else may help you clarify that you are indeed making the best possible decision from among the available options. Sharing information verbally also causes our brains to process that information differently, which can provide new insights and bring greater clarity to our decision-making.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 54,
+            "score": 0.03278688524590164,
+            "metadata": {
+              "document_id": "principles-management",
+              "chapter": 2,
+              "section": "Talk to other people",
+              "low_text": false,
+              "page": 54,
+              "chunk_index": 2,
+              "strategy": "paragraph",
+              "chars": 4259,
+              "empty": false,
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf"
+            },
+            "retrieval_sources": [
+              "dense",
+              "tfidf"
+            ],
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "principles-management-p049-pg02",
+            "text": "Talk to other people\nManagers can often improve the quality of their decision-making by involving others in the process, especially when generating alternatives. Other people tend to view problems from different perspectives because they have had different life experiences. This can help generate alternatives that you might not otherwise have considered. Talking through big decisions with a mentor can also be beneficial, especially for new managers who are still learning and developing their expertise; someone with more experience will often be able to suggest more options.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 49,
+            "score": 0.03225806451612903,
+            "metadata": {
+              "strategy": "paragraph",
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "low_text": false,
+              "chapter": 2,
+              "empty": false,
+              "section": "Talk to other people",
+              "chunk_index": 2,
+              "document_id": "principles-management",
+              "chars": 4179,
+              "page": 49
+            },
+            "retrieval_sources": [
+              "dense",
+              "tfidf"
+            ],
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "principles-management-p050-pg00",
+            "text": "Talk to other people\nAs mentioned previously, it can be worthwhile to get help from others when generating options. Another good time to talk to other people is while analyzing those options; other individuals in the organization may help you assess the quality of your choices. Seeking out the opinions and preferences of others is also a great way to maintain perspective, so getting others involved can help you to be less biased in your decision-making (provided you talk to people whose biases are different from your own).\nAre you thinking critically about the options?\nOur skill at assessing alternatives can also be improved by a focus on critical thinking. Critical thinking is a disciplined process of evaluating the quality of information, especially data collected from other sources and arguments made by other people, to determine whether the source should be trusted or whether the argument is valid.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 50,
+            "score": 0.03125763125763126,
+            "metadata": {
+              "page": 50,
+              "chapter": 2,
+              "strategy": "paragraph",
+              "low_text": false,
+              "chars": 1435,
+              "empty": false,
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "document_id": "principles-management",
+              "section": "Talk to other people",
+              "chunk_index": 0
+            },
+            "retrieval_sources": [
+              "dense",
+              "tfidf"
+            ],
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "principles-management-p056-pg03",
+            "text": "Having more people involved in decision-making is also beneficial because each individual brings unique information or knowledge to the group, as well as different perspectives on the problem. Additionally, having the participation of multiple people will often lead to more options being generated and to greater intellectual stimulation as group members discuss the available options. Brainstorming is a process of generating as many solutions or options as possible and is a popular technique associated with group decision-making. All of these factors can lead to superior outcomes when groups are involved in decision-making. Furthermore, involving people who will be affected by a decision in the decision-making process will allow those individuals to have a greater understanding of the issues or problems and a greater commitment to the solutions.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 56,
+            "score": 0.03007688828584351,
+            "metadata": {
+              "chars": 3356,
+              "section": "Advantages of Group Decisions",
+              "strategy": "paragraph",
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "empty": false,
+              "document_id": "principles-management",
+              "chunk_index": 3,
+              "chapter": 2,
+              "page": 56,
+              "low_text": false
+            },
+            "retrieval_sources": [
+              "dense",
+              "tfidf"
+            ],
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "principles-management-p058-pg02",
+            "text": "They also conduct research and collect information from others; they pay attention to their own biases and to ethical implications; and they think critically about the information that they have received to make decisions that will benefit the organization and its stakeholders.\n1. Explain why group decision-making can be more effective than individual decision-making.\n2. What are some things that can prevent groups from making good decisions?\n3. As a manager, what can you do to enhance the quality of group decision-making?",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 58,
+            "score": 0.029211087420042643,
+            "metadata": {
+              "empty": false,
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "low_text": false,
+              "chars": 1684,
+              "page": 58,
+              "section": "Improves quality: generates more options, prevents",
+              "strategy": "paragraph",
+              "chunk_index": 2,
+              "document_id": "principles-management",
+              "chapter": 2
+            },
+            "retrieval_sources": [
+              "dense",
+              "tfidf"
+            ],
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[principles-management-p054-pg02 | https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf | page 54]\nTalk to other people\nThis is another point in the process at which talking to others can be helpful. Selecting one of the alternatives will ultimately be your responsibility, but when faced with a difficult decision, talking through your choice with someone else may help you clarify that you are indeed making the best possible decision from among the available options. Sharing information verbally also causes our brains to process that information differently, which can provide new insights and bring greater clarity to our decision-making.\n\n[principles-management-p049-pg02 | https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf | page 49]\nTalk to other people\nManagers can often improve the quality of their decision-making by involving others in the process, especially when generating alternatives. Other people tend to view problems from different perspectives because they have had different life experiences. This can help generate alternatives that you might not otherwise have considered. Talking through big decisions with a mentor can also be beneficial, especially for new managers who are still learning and developing their expertise; someone with more experience will often be able to suggest more options.",
+        "context_ids": [
+          "principles-management-p054-pg02",
+          "principles-management-p049-pg02"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 4097.52309997566,
+    "usage_tokens": {
+      "prompt_tokens": 565,
+      "completion_tokens": 227,
+      "total_tokens": 792,
+      "cached_prompt_tokens": 0
+    },
+    "estimated_cost_usd": 0.00022094999999999998
+  },
+  {
+    "query_id": "q24",
+    "split": "test",
+    "question": "How does the chapter define critical thinking?",
+    "status": "answered",
+    "answer": "The chapter defines critical thinking as a disciplined process of evaluating the quality of information, particularly data collected from other sources and arguments made by others. This evaluation helps determine whether the source should be trusted or if the argument is valid [principles-management-p050-pg00].",
+    "citations": [
+      "principles-management-p050-pg00"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "define critical thinking",
+        "filter": null,
+        "results": [
+          {
+            "id": "principles-management-p050-pg00",
+            "text": "Talk to other people\nAs mentioned previously, it can be worthwhile to get help from others when generating options. Another good time to talk to other people is while analyzing those options; other individuals in the organization may help you assess the quality of your choices. Seeking out the opinions and preferences of others is also a great way to maintain perspective, so getting others involved can help you to be less biased in your decision-making (provided you talk to people whose biases are different from your own).\nAre you thinking critically about the options?\nOur skill at assessing alternatives can also be improved by a focus on critical thinking. Critical thinking is a disciplined process of evaluating the quality of information, especially data collected from other sources and arguments made by other people, to determine whether the source should be trusted or whether the argument is valid.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 50,
+            "score": 0.03225806451612903,
+            "metadata": {
+              "chapter": 2,
+              "chunk_index": 0,
+              "empty": false,
+              "low_text": false,
+              "document_id": "principles-management",
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "chars": 1435,
+              "strategy": "paragraph",
+              "page": 50,
+              "section": "Talk to other people"
+            },
+            "retrieval_sources": [
+              "dense",
+              "tfidf"
+            ],
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "principles-management-p050-pg01",
+            "text": "An important factor in critical thinking is the recognition that a person’s analysis of the available information may be flawed by a number of logical fallacies that they may use when they are arguing their point or defending their perspective. Learning what those fallacies are and being able to recognize them when they occur can help improve decision-making quality. See Table 2.2 for several examples of common logical fallacies.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 50,
+            "score": 0.032018442622950824,
+            "metadata": {
+              "document_id": "principles-management",
+              "chapter": 2,
+              "chunk_index": 1,
+              "section": "Talk to other people",
+              "strategy": "paragraph",
+              "chars": 1435,
+              "empty": false,
+              "low_text": false,
+              "page": 50,
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf"
+            },
+            "retrieval_sources": [
+              "dense",
+              "tfidf"
+            ],
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "principles-management-p037-pg02",
+            "text": "Decision-making is the action or process of thinking through possible options and selecting one. It is important to recognize that managers are continually making decisions, and that the quality of their decision-making has an impact—sometimes quite significant—on the effectiveness of the organization and its stakeholders. Stakeholders are all the individuals or groups that are affected by an organization (such as customers, employees, shareholders, etc.).",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 37,
+            "score": 0.03057889822595705,
+            "metadata": {
+              "empty": false,
+              "chapter": 2,
+              "chars": 4124,
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "document_id": "principles-management",
+              "chunk_index": 2,
+              "strategy": "paragraph",
+              "section": "2.1 Overview of Managerial Decision-Making",
+              "page": 37,
+              "low_text": false
+            },
+            "retrieval_sources": [
+              "dense",
+              "tfidf"
+            ],
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "principles-management-p379-pg00",
+            "text": "The Follower\nThe follower is not a passive player in the leadership process. Edwin Hollander, after many years of studying leadership, suggested that the follower is the most critical factor in any leadership event. It is, after all, the follower who perceives the situation and comes to define the needs that the leader must fulfill. In addition, it is the follower who either rejects leadership or accepts acts of leadership by surrendering his power to the leader to diminish task uncertainty, to define and manage the meaning of the situation to the follower, and to orchestrate the follower’s action in pursuit of goal attainment.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 379,
+            "metadata": {
+              "empty": false,
+              "chars": 3638,
+              "strategy": "paragraph",
+              "chapter": 13,
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "section": "The Follower",
+              "low_text": false,
+              "page": 379,
+              "document_id": "principles-management",
+              "chunk_index": 0
+            },
+            "score": 0.01639344262295082,
+            "strategy": "hybrid_rrf",
+            "retrieval_sources": [
+              "tfidf"
+            ]
+          },
+          {
+            "id": "principles-management-p377-pg01",
+            "text": "First, we define the two concepts differently. In Management and Organizational Behavior (http://openstax.org/books/organizational-behavior/pages/1-introduction), we defined management as a process consisting of planning, organizing, directing, and controlling. Here we define leadership as a social (interpersonal) influence relationship between two or more people who are dependent on each another for goal attainment.\nSecond, managers and leaders are commonly differentiated in terms of the processes through which they initially come to their position. Managers are generally appointed to their role. Even though many organizations appoint people to positions of leadership, leadership per se is a relationship that revolves around the followers’ acceptance or rejection of the leader. Thus, leaders often emerge out of events that unfold among members of a group.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 377,
+            "metadata": {
+              "document_id": "principles-management",
+              "page": 377,
+              "strategy": "paragraph",
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "chars": 3358,
+              "chunk_index": 1,
+              "section": "Leader versus Manager",
+              "low_text": false,
+              "empty": false,
+              "chapter": 13
+            },
+            "score": 0.015873015873015872,
+            "strategy": "hybrid_rrf",
+            "retrieval_sources": [
+              "tfidf"
+            ]
+          }
+        ],
+        "context": "[principles-management-p050-pg00 | https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf | page 50]\nTalk to other people\nAs mentioned previously, it can be worthwhile to get help from others when generating options. Another good time to talk to other people is while analyzing those options; other individuals in the organization may help you assess the quality of your choices. Seeking out the opinions and preferences of others is also a great way to maintain perspective, so getting others involved can help you to be less biased in your decision-making (provided you talk to people whose biases are different from your own).\nAre you thinking critically about the options?\nOur skill at assessing alternatives can also be improved by a focus on critical thinking. Critical thinking is a disciplined process of evaluating the quality of information, especially data collected from other sources and arguments made by other people, to determine whether the source should be trusted or whether the argument is valid.",
+        "context_ids": [
+          "principles-management-p050-pg00"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 2205.3176000190433,
+    "usage_tokens": {
+      "prompt_tokens": 488,
+      "completion_tokens": 70,
+      "total_tokens": 558,
+      "cached_prompt_tokens": 0
+    },
+    "estimated_cost_usd": 0.00011520000000000001
+  },
+  {
+    "query_id": "q25",
+    "split": "test",
+    "question": "Which two major sets of leader behaviors did the Ohio State University studies identify?",
+    "status": "answered",
+    "answer": "The Ohio State University studies identified two major sets of leader behaviors: consideration and initiating structure [principles-management-p390-pg04].",
+    "citations": [
+      "principles-management-p390-pg04"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Ohio State University studies leader behaviors",
+        "filter": null,
+        "results": [
+          {
+            "id": "principles-management-p390-pg04",
+            "text": "The Ohio State University Studies\nA group of Ohio State University researchers, under the direction of Ralph Stogdill, began an extensive and systematic series of studies to identify leader behaviors associated with effective group performance. Their results identified two major sets of leader behaviors: consideration and initiating structure.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 390,
+            "score": 0.03278688524590164,
+            "metadata": {
+              "page": 390,
+              "document_id": "principles-management",
+              "low_text": false,
+              "chunk_index": 4,
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "chars": 3786,
+              "chapter": 13,
+              "empty": false,
+              "section": "The Ohio State University Studies",
+              "strategy": "paragraph"
+            },
+            "retrieval_sources": [
+              "dense",
+              "tfidf"
+            ],
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "principles-management-p391-pg03",
+            "text": "Initially, these mixed findings were disappointing to researchers and managers alike. It had been hoped that a profile of the most effective leader behaviors could be identified so that leaders could be trained in the best ways to behave. Research made clear, however, that there is no one best style of leader behavior for all situations.\nThe University of Michigan Studies\nAt about the same time that the Ohio State studies were underway, researchers at the University of Michigan also began to investigate leader behaviors. As at Ohio State, the Michigan researchers attempted to identify behavioral elements that differentiated effective from ineffective leaders.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 391,
+            "score": 0.03225806451612903,
+            "metadata": {
+              "page": 391,
+              "chars": 4388,
+              "chunk_index": 3,
+              "section": "The University of Michigan Studies",
+              "strategy": "paragraph",
+              "chapter": 13,
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "empty": false,
+              "low_text": false,
+              "document_id": "principles-management"
+            },
+            "retrieval_sources": [
+              "dense",
+              "tfidf"
+            ],
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "principles-management-p391-pg04",
+            "text": "The two types of leader behavior that stand out in these studies are job centered and organizational member centered. Job-centered behaviors are devoted to supervisory functions, such as planning, scheduling, coordinating work activities, and providing the resources needed for task performance. Employee-member-centered behaviors include consideration and support for organizational members. These dimensions of behavior, of course, correspond closely to the dimensions of initiating structure and consideration identified at Ohio State. The similarity of the findings from two independent groups of researchers added to their credibility. As the Ohio State researchers had done, the Michigan researchers also found that any combination of the two behaviors was possible.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 391,
+            "score": 0.031746031746031744,
+            "metadata": {
+              "page": 391,
+              "empty": false,
+              "document_id": "principles-management",
+              "strategy": "paragraph",
+              "section": "The University of Michigan Studies",
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "chunk_index": 4,
+              "chapter": 13,
+              "chars": 4388,
+              "low_text": false
+            },
+            "retrieval_sources": [
+              "dense",
+              "tfidf"
+            ],
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "principles-management-p391-pg02",
+            "text": "The Ohio State studies are important because they identified two critical categories of behavior that distinguish one leader from another. Both consideration and initiating structure behavior can significantly impact work attitudes and behaviors. Unfortunately, the effects of consideration and initiating structure are not consistent from situation to situation. In some of the organizations studied, for example, high levels of initiating structure increased performance. In other organizations, the amount of initiating structure seemed to make little difference. Although most organizational members reported greater satisfaction when leaders acted considerately, consideration behavior appeared to have no clear effect on performance.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 391,
+            "score": 0.03076923076923077,
+            "metadata": {
+              "page": 391,
+              "strategy": "paragraph",
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "low_text": false,
+              "empty": false,
+              "chunk_index": 2,
+              "chars": 4388,
+              "document_id": "principles-management",
+              "chapter": 13
+            },
+            "retrieval_sources": [
+              "dense",
+              "tfidf"
+            ],
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "principles-management-p391-pg05",
+            "text": "The studies at Michigan are significant because they reinforce the importance of leader behavior. They also provide the basis for later theories that identify specific, effective matches of work situations and leader behaviors. Subsequent research at Michigan and elsewhere has found additional behaviors associated with effective leadership: support, work facilitation, goal emphasis, and interaction facilitation. These four behaviors are important to the successful functioning of the group in that support and interaction facilitation contribute to the group’s maintenance needs, and goal emphasis and work facilitation contribute to the group’s task needs. The Michigan researchers also found that these four behaviors do not need to be brought to the group by the leader. In essence, the leader’s real job is to set the tone and create the climate",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 391,
+            "score": 0.030330882352941176,
+            "metadata": {
+              "section": "The University of Michigan Studies",
+              "chapter": 13,
+              "empty": false,
+              "document_id": "principles-management",
+              "strategy": "paragraph",
+              "chars": 4388,
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "page": 391,
+              "low_text": false,
+              "chunk_index": 5
+            },
+            "retrieval_sources": [
+              "dense",
+              "tfidf"
+            ],
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[principles-management-p390-pg04 | https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf | page 390]\nThe Ohio State University Studies\nA group of Ohio State University researchers, under the direction of Ralph Stogdill, began an extensive and systematic series of studies to identify leader behaviors associated with effective group performance. Their results identified two major sets of leader behaviors: consideration and initiating structure.\n\n[principles-management-p391-pg03 | https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf | page 391]\nInitially, these mixed findings were disappointing to researchers and managers alike. It had been hoped that a profile of the most effective leader behaviors could be identified so that leaders could be trained in the best ways to behave. Research made clear, however, that there is no one best style of leader behavior for all situations.\nThe University of Michigan Studies\nAt about the same time that the Ohio State studies were underway, researchers at the University of Michigan also began to investigate leader behaviors. As at Ohio State, the Michigan researchers attempted to identify behavioral elements that differentiated effective from ineffective leaders.",
+        "context_ids": [
+          "principles-management-p390-pg04",
+          "principles-management-p391-pg03"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 1919.0946999879088,
+    "usage_tokens": {
+      "prompt_tokens": 550,
+      "completion_tokens": 46,
+      "total_tokens": 596,
+      "cached_prompt_tokens": 0
+    },
+    "estimated_cost_usd": 0.00011009999999999999
+  },
+  {
+    "query_id": "q26",
+    "split": "test",
+    "question": "According to path-goal theory, what does an effective leader provide to organizational members?",
+    "status": "answered",
+    "answer": "According to path-goal theory, an effective leader provides organizational members with a clear path to achieving valued goals. This includes increasing personal payoffs for work-goal attainment and making the path to these payoffs easier by clarifying it, reducing obstacles, and enhancing opportunities for personal satisfaction. Effective leaders also offer rewards that are valued by members, such as pay, recognition, and promotions, and provide clear instructions to minimize ambiguities about work tasks, ensuring that followers understand how to perform their jobs effectively [principles-management-p395-pg01].",
+    "citations": [
+      "principles-management-p395-pg01"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "path-goal theory effective leader provides organizational members",
+        "filter": null,
+        "results": [
+          {
+            "id": "principles-management-p395-pg01",
+            "text": "The model of leadership advanced by House and Evans is called the path-goal theory of leadership because it suggests that an effective leader provides organizational members with a path to a valued goal. According to House, the motivational function of the leader consists of increasing personal payoffs to organizational members for work-goal attainment, and making the path to these payoffs easier to travel by clarifying it, reducing roadblocks and pitfalls, and increasing the opportunities for personal satisfaction en route. Effective leaders therefore provide rewards that are valued by organizational members. These rewards may be pay, recognition, promotions, or any other item that gives members an incentive to work hard to achieve goals. Effective leaders also give clear instructions so that ambiguities about work are reduced and followers understand how to do their jobs effectively.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 395,
+            "score": 0.03278688524590164,
+            "metadata": {
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "chars": 3505,
+              "empty": false,
+              "chunk_index": 1,
+              "chapter": 13,
+              "low_text": false,
+              "document_id": "principles-management",
+              "strategy": "paragraph",
+              "page": 395,
+              "section": "Path-Goal Theory"
+            },
+            "retrieval_sources": [
+              "dense",
+              "tfidf"
+            ],
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "principles-management-p393-pg02",
+            "text": "Several theories have been advanced to address this issue. These are Fiedler’s contingency theory of leadership, the path-goal theory of leader effectiveness, Hersey and Blanchard’s life cycle theory, cognitive resource theory, the decision tree, and the decision process theory. We explore two of the better-known situational theories of leadership, Fred Fiedler’s contingency model and Robert J. House’s path-goal theory, here. Victor Vroom, Phillip Yetton, and Arthur Jago’s decision tree model also applies.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 393,
+            "score": 0.03225806451612903,
+            "metadata": {
+              "chapter": 13,
+              "strategy": "paragraph",
+              "empty": false,
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "low_text": false,
+              "document_id": "principles-management",
+              "page": 393,
+              "chars": 4023,
+              "chunk_index": 2,
+              "section": "13.6 Situational (Contingency) Approaches to Leadership"
+            },
+            "retrieval_sources": [
+              "dense",
+              "tfidf"
+            ],
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "principles-management-p395-pg04",
+            "text": "The leadership style that motivates organizational members with strong needs for autonomy (participative leadership) is different from that which motivates and satisfies members with weaker autonomy needs (directive leadership). The degree to which leadership behavior matches situational factors will determine members’ motivation, satisfaction, and performance (see Exhibit 13.11).\nBehavior Dimensions\nAccording to path-goal theory, there are four important dimensions of leader behavior, each of which is suited to a particular set of situational demands.\n• Supportive leadership—At times, effective leaders demonstrate concern for the well-being and personal needs of organizational members. Supportive leaders are friendly, approachable, and considerate to",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 395,
+            "score": 0.031024531024531024,
+            "metadata": {
+              "chapter": 13,
+              "page": 395,
+              "low_text": false,
+              "strategy": "paragraph",
+              "section": "An Appropriate Match",
+              "chars": 3505,
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "chunk_index": 4,
+              "document_id": "principles-management",
+              "empty": false
+            },
+            "retrieval_sources": [
+              "dense",
+              "tfidf"
+            ],
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "principles-management-p396-pg01",
+            "text": "• Participative leadership—At times, effective leaders consult with group members about job-related activities and consider their opinions and suggestions when making decisions. Participative leadership is effective when tasks are unstructured. Participative leadership is used to great effect when leaders need help in identifying work procedures and where followers have the expertise to provide this help.\n• Achievement-oriented leadership—At times, effective leaders set challenging goals, seek improvement in performance, emphasize excellence, and demonstrate confidence in organizational members’ ability to attain high standards. Achievement-oriented leaders thus capitalize on members’ needs for achievement and use goal-setting theory to great advantage.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 396,
+            "score": 0.030776515151515152,
+            "metadata": {
+              "strategy": "paragraph",
+              "chunk_index": 1,
+              "chapter": 13,
+              "page": 396,
+              "document_id": "principles-management",
+              "empty": false,
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "low_text": false,
+              "chars": 4678
+            },
+            "retrieval_sources": [
+              "dense",
+              "tfidf"
+            ],
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "principles-management-p395-pg00",
+            "text": "Path-Goal Theory\nRobert J. House and Martin Evans, while on the faculty at the University of Toronto, developed a useful leadership theory. Like Fiedler’s, it asserts that the type of leadership needed to enhance organizational effectiveness depends on the situation in which the leader is placed. Unlike Fiedler, however, House and Evans focus on the leader’s observable behavior. Thus, managers can either match the situation to the leader or modify the leader’s behavior to fit the situation.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 395,
+            "score": 0.030309988518943745,
+            "metadata": {
+              "chapter": 13,
+              "section": "Path-Goal Theory",
+              "chars": 3505,
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "empty": false,
+              "strategy": "paragraph",
+              "chunk_index": 0,
+              "document_id": "principles-management",
+              "low_text": false,
+              "page": 395
+            },
+            "retrieval_sources": [
+              "dense",
+              "tfidf"
+            ],
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[principles-management-p395-pg01 | https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf | page 395]\nThe model of leadership advanced by House and Evans is called the path-goal theory of leadership because it suggests that an effective leader provides organizational members with a path to a valued goal. According to House, the motivational function of the leader consists of increasing personal payoffs to organizational members for work-goal attainment, and making the path to these payoffs easier to travel by clarifying it, reducing roadblocks and pitfalls, and increasing the opportunities for personal satisfaction en route. Effective leaders therefore provide rewards that are valued by organizational members. These rewards may be pay, recognition, promotions, or any other item that gives members an incentive to work hard to achieve goals. Effective leaders also give clear instructions so that ambiguities about work are reduced and followers understand how to do their jobs effectively.",
+        "context_ids": [
+          "principles-management-p395-pg01"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 3073.7212999956682,
+    "usage_tokens": {
+      "prompt_tokens": 499,
+      "completion_tokens": 131,
+      "total_tokens": 630,
+      "cached_prompt_tokens": 0
+    },
+    "estimated_cost_usd": 0.00015345
+  },
+  {
+    "query_id": "test-no-evidence-01",
+    "split": "test",
+    "question": "What was the Springfield Sea Lions' exact win-loss record in John Arroyo's season?",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "Springfield Sea Lions John Arroyo win-loss record",
+        "filter": null,
+        "results": [
+          {
+            "id": "principles-management-p375-pg00",
+            "text": "Introduction\nLearning Outcomes After reading this chapter, you should be able to answer these questions:\n1. What is the nature of leadership and the leadership process?\n2. What are the processes associated with people coming to leadership positions?\n3. How do leaders influence and move their followers to action?\n4. What are the trait perspectives on leadership?\n5. What are the behavioral perspectives on leadership?\n6. What are the situational perspectives on leadership?\n7. What does the concept “substitute for leadership” mean?\n8. What are the characteristics of transactional, transformational, and charismatic leadership?\n9. How do different approaches and styles of leadership impact what is needed now?\nJohn Arroyo: Springfield Sea Lions\nJohn Arroyo is thrilled with his new position as general manager of the Springfield Sea Lions, a minor league baseball team. Arroyo has been a baseball fan all of his life, and now his diligent work and his degree in sports management are paying off.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 375,
+            "score": 0.032266458495966696,
+            "metadata": {
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "chunk_index": 0,
+              "chars": 1711,
+              "strategy": "paragraph",
+              "low_text": false,
+              "chapter": 13,
+              "document_id": "principles-management",
+              "section": "Introduction",
+              "empty": false,
+              "page": 375
+            },
+            "retrieval_sources": [
+              "dense",
+              "tfidf"
+            ],
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "principles-management-p376-pg01",
+            "text": "Outcomes: During the winter, John thinks long and hard about how he can earn the respect of the Sea Lions staff. Before the next season opener, John announces his plan: “So I can better understand what your day is like, I’m going to spend one day in each of your shoes. I’m trading places with each of you. I will be a ticket taker, a roving hot dog vendor, and a janitor. And I will be a marketer, and an accountant—for a day. You in turn will have the day off so you can enjoy the game from the general manager’s box.” The staff laughs and whistles appreciatively. Then the Springfield mascot, Sparky the Sea Lion, speaks up: “Hey Mr. Arroyo, are you going to spend a day in my flippers?” “You bet!” says John, laughing. The entire staff cheers. John continues. “At the close of the season, we will honor a staff member with the T.J. Grevin Award for outstanding contributions to the Sea Lions organization. T.J.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 376,
+            "score": 0.03225806451612903,
+            "metadata": {
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "document_id": "principles-management",
+              "page": 376,
+              "strategy": "paragraph",
+              "empty": false,
+              "low_text": false,
+              "chars": 3373,
+              "chapter": 13,
+              "chunk_index": 1
+            },
+            "retrieval_sources": [
+              "dense",
+              "tfidf"
+            ],
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "principles-management-p375-pg01",
+            "text": "Arroyo knew he had a hard act to follow. The general manager whom John replaced, “T.J.” Grevin, was a much-loved old-timer who had been with the Sea Lions since their inception 14 years ago. John knew it would be difficult for whoever followed T.J., but he didn’t realize how ostracized and powerless he would feel. He tried a pep talk: “I’m the general manager—the CEO of this ball club! In time, the staff will respect me.” [Not a very good pep talk!]\nAfter his first season ends, Arroyo is discouraged. Ticket and concession sales are down, and some long- EXPLORING MANAGERIAL CAREERS Leadership 13",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 375,
+            "score": 0.032018442622950824,
+            "metadata": {
+              "empty": false,
+              "page": 375,
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "chars": 1711,
+              "strategy": "paragraph",
+              "section": "John Arroyo: Springfield Sea Lions",
+              "low_text": false,
+              "chunk_index": 1,
+              "chapter": 13,
+              "document_id": "principles-management"
+            },
+            "retrieval_sources": [
+              "dense",
+              "tfidf"
+            ],
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "principles-management-p376-pg00",
+            "text": "time employees are rumored to be thinking about leaving. If John doesn’t turn things around, he knows his tenure with the Sea Lions will be short.\nQuestions: Is John correct in assuming that the staff will learn to respect him in time? What can John do to earn the loyalty of his staff and improve the ball club’s performance?",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 376,
+            "score": 0.03149801587301587,
+            "metadata": {
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "page": 376,
+              "chars": 3373,
+              "document_id": "principles-management",
+              "empty": false,
+              "low_text": false,
+              "chapter": 13,
+              "chunk_index": 0,
+              "strategy": "paragraph"
+            },
+            "retrieval_sources": [
+              "dense",
+              "tfidf"
+            ],
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "principles-management-p376-pg02",
+            "text": "was such a great guy, it’s only right that we honor him.” The meeting ends, but John’s staff linger to tell him how excited they are about his ideas. Amidst the handshakes, he hopes that this year may be the best year yet for the Sea Lions.\nAccording to Louise Axon, director of content strategy, and her colleagues at Harvard Business Publishing, in seeking management talent, leadership is an urgently needed quality in all managerial roles. Good leaders and good leadership are rare. Harvard management professor John P. Kotter notes that “there is a leadership crisis in the U.S. today,”2 and the late USC Professor Warren Bennis states that many of our organizations are overmanaged and underled.\n13.1 The Nature of Leadership\n1. What is the nature of leadership and the leadership process?",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 376,
+            "score": 0.03076923076923077,
+            "metadata": {
+              "section": "13.1 The Nature of Leadership",
+              "chars": 3373,
+              "document_id": "principles-management",
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "chapter": 13,
+              "empty": false,
+              "page": 376,
+              "strategy": "paragraph",
+              "low_text": false,
+              "chunk_index": 2
+            },
+            "retrieval_sources": [
+              "dense",
+              "tfidf"
+            ],
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[principles-management-p375-pg00 | https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf | page 375]\nIntroduction\nLearning Outcomes After reading this chapter, you should be able to answer these questions:\n1. What is the nature of leadership and the leadership process?\n2. What are the processes associated with people coming to leadership positions?\n3. How do leaders influence and move their followers to action?\n4. What are the trait perspectives on leadership?\n5. What are the behavioral perspectives on leadership?\n6. What are the situational perspectives on leadership?\n7. What does the concept “substitute for leadership” mean?\n8. What are the characteristics of transactional, transformational, and charismatic leadership?\n9. How do different approaches and styles of leadership impact what is needed now?\nJohn Arroyo: Springfield Sea Lions\nJohn Arroyo is thrilled with his new position as general manager of the Springfield Sea Lions, a minor league baseball team. Arroyo has been a baseball fan all of his life, and now his diligent work and his degree in sports management are paying off.\n\n[principles-management-p376-pg00 | https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf | page 376]\ntime employees are rumored to be thinking about leaving. If John doesn’t turn things around, he knows his tenure with the Sea Lions will be short.\nQuestions: Is John correct in assuming that the staff will learn to respect him in time? What can John do to earn the loyalty of his staff and improve the ball club’s performance?",
+        "context_ids": [
+          "principles-management-p375-pg00",
+          "principles-management-p376-pg00"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Springfield Sea Lions John Arroyo win-loss record",
+        "filter": null,
+        "results": [
+          {
+            "id": "principles-management-p375-pg00",
+            "text": "Introduction\nLearning Outcomes After reading this chapter, you should be able to answer these questions:\n1. What is the nature of leadership and the leadership process?\n2. What are the processes associated with people coming to leadership positions?\n3. How do leaders influence and move their followers to action?\n4. What are the trait perspectives on leadership?\n5. What are the behavioral perspectives on leadership?\n6. What are the situational perspectives on leadership?\n7. What does the concept “substitute for leadership” mean?\n8. What are the characteristics of transactional, transformational, and charismatic leadership?\n9. How do different approaches and styles of leadership impact what is needed now?\nJohn Arroyo: Springfield Sea Lions\nJohn Arroyo is thrilled with his new position as general manager of the Springfield Sea Lions, a minor league baseball team. Arroyo has been a baseball fan all of his life, and now his diligent work and his degree in sports management are paying off.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 375,
+            "score": 0.032266458495966696,
+            "metadata": {
+              "chunk_index": 0,
+              "low_text": false,
+              "strategy": "paragraph",
+              "page": 375,
+              "empty": false,
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "document_id": "principles-management",
+              "chars": 1711,
+              "chapter": 13,
+              "section": "Introduction"
+            },
+            "retrieval_sources": [
+              "dense",
+              "tfidf"
+            ],
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "principles-management-p376-pg01",
+            "text": "Outcomes: During the winter, John thinks long and hard about how he can earn the respect of the Sea Lions staff. Before the next season opener, John announces his plan: “So I can better understand what your day is like, I’m going to spend one day in each of your shoes. I’m trading places with each of you. I will be a ticket taker, a roving hot dog vendor, and a janitor. And I will be a marketer, and an accountant—for a day. You in turn will have the day off so you can enjoy the game from the general manager’s box.” The staff laughs and whistles appreciatively. Then the Springfield mascot, Sparky the Sea Lion, speaks up: “Hey Mr. Arroyo, are you going to spend a day in my flippers?” “You bet!” says John, laughing. The entire staff cheers. John continues. “At the close of the season, we will honor a staff member with the T.J. Grevin Award for outstanding contributions to the Sea Lions organization. T.J.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 376,
+            "score": 0.03225806451612903,
+            "metadata": {
+              "chunk_index": 1,
+              "strategy": "paragraph",
+              "page": 376,
+              "low_text": false,
+              "chapter": 13,
+              "document_id": "principles-management",
+              "chars": 3373,
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "empty": false
+            },
+            "retrieval_sources": [
+              "dense",
+              "tfidf"
+            ],
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "principles-management-p375-pg01",
+            "text": "Arroyo knew he had a hard act to follow. The general manager whom John replaced, “T.J.” Grevin, was a much-loved old-timer who had been with the Sea Lions since their inception 14 years ago. John knew it would be difficult for whoever followed T.J., but he didn’t realize how ostracized and powerless he would feel. He tried a pep talk: “I’m the general manager—the CEO of this ball club! In time, the staff will respect me.” [Not a very good pep talk!]\nAfter his first season ends, Arroyo is discouraged. Ticket and concession sales are down, and some long- EXPLORING MANAGERIAL CAREERS Leadership 13",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 375,
+            "score": 0.032018442622950824,
+            "metadata": {
+              "chars": 1711,
+              "section": "John Arroyo: Springfield Sea Lions",
+              "low_text": false,
+              "page": 375,
+              "document_id": "principles-management",
+              "empty": false,
+              "chapter": 13,
+              "chunk_index": 1,
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "strategy": "paragraph"
+            },
+            "retrieval_sources": [
+              "dense",
+              "tfidf"
+            ],
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "principles-management-p376-pg00",
+            "text": "time employees are rumored to be thinking about leaving. If John doesn’t turn things around, he knows his tenure with the Sea Lions will be short.\nQuestions: Is John correct in assuming that the staff will learn to respect him in time? What can John do to earn the loyalty of his staff and improve the ball club’s performance?",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 376,
+            "score": 0.03149801587301587,
+            "metadata": {
+              "page": 376,
+              "chapter": 13,
+              "chars": 3373,
+              "empty": false,
+              "chunk_index": 0,
+              "document_id": "principles-management",
+              "strategy": "paragraph",
+              "low_text": false,
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf"
+            },
+            "retrieval_sources": [
+              "dense",
+              "tfidf"
+            ],
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "principles-management-p376-pg02",
+            "text": "was such a great guy, it’s only right that we honor him.” The meeting ends, but John’s staff linger to tell him how excited they are about his ideas. Amidst the handshakes, he hopes that this year may be the best year yet for the Sea Lions.\nAccording to Louise Axon, director of content strategy, and her colleagues at Harvard Business Publishing, in seeking management talent, leadership is an urgently needed quality in all managerial roles. Good leaders and good leadership are rare. Harvard management professor John P. Kotter notes that “there is a leadership crisis in the U.S. today,”2 and the late USC Professor Warren Bennis states that many of our organizations are overmanaged and underled.\n13.1 The Nature of Leadership\n1. What is the nature of leadership and the leadership process?",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 376,
+            "score": 0.03076923076923077,
+            "metadata": {
+              "document_id": "principles-management",
+              "low_text": false,
+              "chapter": 13,
+              "section": "13.1 The Nature of Leadership",
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "empty": false,
+              "chars": 3373,
+              "chunk_index": 2,
+              "strategy": "paragraph",
+              "page": 376
+            },
+            "retrieval_sources": [
+              "dense",
+              "tfidf"
+            ],
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[principles-management-p375-pg00 | https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf | page 375]\nIntroduction\nLearning Outcomes After reading this chapter, you should be able to answer these questions:\n1. What is the nature of leadership and the leadership process?\n2. What are the processes associated with people coming to leadership positions?\n3. How do leaders influence and move their followers to action?\n4. What are the trait perspectives on leadership?\n5. What are the behavioral perspectives on leadership?\n6. What are the situational perspectives on leadership?\n7. What does the concept “substitute for leadership” mean?\n8. What are the characteristics of transactional, transformational, and charismatic leadership?\n9. How do different approaches and styles of leadership impact what is needed now?\nJohn Arroyo: Springfield Sea Lions\nJohn Arroyo is thrilled with his new position as general manager of the Springfield Sea Lions, a minor league baseball team. Arroyo has been a baseball fan all of his life, and now his diligent work and his degree in sports management are paying off.\n\n[principles-management-p376-pg00 | https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf | page 376]\ntime employees are rumored to be thinking about leaving. If John doesn’t turn things around, he knows his tenure with the Sea Lions will be short.\nQuestions: Is John correct in assuming that the staff will learn to respect him in time? What can John do to earn the loyalty of his staff and improve the ball club’s performance?",
+        "context_ids": [
+          "principles-management-p375-pg00",
+          "principles-management-p376-pg00"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Springfield Sea Lions John Arroyo win-loss record",
+        "filter": null,
+        "results": [
+          {
+            "id": "principles-management-p375-pg00",
+            "text": "Introduction\nLearning Outcomes After reading this chapter, you should be able to answer these questions:\n1. What is the nature of leadership and the leadership process?\n2. What are the processes associated with people coming to leadership positions?\n3. How do leaders influence and move their followers to action?\n4. What are the trait perspectives on leadership?\n5. What are the behavioral perspectives on leadership?\n6. What are the situational perspectives on leadership?\n7. What does the concept “substitute for leadership” mean?\n8. What are the characteristics of transactional, transformational, and charismatic leadership?\n9. How do different approaches and styles of leadership impact what is needed now?\nJohn Arroyo: Springfield Sea Lions\nJohn Arroyo is thrilled with his new position as general manager of the Springfield Sea Lions, a minor league baseball team. Arroyo has been a baseball fan all of his life, and now his diligent work and his degree in sports management are paying off.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 375,
+            "score": 0.032266458495966696,
+            "metadata": {
+              "strategy": "paragraph",
+              "section": "Introduction",
+              "chars": 1711,
+              "document_id": "principles-management",
+              "chunk_index": 0,
+              "chapter": 13,
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "empty": false,
+              "low_text": false,
+              "page": 375
+            },
+            "retrieval_sources": [
+              "dense",
+              "tfidf"
+            ],
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "principles-management-p376-pg01",
+            "text": "Outcomes: During the winter, John thinks long and hard about how he can earn the respect of the Sea Lions staff. Before the next season opener, John announces his plan: “So I can better understand what your day is like, I’m going to spend one day in each of your shoes. I’m trading places with each of you. I will be a ticket taker, a roving hot dog vendor, and a janitor. And I will be a marketer, and an accountant—for a day. You in turn will have the day off so you can enjoy the game from the general manager’s box.” The staff laughs and whistles appreciatively. Then the Springfield mascot, Sparky the Sea Lion, speaks up: “Hey Mr. Arroyo, are you going to spend a day in my flippers?” “You bet!” says John, laughing. The entire staff cheers. John continues. “At the close of the season, we will honor a staff member with the T.J. Grevin Award for outstanding contributions to the Sea Lions organization. T.J.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 376,
+            "score": 0.03225806451612903,
+            "metadata": {
+              "chars": 3373,
+              "low_text": false,
+              "page": 376,
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "chapter": 13,
+              "empty": false,
+              "chunk_index": 1,
+              "document_id": "principles-management",
+              "strategy": "paragraph"
+            },
+            "retrieval_sources": [
+              "dense",
+              "tfidf"
+            ],
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "principles-management-p375-pg01",
+            "text": "Arroyo knew he had a hard act to follow. The general manager whom John replaced, “T.J.” Grevin, was a much-loved old-timer who had been with the Sea Lions since their inception 14 years ago. John knew it would be difficult for whoever followed T.J., but he didn’t realize how ostracized and powerless he would feel. He tried a pep talk: “I’m the general manager—the CEO of this ball club! In time, the staff will respect me.” [Not a very good pep talk!]\nAfter his first season ends, Arroyo is discouraged. Ticket and concession sales are down, and some long- EXPLORING MANAGERIAL CAREERS Leadership 13",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 375,
+            "score": 0.032018442622950824,
+            "metadata": {
+              "chapter": 13,
+              "section": "John Arroyo: Springfield Sea Lions",
+              "document_id": "principles-management",
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "chars": 1711,
+              "chunk_index": 1,
+              "page": 375,
+              "strategy": "paragraph",
+              "low_text": false,
+              "empty": false
+            },
+            "retrieval_sources": [
+              "dense",
+              "tfidf"
+            ],
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "principles-management-p376-pg00",
+            "text": "time employees are rumored to be thinking about leaving. If John doesn’t turn things around, he knows his tenure with the Sea Lions will be short.\nQuestions: Is John correct in assuming that the staff will learn to respect him in time? What can John do to earn the loyalty of his staff and improve the ball club’s performance?",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 376,
+            "score": 0.03149801587301587,
+            "metadata": {
+              "low_text": false,
+              "chapter": 13,
+              "chars": 3373,
+              "strategy": "paragraph",
+              "chunk_index": 0,
+              "page": 376,
+              "empty": false,
+              "document_id": "principles-management",
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf"
+            },
+            "retrieval_sources": [
+              "dense",
+              "tfidf"
+            ],
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "principles-management-p376-pg02",
+            "text": "was such a great guy, it’s only right that we honor him.” The meeting ends, but John’s staff linger to tell him how excited they are about his ideas. Amidst the handshakes, he hopes that this year may be the best year yet for the Sea Lions.\nAccording to Louise Axon, director of content strategy, and her colleagues at Harvard Business Publishing, in seeking management talent, leadership is an urgently needed quality in all managerial roles. Good leaders and good leadership are rare. Harvard management professor John P. Kotter notes that “there is a leadership crisis in the U.S. today,”2 and the late USC Professor Warren Bennis states that many of our organizations are overmanaged and underled.\n13.1 The Nature of Leadership\n1. What is the nature of leadership and the leadership process?",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 376,
+            "score": 0.03076923076923077,
+            "metadata": {
+              "chapter": 13,
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "strategy": "paragraph",
+              "chars": 3373,
+              "low_text": false,
+              "document_id": "principles-management",
+              "empty": false,
+              "page": 376,
+              "section": "13.1 The Nature of Leadership",
+              "chunk_index": 2
+            },
+            "retrieval_sources": [
+              "dense",
+              "tfidf"
+            ],
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[principles-management-p375-pg00 | https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf | page 375]\nIntroduction\nLearning Outcomes After reading this chapter, you should be able to answer these questions:\n1. What is the nature of leadership and the leadership process?\n2. What are the processes associated with people coming to leadership positions?\n3. How do leaders influence and move their followers to action?\n4. What are the trait perspectives on leadership?\n5. What are the behavioral perspectives on leadership?\n6. What are the situational perspectives on leadership?\n7. What does the concept “substitute for leadership” mean?\n8. What are the characteristics of transactional, transformational, and charismatic leadership?\n9. How do different approaches and styles of leadership impact what is needed now?\nJohn Arroyo: Springfield Sea Lions\nJohn Arroyo is thrilled with his new position as general manager of the Springfield Sea Lions, a minor league baseball team. Arroyo has been a baseball fan all of his life, and now his diligent work and his degree in sports management are paying off.\n\n[principles-management-p376-pg00 | https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf | page 376]\ntime employees are rumored to be thinking about leaving. If John doesn’t turn things around, he knows his tenure with the Sea Lions will be short.\nQuestions: Is John correct in assuming that the staff will learn to respect him in time? What can John do to earn the loyalty of his staff and improve the ball club’s performance?",
+        "context_ids": [
+          "principles-management-p375-pg00",
+          "principles-management-p376-pg00"
+        ]
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "elapsed_ms": 4249.235700001009,
+    "usage_tokens": {
+      "prompt_tokens": 1645,
+      "completion_tokens": 88,
+      "total_tokens": 1733,
+      "cached_prompt_tokens": 0
+    },
+    "estimated_cost_usd": 0.00029955
+  },
+  {
+    "query_id": "test-no-evidence-02",
+    "split": "test",
+    "question": "What percentage increase in employee satisfaction did Arroyo's plan produce?",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "Arroyo's plan employee satisfaction percentage increase",
+        "filter": null,
+        "results": [
+          {
+            "id": "principles-management-p399-pg03",
+            "text": "Employees are more receptive when they recognize that their leader is working not for their own success, but for the employee’s success.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 399,
+            "score": 0.03200204813108039,
+            "metadata": {
+              "empty": false,
+              "low_text": false,
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "strategy": "paragraph",
+              "chunk_index": 3,
+              "chars": 4043,
+              "document_id": "principles-management",
+              "chapter": 13,
+              "section": "You Are Now the Leader",
+              "page": 399
+            },
+            "retrieval_sources": [
+              "dense",
+              "tfidf"
+            ],
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "principles-management-p375-pg01",
+            "text": "Arroyo knew he had a hard act to follow. The general manager whom John replaced, “T.J.” Grevin, was a much-loved old-timer who had been with the Sea Lions since their inception 14 years ago. John knew it would be difficult for whoever followed T.J., but he didn’t realize how ostracized and powerless he would feel. He tried a pep talk: “I’m the general manager—the CEO of this ball club! In time, the staff will respect me.” [Not a very good pep talk!]\nAfter his first season ends, Arroyo is discouraged. Ticket and concession sales are down, and some long- EXPLORING MANAGERIAL CAREERS Leadership 13",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 375,
+            "score": 0.03131881575727918,
+            "metadata": {
+              "chunk_index": 1,
+              "document_id": "principles-management",
+              "chars": 1711,
+              "strategy": "paragraph",
+              "page": 375,
+              "low_text": false,
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "empty": false,
+              "chapter": 13,
+              "section": "John Arroyo: Springfield Sea Lions"
+            },
+            "retrieval_sources": [
+              "dense",
+              "tfidf"
+            ],
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "principles-management-p375-pg00",
+            "text": "Introduction\nLearning Outcomes After reading this chapter, you should be able to answer these questions:\n1. What is the nature of leadership and the leadership process?\n2. What are the processes associated with people coming to leadership positions?\n3. How do leaders influence and move their followers to action?\n4. What are the trait perspectives on leadership?\n5. What are the behavioral perspectives on leadership?\n6. What are the situational perspectives on leadership?\n7. What does the concept “substitute for leadership” mean?\n8. What are the characteristics of transactional, transformational, and charismatic leadership?\n9. How do different approaches and styles of leadership impact what is needed now?\nJohn Arroyo: Springfield Sea Lions\nJohn Arroyo is thrilled with his new position as general manager of the Springfield Sea Lions, a minor league baseball team. Arroyo has been a baseball fan all of his life, and now his diligent work and his degree in sports management are paying off.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 375,
+            "score": 0.03128054740957967,
+            "metadata": {
+              "chunk_index": 0,
+              "section": "Introduction",
+              "page": 375,
+              "empty": false,
+              "document_id": "principles-management",
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "chars": 1711,
+              "low_text": false,
+              "strategy": "paragraph",
+              "chapter": 13
+            },
+            "retrieval_sources": [
+              "dense",
+              "tfidf"
+            ],
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "principles-management-p384-pg02",
+            "text": "Leaders who use referent and expert power commonly experience a favorable response in terms of follower satisfaction and performance. Research suggests that rationality is the most effective influence tactic in terms of its impact on follower commitment, motivation, performance, satisfaction, and group effectiveness. Reward and legitimate power (that is, relying on one’s position to influence others) produce inconsistent results. Sometimes these powers lead to follower performance and satisfaction, yet they also sometimes fail. Coercive power can result in favorable performance, yet follower and resistance dissatisfaction are not uncommon.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 384,
+            "score": 0.029877369007803793,
+            "metadata": {
+              "low_text": false,
+              "chunk_index": 2,
+              "chars": 3806,
+              "document_id": "principles-management",
+              "empty": false,
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "page": 384,
+              "strategy": "paragraph",
+              "chapter": 13
+            },
+            "retrieval_sources": [
+              "dense",
+              "tfidf"
+            ],
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "principles-management-p396-pg00",
+            "text": "individuals in the workplace. Supportive leadership is especially effective when an organizational member is performing a boring, stressful, frustrating, tedious, or unpleasant task. If a task is difficult and a group member has low self-esteem, supportive leadership can reduce some of the person’s anxiety, increase his confidence, and increase satisfaction and determination as well.\n• Directive leadership—At times, effective leaders set goals and performance expectations, let organizational members know what is expected, provide guidance, establish rules and procedures to guide work, and schedule and coordinate the activities of members. Directive leadership is called for when role ambiguity is high. Removing uncertainty and providing needed guidance can increase members’ effort, job satisfaction, and job performance.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 396,
+            "metadata": {
+              "chapter": 13,
+              "chunk_index": 0,
+              "strategy": "paragraph",
+              "chars": 4678,
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "page": 396,
+              "low_text": false,
+              "empty": false,
+              "document_id": "principles-management"
+            },
+            "score": 0.01639344262295082,
+            "strategy": "hybrid_rrf",
+            "retrieval_sources": [
+              "tfidf"
+            ]
+          }
+        ],
+        "context": "[principles-management-p399-pg03 | https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf | page 399]\nEmployees are more receptive when they recognize that their leader is working not for their own success, but for the employee’s success.\n\n[principles-management-p375-pg01 | https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf | page 375]\nArroyo knew he had a hard act to follow. The general manager whom John replaced, “T.J.” Grevin, was a much-loved old-timer who had been with the Sea Lions since their inception 14 years ago. John knew it would be difficult for whoever followed T.J., but he didn’t realize how ostracized and powerless he would feel. He tried a pep talk: “I’m the general manager—the CEO of this ball club! In time, the staff will respect me.” [Not a very good pep talk!]\nAfter his first season ends, Arroyo is discouraged. Ticket and concession sales are down, and some long- EXPLORING MANAGERIAL CAREERS Leadership 13",
+        "context_ids": [
+          "principles-management-p399-pg03",
+          "principles-management-p375-pg01"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Arroyo employee satisfaction percentage increase",
+        "filter": null,
+        "results": [
+          {
+            "id": "principles-management-p375-pg00",
+            "text": "Introduction\nLearning Outcomes After reading this chapter, you should be able to answer these questions:\n1. What is the nature of leadership and the leadership process?\n2. What are the processes associated with people coming to leadership positions?\n3. How do leaders influence and move their followers to action?\n4. What are the trait perspectives on leadership?\n5. What are the behavioral perspectives on leadership?\n6. What are the situational perspectives on leadership?\n7. What does the concept “substitute for leadership” mean?\n8. What are the characteristics of transactional, transformational, and charismatic leadership?\n9. How do different approaches and styles of leadership impact what is needed now?\nJohn Arroyo: Springfield Sea Lions\nJohn Arroyo is thrilled with his new position as general manager of the Springfield Sea Lions, a minor league baseball team. Arroyo has been a baseball fan all of his life, and now his diligent work and his degree in sports management are paying off.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 375,
+            "score": 0.03225806451612903,
+            "metadata": {
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "section": "Introduction",
+              "empty": false,
+              "strategy": "paragraph",
+              "chars": 1711,
+              "page": 375,
+              "low_text": false,
+              "document_id": "principles-management",
+              "chapter": 13,
+              "chunk_index": 0
+            },
+            "retrieval_sources": [
+              "dense",
+              "tfidf"
+            ],
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "principles-management-p375-pg01",
+            "text": "Arroyo knew he had a hard act to follow. The general manager whom John replaced, “T.J.” Grevin, was a much-loved old-timer who had been with the Sea Lions since their inception 14 years ago. John knew it would be difficult for whoever followed T.J., but he didn’t realize how ostracized and powerless he would feel. He tried a pep talk: “I’m the general manager—the CEO of this ball club! In time, the staff will respect me.” [Not a very good pep talk!]\nAfter his first season ends, Arroyo is discouraged. Ticket and concession sales are down, and some long- EXPLORING MANAGERIAL CAREERS Leadership 13",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 375,
+            "score": 0.03131881575727918,
+            "metadata": {
+              "document_id": "principles-management",
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "page": 375,
+              "strategy": "paragraph",
+              "chapter": 13,
+              "empty": false,
+              "low_text": false,
+              "section": "John Arroyo: Springfield Sea Lions",
+              "chunk_index": 1,
+              "chars": 1711
+            },
+            "retrieval_sources": [
+              "dense",
+              "tfidf"
+            ],
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "principles-management-p399-pg03",
+            "text": "Employees are more receptive when they recognize that their leader is working not for their own success, but for the employee’s success.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 399,
+            "score": 0.030536130536130537,
+            "metadata": {
+              "section": "You Are Now the Leader",
+              "chars": 4043,
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "low_text": false,
+              "document_id": "principles-management",
+              "empty": false,
+              "chapter": 13,
+              "chunk_index": 3,
+              "page": 399,
+              "strategy": "paragraph"
+            },
+            "retrieval_sources": [
+              "dense",
+              "tfidf"
+            ],
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "principles-management-p396-pg00",
+            "text": "individuals in the workplace. Supportive leadership is especially effective when an organizational member is performing a boring, stressful, frustrating, tedious, or unpleasant task. If a task is difficult and a group member has low self-esteem, supportive leadership can reduce some of the person’s anxiety, increase his confidence, and increase satisfaction and determination as well.\n• Directive leadership—At times, effective leaders set goals and performance expectations, let organizational members know what is expected, provide guidance, establish rules and procedures to guide work, and schedule and coordinate the activities of members. Directive leadership is called for when role ambiguity is high. Removing uncertainty and providing needed guidance can increase members’ effort, job satisfaction, and job performance.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 396,
+            "metadata": {
+              "chapter": 13,
+              "chunk_index": 0,
+              "strategy": "paragraph",
+              "chars": 4678,
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "page": 396,
+              "low_text": false,
+              "empty": false,
+              "document_id": "principles-management"
+            },
+            "score": 0.01639344262295082,
+            "strategy": "hybrid_rrf",
+            "retrieval_sources": [
+              "tfidf"
+            ]
+          },
+          {
+            "id": "principles-management-p039-pg01",
+            "text": "All of these efforts at doing good must come at a cost, right? Actually, research shows that companies that are committed to sustainability have superior financial performance, on average, relative to those that are not. In coming up with creative ways to reduce, reuse, and recycle, employees often also find ways to save money (like using biogas). In addition, organizations that strive to do good are often considered attractive and desirable places to work (especially by people who have similar values) and are also valued by the surrounding communities. As a result, employees in those organizations tend to be extremely committed to them, with high levels of engagement, motivation, and productivity. Indeed, it seems clear that the employees at the New Belgium Brewery are passionate about where they work and what they do. This passion generates value for the organization and proves that it is, in fact, possible to do well while having also made the decision to do good.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 39,
+            "score": 0.015873015873015872,
+            "metadata": {
+              "chapter": 2,
+              "low_text": false,
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "strategy": "paragraph",
+              "chars": 3660,
+              "empty": false,
+              "page": 39,
+              "document_id": "principles-management",
+              "chunk_index": 1
+            },
+            "retrieval_sources": [
+              "dense"
+            ],
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[principles-management-p399-pg03 | https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf | page 399]\nEmployees are more receptive when they recognize that their leader is working not for their own success, but for the employee’s success.\n\n[principles-management-p375-pg01 | https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf | page 375]\nArroyo knew he had a hard act to follow. The general manager whom John replaced, “T.J.” Grevin, was a much-loved old-timer who had been with the Sea Lions since their inception 14 years ago. John knew it would be difficult for whoever followed T.J., but he didn’t realize how ostracized and powerless he would feel. He tried a pep talk: “I’m the general manager—the CEO of this ball club! In time, the staff will respect me.” [Not a very good pep talk!]\nAfter his first season ends, Arroyo is discouraged. Ticket and concession sales are down, and some long- EXPLORING MANAGERIAL CAREERS Leadership 13",
+        "context_ids": [
+          "principles-management-p399-pg03",
+          "principles-management-p375-pg01"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Arroyo employee satisfaction percentage increase",
+        "filter": null,
+        "results": [
+          {
+            "id": "principles-management-p375-pg00",
+            "text": "Introduction\nLearning Outcomes After reading this chapter, you should be able to answer these questions:\n1. What is the nature of leadership and the leadership process?\n2. What are the processes associated with people coming to leadership positions?\n3. How do leaders influence and move their followers to action?\n4. What are the trait perspectives on leadership?\n5. What are the behavioral perspectives on leadership?\n6. What are the situational perspectives on leadership?\n7. What does the concept “substitute for leadership” mean?\n8. What are the characteristics of transactional, transformational, and charismatic leadership?\n9. How do different approaches and styles of leadership impact what is needed now?\nJohn Arroyo: Springfield Sea Lions\nJohn Arroyo is thrilled with his new position as general manager of the Springfield Sea Lions, a minor league baseball team. Arroyo has been a baseball fan all of his life, and now his diligent work and his degree in sports management are paying off.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 375,
+            "score": 0.03225806451612903,
+            "metadata": {
+              "empty": false,
+              "chunk_index": 0,
+              "low_text": false,
+              "page": 375,
+              "chars": 1711,
+              "section": "Introduction",
+              "strategy": "paragraph",
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "chapter": 13,
+              "document_id": "principles-management"
+            },
+            "retrieval_sources": [
+              "dense",
+              "tfidf"
+            ],
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "principles-management-p375-pg01",
+            "text": "Arroyo knew he had a hard act to follow. The general manager whom John replaced, “T.J.” Grevin, was a much-loved old-timer who had been with the Sea Lions since their inception 14 years ago. John knew it would be difficult for whoever followed T.J., but he didn’t realize how ostracized and powerless he would feel. He tried a pep talk: “I’m the general manager—the CEO of this ball club! In time, the staff will respect me.” [Not a very good pep talk!]\nAfter his first season ends, Arroyo is discouraged. Ticket and concession sales are down, and some long- EXPLORING MANAGERIAL CAREERS Leadership 13",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 375,
+            "score": 0.03131881575727918,
+            "metadata": {
+              "chars": 1711,
+              "chapter": 13,
+              "page": 375,
+              "section": "John Arroyo: Springfield Sea Lions",
+              "chunk_index": 1,
+              "strategy": "paragraph",
+              "document_id": "principles-management",
+              "empty": false,
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "low_text": false
+            },
+            "retrieval_sources": [
+              "dense",
+              "tfidf"
+            ],
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "principles-management-p399-pg03",
+            "text": "Employees are more receptive when they recognize that their leader is working not for their own success, but for the employee’s success.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 399,
+            "score": 0.030536130536130537,
+            "metadata": {
+              "low_text": false,
+              "section": "You Are Now the Leader",
+              "chunk_index": 3,
+              "document_id": "principles-management",
+              "chapter": 13,
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "empty": false,
+              "strategy": "paragraph",
+              "chars": 4043,
+              "page": 399
+            },
+            "retrieval_sources": [
+              "dense",
+              "tfidf"
+            ],
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "principles-management-p396-pg00",
+            "text": "individuals in the workplace. Supportive leadership is especially effective when an organizational member is performing a boring, stressful, frustrating, tedious, or unpleasant task. If a task is difficult and a group member has low self-esteem, supportive leadership can reduce some of the person’s anxiety, increase his confidence, and increase satisfaction and determination as well.\n• Directive leadership—At times, effective leaders set goals and performance expectations, let organizational members know what is expected, provide guidance, establish rules and procedures to guide work, and schedule and coordinate the activities of members. Directive leadership is called for when role ambiguity is high. Removing uncertainty and providing needed guidance can increase members’ effort, job satisfaction, and job performance.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 396,
+            "metadata": {
+              "chapter": 13,
+              "chunk_index": 0,
+              "strategy": "paragraph",
+              "chars": 4678,
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "page": 396,
+              "low_text": false,
+              "empty": false,
+              "document_id": "principles-management"
+            },
+            "score": 0.01639344262295082,
+            "strategy": "hybrid_rrf",
+            "retrieval_sources": [
+              "tfidf"
+            ]
+          },
+          {
+            "id": "principles-management-p039-pg01",
+            "text": "All of these efforts at doing good must come at a cost, right? Actually, research shows that companies that are committed to sustainability have superior financial performance, on average, relative to those that are not. In coming up with creative ways to reduce, reuse, and recycle, employees often also find ways to save money (like using biogas). In addition, organizations that strive to do good are often considered attractive and desirable places to work (especially by people who have similar values) and are also valued by the surrounding communities. As a result, employees in those organizations tend to be extremely committed to them, with high levels of engagement, motivation, and productivity. Indeed, it seems clear that the employees at the New Belgium Brewery are passionate about where they work and what they do. This passion generates value for the organization and proves that it is, in fact, possible to do well while having also made the decision to do good.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 39,
+            "score": 0.015873015873015872,
+            "metadata": {
+              "chapter": 2,
+              "low_text": false,
+              "empty": false,
+              "document_id": "principles-management",
+              "page": 39,
+              "chars": 3660,
+              "chunk_index": 1,
+              "strategy": "paragraph",
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf"
+            },
+            "retrieval_sources": [
+              "dense"
+            ],
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[principles-management-p399-pg03 | https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf | page 399]\nEmployees are more receptive when they recognize that their leader is working not for their own success, but for the employee’s success.\n\n[principles-management-p375-pg01 | https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf | page 375]\nArroyo knew he had a hard act to follow. The general manager whom John replaced, “T.J.” Grevin, was a much-loved old-timer who had been with the Sea Lions since their inception 14 years ago. John knew it would be difficult for whoever followed T.J., but he didn’t realize how ostracized and powerless he would feel. He tried a pep talk: “I’m the general manager—the CEO of this ball club! In time, the staff will respect me.” [Not a very good pep talk!]\nAfter his first season ends, Arroyo is discouraged. Ticket and concession sales are down, and some long- EXPLORING MANAGERIAL CAREERS Leadership 13",
+        "context_ids": [
+          "principles-management-p399-pg03",
+          "principles-management-p375-pg01"
+        ]
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "elapsed_ms": 4517.883799999254,
+    "usage_tokens": {
+      "prompt_tokens": 1358,
+      "completion_tokens": 78,
+      "total_tokens": 1436,
+      "cached_prompt_tokens": 0
+    },
+    "estimated_cost_usd": 0.0002505
+  }
+]

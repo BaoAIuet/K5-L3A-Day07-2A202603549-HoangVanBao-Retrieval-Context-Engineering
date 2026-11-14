@@ -1,0 +1,14 @@
+{
+  "strategy": "tfidf",
+  "split": "dev",
+  "answerable_n": 21,
+  "unanswerable_n": 2,
+  "hit_at_1": 13,
+  "evidence_hit_at_3": 17,
+  "context_evidence_hit": 5,
+  "median_retrieval_ms": 1.482499996200204,
+  "candidate_k": 3,
+  "rrf_k": null,
+  "context_budget_chars": 800,
+  "service_cost_usd": 0
+}

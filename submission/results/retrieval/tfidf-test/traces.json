@@ -1,0 +1,427 @@
+[
+  {
+    "query_id": "q22",
+    "split": "test",
+    "strategy": "tfidf",
+    "question": "What six steps does the chapter list for the decision-making process?",
+    "filter": null,
+    "top_k": 3,
+    "context_budget_chars": 800,
+    "results": [
+      {
+        "id": "principles-management-p056-pg00",
+        "text": "bad for the organization in the long-term.\n3. What factors would you take into consideration if you were thinking about leaving your job rather than do something unethical?\n1. Explain what satisficing is and when it may be a good strategy.\n2. What are the six steps in the decision-making process?\n3. What are the four steps involved in ethical decision-making?\n2.6 Group Decision-Making\n6. What are the advantages and disadvantages of group decision-making, and how can a manager improve the quality of group decision-making?\nInvolving more people in the decision-making process can greatly improve the quality of a manager's decisions and outcomes. However, involving more people can also increase conflict and generate other challenges. We turn now to the advantages and disadvantages of group decision-making.",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 56,
+        "metadata": {
+          "section": "2.6 Group Decision-Making",
+          "strategy": "paragraph",
+          "chapter": 2,
+          "page": 56,
+          "chunk_index": 0,
+          "low_text": false,
+          "chars": 3356,
+          "empty": false,
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+          "document_id": "principles-management"
+        },
+        "score": 0.34373727349394756,
+        "strategy": "tfidf",
+        "evidence_hit": false
+      },
+      {
+        "id": "principles-management-p042-pg03",
+        "text": "While these steps may seem straightforward, individuals often skip steps or spend too little time on some steps. In fact, sometimes people will refuse to acknowledge a problem (Step 1) because they aren’t sure how to address it. We’ll discuss the steps more later in the chapter, when we review ways to improve the quality of decision-making.",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 42,
+        "metadata": {
+          "empty": false,
+          "strategy": "paragraph",
+          "low_text": false,
+          "chars": 3163,
+          "chapter": 2,
+          "page": 42,
+          "document_id": "principles-management",
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+          "section": "The Decision-Making Process",
+          "chunk_index": 3
+        },
+        "score": 0.31877995796929337,
+        "strategy": "tfidf",
+        "evidence_hit": false
+      },
+      {
+        "id": "principles-management-p035-pg00",
+        "text": "Introduction\nLearning Outcomes After reading this chapter, you should be able to answer these questions:\n1. What are the basic characteristics of managerial decision-making?\n2. What are the two systems of decision-making in the brain?\n3. What is the difference between programmed and nonprogrammed decisions?\n4. What barriers exist that make effective decision-making difficult?\n5. How can a manager improve the quality of her individual decision-making?\n6. What are the advantages and disadvantages of group decision-making, and how can a manager improve the quality of group decision-making?",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 35,
+        "metadata": {
+          "strategy": "paragraph",
+          "chunk_index": 0,
+          "low_text": false,
+          "page": 35,
+          "document_id": "principles-management",
+          "chars": 1877,
+          "empty": false,
+          "chapter": 2,
+          "section": "Introduction",
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf"
+        },
+        "score": 0.2583205615700189,
+        "strategy": "tfidf",
+        "evidence_hit": false
+      }
+    ],
+    "context": "[principles-management-p042-pg03 | https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf | page 42]\nWhile these steps may seem straightforward, individuals often skip steps or spend too little time on some steps. In fact, sometimes people will refuse to acknowledge a problem (Step 1) because they aren’t sure how to address it. We’ll discuss the steps more later in the chapter, when we review ways to improve the quality of decision-making.",
+    "context_ids": [
+      "principles-management-p042-pg03"
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "context_evidence_hit": false,
+    "retrieval_ms": 0.604800006840378
+  },
+  {
+    "query_id": "q23",
+    "split": "test",
+    "strategy": "tfidf",
+    "question": "What decision-making benefits does the chapter attribute to talking to other people?",
+    "filter": null,
+    "top_k": 3,
+    "context_budget_chars": 800,
+    "results": [
+      {
+        "id": "principles-management-p035-pg00",
+        "text": "Introduction\nLearning Outcomes After reading this chapter, you should be able to answer these questions:\n1. What are the basic characteristics of managerial decision-making?\n2. What are the two systems of decision-making in the brain?\n3. What is the difference between programmed and nonprogrammed decisions?\n4. What barriers exist that make effective decision-making difficult?\n5. How can a manager improve the quality of her individual decision-making?\n6. What are the advantages and disadvantages of group decision-making, and how can a manager improve the quality of group decision-making?",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 35,
+        "metadata": {
+          "strategy": "paragraph",
+          "chunk_index": 0,
+          "low_text": false,
+          "page": 35,
+          "document_id": "principles-management",
+          "chars": 1877,
+          "empty": false,
+          "chapter": 2,
+          "section": "Introduction",
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf"
+        },
+        "score": 0.2327092383114217,
+        "strategy": "tfidf",
+        "evidence_hit": false
+      },
+      {
+        "id": "principles-management-p054-pg02",
+        "text": "Talk to other people\nThis is another point in the process at which talking to others can be helpful. Selecting one of the alternatives will ultimately be your responsibility, but when faced with a difficult decision, talking through your choice with someone else may help you clarify that you are indeed making the best possible decision from among the available options. Sharing information verbally also causes our brains to process that information differently, which can provide new insights and bring greater clarity to our decision-making.",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 54,
+        "metadata": {
+          "chars": 4259,
+          "document_id": "principles-management",
+          "empty": false,
+          "section": "Talk to other people",
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+          "chapter": 2,
+          "chunk_index": 2,
+          "strategy": "paragraph",
+          "page": 54,
+          "low_text": false
+        },
+        "score": 0.231926489244468,
+        "strategy": "tfidf",
+        "evidence_hit": false
+      },
+      {
+        "id": "principles-management-p056-pg00",
+        "text": "bad for the organization in the long-term.\n3. What factors would you take into consideration if you were thinking about leaving your job rather than do something unethical?\n1. Explain what satisficing is and when it may be a good strategy.\n2. What are the six steps in the decision-making process?\n3. What are the four steps involved in ethical decision-making?\n2.6 Group Decision-Making\n6. What are the advantages and disadvantages of group decision-making, and how can a manager improve the quality of group decision-making?\nInvolving more people in the decision-making process can greatly improve the quality of a manager's decisions and outcomes. However, involving more people can also increase conflict and generate other challenges. We turn now to the advantages and disadvantages of group decision-making.",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 56,
+        "metadata": {
+          "section": "2.6 Group Decision-Making",
+          "strategy": "paragraph",
+          "chapter": 2,
+          "page": 56,
+          "chunk_index": 0,
+          "low_text": false,
+          "chars": 3356,
+          "empty": false,
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+          "document_id": "principles-management"
+        },
+        "score": 0.20364110734336452,
+        "strategy": "tfidf",
+        "evidence_hit": false
+      }
+    ],
+    "context": "[principles-management-p035-pg00 | https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf | page 35]\nIntroduction\nLearning Outcomes After reading this chapter, you should be able to answer these questions:\n1. What are the basic characteristics of managerial decision-making?\n2. What are the two systems of decision-making in the brain?\n3. What is the difference between programmed and nonprogrammed decisions?\n4. What barriers exist that make effective decision-making difficult?\n5. How can a manager improve the quality of her individual decision-making?\n6. What are the advantages and disadvantages of group decision-making, and how can a manager improve the quality of group decision-making?",
+    "context_ids": [
+      "principles-management-p035-pg00"
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "context_evidence_hit": false,
+    "retrieval_ms": 0.5025000136811286
+  },
+  {
+    "query_id": "q24",
+    "split": "test",
+    "strategy": "tfidf",
+    "question": "How does the chapter define critical thinking?",
+    "filter": null,
+    "top_k": 3,
+    "context_budget_chars": 800,
+    "results": [
+      {
+        "id": "principles-management-p379-pg00",
+        "text": "The Follower\nThe follower is not a passive player in the leadership process. Edwin Hollander, after many years of studying leadership, suggested that the follower is the most critical factor in any leadership event. It is, after all, the follower who perceives the situation and comes to define the needs that the leader must fulfill. In addition, it is the follower who either rejects leadership or accepts acts of leadership by surrendering his power to the leader to diminish task uncertainty, to define and manage the meaning of the situation to the follower, and to orchestrate the follower’s action in pursuit of goal attainment.",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 379,
+        "metadata": {
+          "empty": false,
+          "chars": 3638,
+          "strategy": "paragraph",
+          "chapter": 13,
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+          "section": "The Follower",
+          "low_text": false,
+          "page": 379,
+          "document_id": "principles-management",
+          "chunk_index": 0
+        },
+        "score": 0.18350806919424534,
+        "strategy": "tfidf",
+        "evidence_hit": false
+      },
+      {
+        "id": "principles-management-p050-pg00",
+        "text": "Talk to other people\nAs mentioned previously, it can be worthwhile to get help from others when generating options. Another good time to talk to other people is while analyzing those options; other individuals in the organization may help you assess the quality of your choices. Seeking out the opinions and preferences of others is also a great way to maintain perspective, so getting others involved can help you to be less biased in your decision-making (provided you talk to people whose biases are different from your own).\nAre you thinking critically about the options?\nOur skill at assessing alternatives can also be improved by a focus on critical thinking. Critical thinking is a disciplined process of evaluating the quality of information, especially data collected from other sources and arguments made by other people, to determine whether the source should be trusted or whether the argument is valid.",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 50,
+        "metadata": {
+          "chunk_index": 0,
+          "document_id": "principles-management",
+          "chapter": 2,
+          "section": "Talk to other people",
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+          "empty": false,
+          "chars": 1435,
+          "page": 50,
+          "low_text": false,
+          "strategy": "paragraph"
+        },
+        "score": 0.16231320528091484,
+        "strategy": "tfidf",
+        "evidence_hit": true
+      },
+      {
+        "id": "principles-management-p377-pg01",
+        "text": "First, we define the two concepts differently. In Management and Organizational Behavior (http://openstax.org/books/organizational-behavior/pages/1-introduction), we defined management as a process consisting of planning, organizing, directing, and controlling. Here we define leadership as a social (interpersonal) influence relationship between two or more people who are dependent on each another for goal attainment.\nSecond, managers and leaders are commonly differentiated in terms of the processes through which they initially come to their position. Managers are generally appointed to their role. Even though many organizations appoint people to positions of leadership, leadership per se is a relationship that revolves around the followers’ acceptance or rejection of the leader. Thus, leaders often emerge out of events that unfold among members of a group.",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 377,
+        "metadata": {
+          "document_id": "principles-management",
+          "page": 377,
+          "strategy": "paragraph",
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+          "chars": 3358,
+          "chunk_index": 1,
+          "section": "Leader versus Manager",
+          "low_text": false,
+          "empty": false,
+          "chapter": 13
+        },
+        "score": 0.1340375922677381,
+        "strategy": "tfidf",
+        "evidence_hit": false
+      }
+    ],
+    "context": "[principles-management-p379-pg00 | https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf | page 379]\nThe Follower\nThe follower is not a passive player in the leadership process. Edwin Hollander, after many years of studying leadership, suggested that the follower is the most critical factor in any leadership event. It is, after all, the follower who perceives the situation and comes to define the needs that the leader must fulfill. In addition, it is the follower who either rejects leadership or accepts acts of leadership by surrendering his power to the leader to diminish task uncertainty, to define and manage the meaning of the situation to the follower, and to orchestrate the follower’s action in pursuit of goal attainment.",
+    "context_ids": [
+      "principles-management-p379-pg00"
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": true,
+    "context_evidence_hit": false,
+    "retrieval_ms": 0.38139999378472567
+  },
+  {
+    "query_id": "q25",
+    "split": "test",
+    "strategy": "tfidf",
+    "question": "Which two major sets of leader behaviors did the Ohio State University studies identify?",
+    "filter": null,
+    "top_k": 3,
+    "context_budget_chars": 800,
+    "results": [
+      {
+        "id": "principles-management-p390-pg04",
+        "text": "The Ohio State University Studies\nA group of Ohio State University researchers, under the direction of Ralph Stogdill, began an extensive and systematic series of studies to identify leader behaviors associated with effective group performance. Their results identified two major sets of leader behaviors: consideration and initiating structure.",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 390,
+        "metadata": {
+          "empty": false,
+          "document_id": "principles-management",
+          "section": "The Ohio State University Studies",
+          "chunk_index": 4,
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+          "chapter": 13,
+          "page": 390,
+          "low_text": false,
+          "chars": 3786,
+          "strategy": "paragraph"
+        },
+        "score": 0.6402504644934534,
+        "strategy": "tfidf",
+        "evidence_hit": true
+      },
+      {
+        "id": "principles-management-p391-pg03",
+        "text": "Initially, these mixed findings were disappointing to researchers and managers alike. It had been hoped that a profile of the most effective leader behaviors could be identified so that leaders could be trained in the best ways to behave. Research made clear, however, that there is no one best style of leader behavior for all situations.\nThe University of Michigan Studies\nAt about the same time that the Ohio State studies were underway, researchers at the University of Michigan also began to investigate leader behaviors. As at Ohio State, the Michigan researchers attempted to identify behavioral elements that differentiated effective from ineffective leaders.",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 391,
+        "metadata": {
+          "chapter": 13,
+          "empty": false,
+          "strategy": "paragraph",
+          "chars": 4388,
+          "document_id": "principles-management",
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+          "low_text": false,
+          "chunk_index": 3,
+          "section": "The University of Michigan Studies",
+          "page": 391
+        },
+        "score": 0.34155190863921353,
+        "strategy": "tfidf",
+        "evidence_hit": false
+      },
+      {
+        "id": "principles-management-p391-pg04",
+        "text": "The two types of leader behavior that stand out in these studies are job centered and organizational member centered. Job-centered behaviors are devoted to supervisory functions, such as planning, scheduling, coordinating work activities, and providing the resources needed for task performance. Employee-member-centered behaviors include consideration and support for organizational members. These dimensions of behavior, of course, correspond closely to the dimensions of initiating structure and consideration identified at Ohio State. The similarity of the findings from two independent groups of researchers added to their credibility. As the Ohio State researchers had done, the Michigan researchers also found that any combination of the two behaviors was possible.",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 391,
+        "metadata": {
+          "page": 391,
+          "document_id": "principles-management",
+          "empty": false,
+          "section": "The University of Michigan Studies",
+          "chunk_index": 4,
+          "chars": 4388,
+          "strategy": "paragraph",
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+          "chapter": 13,
+          "low_text": false
+        },
+        "score": 0.2578841559172068,
+        "strategy": "tfidf",
+        "evidence_hit": false
+      }
+    ],
+    "context": "[principles-management-p390-pg04 | https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf | page 390]\nThe Ohio State University Studies\nA group of Ohio State University researchers, under the direction of Ralph Stogdill, began an extensive and systematic series of studies to identify leader behaviors associated with effective group performance. Their results identified two major sets of leader behaviors: consideration and initiating structure.",
+    "context_ids": [
+      "principles-management-p390-pg04"
+    ],
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "context_evidence_hit": true,
+    "retrieval_ms": 0.5405000119935721
+  },
+  {
+    "query_id": "q26",
+    "split": "test",
+    "strategy": "tfidf",
+    "question": "According to path-goal theory, what does an effective leader provide to organizational members?",
+    "filter": null,
+    "top_k": 3,
+    "context_budget_chars": 800,
+    "results": [
+      {
+        "id": "principles-management-p395-pg01",
+        "text": "The model of leadership advanced by House and Evans is called the path-goal theory of leadership because it suggests that an effective leader provides organizational members with a path to a valued goal. According to House, the motivational function of the leader consists of increasing personal payoffs to organizational members for work-goal attainment, and making the path to these payoffs easier to travel by clarifying it, reducing roadblocks and pitfalls, and increasing the opportunities for personal satisfaction en route. Effective leaders therefore provide rewards that are valued by organizational members. These rewards may be pay, recognition, promotions, or any other item that gives members an incentive to work hard to achieve goals. Effective leaders also give clear instructions so that ambiguities about work are reduced and followers understand how to do their jobs effectively.",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 395,
+        "metadata": {
+          "page": 395,
+          "document_id": "principles-management",
+          "strategy": "paragraph",
+          "chapter": 13,
+          "low_text": false,
+          "chars": 3505,
+          "chunk_index": 1,
+          "section": "Path-Goal Theory",
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+          "empty": false
+        },
+        "score": 0.42991082431008,
+        "strategy": "tfidf",
+        "evidence_hit": true
+      },
+      {
+        "id": "principles-management-p393-pg02",
+        "text": "Several theories have been advanced to address this issue. These are Fiedler’s contingency theory of leadership, the path-goal theory of leader effectiveness, Hersey and Blanchard’s life cycle theory, cognitive resource theory, the decision tree, and the decision process theory. We explore two of the better-known situational theories of leadership, Fred Fiedler’s contingency model and Robert J. House’s path-goal theory, here. Victor Vroom, Phillip Yetton, and Arthur Jago’s decision tree model also applies.",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 393,
+        "metadata": {
+          "document_id": "principles-management",
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+          "page": 393,
+          "chars": 4023,
+          "chunk_index": 2,
+          "low_text": false,
+          "empty": false,
+          "chapter": 13,
+          "strategy": "paragraph",
+          "section": "13.6 Situational (Contingency) Approaches to Leadership"
+        },
+        "score": 0.28288802605331526,
+        "strategy": "tfidf",
+        "evidence_hit": false
+      },
+      {
+        "id": "principles-management-p395-pg04",
+        "text": "The leadership style that motivates organizational members with strong needs for autonomy (participative leadership) is different from that which motivates and satisfies members with weaker autonomy needs (directive leadership). The degree to which leadership behavior matches situational factors will determine members’ motivation, satisfaction, and performance (see Exhibit 13.11).\nBehavior Dimensions\nAccording to path-goal theory, there are four important dimensions of leader behavior, each of which is suited to a particular set of situational demands.\n• Supportive leadership—At times, effective leaders demonstrate concern for the well-being and personal needs of organizational members. Supportive leaders are friendly, approachable, and considerate to",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 395,
+        "metadata": {
+          "empty": false,
+          "page": 395,
+          "document_id": "principles-management",
+          "chunk_index": 4,
+          "section": "An Appropriate Match",
+          "low_text": false,
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+          "chapter": 13,
+          "chars": 3505,
+          "strategy": "paragraph"
+        },
+        "score": 0.261334978123966,
+        "strategy": "tfidf",
+        "evidence_hit": false
+      }
+    ],
+    "context": "[principles-management-p393-pg02 | https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf | page 393]\nSeveral theories have been advanced to address this issue. These are Fiedler’s contingency theory of leadership, the path-goal theory of leader effectiveness, Hersey and Blanchard’s life cycle theory, cognitive resource theory, the decision tree, and the decision process theory. We explore two of the better-known situational theories of leadership, Fred Fiedler’s contingency model and Robert J. House’s path-goal theory, here. Victor Vroom, Phillip Yetton, and Arthur Jago’s decision tree model also applies.",
+    "context_ids": [
+      "principles-management-p393-pg02"
+    ],
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "context_evidence_hit": false,
+    "retrieval_ms": 0.516200001584366
+  }
+]

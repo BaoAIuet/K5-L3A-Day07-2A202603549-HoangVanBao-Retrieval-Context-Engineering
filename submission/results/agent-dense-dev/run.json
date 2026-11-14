@@ -1,0 +1,24 @@
+{
+  "split": "dev",
+  "model": "gpt-4o-mini",
+  "method": "dense",
+  "strategy": "B",
+  "top_k": 3,
+  "max_searches": 3,
+  "context_budget_chars": 1600,
+  "cases": 23,
+  "provider_errors": 0,
+  "usage_tokens": {
+    "prompt_tokens": 15039,
+    "completion_tokens": 2766,
+    "total_tokens": 17805
+  },
+  "estimated_cost_usd": 0.00391545,
+  "price_per_million_tokens": {
+    "input": 0.15,
+    "output": 0.6,
+    "cached_input": 0.075
+  },
+  "cost_note": "Standard-rate estimate assuming no cached input; cached-token detail was not saved for this run. Actual billing may differ.",
+  "elapsed_ms_total": 74888.76689993776
+}

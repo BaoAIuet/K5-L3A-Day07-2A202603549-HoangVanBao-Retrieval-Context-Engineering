@@ -1,0 +1,14 @@
+{
+  "strategy": "hybrid",
+  "split": "dev",
+  "answerable_n": 21,
+  "unanswerable_n": 2,
+  "hit_at_1": 13,
+  "evidence_hit_at_3": 20,
+  "context_evidence_hit": 6,
+  "median_retrieval_ms": 12.459999998100102,
+  "candidate_k": 10,
+  "rrf_k": 60,
+  "context_budget_chars": 800,
+  "service_cost_usd": 0
+}

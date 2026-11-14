@@ -1,0 +1,9 @@
+[
+  {"query_id":"q22","answer_grade":0,"citation_support":[],"review_note":"False abstention; supporting evidence was ranked but omitted from the final context."},
+  {"query_id":"q23","answer_grade":1,"citation_support":[true,true],"review_note":"Partly correct: the answer gives clarity and more options but omits bias reduction."},
+  {"query_id":"q24","answer_grade":2,"citation_support":[true],"review_note":"Correct definition and supporting citation."},
+  {"query_id":"q25","answer_grade":2,"citation_support":[true],"review_note":"Correctly names both behavior sets and cites the source."},
+  {"query_id":"q26","answer_grade":2,"citation_support":[true],"review_note":"Correct path-to-goal answer and supporting citation."},
+  {"query_id":"test-no-evidence-01","citation_support":[],"abstention_correct":true,"review_note":"Correctly abstains; the source gives no season win-loss record."},
+  {"query_id":"test-no-evidence-02","citation_support":[],"abstention_correct":true,"review_note":"Correctly abstains; the source gives no employee-satisfaction percentage."}
+]

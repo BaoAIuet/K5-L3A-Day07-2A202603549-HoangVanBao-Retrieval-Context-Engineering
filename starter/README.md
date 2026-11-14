@@ -95,6 +95,15 @@ python starter\agent_runner.py --questions data\day7_questions.json --split dev 
 
 Nếu biến môi trường đã được đặt trong PowerShell, biến đó được ưu tiên hơn `.env`; hãy mở cửa sổ PowerShell mới nếu trước đó đã gán nhầm giá trị. Thay `--limit 1` bằng `--limit 23` hoặc bỏ `--limit` để chạy toàn split sau khi smoke test thành công. Chỉ dùng endpoint/model được phép gửi tài liệu tới; runner ghi token usage nhưng không đoán giá vì chi phí phụ thuộc provider/model. Nó tạo `cases.json` và `traces.json`; hãy đọc trace/citation và tự chấm `reviews.json` trước khi chạy `agent_metrics.py`. Không đánh giá chất lượng agent bằng mock.
 
+Để chạy agent bằng cấu hình hybrid đã chọn trong retrieval benchmark (candidate-10, RRF-k=60, top-5, context 1,600 ký tự), truyền thêm chunk JSON Day 7. Các cờ giá dùng giá Standard công bố cho `gpt-4o-mini` tại thời điểm ghi báo cáo; `run.json` ghi rõ đây là ước tính, không phải hóa đơn:
+
+```powershell
+& "D:\path\to\Day06\starter\.venv\Scripts\python.exe" starter\agent_runner.py --questions data\day7_questions.json --split dev --day6-index "D:\path\to\Day06\starter\data\chroma_v2_b1000" --strategy B --method hybrid --chunks starter\data\day6_chunks.json --candidate-k 10 --rrf-k 60 --top-k 5 --max-searches 3 --budget 1600 --input-price-per-million 0.15 --output-price-per-million 0.60 --cached-input-price-per-million 0.075 --output submission\results\agent-hybrid-dev
+& "D:\path\to\Day06\starter\.venv\Scripts\python.exe" starter\agent_runner.py --questions data\day7_questions.json --split test --day6-index "D:\path\to\Day06\starter\data\chroma_v2_b1000" --strategy B --method hybrid --chunks starter\data\day6_chunks.json --candidate-k 10 --rrf-k 60 --top-k 5 --max-searches 3 --budget 1600 --input-price-per-million 0.15 --output-price-per-million 0.60 --cached-input-price-per-million 0.075 --output submission\results\agent-hybrid-test
+```
+
+`agent_runner.py` lưu `cases.json`, `traces.json` (gồm chi phí ước tính mỗi query), và `run.json`; sau khi tự chấm, lưu thêm `reviews.json` và chạy `agent_metrics.py`. Trace có trích đoạn OpenStax được phân phối trong `submission/results/` kèm attribution và CC BY-NC-SA 4.0; giữ nguyên attribution nếu chia sẻ.
+
 ## 7. Tổng hợp đánh giá agent
 
 Sau khi chạy agent thật và tự chấm, chuẩn bị ba JSON array:

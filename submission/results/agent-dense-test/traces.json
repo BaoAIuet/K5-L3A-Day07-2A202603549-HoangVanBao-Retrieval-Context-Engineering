@@ -1,0 +1,1079 @@
+[
+  {
+    "query_id": "q22",
+    "split": "test",
+    "question": "What six steps does the chapter list for the decision-making process?",
+    "status": "answered",
+    "answer": "The six steps of the decision-making process are as follows:\n\n1. Recognize that a decision needs to be made.\n2. Generate multiple alternatives.\n3. Analyze the alternatives.\n4. Select an alternative.\n5. Implement the selected alternative.\n6. Evaluate its effectiveness [principles-management-p042-pg02].",
+    "citations": [
+      "principles-management-p042-pg02"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "six steps decision-making process",
+        "filter": null,
+        "results": [
+          {
+            "id": "principles-management-p042-pg02",
+            "text": "The best the manager can do in this situation is to gather as much relevant information as possible and make an educated guess as to whether the new technology will be worthwhile. Clearly, nonprogrammed decisions present the greater challenge.\nThe Decision-Making Process\nWhile decisions makers can use mental shortcuts with programmed decisions, they should use a systematic process with nonprogrammed decisions. The decision-making process is illustrated in Exhibit 2.4 and can be broken down into a series of six steps, as follows:\n1. Recognize that a decision needs to be made.\n2. Generate multiple alternatives.\n3. Analyze the alternatives.\n4. Select an alternative.\n5. Implement the selected alternative.\n6. Evaluate its effectiveness.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 42,
+            "score": 0.7912174463272095,
+            "metadata": {
+              "section": "Nonprogrammed Decisions",
+              "low_text": false,
+              "page": 42,
+              "document_id": "principles-management",
+              "chars": 3163,
+              "strategy": "paragraph",
+              "empty": false,
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "chapter": 2,
+              "chunk_index": 2
+            }
+          },
+          {
+            "id": "principles-management-p056-pg00",
+            "text": "bad for the organization in the long-term.\n3. What factors would you take into consideration if you were thinking about leaving your job rather than do something unethical?\n1. Explain what satisficing is and when it may be a good strategy.\n2. What are the six steps in the decision-making process?\n3. What are the four steps involved in ethical decision-making?\n2.6 Group Decision-Making\n6. What are the advantages and disadvantages of group decision-making, and how can a manager improve the quality of group decision-making?\nInvolving more people in the decision-making process can greatly improve the quality of a manager's decisions and outcomes. However, involving more people can also increase conflict and generate other challenges. We turn now to the advantages and disadvantages of group decision-making.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 56,
+            "score": 0.7649108171463013,
+            "metadata": {
+              "page": 56,
+              "chapter": 2,
+              "chunk_index": 0,
+              "section": "2.6 Group Decision-Making",
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "low_text": false,
+              "document_id": "principles-management",
+              "empty": false,
+              "strategy": "paragraph",
+              "chars": 3356
+            }
+          },
+          {
+            "id": "principles-management-p048-pg02",
+            "text": "This allows you to finish the task quickly at a reasonably low cost.\nTechniques for Making Better Nonprogrammed Decisions\nFor situations in which the quality of the decision is more critical than the time spent on the decision, decision makers can use several tactics. As stated previously, nonprogrammed decisions should be addressed using a systematic process. We therefore discuss these tactics within the context of the decision-making steps. To review, the steps include the following:\n1. Recognize that a decision needs to be made.\n2. Generate multiple alternatives.\n3. Analyze the alternatives.\n4. Select an alternative.\n5. Implement the selected alternative.\n6. Evaluate its effectiveness.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 48,
+            "score": 0.7628699541091919,
+            "metadata": {
+              "low_text": false,
+              "chunk_index": 2,
+              "chars": 2688,
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "chapter": 2,
+              "strategy": "paragraph",
+              "document_id": "principles-management",
+              "page": 48,
+              "empty": false,
+              "section": "Techniques for Making Better Programmed Decisions"
+            }
+          }
+        ],
+        "context": "[principles-management-p042-pg02 | https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf | page 42]\nThe best the manager can do in this situation is to gather as much relevant information as possible and make an educated guess as to whether the new technology will be worthwhile. Clearly, nonprogrammed decisions present the greater challenge.\nThe Decision-Making Process\nWhile decisions makers can use mental shortcuts with programmed decisions, they should use a systematic process with nonprogrammed decisions. The decision-making process is illustrated in Exhibit 2.4 and can be broken down into a series of six steps, as follows:\n1. Recognize that a decision needs to be made.\n2. Generate multiple alternatives.\n3. Analyze the alternatives.\n4. Select an alternative.\n5. Implement the selected alternative.\n6. Evaluate its effectiveness.",
+        "context_ids": [
+          "principles-management-p042-pg02"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 2974.4209999917075,
+    "usage_tokens": {
+      "prompt_tokens": 479,
+      "completion_tokens": 82,
+      "total_tokens": 561
+    },
+    "estimated_cost_usd": 0.00012104999999999999
+  },
+  {
+    "query_id": "q23",
+    "split": "test",
+    "question": "What decision-making benefits does the chapter attribute to talking to other people?",
+    "status": "answered",
+    "answer": "The chapter attributes several decision-making benefits to talking to other people:\n\n1. **Clarification of Choices**: Discussing decisions with others can help clarify whether you are making the best possible choice among available options. This process allows for a deeper understanding of the decision at hand [principles-management-p054-pg02].\n\n2. **Different Perspectives**: Involving others in the decision-making process can improve the quality of decisions, as different individuals bring varied perspectives based on their unique life experiences. This diversity can lead to the generation of alternatives that one might not have considered alone [principles-management-p049-pg02].\n\n3. **New Insights**: Sharing information verbally can change the way our brains process that information, potentially leading to new insights and greater clarity in decision-making [principles-management-p054-pg02].\n\n4. **Mentorship Benefits**: For new managers, discussing decisions with a mentor can be particularly beneficial, as experienced individuals can suggest more options and provide guidance based on their expertise [principles-management-p049-pg02].",
+    "citations": [
+      "principles-management-p054-pg02",
+      "principles-management-p049-pg02"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "decision-making benefits talking to other people",
+        "filter": null,
+        "results": [
+          {
+            "id": "principles-management-p054-pg02",
+            "text": "Talk to other people\nThis is another point in the process at which talking to others can be helpful. Selecting one of the alternatives will ultimately be your responsibility, but when faced with a difficult decision, talking through your choice with someone else may help you clarify that you are indeed making the best possible decision from among the available options. Sharing information verbally also causes our brains to process that information differently, which can provide new insights and bring greater clarity to our decision-making.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 54,
+            "score": 0.8540372848510742,
+            "metadata": {
+              "document_id": "principles-management",
+              "low_text": false,
+              "chars": 4259,
+              "chunk_index": 2,
+              "empty": false,
+              "section": "Talk to other people",
+              "chapter": 2,
+              "strategy": "paragraph",
+              "page": 54,
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf"
+            }
+          },
+          {
+            "id": "principles-management-p049-pg02",
+            "text": "Talk to other people\nManagers can often improve the quality of their decision-making by involving others in the process, especially when generating alternatives. Other people tend to view problems from different perspectives because they have had different life experiences. This can help generate alternatives that you might not otherwise have considered. Talking through big decisions with a mentor can also be beneficial, especially for new managers who are still learning and developing their expertise; someone with more experience will often be able to suggest more options.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 49,
+            "score": 0.8362781405448914,
+            "metadata": {
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "low_text": false,
+              "strategy": "paragraph",
+              "chapter": 2,
+              "document_id": "principles-management",
+              "section": "Talk to other people",
+              "page": 49,
+              "chunk_index": 2,
+              "empty": false,
+              "chars": 4179
+            }
+          },
+          {
+            "id": "principles-management-p050-pg00",
+            "text": "Talk to other people\nAs mentioned previously, it can be worthwhile to get help from others when generating options. Another good time to talk to other people is while analyzing those options; other individuals in the organization may help you assess the quality of your choices. Seeking out the opinions and preferences of others is also a great way to maintain perspective, so getting others involved can help you to be less biased in your decision-making (provided you talk to people whose biases are different from your own).\nAre you thinking critically about the options?\nOur skill at assessing alternatives can also be improved by a focus on critical thinking. Critical thinking is a disciplined process of evaluating the quality of information, especially data collected from other sources and arguments made by other people, to determine whether the source should be trusted or whether the argument is valid.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 50,
+            "score": 0.819111168384552,
+            "metadata": {
+              "page": 50,
+              "low_text": false,
+              "chars": 1435,
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "document_id": "principles-management",
+              "strategy": "paragraph",
+              "empty": false,
+              "chunk_index": 0,
+              "chapter": 2,
+              "section": "Talk to other people"
+            }
+          }
+        ],
+        "context": "[principles-management-p054-pg02 | https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf | page 54]\nTalk to other people\nThis is another point in the process at which talking to others can be helpful. Selecting one of the alternatives will ultimately be your responsibility, but when faced with a difficult decision, talking through your choice with someone else may help you clarify that you are indeed making the best possible decision from among the available options. Sharing information verbally also causes our brains to process that information differently, which can provide new insights and bring greater clarity to our decision-making.\n\n[principles-management-p049-pg02 | https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf | page 49]\nTalk to other people\nManagers can often improve the quality of their decision-making by involving others in the process, especially when generating alternatives. Other people tend to view problems from different perspectives because they have had different life experiences. This can help generate alternatives that you might not otherwise have considered. Talking through big decisions with a mentor can also be beneficial, especially for new managers who are still learning and developing their expertise; someone with more experience will often be able to suggest more options.",
+        "context_ids": [
+          "principles-management-p054-pg02",
+          "principles-management-p049-pg02"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 4829.344199999468,
+    "usage_tokens": {
+      "prompt_tokens": 565,
+      "completion_tokens": 232,
+      "total_tokens": 797
+    },
+    "estimated_cost_usd": 0.00022395
+  },
+  {
+    "query_id": "q24",
+    "split": "test",
+    "question": "How does the chapter define critical thinking?",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "define critical thinking",
+        "filter": null,
+        "results": [
+          {
+            "id": "principles-management-p050-pg01",
+            "text": "An important factor in critical thinking is the recognition that a person’s analysis of the available information may be flawed by a number of logical fallacies that they may use when they are arguing their point or defending their perspective. Learning what those fallacies are and being able to recognize them when they occur can help improve decision-making quality. See Table 2.2 for several examples of common logical fallacies.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 50,
+            "score": 0.7303199768066406,
+            "metadata": {
+              "section": "Talk to other people",
+              "chapter": 2,
+              "chunk_index": 1,
+              "low_text": false,
+              "chars": 1435,
+              "empty": false,
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "strategy": "paragraph",
+              "document_id": "principles-management",
+              "page": 50
+            }
+          },
+          {
+            "id": "principles-management-p050-pg00",
+            "text": "Talk to other people\nAs mentioned previously, it can be worthwhile to get help from others when generating options. Another good time to talk to other people is while analyzing those options; other individuals in the organization may help you assess the quality of your choices. Seeking out the opinions and preferences of others is also a great way to maintain perspective, so getting others involved can help you to be less biased in your decision-making (provided you talk to people whose biases are different from your own).\nAre you thinking critically about the options?\nOur skill at assessing alternatives can also be improved by a focus on critical thinking. Critical thinking is a disciplined process of evaluating the quality of information, especially data collected from other sources and arguments made by other people, to determine whether the source should be trusted or whether the argument is valid.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 50,
+            "score": 0.659334659576416,
+            "metadata": {
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "section": "Talk to other people",
+              "document_id": "principles-management",
+              "page": 50,
+              "chunk_index": 0,
+              "chars": 1435,
+              "empty": false,
+              "chapter": 2,
+              "strategy": "paragraph",
+              "low_text": false
+            }
+          },
+          {
+            "id": "principles-management-p037-pg02",
+            "text": "Decision-making is the action or process of thinking through possible options and selecting one. It is important to recognize that managers are continually making decisions, and that the quality of their decision-making has an impact—sometimes quite significant—on the effectiveness of the organization and its stakeholders. Stakeholders are all the individuals or groups that are affected by an organization (such as customers, employees, shareholders, etc.).",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 37,
+            "score": 0.6300661563873291,
+            "metadata": {
+              "chars": 4124,
+              "section": "2.1 Overview of Managerial Decision-Making",
+              "strategy": "paragraph",
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "document_id": "principles-management",
+              "low_text": false,
+              "empty": false,
+              "chunk_index": 2,
+              "chapter": 2,
+              "page": 37
+            }
+          }
+        ],
+        "context": "[principles-management-p050-pg01 | https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf | page 50]\nAn important factor in critical thinking is the recognition that a person’s analysis of the available information may be flawed by a number of logical fallacies that they may use when they are arguing their point or defending their perspective. Learning what those fallacies are and being able to recognize them when they occur can help improve decision-making quality. See Table 2.2 for several examples of common logical fallacies.\n\n[principles-management-p037-pg02 | https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf | page 37]\nDecision-making is the action or process of thinking through possible options and selecting one. It is important to recognize that managers are continually making decisions, and that the quality of their decision-making has an impact—sometimes quite significant—on the effectiveness of the organization and its stakeholders. Stakeholders are all the individuals or groups that are affected by an organization (such as customers, employees, shareholders, etc.).",
+        "context_ids": [
+          "principles-management-p050-pg01",
+          "principles-management-p037-pg02"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "define critical thinking",
+        "filter": null,
+        "results": [
+          {
+            "id": "principles-management-p050-pg01",
+            "text": "An important factor in critical thinking is the recognition that a person’s analysis of the available information may be flawed by a number of logical fallacies that they may use when they are arguing their point or defending their perspective. Learning what those fallacies are and being able to recognize them when they occur can help improve decision-making quality. See Table 2.2 for several examples of common logical fallacies.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 50,
+            "score": 0.7303199768066406,
+            "metadata": {
+              "strategy": "paragraph",
+              "low_text": false,
+              "chars": 1435,
+              "chapter": 2,
+              "empty": false,
+              "section": "Talk to other people",
+              "page": 50,
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "document_id": "principles-management",
+              "chunk_index": 1
+            }
+          },
+          {
+            "id": "principles-management-p050-pg00",
+            "text": "Talk to other people\nAs mentioned previously, it can be worthwhile to get help from others when generating options. Another good time to talk to other people is while analyzing those options; other individuals in the organization may help you assess the quality of your choices. Seeking out the opinions and preferences of others is also a great way to maintain perspective, so getting others involved can help you to be less biased in your decision-making (provided you talk to people whose biases are different from your own).\nAre you thinking critically about the options?\nOur skill at assessing alternatives can also be improved by a focus on critical thinking. Critical thinking is a disciplined process of evaluating the quality of information, especially data collected from other sources and arguments made by other people, to determine whether the source should be trusted or whether the argument is valid.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 50,
+            "score": 0.659334659576416,
+            "metadata": {
+              "empty": false,
+              "strategy": "paragraph",
+              "chunk_index": 0,
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "chapter": 2,
+              "document_id": "principles-management",
+              "page": 50,
+              "low_text": false,
+              "chars": 1435,
+              "section": "Talk to other people"
+            }
+          },
+          {
+            "id": "principles-management-p037-pg02",
+            "text": "Decision-making is the action or process of thinking through possible options and selecting one. It is important to recognize that managers are continually making decisions, and that the quality of their decision-making has an impact—sometimes quite significant—on the effectiveness of the organization and its stakeholders. Stakeholders are all the individuals or groups that are affected by an organization (such as customers, employees, shareholders, etc.).",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 37,
+            "score": 0.6300661563873291,
+            "metadata": {
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "chars": 4124,
+              "document_id": "principles-management",
+              "low_text": false,
+              "page": 37,
+              "strategy": "paragraph",
+              "empty": false,
+              "section": "2.1 Overview of Managerial Decision-Making",
+              "chapter": 2,
+              "chunk_index": 2
+            }
+          }
+        ],
+        "context": "[principles-management-p050-pg01 | https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf | page 50]\nAn important factor in critical thinking is the recognition that a person’s analysis of the available information may be flawed by a number of logical fallacies that they may use when they are arguing their point or defending their perspective. Learning what those fallacies are and being able to recognize them when they occur can help improve decision-making quality. See Table 2.2 for several examples of common logical fallacies.\n\n[principles-management-p037-pg02 | https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf | page 37]\nDecision-making is the action or process of thinking through possible options and selecting one. It is important to recognize that managers are continually making decisions, and that the quality of their decision-making has an impact—sometimes quite significant—on the effectiveness of the organization and its stakeholders. Stakeholders are all the individuals or groups that are affected by an organization (such as customers, employees, shareholders, etc.).",
+        "context_ids": [
+          "principles-management-p050-pg01",
+          "principles-management-p037-pg02"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "define critical thinking",
+        "filter": null,
+        "results": [
+          {
+            "id": "principles-management-p050-pg01",
+            "text": "An important factor in critical thinking is the recognition that a person’s analysis of the available information may be flawed by a number of logical fallacies that they may use when they are arguing their point or defending their perspective. Learning what those fallacies are and being able to recognize them when they occur can help improve decision-making quality. See Table 2.2 for several examples of common logical fallacies.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 50,
+            "score": 0.7303199768066406,
+            "metadata": {
+              "chars": 1435,
+              "empty": false,
+              "strategy": "paragraph",
+              "low_text": false,
+              "chunk_index": 1,
+              "chapter": 2,
+              "document_id": "principles-management",
+              "section": "Talk to other people",
+              "page": 50,
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf"
+            }
+          },
+          {
+            "id": "principles-management-p050-pg00",
+            "text": "Talk to other people\nAs mentioned previously, it can be worthwhile to get help from others when generating options. Another good time to talk to other people is while analyzing those options; other individuals in the organization may help you assess the quality of your choices. Seeking out the opinions and preferences of others is also a great way to maintain perspective, so getting others involved can help you to be less biased in your decision-making (provided you talk to people whose biases are different from your own).\nAre you thinking critically about the options?\nOur skill at assessing alternatives can also be improved by a focus on critical thinking. Critical thinking is a disciplined process of evaluating the quality of information, especially data collected from other sources and arguments made by other people, to determine whether the source should be trusted or whether the argument is valid.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 50,
+            "score": 0.659334659576416,
+            "metadata": {
+              "chunk_index": 0,
+              "page": 50,
+              "low_text": false,
+              "section": "Talk to other people",
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "empty": false,
+              "chapter": 2,
+              "chars": 1435,
+              "strategy": "paragraph",
+              "document_id": "principles-management"
+            }
+          },
+          {
+            "id": "principles-management-p037-pg02",
+            "text": "Decision-making is the action or process of thinking through possible options and selecting one. It is important to recognize that managers are continually making decisions, and that the quality of their decision-making has an impact—sometimes quite significant—on the effectiveness of the organization and its stakeholders. Stakeholders are all the individuals or groups that are affected by an organization (such as customers, employees, shareholders, etc.).",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 37,
+            "score": 0.6300661563873291,
+            "metadata": {
+              "chars": 4124,
+              "strategy": "paragraph",
+              "chapter": 2,
+              "page": 37,
+              "chunk_index": 2,
+              "empty": false,
+              "section": "2.1 Overview of Managerial Decision-Making",
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "document_id": "principles-management",
+              "low_text": false
+            }
+          }
+        ],
+        "context": "[principles-management-p050-pg01 | https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf | page 50]\nAn important factor in critical thinking is the recognition that a person’s analysis of the available information may be flawed by a number of logical fallacies that they may use when they are arguing their point or defending their perspective. Learning what those fallacies are and being able to recognize them when they occur can help improve decision-making quality. See Table 2.2 for several examples of common logical fallacies.\n\n[principles-management-p037-pg02 | https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf | page 37]\nDecision-making is the action or process of thinking through possible options and selecting one. It is important to recognize that managers are continually making decisions, and that the quality of their decision-making has an impact—sometimes quite significant—on the effectiveness of the organization and its stakeholders. Stakeholders are all the individuals or groups that are affected by an organization (such as customers, employees, shareholders, etc.).",
+        "context_ids": [
+          "principles-management-p050-pg01",
+          "principles-management-p037-pg02"
+        ]
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "elapsed_ms": 4164.296900009504,
+    "usage_tokens": {
+      "prompt_tokens": 1302,
+      "completion_tokens": 60,
+      "total_tokens": 1362
+    },
+    "estimated_cost_usd": 0.00023129999999999998
+  },
+  {
+    "query_id": "q25",
+    "split": "test",
+    "question": "Which two major sets of leader behaviors did the Ohio State University studies identify?",
+    "status": "answered",
+    "answer": "The Ohio State University studies identified two major sets of leader behaviors: consideration and initiating structure [principles-management-p390-pg04].",
+    "citations": [
+      "principles-management-p390-pg04"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Ohio State University studies leader behaviors",
+        "filter": null,
+        "results": [
+          {
+            "id": "principles-management-p390-pg04",
+            "text": "The Ohio State University Studies\nA group of Ohio State University researchers, under the direction of Ralph Stogdill, began an extensive and systematic series of studies to identify leader behaviors associated with effective group performance. Their results identified two major sets of leader behaviors: consideration and initiating structure.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 390,
+            "score": 0.876428484916687,
+            "metadata": {
+              "section": "The Ohio State University Studies",
+              "chunk_index": 4,
+              "chapter": 13,
+              "document_id": "principles-management",
+              "strategy": "paragraph",
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "empty": false,
+              "page": 390,
+              "low_text": false,
+              "chars": 3786
+            }
+          },
+          {
+            "id": "principles-management-p391-pg03",
+            "text": "Initially, these mixed findings were disappointing to researchers and managers alike. It had been hoped that a profile of the most effective leader behaviors could be identified so that leaders could be trained in the best ways to behave. Research made clear, however, that there is no one best style of leader behavior for all situations.\nThe University of Michigan Studies\nAt about the same time that the Ohio State studies were underway, researchers at the University of Michigan also began to investigate leader behaviors. As at Ohio State, the Michigan researchers attempted to identify behavioral elements that differentiated effective from ineffective leaders.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 391,
+            "score": 0.8371107578277588,
+            "metadata": {
+              "chunk_index": 3,
+              "section": "The University of Michigan Studies",
+              "empty": false,
+              "low_text": false,
+              "page": 391,
+              "strategy": "paragraph",
+              "chapter": 13,
+              "document_id": "principles-management",
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "chars": 4388
+            }
+          },
+          {
+            "id": "principles-management-p391-pg04",
+            "text": "The two types of leader behavior that stand out in these studies are job centered and organizational member centered. Job-centered behaviors are devoted to supervisory functions, such as planning, scheduling, coordinating work activities, and providing the resources needed for task performance. Employee-member-centered behaviors include consideration and support for organizational members. These dimensions of behavior, of course, correspond closely to the dimensions of initiating structure and consideration identified at Ohio State. The similarity of the findings from two independent groups of researchers added to their credibility. As the Ohio State researchers had done, the Michigan researchers also found that any combination of the two behaviors was possible.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 391,
+            "score": 0.8028401136398315,
+            "metadata": {
+              "chapter": 13,
+              "document_id": "principles-management",
+              "low_text": false,
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "chars": 4388,
+              "section": "The University of Michigan Studies",
+              "strategy": "paragraph",
+              "page": 391,
+              "chunk_index": 4,
+              "empty": false
+            }
+          }
+        ],
+        "context": "[principles-management-p390-pg04 | https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf | page 390]\nThe Ohio State University Studies\nA group of Ohio State University researchers, under the direction of Ralph Stogdill, began an extensive and systematic series of studies to identify leader behaviors associated with effective group performance. Their results identified two major sets of leader behaviors: consideration and initiating structure.\n\n[principles-management-p391-pg03 | https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf | page 391]\nInitially, these mixed findings were disappointing to researchers and managers alike. It had been hoped that a profile of the most effective leader behaviors could be identified so that leaders could be trained in the best ways to behave. Research made clear, however, that there is no one best style of leader behavior for all situations.\nThe University of Michigan Studies\nAt about the same time that the Ohio State studies were underway, researchers at the University of Michigan also began to investigate leader behaviors. As at Ohio State, the Michigan researchers attempted to identify behavioral elements that differentiated effective from ineffective leaders.",
+        "context_ids": [
+          "principles-management-p390-pg04",
+          "principles-management-p391-pg03"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 1973.2762000057846,
+    "usage_tokens": {
+      "prompt_tokens": 550,
+      "completion_tokens": 46,
+      "total_tokens": 596
+    },
+    "estimated_cost_usd": 0.00011009999999999999
+  },
+  {
+    "query_id": "q26",
+    "split": "test",
+    "question": "According to path-goal theory, what does an effective leader provide to organizational members?",
+    "status": "answered",
+    "answer": "According to path-goal theory, an effective leader provides organizational members with a clear path to achieving valued goals. This involves increasing personal payoffs for work-goal attainment and making the path to these payoffs easier by clarifying it, reducing obstacles, and enhancing opportunities for personal satisfaction. Effective leaders also offer rewards that are valued by members, such as pay, recognition, or promotions, and provide clear instructions to minimize ambiguities about work tasks [principles-management-p395-pg01]. Additionally, effective leadership addresses both the maintenance needs of the group and the task needs, ensuring that individuals can work together effectively while making progress toward their goals [principles-management-p376-pg04].",
+    "citations": [
+      "principles-management-p395-pg01",
+      "principles-management-p376-pg04"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "path-goal theory effective leader provides organizational members",
+        "filter": null,
+        "results": [
+          {
+            "id": "principles-management-p395-pg01",
+            "text": "The model of leadership advanced by House and Evans is called the path-goal theory of leadership because it suggests that an effective leader provides organizational members with a path to a valued goal. According to House, the motivational function of the leader consists of increasing personal payoffs to organizational members for work-goal attainment, and making the path to these payoffs easier to travel by clarifying it, reducing roadblocks and pitfalls, and increasing the opportunities for personal satisfaction en route. Effective leaders therefore provide rewards that are valued by organizational members. These rewards may be pay, recognition, promotions, or any other item that gives members an incentive to work hard to achieve goals. Effective leaders also give clear instructions so that ambiguities about work are reduced and followers understand how to do their jobs effectively.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 395,
+            "score": 0.8642317056655884,
+            "metadata": {
+              "chapter": 13,
+              "empty": false,
+              "section": "Path-Goal Theory",
+              "low_text": false,
+              "document_id": "principles-management",
+              "chunk_index": 1,
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "chars": 3505,
+              "strategy": "paragraph",
+              "page": 395
+            }
+          },
+          {
+            "id": "principles-management-p393-pg02",
+            "text": "Several theories have been advanced to address this issue. These are Fiedler’s contingency theory of leadership, the path-goal theory of leader effectiveness, Hersey and Blanchard’s life cycle theory, cognitive resource theory, the decision tree, and the decision process theory. We explore two of the better-known situational theories of leadership, Fred Fiedler’s contingency model and Robert J. House’s path-goal theory, here. Victor Vroom, Phillip Yetton, and Arthur Jago’s decision tree model also applies.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 393,
+            "score": 0.8190419673919678,
+            "metadata": {
+              "document_id": "principles-management",
+              "chapter": 13,
+              "low_text": false,
+              "chunk_index": 2,
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "strategy": "paragraph",
+              "empty": false,
+              "chars": 4023,
+              "page": 393,
+              "section": "13.6 Situational (Contingency) Approaches to Leadership"
+            }
+          },
+          {
+            "id": "principles-management-p376-pg04",
+            "text": "Effective leadership helps individuals and groups achieve their goals by focusing on the group’s maintenance needs (the need for individuals to fit and work together by having, for example, shared norms) and task needs (the need for the group to make progress toward attaining the goal that brought them together).",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 376,
+            "score": 0.8152113556861877,
+            "metadata": {
+              "chunk_index": 4,
+              "chars": 3373,
+              "empty": false,
+              "document_id": "principles-management",
+              "strategy": "paragraph",
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "page": 376,
+              "low_text": false,
+              "chapter": 13,
+              "section": "13.1 The Nature of Leadership"
+            }
+          }
+        ],
+        "context": "[principles-management-p395-pg01 | https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf | page 395]\nThe model of leadership advanced by House and Evans is called the path-goal theory of leadership because it suggests that an effective leader provides organizational members with a path to a valued goal. According to House, the motivational function of the leader consists of increasing personal payoffs to organizational members for work-goal attainment, and making the path to these payoffs easier to travel by clarifying it, reducing roadblocks and pitfalls, and increasing the opportunities for personal satisfaction en route. Effective leaders therefore provide rewards that are valued by organizational members. These rewards may be pay, recognition, promotions, or any other item that gives members an incentive to work hard to achieve goals. Effective leaders also give clear instructions so that ambiguities about work are reduced and followers understand how to do their jobs effectively.\n\n[principles-management-p376-pg04 | https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf | page 376]\nEffective leadership helps individuals and groups achieve their goals by focusing on the group’s maintenance needs (the need for individuals to fit and work together by having, for example, shared norms) and task needs (the need for the group to make progress toward attaining the goal that brought them together).",
+        "context_ids": [
+          "principles-management-p395-pg01",
+          "principles-management-p376-pg04"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 3369.3169000034686,
+    "usage_tokens": {
+      "prompt_tokens": 595,
+      "completion_tokens": 160,
+      "total_tokens": 755
+    },
+    "estimated_cost_usd": 0.00018525
+  },
+  {
+    "query_id": "test-no-evidence-01",
+    "split": "test",
+    "question": "What was the Springfield Sea Lions' exact win-loss record in John Arroyo's season?",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "Springfield Sea Lions John Arroyo win-loss record",
+        "filter": null,
+        "results": [
+          {
+            "id": "principles-management-p375-pg01",
+            "text": "Arroyo knew he had a hard act to follow. The general manager whom John replaced, “T.J.” Grevin, was a much-loved old-timer who had been with the Sea Lions since their inception 14 years ago. John knew it would be difficult for whoever followed T.J., but he didn’t realize how ostracized and powerless he would feel. He tried a pep talk: “I’m the general manager—the CEO of this ball club! In time, the staff will respect me.” [Not a very good pep talk!]\nAfter his first season ends, Arroyo is discouraged. Ticket and concession sales are down, and some long- EXPLORING MANAGERIAL CAREERS Leadership 13",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 375,
+            "score": 0.7400014400482178,
+            "metadata": {
+              "chunk_index": 1,
+              "chars": 1711,
+              "low_text": false,
+              "document_id": "principles-management",
+              "page": 375,
+              "section": "John Arroyo: Springfield Sea Lions",
+              "empty": false,
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "chapter": 13,
+              "strategy": "paragraph"
+            }
+          },
+          {
+            "id": "principles-management-p376-pg01",
+            "text": "Outcomes: During the winter, John thinks long and hard about how he can earn the respect of the Sea Lions staff. Before the next season opener, John announces his plan: “So I can better understand what your day is like, I’m going to spend one day in each of your shoes. I’m trading places with each of you. I will be a ticket taker, a roving hot dog vendor, and a janitor. And I will be a marketer, and an accountant—for a day. You in turn will have the day off so you can enjoy the game from the general manager’s box.” The staff laughs and whistles appreciatively. Then the Springfield mascot, Sparky the Sea Lion, speaks up: “Hey Mr. Arroyo, are you going to spend a day in my flippers?” “You bet!” says John, laughing. The entire staff cheers. John continues. “At the close of the season, we will honor a staff member with the T.J. Grevin Award for outstanding contributions to the Sea Lions organization. T.J.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 376,
+            "score": 0.7312014102935791,
+            "metadata": {
+              "chars": 3373,
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "document_id": "principles-management",
+              "strategy": "paragraph",
+              "page": 376,
+              "empty": false,
+              "low_text": false,
+              "chunk_index": 1,
+              "chapter": 13
+            }
+          },
+          {
+            "id": "principles-management-p375-pg00",
+            "text": "Introduction\nLearning Outcomes After reading this chapter, you should be able to answer these questions:\n1. What is the nature of leadership and the leadership process?\n2. What are the processes associated with people coming to leadership positions?\n3. How do leaders influence and move their followers to action?\n4. What are the trait perspectives on leadership?\n5. What are the behavioral perspectives on leadership?\n6. What are the situational perspectives on leadership?\n7. What does the concept “substitute for leadership” mean?\n8. What are the characteristics of transactional, transformational, and charismatic leadership?\n9. How do different approaches and styles of leadership impact what is needed now?\nJohn Arroyo: Springfield Sea Lions\nJohn Arroyo is thrilled with his new position as general manager of the Springfield Sea Lions, a minor league baseball team. Arroyo has been a baseball fan all of his life, and now his diligent work and his degree in sports management are paying off.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 375,
+            "score": 0.6534748077392578,
+            "metadata": {
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "chars": 1711,
+              "strategy": "paragraph",
+              "document_id": "principles-management",
+              "chapter": 13,
+              "section": "Introduction",
+              "empty": false,
+              "low_text": false,
+              "chunk_index": 0,
+              "page": 375
+            }
+          }
+        ],
+        "context": "[principles-management-p375-pg01 | https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf | page 375]\nArroyo knew he had a hard act to follow. The general manager whom John replaced, “T.J.” Grevin, was a much-loved old-timer who had been with the Sea Lions since their inception 14 years ago. John knew it would be difficult for whoever followed T.J., but he didn’t realize how ostracized and powerless he would feel. He tried a pep talk: “I’m the general manager—the CEO of this ball club! In time, the staff will respect me.” [Not a very good pep talk!]\nAfter his first season ends, Arroyo is discouraged. Ticket and concession sales are down, and some long- EXPLORING MANAGERIAL CAREERS Leadership 13",
+        "context_ids": [
+          "principles-management-p375-pg01"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Springfield Sea Lions John Arroyo win-loss record",
+        "filter": null,
+        "results": [
+          {
+            "id": "principles-management-p375-pg01",
+            "text": "Arroyo knew he had a hard act to follow. The general manager whom John replaced, “T.J.” Grevin, was a much-loved old-timer who had been with the Sea Lions since their inception 14 years ago. John knew it would be difficult for whoever followed T.J., but he didn’t realize how ostracized and powerless he would feel. He tried a pep talk: “I’m the general manager—the CEO of this ball club! In time, the staff will respect me.” [Not a very good pep talk!]\nAfter his first season ends, Arroyo is discouraged. Ticket and concession sales are down, and some long- EXPLORING MANAGERIAL CAREERS Leadership 13",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 375,
+            "score": 0.7400014400482178,
+            "metadata": {
+              "low_text": false,
+              "page": 375,
+              "chars": 1711,
+              "empty": false,
+              "document_id": "principles-management",
+              "chunk_index": 1,
+              "chapter": 13,
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "section": "John Arroyo: Springfield Sea Lions",
+              "strategy": "paragraph"
+            }
+          },
+          {
+            "id": "principles-management-p376-pg01",
+            "text": "Outcomes: During the winter, John thinks long and hard about how he can earn the respect of the Sea Lions staff. Before the next season opener, John announces his plan: “So I can better understand what your day is like, I’m going to spend one day in each of your shoes. I’m trading places with each of you. I will be a ticket taker, a roving hot dog vendor, and a janitor. And I will be a marketer, and an accountant—for a day. You in turn will have the day off so you can enjoy the game from the general manager’s box.” The staff laughs and whistles appreciatively. Then the Springfield mascot, Sparky the Sea Lion, speaks up: “Hey Mr. Arroyo, are you going to spend a day in my flippers?” “You bet!” says John, laughing. The entire staff cheers. John continues. “At the close of the season, we will honor a staff member with the T.J. Grevin Award for outstanding contributions to the Sea Lions organization. T.J.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 376,
+            "score": 0.7312014102935791,
+            "metadata": {
+              "chunk_index": 1,
+              "page": 376,
+              "low_text": false,
+              "empty": false,
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "document_id": "principles-management",
+              "chars": 3373,
+              "strategy": "paragraph",
+              "chapter": 13
+            }
+          },
+          {
+            "id": "principles-management-p375-pg00",
+            "text": "Introduction\nLearning Outcomes After reading this chapter, you should be able to answer these questions:\n1. What is the nature of leadership and the leadership process?\n2. What are the processes associated with people coming to leadership positions?\n3. How do leaders influence and move their followers to action?\n4. What are the trait perspectives on leadership?\n5. What are the behavioral perspectives on leadership?\n6. What are the situational perspectives on leadership?\n7. What does the concept “substitute for leadership” mean?\n8. What are the characteristics of transactional, transformational, and charismatic leadership?\n9. How do different approaches and styles of leadership impact what is needed now?\nJohn Arroyo: Springfield Sea Lions\nJohn Arroyo is thrilled with his new position as general manager of the Springfield Sea Lions, a minor league baseball team. Arroyo has been a baseball fan all of his life, and now his diligent work and his degree in sports management are paying off.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 375,
+            "score": 0.6534748077392578,
+            "metadata": {
+              "empty": false,
+              "document_id": "principles-management",
+              "low_text": false,
+              "chapter": 13,
+              "section": "Introduction",
+              "chunk_index": 0,
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "chars": 1711,
+              "strategy": "paragraph",
+              "page": 375
+            }
+          }
+        ],
+        "context": "[principles-management-p375-pg01 | https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf | page 375]\nArroyo knew he had a hard act to follow. The general manager whom John replaced, “T.J.” Grevin, was a much-loved old-timer who had been with the Sea Lions since their inception 14 years ago. John knew it would be difficult for whoever followed T.J., but he didn’t realize how ostracized and powerless he would feel. He tried a pep talk: “I’m the general manager—the CEO of this ball club! In time, the staff will respect me.” [Not a very good pep talk!]\nAfter his first season ends, Arroyo is discouraged. Ticket and concession sales are down, and some long- EXPLORING MANAGERIAL CAREERS Leadership 13",
+        "context_ids": [
+          "principles-management-p375-pg01"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Springfield Sea Lions John Arroyo win-loss record",
+        "filter": null,
+        "results": [
+          {
+            "id": "principles-management-p375-pg01",
+            "text": "Arroyo knew he had a hard act to follow. The general manager whom John replaced, “T.J.” Grevin, was a much-loved old-timer who had been with the Sea Lions since their inception 14 years ago. John knew it would be difficult for whoever followed T.J., but he didn’t realize how ostracized and powerless he would feel. He tried a pep talk: “I’m the general manager—the CEO of this ball club! In time, the staff will respect me.” [Not a very good pep talk!]\nAfter his first season ends, Arroyo is discouraged. Ticket and concession sales are down, and some long- EXPLORING MANAGERIAL CAREERS Leadership 13",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 375,
+            "score": 0.7400014400482178,
+            "metadata": {
+              "strategy": "paragraph",
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "chunk_index": 1,
+              "section": "John Arroyo: Springfield Sea Lions",
+              "chapter": 13,
+              "document_id": "principles-management",
+              "low_text": false,
+              "chars": 1711,
+              "page": 375,
+              "empty": false
+            }
+          },
+          {
+            "id": "principles-management-p376-pg01",
+            "text": "Outcomes: During the winter, John thinks long and hard about how he can earn the respect of the Sea Lions staff. Before the next season opener, John announces his plan: “So I can better understand what your day is like, I’m going to spend one day in each of your shoes. I’m trading places with each of you. I will be a ticket taker, a roving hot dog vendor, and a janitor. And I will be a marketer, and an accountant—for a day. You in turn will have the day off so you can enjoy the game from the general manager’s box.” The staff laughs and whistles appreciatively. Then the Springfield mascot, Sparky the Sea Lion, speaks up: “Hey Mr. Arroyo, are you going to spend a day in my flippers?” “You bet!” says John, laughing. The entire staff cheers. John continues. “At the close of the season, we will honor a staff member with the T.J. Grevin Award for outstanding contributions to the Sea Lions organization. T.J.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 376,
+            "score": 0.7312014102935791,
+            "metadata": {
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "chapter": 13,
+              "empty": false,
+              "page": 376,
+              "strategy": "paragraph",
+              "low_text": false,
+              "chars": 3373,
+              "chunk_index": 1,
+              "document_id": "principles-management"
+            }
+          },
+          {
+            "id": "principles-management-p375-pg00",
+            "text": "Introduction\nLearning Outcomes After reading this chapter, you should be able to answer these questions:\n1. What is the nature of leadership and the leadership process?\n2. What are the processes associated with people coming to leadership positions?\n3. How do leaders influence and move their followers to action?\n4. What are the trait perspectives on leadership?\n5. What are the behavioral perspectives on leadership?\n6. What are the situational perspectives on leadership?\n7. What does the concept “substitute for leadership” mean?\n8. What are the characteristics of transactional, transformational, and charismatic leadership?\n9. How do different approaches and styles of leadership impact what is needed now?\nJohn Arroyo: Springfield Sea Lions\nJohn Arroyo is thrilled with his new position as general manager of the Springfield Sea Lions, a minor league baseball team. Arroyo has been a baseball fan all of his life, and now his diligent work and his degree in sports management are paying off.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 375,
+            "score": 0.6534748077392578,
+            "metadata": {
+              "section": "Introduction",
+              "chapter": 13,
+              "document_id": "principles-management",
+              "strategy": "paragraph",
+              "empty": false,
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "page": 375,
+              "chunk_index": 0,
+              "low_text": false,
+              "chars": 1711
+            }
+          }
+        ],
+        "context": "[principles-management-p375-pg01 | https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf | page 375]\nArroyo knew he had a hard act to follow. The general manager whom John replaced, “T.J.” Grevin, was a much-loved old-timer who had been with the Sea Lions since their inception 14 years ago. John knew it would be difficult for whoever followed T.J., but he didn’t realize how ostracized and powerless he would feel. He tried a pep talk: “I’m the general manager—the CEO of this ball club! In time, the staff will respect me.” [Not a very good pep talk!]\nAfter his first season ends, Arroyo is discouraged. Ticket and concession sales are down, and some long- EXPLORING MANAGERIAL CAREERS Leadership 13",
+        "context_ids": [
+          "principles-management-p375-pg01"
+        ]
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "elapsed_ms": 4186.73509999644,
+    "usage_tokens": {
+      "prompt_tokens": 1186,
+      "completion_tokens": 88,
+      "total_tokens": 1274
+    },
+    "estimated_cost_usd": 0.0002307
+  },
+  {
+    "query_id": "test-no-evidence-02",
+    "split": "test",
+    "question": "What percentage increase in employee satisfaction did Arroyo's plan produce?",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "Arroyo's plan employee satisfaction percentage increase",
+        "filter": null,
+        "results": [
+          {
+            "id": "principles-management-p375-pg01",
+            "text": "Arroyo knew he had a hard act to follow. The general manager whom John replaced, “T.J.” Grevin, was a much-loved old-timer who had been with the Sea Lions since their inception 14 years ago. John knew it would be difficult for whoever followed T.J., but he didn’t realize how ostracized and powerless he would feel. He tried a pep talk: “I’m the general manager—the CEO of this ball club! In time, the staff will respect me.” [Not a very good pep talk!]\nAfter his first season ends, Arroyo is discouraged. Ticket and concession sales are down, and some long- EXPLORING MANAGERIAL CAREERS Leadership 13",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 375,
+            "score": 0.6314883828163147,
+            "metadata": {
+              "low_text": false,
+              "page": 375,
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "chapter": 13,
+              "document_id": "principles-management",
+              "section": "John Arroyo: Springfield Sea Lions",
+              "chunk_index": 1,
+              "chars": 1711,
+              "empty": false,
+              "strategy": "paragraph"
+            }
+          },
+          {
+            "id": "principles-management-p399-pg03",
+            "text": "Employees are more receptive when they recognize that their leader is working not for their own success, but for the employee’s success.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 399,
+            "score": 0.6249644756317139,
+            "metadata": {
+              "page": 399,
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "empty": false,
+              "chapter": 13,
+              "chunk_index": 3,
+              "chars": 4043,
+              "document_id": "principles-management",
+              "section": "You Are Now the Leader",
+              "strategy": "paragraph",
+              "low_text": false
+            }
+          },
+          {
+            "id": "principles-management-p393-pg01",
+            "text": "As early as 1948, Ralph Stogdill stated that “the qualities, characteristics, and skills required in a leader are determined to a large extent by the demands of the situation in which he is to function as a leader.”70 In addition, it had been observed that two major leader behaviors, initiating structure and consideration, didn’t always lead to equally positive outcomes. That is, there are times when initiating structure results in performance increases and follower satisfaction, and there are times when the results are just the opposite. Contradictory findings such as this lead researchers to ask “Under what conditions are the results positive in nature?” and “When and why are they negative at other times?” Obviously, situational differences and key contingencies are at work.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 393,
+            "score": 0.6196985244750977,
+            "metadata": {
+              "chars": 4023,
+              "document_id": "principles-management",
+              "empty": false,
+              "page": 393,
+              "section": "13.6 Situational (Contingency) Approaches to Leadership",
+              "strategy": "paragraph",
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "chunk_index": 1,
+              "chapter": 13,
+              "low_text": false
+            }
+          }
+        ],
+        "context": "[principles-management-p375-pg01 | https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf | page 375]\nArroyo knew he had a hard act to follow. The general manager whom John replaced, “T.J.” Grevin, was a much-loved old-timer who had been with the Sea Lions since their inception 14 years ago. John knew it would be difficult for whoever followed T.J., but he didn’t realize how ostracized and powerless he would feel. He tried a pep talk: “I’m the general manager—the CEO of this ball club! In time, the staff will respect me.” [Not a very good pep talk!]\nAfter his first season ends, Arroyo is discouraged. Ticket and concession sales are down, and some long- EXPLORING MANAGERIAL CAREERS Leadership 13\n\n[principles-management-p399-pg03 | https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf | page 399]\nEmployees are more receptive when they recognize that their leader is working not for their own success, but for the employee’s success.",
+        "context_ids": [
+          "principles-management-p375-pg01",
+          "principles-management-p399-pg03"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Arroyo employee satisfaction percentage increase",
+        "filter": null,
+        "results": [
+          {
+            "id": "principles-management-p375-pg01",
+            "text": "Arroyo knew he had a hard act to follow. The general manager whom John replaced, “T.J.” Grevin, was a much-loved old-timer who had been with the Sea Lions since their inception 14 years ago. John knew it would be difficult for whoever followed T.J., but he didn’t realize how ostracized and powerless he would feel. He tried a pep talk: “I’m the general manager—the CEO of this ball club! In time, the staff will respect me.” [Not a very good pep talk!]\nAfter his first season ends, Arroyo is discouraged. Ticket and concession sales are down, and some long- EXPLORING MANAGERIAL CAREERS Leadership 13",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 375,
+            "score": 0.6269671320915222,
+            "metadata": {
+              "chapter": 13,
+              "strategy": "paragraph",
+              "section": "John Arroyo: Springfield Sea Lions",
+              "low_text": false,
+              "document_id": "principles-management",
+              "chunk_index": 1,
+              "empty": false,
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "chars": 1711,
+              "page": 375
+            }
+          },
+          {
+            "id": "principles-management-p375-pg00",
+            "text": "Introduction\nLearning Outcomes After reading this chapter, you should be able to answer these questions:\n1. What is the nature of leadership and the leadership process?\n2. What are the processes associated with people coming to leadership positions?\n3. How do leaders influence and move their followers to action?\n4. What are the trait perspectives on leadership?\n5. What are the behavioral perspectives on leadership?\n6. What are the situational perspectives on leadership?\n7. What does the concept “substitute for leadership” mean?\n8. What are the characteristics of transactional, transformational, and charismatic leadership?\n9. How do different approaches and styles of leadership impact what is needed now?\nJohn Arroyo: Springfield Sea Lions\nJohn Arroyo is thrilled with his new position as general manager of the Springfield Sea Lions, a minor league baseball team. Arroyo has been a baseball fan all of his life, and now his diligent work and his degree in sports management are paying off.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 375,
+            "score": 0.6039308905601501,
+            "metadata": {
+              "empty": false,
+              "chapter": 13,
+              "page": 375,
+              "section": "Introduction",
+              "chunk_index": 0,
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "low_text": false,
+              "chars": 1711,
+              "strategy": "paragraph",
+              "document_id": "principles-management"
+            }
+          },
+          {
+            "id": "principles-management-p039-pg01",
+            "text": "All of these efforts at doing good must come at a cost, right? Actually, research shows that companies that are committed to sustainability have superior financial performance, on average, relative to those that are not. In coming up with creative ways to reduce, reuse, and recycle, employees often also find ways to save money (like using biogas). In addition, organizations that strive to do good are often considered attractive and desirable places to work (especially by people who have similar values) and are also valued by the surrounding communities. As a result, employees in those organizations tend to be extremely committed to them, with high levels of engagement, motivation, and productivity. Indeed, it seems clear that the employees at the New Belgium Brewery are passionate about where they work and what they do. This passion generates value for the organization and proves that it is, in fact, possible to do well while having also made the decision to do good.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 39,
+            "score": 0.5980539321899414,
+            "metadata": {
+              "page": 39,
+              "empty": false,
+              "chapter": 2,
+              "chars": 3660,
+              "strategy": "paragraph",
+              "low_text": false,
+              "document_id": "principles-management",
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "chunk_index": 1
+            }
+          }
+        ],
+        "context": "[principles-management-p375-pg01 | https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf | page 375]\nArroyo knew he had a hard act to follow. The general manager whom John replaced, “T.J.” Grevin, was a much-loved old-timer who had been with the Sea Lions since their inception 14 years ago. John knew it would be difficult for whoever followed T.J., but he didn’t realize how ostracized and powerless he would feel. He tried a pep talk: “I’m the general manager—the CEO of this ball club! In time, the staff will respect me.” [Not a very good pep talk!]\nAfter his first season ends, Arroyo is discouraged. Ticket and concession sales are down, and some long- EXPLORING MANAGERIAL CAREERS Leadership 13\n\n[principles-management-p399-pg03 | https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf | page 399]\nEmployees are more receptive when they recognize that their leader is working not for their own success, but for the employee’s success.",
+        "context_ids": [
+          "principles-management-p375-pg01",
+          "principles-management-p399-pg03"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Arroyo employee satisfaction percentage increase",
+        "filter": null,
+        "results": [
+          {
+            "id": "principles-management-p375-pg01",
+            "text": "Arroyo knew he had a hard act to follow. The general manager whom John replaced, “T.J.” Grevin, was a much-loved old-timer who had been with the Sea Lions since their inception 14 years ago. John knew it would be difficult for whoever followed T.J., but he didn’t realize how ostracized and powerless he would feel. He tried a pep talk: “I’m the general manager—the CEO of this ball club! In time, the staff will respect me.” [Not a very good pep talk!]\nAfter his first season ends, Arroyo is discouraged. Ticket and concession sales are down, and some long- EXPLORING MANAGERIAL CAREERS Leadership 13",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 375,
+            "score": 0.6269671320915222,
+            "metadata": {
+              "low_text": false,
+              "strategy": "paragraph",
+              "document_id": "principles-management",
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "chapter": 13,
+              "empty": false,
+              "section": "John Arroyo: Springfield Sea Lions",
+              "chunk_index": 1,
+              "chars": 1711,
+              "page": 375
+            }
+          },
+          {
+            "id": "principles-management-p375-pg00",
+            "text": "Introduction\nLearning Outcomes After reading this chapter, you should be able to answer these questions:\n1. What is the nature of leadership and the leadership process?\n2. What are the processes associated with people coming to leadership positions?\n3. How do leaders influence and move their followers to action?\n4. What are the trait perspectives on leadership?\n5. What are the behavioral perspectives on leadership?\n6. What are the situational perspectives on leadership?\n7. What does the concept “substitute for leadership” mean?\n8. What are the characteristics of transactional, transformational, and charismatic leadership?\n9. How do different approaches and styles of leadership impact what is needed now?\nJohn Arroyo: Springfield Sea Lions\nJohn Arroyo is thrilled with his new position as general manager of the Springfield Sea Lions, a minor league baseball team. Arroyo has been a baseball fan all of his life, and now his diligent work and his degree in sports management are paying off.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 375,
+            "score": 0.6039308905601501,
+            "metadata": {
+              "empty": false,
+              "low_text": false,
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "chapter": 13,
+              "page": 375,
+              "chunk_index": 0,
+              "chars": 1711,
+              "section": "Introduction",
+              "document_id": "principles-management",
+              "strategy": "paragraph"
+            }
+          },
+          {
+            "id": "principles-management-p039-pg01",
+            "text": "All of these efforts at doing good must come at a cost, right? Actually, research shows that companies that are committed to sustainability have superior financial performance, on average, relative to those that are not. In coming up with creative ways to reduce, reuse, and recycle, employees often also find ways to save money (like using biogas). In addition, organizations that strive to do good are often considered attractive and desirable places to work (especially by people who have similar values) and are also valued by the surrounding communities. As a result, employees in those organizations tend to be extremely committed to them, with high levels of engagement, motivation, and productivity. Indeed, it seems clear that the employees at the New Belgium Brewery are passionate about where they work and what they do. This passion generates value for the organization and proves that it is, in fact, possible to do well while having also made the decision to do good.",
+            "source_id": "principles-management",
+            "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+            "page": 39,
+            "score": 0.5980539321899414,
+            "metadata": {
+              "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+              "document_id": "principles-management",
+              "chapter": 2,
+              "page": 39,
+              "chars": 3660,
+              "empty": false,
+              "chunk_index": 1,
+              "low_text": false,
+              "strategy": "paragraph"
+            }
+          }
+        ],
+        "context": "[principles-management-p375-pg01 | https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf | page 375]\nArroyo knew he had a hard act to follow. The general manager whom John replaced, “T.J.” Grevin, was a much-loved old-timer who had been with the Sea Lions since their inception 14 years ago. John knew it would be difficult for whoever followed T.J., but he didn’t realize how ostracized and powerless he would feel. He tried a pep talk: “I’m the general manager—the CEO of this ball club! In time, the staff will respect me.” [Not a very good pep talk!]\nAfter his first season ends, Arroyo is discouraged. Ticket and concession sales are down, and some long- EXPLORING MANAGERIAL CAREERS Leadership 13\n\n[principles-management-p399-pg03 | https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf | page 399]\nEmployees are more receptive when they recognize that their leader is working not for their own success, but for the employee’s success.",
+        "context_ids": [
+          "principles-management-p375-pg01",
+          "principles-management-p399-pg03"
+        ]
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "elapsed_ms": 4836.181599996053,
+    "usage_tokens": {
+      "prompt_tokens": 1361,
+      "completion_tokens": 78,
+      "total_tokens": 1439
+    },
+    "estimated_cost_usd": 0.00025095
+  }
+]

@@ -1,0 +1,1766 @@
+[
+  {
+    "query_id": "q01",
+    "split": "dev",
+    "strategy": "tfidf",
+    "question": "What characterizes the criteria used in programmed decisions?",
+    "filter": null,
+    "top_k": 3,
+    "context_budget_chars": 800,
+    "results": [
+      {
+        "id": "principles-management-p041-pg00",
+        "text": "decision-making. While emotional intelligence seems to come easily to some people, it is something that we can develop and improve on with practice. A model of emotional intelligence is presented in Exhibit 2.2.\n1. Explain the two systems used by the brain in decision-making.\n2. What is emotional intelligence, and why is it important for decision-making?\n2.3 Programmed and Nonprogrammed Decisions\n3. What is the difference between programmed and nonprogrammed decisions?\nBecause managers have limited time and must use that time wisely to be effective, it is important for them to distinguish between decisions that can have structure and routine applied to them (called programmed decisions) and decisions that are novel and require thought and attention (nonprogrammed decisions).",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 41,
+        "metadata": {
+          "chunk_index": 0,
+          "section": "2.3 Programmed and Nonprogrammed Decisions",
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+          "chapter": 2,
+          "document_id": "principles-management",
+          "low_text": false,
+          "page": 41,
+          "empty": false,
+          "chars": 2399,
+          "strategy": "paragraph"
+        },
+        "score": 0.24047248337903387,
+        "strategy": "tfidf",
+        "evidence_hit": false
+      },
+      {
+        "id": "principles-management-p042-pg00",
+        "text": "time there is a big sale (because this has been fairly effective in the past). Heuristics are efficient—they save time for the decision maker by generating an adequate solution quickly. Heuristics don’t necessarily yield the optimal solution—deeper cognitive processing may be required for that. However, they generally yield a good solution. Heuristics are often used for programmed decisions, because experience in making the decision over and over helps the decision maker know what to expect and how to react. Programmed decision-making can also be taught fairly easily to another person. The rules and criteria, and how they relate to outcomes, can be clearly laid out so that a good decision can be reached by the new decision maker. Programmed decisions are also sometimes referred to as routine or low-involvement decisions because they don’t require in-depth mental processing to reach a decision. High- and low-involvement decisions are illustrated in Exhibit 2.3.",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 42,
+        "metadata": {
+          "chapter": 2,
+          "empty": false,
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+          "chars": 3163,
+          "document_id": "principles-management",
+          "chunk_index": 0,
+          "strategy": "paragraph",
+          "low_text": false,
+          "page": 42
+        },
+        "score": 0.22935201444043735,
+        "strategy": "tfidf",
+        "evidence_hit": false
+      },
+      {
+        "id": "principles-management-p043-pg00",
+        "text": "You may notice similarities between the two systems of decision-making in our brains and the two types of decisions (programmed and nonprogrammed). Nonprogrammed decisions will generally need to be processed via the reflective system in our brains in order for us to reach a good decision. But with programmed decisions, heuristics can allow decision makers to switch to the quick, reactive system and then move along quickly to other issues.\n1. Give an example of a programmed decision that a manager might face.\n2. Give an example of a nonprogrammed decision.\n3. What are heuristics, and when are they helpful?\n4. How are programmed and nonprogrammed decisions connected to the reflective and reactive systems in the brain?\n2.4 Barriers to Effective Decision-Making\n4. What barriers exist that make effective decision-making difficult?",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 43,
+        "metadata": {
+          "strategy": "paragraph",
+          "document_id": "principles-management",
+          "chars": 2478,
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+          "section": "2.4 Barriers to Effective Decision-Making",
+          "chapter": 2,
+          "chunk_index": 0,
+          "empty": false,
+          "page": 43,
+          "low_text": false
+        },
+        "score": 0.20519810164230876,
+        "strategy": "tfidf",
+        "evidence_hit": false
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "context_evidence_hit": false,
+    "retrieval_ms": 3.119500004686415
+  },
+  {
+    "query_id": "q02",
+    "split": "dev",
+    "strategy": "tfidf",
+    "question": "Which factors should drive a decision about how many raw materials to order?",
+    "filter": null,
+    "top_k": 3,
+    "context_budget_chars": 800,
+    "results": [
+      {
+        "id": "principles-management-p041-pg01",
+        "text": "Programmed Decisions\nProgrammed decisions are those that are repeated over time and for which an existing set of rules can be developed to guide the process. These decisions might be simple, or they could be fairly complex, but the criteria that go into making the decision are all known or can at least be estimated with a reasonable degree of accuracy. For example, deciding how many raw materials to order should be a programmed decision based on anticipated production, existing stock, and anticipated length of time for the delivery of the final product. As another example, consider a retail store manager developing the weekly work schedule for part-time employees. The manager must consider how busy the store is likely to be, taking into account seasonal fluctuations in business. Then, they must consider the availability of the workers by taking into account requests for vacation and for other obligations that employees might have (such as school).",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 41,
+        "metadata": {
+          "section": "Programmed Decisions",
+          "chars": 2399,
+          "strategy": "paragraph",
+          "low_text": false,
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+          "chunk_index": 1,
+          "chapter": 2,
+          "empty": false,
+          "page": 41,
+          "document_id": "principles-management"
+        },
+        "score": 0.1904118854776399,
+        "strategy": "tfidf",
+        "evidence_hit": true
+      },
+      {
+        "id": "principles-management-p037-pg03",
+        "text": "Members of the top management team regularly make decisions that affect the future of the organization and all its stakeholders, such as deciding whether to pursue a new technology or product line. A good decision can enable the organization to thrive and survive long-term, while a poor decision can lead a business into bankruptcy. Managers at lower levels of the organization generally have a smaller impact on the organization’s survival, but can still have a tremendous impact on their department and its workers. Consider, for example, a first-line supervisor who is charged with scheduling workers and ordering raw materials for her department. Poor decision-making by lower-level managers is unlikely to drive the entire firm out of existence, but it can lead to many adverse outcomes such as:\n• reduced productivity if there are too few workers or insufficient supplies,",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 37,
+        "metadata": {
+          "chunk_index": 3,
+          "low_text": false,
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+          "chapter": 2,
+          "page": 37,
+          "document_id": "principles-management",
+          "chars": 4124,
+          "empty": false,
+          "section": "2.1 Overview of Managerial Decision-Making",
+          "strategy": "paragraph"
+        },
+        "score": 0.17482340516831615,
+        "strategy": "tfidf",
+        "evidence_hit": false
+      },
+      {
+        "id": "principles-management-p040-pg03",
+        "text": "Big decisions should generally not be made impulsively, but reflectively.\nThe Role of Emotions\nBeing aware of the role emotions play in decision-making does not mean that we should ignore them. Emotions can serve as powerful signals about what we should do, especially in situations with ethical implications. You can read more about this particular type of decision-making in the Ethics in Practice box later in this chapter. Thinking through how we feel about the possible options, and why we feel that way, can greatly enhance our decision-making. Effective decision-making, then, relies on both logic and emotions. For this reason, the concept of emotional intelligence has become popular as a characteristic of effective managers. Emotional intelligence is the ability to recognize, understand, pay attention to, and manage one’s own emotions and the emotions of others.",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 40,
+        "metadata": {
+          "chunk_index": 3,
+          "chars": 4558,
+          "strategy": "paragraph",
+          "low_text": false,
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+          "document_id": "principles-management",
+          "section": "Reflective Decision-Making",
+          "empty": false,
+          "page": 40,
+          "chapter": 2
+        },
+        "score": 0.12128592005460301,
+        "strategy": "tfidf",
+        "evidence_hit": false
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "context_evidence_hit": false,
+    "retrieval_ms": 14.297699992312118
+  },
+  {
+    "query_id": "q03",
+    "split": "dev",
+    "strategy": "tfidf",
+    "question": "Why is building a weekly schedule for part-time store employees still a programmed decision even though it can be complex?",
+    "filter": null,
+    "top_k": 3,
+    "context_budget_chars": 800,
+    "results": [
+      {
+        "id": "principles-management-p041-pg02",
+        "text": "Establishing the schedule might be complex, but it is still a programmed decision: it is made on a regular basis based on well-understood criteria, so structure can be applied to the process. For programmed decisions, managers often develop heuristics, or mental shortcuts, to help reach a decision. For example, the retail store manager may not know how busy the store will be the week of a big sale, but might routinely increase staff by 30% every",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 41,
+        "metadata": {
+          "low_text": false,
+          "page": 41,
+          "chars": 2399,
+          "section": "Programmed Decisions",
+          "chapter": 2,
+          "document_id": "principles-management",
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+          "empty": false,
+          "strategy": "paragraph",
+          "chunk_index": 2
+        },
+        "score": 0.3488351156600719,
+        "strategy": "tfidf",
+        "evidence_hit": true
+      },
+      {
+        "id": "principles-management-p041-pg01",
+        "text": "Programmed Decisions\nProgrammed decisions are those that are repeated over time and for which an existing set of rules can be developed to guide the process. These decisions might be simple, or they could be fairly complex, but the criteria that go into making the decision are all known or can at least be estimated with a reasonable degree of accuracy. For example, deciding how many raw materials to order should be a programmed decision based on anticipated production, existing stock, and anticipated length of time for the delivery of the final product. As another example, consider a retail store manager developing the weekly work schedule for part-time employees. The manager must consider how busy the store is likely to be, taking into account seasonal fluctuations in business. Then, they must consider the availability of the workers by taking into account requests for vacation and for other obligations that employees might have (such as school).",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 41,
+        "metadata": {
+          "section": "Programmed Decisions",
+          "chars": 2399,
+          "strategy": "paragraph",
+          "low_text": false,
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+          "chunk_index": 1,
+          "chapter": 2,
+          "empty": false,
+          "page": 41,
+          "document_id": "principles-management"
+        },
+        "score": 0.3324830448633754,
+        "strategy": "tfidf",
+        "evidence_hit": false
+      },
+      {
+        "id": "principles-management-p041-pg00",
+        "text": "decision-making. While emotional intelligence seems to come easily to some people, it is something that we can develop and improve on with practice. A model of emotional intelligence is presented in Exhibit 2.2.\n1. Explain the two systems used by the brain in decision-making.\n2. What is emotional intelligence, and why is it important for decision-making?\n2.3 Programmed and Nonprogrammed Decisions\n3. What is the difference between programmed and nonprogrammed decisions?\nBecause managers have limited time and must use that time wisely to be effective, it is important for them to distinguish between decisions that can have structure and routine applied to them (called programmed decisions) and decisions that are novel and require thought and attention (nonprogrammed decisions).",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 41,
+        "metadata": {
+          "chunk_index": 0,
+          "section": "2.3 Programmed and Nonprogrammed Decisions",
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+          "chapter": 2,
+          "document_id": "principles-management",
+          "low_text": false,
+          "page": 41,
+          "empty": false,
+          "chars": 2399,
+          "strategy": "paragraph"
+        },
+        "score": 0.16987862816084537,
+        "strategy": "tfidf",
+        "evidence_hit": false
+      }
+    ],
+    "context": "[principles-management-p041-pg02 | https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf | page 41]\nEstablishing the schedule might be complex, but it is still a programmed decision: it is made on a regular basis based on well-understood criteria, so structure can be applied to the process. For programmed decisions, managers often develop heuristics, or mental shortcuts, to help reach a decision. For example, the retail store manager may not know how busy the store will be the week of a big sale, but might routinely increase staff by 30% every",
+    "context_ids": [
+      "principles-management-p041-pg02"
+    ],
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "context_evidence_hit": true,
+    "retrieval_ms": 1.8976999854203314
+  },
+  {
+    "query_id": "q04",
+    "split": "dev",
+    "strategy": "tfidf",
+    "question": "What do managers use as mental shortcuts when making routine, structured decisions?",
+    "filter": null,
+    "top_k": 3,
+    "context_budget_chars": 800,
+    "results": [
+      {
+        "id": "principles-management-p042-pg02",
+        "text": "The best the manager can do in this situation is to gather as much relevant information as possible and make an educated guess as to whether the new technology will be worthwhile. Clearly, nonprogrammed decisions present the greater challenge.\nThe Decision-Making Process\nWhile decisions makers can use mental shortcuts with programmed decisions, they should use a systematic process with nonprogrammed decisions. The decision-making process is illustrated in Exhibit 2.4 and can be broken down into a series of six steps, as follows:\n1. Recognize that a decision needs to be made.\n2. Generate multiple alternatives.\n3. Analyze the alternatives.\n4. Select an alternative.\n5. Implement the selected alternative.\n6. Evaluate its effectiveness.",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 42,
+        "metadata": {
+          "empty": false,
+          "chars": 3163,
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+          "section": "Nonprogrammed Decisions",
+          "chapter": 2,
+          "chunk_index": 2,
+          "strategy": "paragraph",
+          "low_text": false,
+          "document_id": "principles-management",
+          "page": 42
+        },
+        "score": 0.23855931041337802,
+        "strategy": "tfidf",
+        "evidence_hit": false
+      },
+      {
+        "id": "principles-management-p048-pg01",
+        "text": "Techniques for Making Better Programmed Decisions\nIn addition, experience enables managers to recognize when to minimize the time spent making decisions on issues that are not particularly important but must still be addressed. As discussed previously, heuristics are mental shortcuts that managers take when making programmed (routine, low-involvement) decisions. Another technique that managers use with these types of decisions is satisficing. When satisficing, a decision maker selects the first acceptable solution without engaging in additional effort to identify the best solution. We all engage in satisficing every day. For example, suppose you are shopping for groceries and you don’t want to overspend. If you have plenty of time, you might compare prices and figure out the price by weight (or volume) to ensure that every item you select is the cheapest option. But if you are in a hurry, you might just select generic products, knowing that they are cheap enough.",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 48,
+        "metadata": {
+          "empty": false,
+          "section": "Techniques for Making Better Programmed Decisions",
+          "chunk_index": 1,
+          "low_text": false,
+          "chars": 2688,
+          "strategy": "paragraph",
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+          "document_id": "principles-management",
+          "chapter": 2,
+          "page": 48
+        },
+        "score": 0.237466960016613,
+        "strategy": "tfidf",
+        "evidence_hit": false
+      },
+      {
+        "id": "principles-management-p041-pg00",
+        "text": "decision-making. While emotional intelligence seems to come easily to some people, it is something that we can develop and improve on with practice. A model of emotional intelligence is presented in Exhibit 2.2.\n1. Explain the two systems used by the brain in decision-making.\n2. What is emotional intelligence, and why is it important for decision-making?\n2.3 Programmed and Nonprogrammed Decisions\n3. What is the difference between programmed and nonprogrammed decisions?\nBecause managers have limited time and must use that time wisely to be effective, it is important for them to distinguish between decisions that can have structure and routine applied to them (called programmed decisions) and decisions that are novel and require thought and attention (nonprogrammed decisions).",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 41,
+        "metadata": {
+          "chunk_index": 0,
+          "section": "2.3 Programmed and Nonprogrammed Decisions",
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+          "chapter": 2,
+          "document_id": "principles-management",
+          "low_text": false,
+          "page": 41,
+          "empty": false,
+          "chars": 2399,
+          "strategy": "paragraph"
+        },
+        "score": 0.17086811850521522,
+        "strategy": "tfidf",
+        "evidence_hit": false
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "context_evidence_hit": false,
+    "retrieval_ms": 1.3706999889109284
+  },
+  {
+    "query_id": "q05",
+    "split": "dev",
+    "strategy": "tfidf",
+    "question": "In French and Raven's typology, what is reward power?",
+    "filter": null,
+    "top_k": 3,
+    "context_budget_chars": 800,
+    "results": [
+      {
+        "id": "principles-management-p383-pg04",
+        "text": "French and Raven provide us with a useful typology that identifies the sources and types of power that may be at the disposal of leaders:\n• Reward power—the power a person has because people believe that they can bestow rewards or outcomes, such as money or recognition that others desire\n• Coercive power—the power a person has because people believe that the person can punish them by inflicting pain or by withholding or taking away something that they value\n• Referent power—the power a person has because others want to associate with or be accepted by him\n• Expert power—the power a person has because others believe that the person has and is willing to share expert knowledge that they need (The concept of resource power extends the idea of expert power to",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 383,
+        "metadata": {
+          "document_id": "principles-management",
+          "page": 383,
+          "low_text": false,
+          "chapter": 13,
+          "section": "Leadership as an Exercise of Influence",
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+          "chars": 4327,
+          "empty": false,
+          "strategy": "paragraph",
+          "chunk_index": 4
+        },
+        "score": 0.319685128404372,
+        "strategy": "tfidf",
+        "evidence_hit": true
+      },
+      {
+        "id": "principles-management-p384-pg01",
+        "text": "Not all forms of power are equally effective (see Exhibit 13.5), nor is a leader’s total power base the simple sum of the powers at his disposal. Different types of power elicit different forms of compliance: Leaders who rely on coercive power often alienate followers who resist their influence attempts. Leaders who rely on reward power develop followers who are very measured in their responses to [what?]; the use of rewards often leads people to think in terms of “How much am I getting?” or “How much should I give?” or “Am I breaking even?” The use of referent power produces identification with the leader and his cause. The use of rationality, expert power, and/or moralistic appeal generally elicits commitment and the internalization of the leader’s goals.",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 384,
+        "metadata": {
+          "page": 384,
+          "chars": 3806,
+          "chunk_index": 1,
+          "chapter": 13,
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+          "strategy": "paragraph",
+          "document_id": "principles-management",
+          "low_text": false,
+          "empty": false
+        },
+        "score": 0.17545794759775074,
+        "strategy": "tfidf",
+        "evidence_hit": false
+      },
+      {
+        "id": "principles-management-p384-pg03",
+        "text": "Good leaders, whether formal or informal, develop many sources of power. Leaders who rely solely on their legitimate power and authority seldom generate the influence necessary to help their organization and its members succeed. In the process of building their power base, effective leaders have discovered that the use of coercive power tends to dilute the effectiveness of other powers, while the development and use of referent power tends to magnify the effectiveness of other forms of power. A compliment or reward from a person we like generally has greater value than one from someone we dislike, and punishment from someone we love (such as “tough love” from a parent) is less offensive than the pain inflicted by someone we dislike. In sum, one key to effective leadership, especially as it pertains to the exercise of social and interpersonal influence, relates to the type of power employed by the leader.",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 384,
+        "metadata": {
+          "strategy": "paragraph",
+          "chars": 3806,
+          "page": 384,
+          "empty": false,
+          "chunk_index": 3,
+          "chapter": 13,
+          "document_id": "principles-management",
+          "low_text": false,
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf"
+        },
+        "score": 0.15617907628572034,
+        "strategy": "tfidf",
+        "evidence_hit": false
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "context_evidence_hit": false,
+    "retrieval_ms": 1.0288000048603863
+  },
+  {
+    "query_id": "q06",
+    "split": "dev",
+    "strategy": "tfidf",
+    "question": "Which source of a leader's power rests on followers believing the leader can cause them harm or take away something they value?",
+    "filter": null,
+    "top_k": 3,
+    "context_budget_chars": 800,
+    "results": [
+      {
+        "id": "principles-management-p399-pg00",
+        "text": "leader’s behaviors. Thus, a strong focus on one’s life “away from work” (for example, time with family and friends) tends to neutralize the motivational, attitudinal, and/or behavioral effects associated with any particular leader behavior. It has also been observed, however, that a strong focus on the leader, either positive or negative, enhances the impact that the leader’s behaviors have on followers.\nYou Are Now the Leader\nLeading and managing are two very different things. Being a manager means something more than gaining authority or charge over former colleagues. With the title does come the power to affect company outcomes, but it also comes with something more: the power to shape the careers and personal growth of subordinates.",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 399,
+        "metadata": {
+          "empty": false,
+          "page": 399,
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+          "chapter": 13,
+          "chars": 4043,
+          "document_id": "principles-management",
+          "low_text": false,
+          "strategy": "paragraph",
+          "section": "You Are Now the Leader",
+          "chunk_index": 0
+        },
+        "score": 0.2709358806610732,
+        "strategy": "tfidf",
+        "evidence_hit": false
+      },
+      {
+        "id": "principles-management-p383-pg04",
+        "text": "French and Raven provide us with a useful typology that identifies the sources and types of power that may be at the disposal of leaders:\n• Reward power—the power a person has because people believe that they can bestow rewards or outcomes, such as money or recognition that others desire\n• Coercive power—the power a person has because people believe that the person can punish them by inflicting pain or by withholding or taking away something that they value\n• Referent power—the power a person has because others want to associate with or be accepted by him\n• Expert power—the power a person has because others believe that the person has and is willing to share expert knowledge that they need (The concept of resource power extends the idea of expert power to",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 383,
+        "metadata": {
+          "document_id": "principles-management",
+          "page": 383,
+          "low_text": false,
+          "chapter": 13,
+          "section": "Leadership as an Exercise of Influence",
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+          "chars": 4327,
+          "empty": false,
+          "strategy": "paragraph",
+          "chunk_index": 4
+        },
+        "score": 0.26571313697077065,
+        "strategy": "tfidf",
+        "evidence_hit": true
+      },
+      {
+        "id": "principles-management-p384-pg01",
+        "text": "Not all forms of power are equally effective (see Exhibit 13.5), nor is a leader’s total power base the simple sum of the powers at his disposal. Different types of power elicit different forms of compliance: Leaders who rely on coercive power often alienate followers who resist their influence attempts. Leaders who rely on reward power develop followers who are very measured in their responses to [what?]; the use of rewards often leads people to think in terms of “How much am I getting?” or “How much should I give?” or “Am I breaking even?” The use of referent power produces identification with the leader and his cause. The use of rationality, expert power, and/or moralistic appeal generally elicits commitment and the internalization of the leader’s goals.",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 384,
+        "metadata": {
+          "page": 384,
+          "chars": 3806,
+          "chunk_index": 1,
+          "chapter": 13,
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+          "strategy": "paragraph",
+          "document_id": "principles-management",
+          "low_text": false,
+          "empty": false
+        },
+        "score": 0.23808589424639484,
+        "strategy": "tfidf",
+        "evidence_hit": false
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "hit_at_1": false,
+    "evidence_hit_at_3": true,
+    "context_evidence_hit": false,
+    "retrieval_ms": 1.3279999839141965
+  },
+  {
+    "query_id": "q07",
+    "split": "dev",
+    "strategy": "tfidf",
+    "question": "What do we call a leader who arises from the processes within a group working toward a shared goal, rather than being placed in the role by outside forces?",
+    "filter": null,
+    "top_k": 3,
+    "context_budget_chars": 800,
+    "results": [
+      {
+        "id": "principles-management-p383-pg00",
+        "text": "Informal leaders are acknowledged by the group, and the group willingly responds to their leadership.\nPaths to Leadership\nPeople come to leadership positions through two dynamics. In many instances, people are put into positions of leadership by forces outside the group. University-based ROTC programs and military academies (like West Point) formally groom people to be leaders. We refer to this person as the designated leader (in this instance the designated and formal leader are the same person). Emergent leaders, on the other hand, arise from the dynamics and processes that unfold within and among a group of individuals as they endeavor to achieve a collective goal.",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 383,
+        "metadata": {
+          "chunk_index": 0,
+          "low_text": false,
+          "empty": false,
+          "chapter": 13,
+          "strategy": "paragraph",
+          "section": "Paths to Leadership",
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+          "chars": 4327,
+          "page": 383,
+          "document_id": "principles-management"
+        },
+        "score": 0.22347692968333144,
+        "strategy": "tfidf",
+        "evidence_hit": true
+      },
+      {
+        "id": "principles-management-p057-pg02",
+        "text": "The methods we’ve just described can all help ensure that groups reach good decisions, but what can a manager do when there is too much conflict within a group? In this situation, managers need to help group members reduce conflict by finding some common ground—areas in which they can agree, such as common interests, values, beliefs, experiences, or goals. Keeping a group focused on a common goal can be a very worthwhile tactic to keep group members working with rather than against one another. Table 2.3 summarizes the techniques to improve group decision-making.",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 57,
+        "metadata": {
+          "chars": 2518,
+          "page": 57,
+          "chapter": 2,
+          "section": "How to Form a Quality Group",
+          "chunk_index": 2,
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+          "empty": false,
+          "document_id": "principles-management",
+          "strategy": "paragraph",
+          "low_text": false
+        },
+        "score": 0.20621756112632555,
+        "strategy": "tfidf",
+        "evidence_hit": false
+      },
+      {
+        "id": "principles-management-p380-pg01",
+        "text": "The Process\nThe process of leadership is separate and distinct from the leader (the person who occupies a central role in the group). The process is a complex, interactive, and dynamic working relationship between leader and followers. This working relationship, built over time, is directed toward fulfilling the group’s maintenance and task needs. Part of the process consists of an exchange relationship between the leader and follower. The leader provides a resource directed toward fulfilling the group’s needs, and the group gives compliance, recognition, and esteem to the leader. To the extent that leadership is the exercise of influence, part of the leadership process is captured by the surrender of power by the followers and the exercise of influence over the followers by the leader. Thus, the leader influences the followers and the followers influence the leader, the context influences the leader and the followers, and both leader and followers influence the context.",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 380,
+        "metadata": {
+          "strategy": "paragraph",
+          "low_text": false,
+          "chunk_index": 1,
+          "chars": 3920,
+          "page": 380,
+          "section": "The Process",
+          "empty": false,
+          "document_id": "principles-management",
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+          "chapter": 13
+        },
+        "score": 0.19513109734773385,
+        "strategy": "tfidf",
+        "evidence_hit": false
+      }
+    ],
+    "context": "[principles-management-p057-pg02 | https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf | page 57]\nThe methods we’ve just described can all help ensure that groups reach good decisions, but what can a manager do when there is too much conflict within a group? In this situation, managers need to help group members reduce conflict by finding some common ground—areas in which they can agree, such as common interests, values, beliefs, experiences, or goals. Keeping a group focused on a common goal can be a very worthwhile tactic to keep group members working with rather than against one another. Table 2.3 summarizes the techniques to improve group decision-making.",
+    "context_ids": [
+      "principles-management-p057-pg02"
+    ],
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "context_evidence_hit": false,
+    "retrieval_ms": 4.027700022561476
+  },
+  {
+    "query_id": "q08",
+    "split": "dev",
+    "strategy": "tfidf",
+    "question": "Why are people unlikely to follow someone as a leader, according to research on leader emergence?",
+    "filter": null,
+    "top_k": 3,
+    "context_budget_chars": 800,
+    "results": [
+      {
+        "id": "principles-management-p390-pg01",
+        "text": "1. What are the trait perspectives on leadership?\n13.5 Behavioral Approaches to Leadership\n5. What are the behavioral perspectives on leadership?\nThe nearly four decades of research that focused on identifying the personal traits associated with the emergence of leaders and leader effectiveness resulted in two observations. First, leader traits are important—people who are endowed with the “right stuff” (drive, self-confidence, honesty, and integrity) are more likely to emerge as leaders and to be effective leaders than individuals who do not possess these characteristics. Second, traits are only a part of the story. Traits only account for part of why someone becomes a leader and why they are (or are not) effective leaders.",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 390,
+        "metadata": {
+          "document_id": "principles-management",
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+          "strategy": "paragraph",
+          "section": "Self-Monitoring",
+          "empty": false,
+          "chars": 3786,
+          "chapter": 13,
+          "low_text": false,
+          "page": 390,
+          "chunk_index": 1
+        },
+        "score": 0.262242944063614,
+        "strategy": "tfidf",
+        "evidence_hit": false
+      },
+      {
+        "id": "principles-management-p399-pg01",
+        "text": "According to Steve Keating, a senior manager at the Toro Company, it is important not to assume that being made a manager automatically makes you a leader. Rather, being a manager means having the opportunity to lead. Enterprises need managers to guide processes, but the employees—the people—need a leader. Keating believes that leaders need a mindset that emphasizes people, and the leader’s job is to help the people in the organization to be successful. According to Keating, “If you don’t care for people, you can’t lead them” (Hakim 2017 n.p.).\nFor someone who has been promoted over his peers, ground rules are essential. \"Promotion doesn’t mean the end of friendship but it does change it,\" according to Keating. If a peer has been promoted, rather than grouse and give in to envy, it is important to step back and look at the new manager; take a hard look at why the peer was promoted and what skill or characteristic made you a less appealing fit for the position (Hakim 2017).",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 399,
+        "metadata": {
+          "chunk_index": 1,
+          "low_text": false,
+          "empty": false,
+          "document_id": "principles-management",
+          "section": "You Are Now the Leader",
+          "page": 399,
+          "chars": 4043,
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+          "strategy": "paragraph",
+          "chapter": 13
+        },
+        "score": 0.2121644534793028,
+        "strategy": "tfidf",
+        "evidence_hit": false
+      },
+      {
+        "id": "principles-management-p383-pg03",
+        "text": "These credits give the individual a status that allows him to influence the direction that the group takes as it works to achieve its goals.\nIt is important to recognize that the traits possessed by certain individuals contribute significantly to their emergence as leaders. Research indicates that people are unlikely to follow individuals who, for example, do not display drive, self-confidence, knowledge of the situation, honesty, and integrity.\nLeadership as an Exercise of Influence\nAs we have noted, leadership is the exercise of influence over those who depend on one another for attaining a mutual goal in a group setting. But how do leaders effectively exercise this influence? Social or (interpersonal) influence is one’s ability to effect a change in the motivation, attitudes, and/or behaviors of others. Power, then, essentially answers the “how” question: How do leaders influence their followers? The answer often is that a leader’s social influence is the source of his power.",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 383,
+        "metadata": {
+          "chunk_index": 3,
+          "strategy": "paragraph",
+          "empty": false,
+          "page": 383,
+          "document_id": "principles-management",
+          "chapter": 13,
+          "chars": 4327,
+          "low_text": false,
+          "section": "Paths to Leadership",
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf"
+        },
+        "score": 0.19751487980324475,
+        "strategy": "tfidf",
+        "evidence_hit": true
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "hit_at_1": false,
+    "evidence_hit_at_3": true,
+    "context_evidence_hit": false,
+    "retrieval_ms": 3.1872999970801175
+  },
+  {
+    "query_id": "q09",
+    "split": "dev",
+    "strategy": "tfidf",
+    "question": "What gives a group member the status to influence the group's direction after contributing to its goals?",
+    "filter": null,
+    "top_k": 3,
+    "context_budget_chars": 800,
+    "results": [
+      {
+        "id": "principles-management-p383-pg02",
+        "text": "Thus, Salancik and Pfeffer reason that power and thus leadership flow to those individuals who have the ability to help an organization or group [overcome its critical contingencies]. As the challenges facing a group change, so too may the flow of power and leadership. Many leaders emerge out of the needs of the situation. Different situations call for different configurations of knowledge, skills, and abilities. A group often turns to the member who possesses the knowledge, skills, and abilities that the group requires to achieve its goals. People surrender their power to individuals whom they believe will make meaningful contributions to attaining group goals. The individual to whom power is surrendered is often a member of the group who is in good standing. As a result of this member’s contributions to the group’s goals, he has accumulated idiosyncrasy credits (a form of competency-based status).",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 383,
+        "metadata": {
+          "chapter": 13,
+          "strategy": "paragraph",
+          "section": "Paths to Leadership",
+          "chunk_index": 2,
+          "low_text": false,
+          "chars": 4327,
+          "document_id": "principles-management",
+          "empty": false,
+          "page": 383,
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf"
+        },
+        "score": 0.3513280579051467,
+        "strategy": "tfidf",
+        "evidence_hit": true
+      },
+      {
+        "id": "principles-management-p383-pg03",
+        "text": "These credits give the individual a status that allows him to influence the direction that the group takes as it works to achieve its goals.\nIt is important to recognize that the traits possessed by certain individuals contribute significantly to their emergence as leaders. Research indicates that people are unlikely to follow individuals who, for example, do not display drive, self-confidence, knowledge of the situation, honesty, and integrity.\nLeadership as an Exercise of Influence\nAs we have noted, leadership is the exercise of influence over those who depend on one another for attaining a mutual goal in a group setting. But how do leaders effectively exercise this influence? Social or (interpersonal) influence is one’s ability to effect a change in the motivation, attitudes, and/or behaviors of others. Power, then, essentially answers the “how” question: How do leaders influence their followers? The answer often is that a leader’s social influence is the source of his power.",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 383,
+        "metadata": {
+          "chunk_index": 3,
+          "strategy": "paragraph",
+          "empty": false,
+          "page": 383,
+          "document_id": "principles-management",
+          "chapter": 13,
+          "chars": 4327,
+          "low_text": false,
+          "section": "Paths to Leadership",
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf"
+        },
+        "score": 0.287637642270353,
+        "strategy": "tfidf",
+        "evidence_hit": false
+      },
+      {
+        "id": "principles-management-p057-pg00",
+        "text": "It can also occur because past successes have made the team complacent.\nOften, one individual in the group has more power or exerts more influence than others and discourages those with differing opinions from speaking up (suppression of dissent) to ensure that only their own ideas are implemented. If members of the group are not really contributing their ideas and perspectives, however, then the group is not getting the benefits of group decision-making.",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 57,
+        "metadata": {
+          "empty": false,
+          "low_text": false,
+          "chars": 2518,
+          "chapter": 2,
+          "document_id": "principles-management",
+          "page": 57,
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+          "chunk_index": 0,
+          "strategy": "paragraph"
+        },
+        "score": 0.23200448068952217,
+        "strategy": "tfidf",
+        "evidence_hit": false
+      }
+    ],
+    "context": "[principles-management-p057-pg00 | https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf | page 57]\nIt can also occur because past successes have made the team complacent.\nOften, one individual in the group has more power or exerts more influence than others and discourages those with differing opinions from speaking up (suppression of dissent) to ensure that only their own ideas are implemented. If members of the group are not really contributing their ideas and perspectives, however, then the group is not getting the benefits of group decision-making.",
+    "context_ids": [
+      "principles-management-p057-pg00"
+    ],
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "context_evidence_hit": false,
+    "retrieval_ms": 2.532599988626316
+  },
+  {
+    "query_id": "q10",
+    "split": "dev",
+    "strategy": "tfidf",
+    "question": "What is the role of a devil's advocate in a group that is trying to reach a decision?",
+    "filter": null,
+    "top_k": 3,
+    "context_budget_chars": 800,
+    "results": [
+      {
+        "id": "principles-management-p057-pg01",
+        "text": "How to Form a Quality Group\nEffective managers will try to ensure quality group decision-making by forming groups with diverse members so that a variety of perspectives will contribute to the process. They will also encourage everyone to speak up and voice their opinions and thoughts prior to the group reaching a decision. Sometimes groups will also assign a member to play the devil’s advocate in order to reduce groupthink. The devil’s advocate intentionally takes on the role of critic. Their job is to point out flawed logic, to challenge the group’s evaluations of various alternatives, and to identify weaknesses in proposed solutions. This pushes the other group members to think more deeply about the advantages and disadvantages of proposed solutions before reaching a decision and implementing it.",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 57,
+        "metadata": {
+          "chunk_index": 1,
+          "document_id": "principles-management",
+          "low_text": false,
+          "page": 57,
+          "empty": false,
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+          "section": "How to Form a Quality Group",
+          "strategy": "paragraph",
+          "chars": 2518,
+          "chapter": 2
+        },
+        "score": 0.386057699374065,
+        "strategy": "tfidf",
+        "evidence_hit": true
+      },
+      {
+        "id": "principles-management-p058-pg00",
+        "text": "Summary of Techniques That May Improve Group Decision-Making\nType of Decision Technique Benefit Group decisions Have diverse members in the group.\nImproves quality: generates more options, reduces\nbias Assign a devil’s advocate. Improves quality: reduces groupthink Encourage everyone to speak up and contribute.",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 58,
+        "metadata": {
+          "chunk_index": 0,
+          "low_text": false,
+          "section": "Summary of Techniques That May Improve Group Decision-Making",
+          "chars": 1684,
+          "chapter": 2,
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+          "page": 58,
+          "document_id": "principles-management",
+          "empty": false,
+          "strategy": "paragraph"
+        },
+        "score": 0.2921739410483753,
+        "strategy": "tfidf",
+        "evidence_hit": false
+      },
+      {
+        "id": "principles-management-p056-pg00",
+        "text": "bad for the organization in the long-term.\n3. What factors would you take into consideration if you were thinking about leaving your job rather than do something unethical?\n1. Explain what satisficing is and when it may be a good strategy.\n2. What are the six steps in the decision-making process?\n3. What are the four steps involved in ethical decision-making?\n2.6 Group Decision-Making\n6. What are the advantages and disadvantages of group decision-making, and how can a manager improve the quality of group decision-making?\nInvolving more people in the decision-making process can greatly improve the quality of a manager's decisions and outcomes. However, involving more people can also increase conflict and generate other challenges. We turn now to the advantages and disadvantages of group decision-making.",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 56,
+        "metadata": {
+          "section": "2.6 Group Decision-Making",
+          "strategy": "paragraph",
+          "chapter": 2,
+          "page": 56,
+          "chunk_index": 0,
+          "low_text": false,
+          "chars": 3356,
+          "empty": false,
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+          "document_id": "principles-management"
+        },
+        "score": 0.2017145673860218,
+        "strategy": "tfidf",
+        "evidence_hit": false
+      }
+    ],
+    "context": "[principles-management-p058-pg00 | https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf | page 58]\nSummary of Techniques That May Improve Group Decision-Making\nType of Decision Technique Benefit Group decisions Have diverse members in the group.\nImproves quality: generates more options, reduces\nbias Assign a devil’s advocate. Improves quality: reduces groupthink Encourage everyone to speak up and contribute.",
+    "context_ids": [
+      "principles-management-p058-pg00"
+    ],
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "context_evidence_hit": false,
+    "retrieval_ms": 1.5916999836917967
+  },
+  {
+    "query_id": "q11",
+    "split": "dev",
+    "strategy": "tfidf",
+    "question": "What is the consequence for a team when its members hold back their own ideas and perspectives?",
+    "filter": null,
+    "top_k": 3,
+    "context_budget_chars": 800,
+    "results": [
+      {
+        "id": "principles-management-p057-pg00",
+        "text": "It can also occur because past successes have made the team complacent.\nOften, one individual in the group has more power or exerts more influence than others and discourages those with differing opinions from speaking up (suppression of dissent) to ensure that only their own ideas are implemented. If members of the group are not really contributing their ideas and perspectives, however, then the group is not getting the benefits of group decision-making.",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 57,
+        "metadata": {
+          "empty": false,
+          "low_text": false,
+          "chars": 2518,
+          "chapter": 2,
+          "document_id": "principles-management",
+          "page": 57,
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+          "chunk_index": 0,
+          "strategy": "paragraph"
+        },
+        "score": 0.23102150248285233,
+        "strategy": "tfidf",
+        "evidence_hit": true
+      },
+      {
+        "id": "principles-management-p386-pg01",
+        "text": "The permissive autocrat mixes his or her use of power by retaining decision-making power but permitting organizational members to exercise discretion when executing those decisions. This leader behavior is recommended when decision-making time is limited, when tasks are routine, or when organizational members have sufficient expertise to determine appropriate role behaviors.\nAlso sharing power is the directive democrat, who encourages participative decision-making but retains the power to direct team members in the execution of their roles. This style is appropriate when followers have valuable opinions and ideas, but one person needs to coordinate the execution of the ideas. A surgeon might allow the entire surgical team to participate in developing a plan for a surgical procedure. Once surgery begins, however, the surgeon is completely in charge.",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 386,
+        "metadata": {
+          "document_id": "principles-management",
+          "low_text": false,
+          "chars": 2920,
+          "strategy": "paragraph",
+          "chunk_index": 1,
+          "empty": false,
+          "section": "Directive/Permissive Leadership Styles",
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+          "chapter": 13,
+          "page": 386
+        },
+        "score": 0.20568713258693552,
+        "strategy": "tfidf",
+        "evidence_hit": false
+      },
+      {
+        "id": "principles-management-p382-pg02",
+        "text": "Organizations that use self-managed work teams allow members of the team to select the individual who will serve as their team leader. When this person’s role is sanctioned by the formal organization, these team leaders become formal leaders. Increasingly, leaders in organizations will be those who “best sell” their ideas on how to complete a project—persuasiveness and inspiration are important ingredients in the leadership equation, especially in high-involvement organizations.",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 382,
+        "metadata": {
+          "empty": false,
+          "chapter": 13,
+          "strategy": "paragraph",
+          "chunk_index": 2,
+          "page": 382,
+          "chars": 3527,
+          "section": "13.3 Leader Emergence",
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+          "document_id": "principles-management",
+          "low_text": false
+        },
+        "score": 0.19167576217166127,
+        "strategy": "tfidf",
+        "evidence_hit": false
+      }
+    ],
+    "context": "[principles-management-p057-pg00 | https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf | page 57]\nIt can also occur because past successes have made the team complacent.\nOften, one individual in the group has more power or exerts more influence than others and discourages those with differing opinions from speaking up (suppression of dissent) to ensure that only their own ideas are implemented. If members of the group are not really contributing their ideas and perspectives, however, then the group is not getting the benefits of group decision-making.",
+    "context_ids": [
+      "principles-management-p057-pg00"
+    ],
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "context_evidence_hit": true,
+    "retrieval_ms": 2.402699989033863
+  },
+  {
+    "query_id": "q12",
+    "split": "dev",
+    "strategy": "tfidf",
+    "question": "What should a manager do when there is too much conflict among the members of a group?",
+    "filter": null,
+    "top_k": 3,
+    "context_budget_chars": 800,
+    "results": [
+      {
+        "id": "principles-management-p057-pg02",
+        "text": "The methods we’ve just described can all help ensure that groups reach good decisions, but what can a manager do when there is too much conflict within a group? In this situation, managers need to help group members reduce conflict by finding some common ground—areas in which they can agree, such as common interests, values, beliefs, experiences, or goals. Keeping a group focused on a common goal can be a very worthwhile tactic to keep group members working with rather than against one another. Table 2.3 summarizes the techniques to improve group decision-making.",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 57,
+        "metadata": {
+          "chars": 2518,
+          "page": 57,
+          "chapter": 2,
+          "section": "How to Form a Quality Group",
+          "chunk_index": 2,
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+          "empty": false,
+          "document_id": "principles-management",
+          "strategy": "paragraph",
+          "low_text": false
+        },
+        "score": 0.3593237382810026,
+        "strategy": "tfidf",
+        "evidence_hit": true
+      },
+      {
+        "id": "principles-management-p046-pg01",
+        "text": "It is also helpful to think about conflict in terms of process conflict or relationship conflict. Process conflict, conflict about the best way to do something, can actually lead to improved performance, as individuals explore various options together in order to identify superior solutions. Relationship conflict is conflict between individuals that is more personal and involves attacks on a person rather than an idea. This kind of conflict is generally harmful and should be quelled when possible. The harm from relationship conflict arises at least in part because feeling personally attacked will cause an individual to revert to the reactive system of the brain. Effective managers should be particularly aware of the possibility of relationship conflict when giving feedback and should keep feedback focused on behaviors and activities (how things are done) rather than on the individual.",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 46,
+        "metadata": {
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+          "chunk_index": 1,
+          "empty": false,
+          "chapter": 2,
+          "page": 46,
+          "chars": 4261,
+          "low_text": false,
+          "strategy": "paragraph",
+          "document_id": "principles-management"
+        },
+        "score": 0.342964047823951,
+        "strategy": "tfidf",
+        "evidence_hit": false
+      },
+      {
+        "id": "principles-management-p037-pg05",
+        "text": "Deciding When to Decide\nWhile some decisions are simple, a manager’s decisions are often complex ones that involve a range of options and uncertain outcomes. When deciding among various options and uncertain outcomes, managers need to gather information, which leads them to another necessary decision: how much information is needed to make a good decision? Managers frequently make decisions without complete information; indeed, one of the hallmarks of an effective leader is the ability to determine when to hold off on a decision and gather more information, and when to make a decision with the information at hand. Waiting too long to make a decision can be as harmful for the organization as reaching a decision too quickly. Failing to react quickly enough can lead to missed opportunities, yet acting too quickly can lead to organizational resources being poorly allocated to projects with no chance of success.",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 37,
+        "metadata": {
+          "chapter": 2,
+          "low_text": false,
+          "chunk_index": 5,
+          "section": "Deciding When to Decide",
+          "chars": 4124,
+          "page": 37,
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+          "document_id": "principles-management",
+          "empty": false,
+          "strategy": "paragraph"
+        },
+        "score": 0.23069656744641762,
+        "strategy": "tfidf",
+        "evidence_hit": false
+      }
+    ],
+    "context": "[principles-management-p057-pg02 | https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf | page 57]\nThe methods we’ve just described can all help ensure that groups reach good decisions, but what can a manager do when there is too much conflict within a group? In this situation, managers need to help group members reduce conflict by finding some common ground—areas in which they can agree, such as common interests, values, beliefs, experiences, or goals. Keeping a group focused on a common goal can be a very worthwhile tactic to keep group members working with rather than against one another. Table 2.3 summarizes the techniques to improve group decision-making.",
+    "context_ids": [
+      "principles-management-p057-pg02"
+    ],
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "context_evidence_hit": true,
+    "retrieval_ms": 1.3096000184305012
+  },
+  {
+    "query_id": "q13",
+    "split": "dev",
+    "strategy": "tfidf",
+    "question": "How do effective managers try to ensure quality group decision-making when forming a group?",
+    "filter": {
+      "chapter": 2
+    },
+    "top_k": 3,
+    "context_budget_chars": 800,
+    "results": [
+      {
+        "id": "principles-management-p057-pg01",
+        "text": "How to Form a Quality Group\nEffective managers will try to ensure quality group decision-making by forming groups with diverse members so that a variety of perspectives will contribute to the process. They will also encourage everyone to speak up and voice their opinions and thoughts prior to the group reaching a decision. Sometimes groups will also assign a member to play the devil’s advocate in order to reduce groupthink. The devil’s advocate intentionally takes on the role of critic. Their job is to point out flawed logic, to challenge the group’s evaluations of various alternatives, and to identify weaknesses in proposed solutions. This pushes the other group members to think more deeply about the advantages and disadvantages of proposed solutions before reaching a decision and implementing it.",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 57,
+        "metadata": {
+          "chunk_index": 1,
+          "document_id": "principles-management",
+          "low_text": false,
+          "page": 57,
+          "empty": false,
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+          "section": "How to Form a Quality Group",
+          "strategy": "paragraph",
+          "chars": 2518,
+          "chapter": 2
+        },
+        "score": 0.347655560434039,
+        "strategy": "tfidf",
+        "evidence_hit": true
+      },
+      {
+        "id": "principles-management-p035-pg00",
+        "text": "Introduction\nLearning Outcomes After reading this chapter, you should be able to answer these questions:\n1. What are the basic characteristics of managerial decision-making?\n2. What are the two systems of decision-making in the brain?\n3. What is the difference between programmed and nonprogrammed decisions?\n4. What barriers exist that make effective decision-making difficult?\n5. How can a manager improve the quality of her individual decision-making?\n6. What are the advantages and disadvantages of group decision-making, and how can a manager improve the quality of group decision-making?",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 35,
+        "metadata": {
+          "strategy": "paragraph",
+          "chunk_index": 0,
+          "low_text": false,
+          "page": 35,
+          "document_id": "principles-management",
+          "chars": 1877,
+          "empty": false,
+          "chapter": 2,
+          "section": "Introduction",
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf"
+        },
+        "score": 0.26617740334862255,
+        "strategy": "tfidf",
+        "evidence_hit": false
+      },
+      {
+        "id": "principles-management-p056-pg00",
+        "text": "bad for the organization in the long-term.\n3. What factors would you take into consideration if you were thinking about leaving your job rather than do something unethical?\n1. Explain what satisficing is and when it may be a good strategy.\n2. What are the six steps in the decision-making process?\n3. What are the four steps involved in ethical decision-making?\n2.6 Group Decision-Making\n6. What are the advantages and disadvantages of group decision-making, and how can a manager improve the quality of group decision-making?\nInvolving more people in the decision-making process can greatly improve the quality of a manager's decisions and outcomes. However, involving more people can also increase conflict and generate other challenges. We turn now to the advantages and disadvantages of group decision-making.",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 56,
+        "metadata": {
+          "section": "2.6 Group Decision-Making",
+          "strategy": "paragraph",
+          "chapter": 2,
+          "page": 56,
+          "chunk_index": 0,
+          "low_text": false,
+          "chars": 3356,
+          "empty": false,
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+          "document_id": "principles-management"
+        },
+        "score": 0.26202686674858894,
+        "strategy": "tfidf",
+        "evidence_hit": false
+      }
+    ],
+    "context": "[principles-management-p035-pg00 | https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf | page 35]\nIntroduction\nLearning Outcomes After reading this chapter, you should be able to answer these questions:\n1. What are the basic characteristics of managerial decision-making?\n2. What are the two systems of decision-making in the brain?\n3. What is the difference between programmed and nonprogrammed decisions?\n4. What barriers exist that make effective decision-making difficult?\n5. How can a manager improve the quality of her individual decision-making?\n6. What are the advantages and disadvantages of group decision-making, and how can a manager improve the quality of group decision-making?",
+    "context_ids": [
+      "principles-management-p035-pg00"
+    ],
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "context_evidence_hit": false,
+    "retrieval_ms": 0.690699991537258
+  },
+  {
+    "query_id": "q14",
+    "split": "dev",
+    "strategy": "tfidf",
+    "question": "In Fiedler's contingency model, what is position power?",
+    "filter": null,
+    "top_k": 3,
+    "context_budget_chars": 800,
+    "results": [
+      {
+        "id": "principles-management-p393-pg03",
+        "text": "Fiedler’s Contingency Model\nOne of the earliest, best-known, and most controversial situation-contingent leadership theories was set forth by Fred E. Fiedler from the University of Washington. This theory is known as the contingency theory of leadership. According to Fiedler, organizations attempting to achieve group effectiveness through leadership must assess the leader according to an underlying trait, assess the situation faced by the leader, and construct a proper match between the two.",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 393,
+        "metadata": {
+          "document_id": "principles-management",
+          "section": "Fiedler’s Contingency Model",
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+          "empty": false,
+          "page": 393,
+          "chunk_index": 3,
+          "low_text": false,
+          "strategy": "paragraph",
+          "chapter": 13,
+          "chars": 4023
+        },
+        "score": 0.35011489244195254,
+        "strategy": "tfidf",
+        "evidence_hit": false
+      },
+      {
+        "id": "principles-management-p393-pg02",
+        "text": "Several theories have been advanced to address this issue. These are Fiedler’s contingency theory of leadership, the path-goal theory of leader effectiveness, Hersey and Blanchard’s life cycle theory, cognitive resource theory, the decision tree, and the decision process theory. We explore two of the better-known situational theories of leadership, Fred Fiedler’s contingency model and Robert J. House’s path-goal theory, here. Victor Vroom, Phillip Yetton, and Arthur Jago’s decision tree model also applies.",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 393,
+        "metadata": {
+          "document_id": "principles-management",
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+          "page": 393,
+          "chars": 4023,
+          "chunk_index": 2,
+          "low_text": false,
+          "empty": false,
+          "chapter": 13,
+          "strategy": "paragraph",
+          "section": "13.6 Situational (Contingency) Approaches to Leadership"
+        },
+        "score": 0.3176040140153055,
+        "strategy": "tfidf",
+        "evidence_hit": false
+      },
+      {
+        "id": "principles-management-p394-pg00",
+        "text": "which the task specifies a detailed, unambiguous goal and how to achieve it; and (3) position power—a leader’s direct ability to influence group members. The situation is most favorable for a leader when the relationship between the leader and group members is good, when the task is highly structured, and when the leader’s position power is strong (cell 1 in Exhibit 13.10). The least-favorable situation occurs under poor leader-member relations, an unstructured task, and weak position power (cell 8).",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 394,
+        "metadata": {
+          "strategy": "paragraph",
+          "chunk_index": 0,
+          "chapter": 13,
+          "low_text": false,
+          "chars": 3547,
+          "page": 394,
+          "document_id": "principles-management",
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+          "empty": false
+        },
+        "score": 0.24209017107051561,
+        "strategy": "tfidf",
+        "evidence_hit": true
+      }
+    ],
+    "context": "[principles-management-p393-pg03 | https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf | page 393]\nFiedler’s Contingency Model\nOne of the earliest, best-known, and most controversial situation-contingent leadership theories was set forth by Fred E. Fiedler from the University of Washington. This theory is known as the contingency theory of leadership. According to Fiedler, organizations attempting to achieve group effectiveness through leadership must assess the leader according to an underlying trait, assess the situation faced by the leader, and construct a proper match between the two.",
+    "context_ids": [
+      "principles-management-p393-pg03"
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": true,
+    "context_evidence_hit": false,
+    "retrieval_ms": 2.633700001752004
+  },
+  {
+    "query_id": "q15",
+    "split": "dev",
+    "strategy": "tfidf",
+    "question": "Under what combination of conditions is the situation most favorable for a leader?",
+    "filter": {
+      "chapter": 13
+    },
+    "top_k": 3,
+    "context_budget_chars": 800,
+    "results": [
+      {
+        "id": "principles-management-p394-pg00",
+        "text": "which the task specifies a detailed, unambiguous goal and how to achieve it; and (3) position power—a leader’s direct ability to influence group members. The situation is most favorable for a leader when the relationship between the leader and group members is good, when the task is highly structured, and when the leader’s position power is strong (cell 1 in Exhibit 13.10). The least-favorable situation occurs under poor leader-member relations, an unstructured task, and weak position power (cell 8).",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 394,
+        "metadata": {
+          "strategy": "paragraph",
+          "chunk_index": 0,
+          "chapter": 13,
+          "low_text": false,
+          "chars": 3547,
+          "page": 394,
+          "document_id": "principles-management",
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+          "empty": false
+        },
+        "score": 0.29939946397178174,
+        "strategy": "tfidf",
+        "evidence_hit": true
+      },
+      {
+        "id": "principles-management-p394-pg02",
+        "text": "For highly favorable and unfavorable situations, task-oriented leaders (those with a low LPC) are very effective. As tasks are accomplished, a task-oriented leader allows the group to perform its highly structured tasks without imposing more task-directed behavior. The job gets done without the need for the leader’s direction. Under unfavorable conditions, task-oriented behaviors, such as setting goals, detailing work methods, and guiding and controlling work behaviors, move the group toward task accomplishment.\nAs might be expected, leaders with mid-range LPC scores can be more effective in a wider range of situations than high- or low-LPC leaders. Under conditions of low favorability, for example, a middle-LPC leader can be task oriented to achieve performance, but show consideration for and allow organizational members to proceed on their own under conditions of high situational favorability.",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 394,
+        "metadata": {
+          "low_text": false,
+          "chunk_index": 2,
+          "document_id": "principles-management",
+          "section": "Leader-Situation Matches",
+          "chapter": 13,
+          "strategy": "paragraph",
+          "page": 394,
+          "chars": 3547,
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+          "empty": false
+        },
+        "score": 0.2579362149961883,
+        "strategy": "tfidf",
+        "evidence_hit": false
+      },
+      {
+        "id": "principles-management-p394-pg01",
+        "text": "Leader-Situation Matches\nSome combinations of leaders and situations work well; others do not. In search of the best combinations, Fiedler examined a large number of leadership situations. He argued that most leaders have a relatively unchangeable or dominant style, so organizations need to design job situations to fit the leader. While the model has not been fully tested and tests have often produced mixed or contradictory findings, Fiedler’s research indicates that relationship-oriented (high-LPC) leaders are much more effective under conditions of intermediate favorability than under either highly favorable or highly unfavorable situations. Fiedler attributes the success of relationship-oriented leaders in situations with intermediate favorability to the leader’s nondirective, permissive attitude; a more directive attitude could lead to anxiety in followers, conflict in the group, and a lack of cooperation.",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 394,
+        "metadata": {
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+          "page": 394,
+          "strategy": "paragraph",
+          "low_text": false,
+          "chapter": 13,
+          "chars": 3547,
+          "document_id": "principles-management",
+          "chunk_index": 1,
+          "empty": false,
+          "section": "Leader-Situation Matches"
+        },
+        "score": 0.21597745456005876,
+        "strategy": "tfidf",
+        "evidence_hit": false
+      }
+    ],
+    "context": "[principles-management-p394-pg00 | https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf | page 394]\nwhich the task specifies a detailed, unambiguous goal and how to achieve it; and (3) position power—a leader’s direct ability to influence group members. The situation is most favorable for a leader when the relationship between the leader and group members is good, when the task is highly structured, and when the leader’s position power is strong (cell 1 in Exhibit 13.10). The least-favorable situation occurs under poor leader-member relations, an unstructured task, and weak position power (cell 8).",
+    "context_ids": [
+      "principles-management-p394-pg00"
+    ],
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "context_evidence_hit": true,
+    "retrieval_ms": 0.5683999916072935
+  },
+  {
+    "query_id": "q16",
+    "split": "dev",
+    "strategy": "tfidf",
+    "question": "According to Fiedler's research, when are relationship-oriented (high-LPC) leaders much more effective than in other situations?",
+    "filter": null,
+    "top_k": 3,
+    "context_budget_chars": 800,
+    "results": [
+      {
+        "id": "principles-management-p394-pg01",
+        "text": "Leader-Situation Matches\nSome combinations of leaders and situations work well; others do not. In search of the best combinations, Fiedler examined a large number of leadership situations. He argued that most leaders have a relatively unchangeable or dominant style, so organizations need to design job situations to fit the leader. While the model has not been fully tested and tests have often produced mixed or contradictory findings, Fiedler’s research indicates that relationship-oriented (high-LPC) leaders are much more effective under conditions of intermediate favorability than under either highly favorable or highly unfavorable situations. Fiedler attributes the success of relationship-oriented leaders in situations with intermediate favorability to the leader’s nondirective, permissive attitude; a more directive attitude could lead to anxiety in followers, conflict in the group, and a lack of cooperation.",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 394,
+        "metadata": {
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+          "page": 394,
+          "strategy": "paragraph",
+          "low_text": false,
+          "chapter": 13,
+          "chars": 3547,
+          "document_id": "principles-management",
+          "chunk_index": 1,
+          "empty": false,
+          "section": "Leader-Situation Matches"
+        },
+        "score": 0.41713392721503817,
+        "strategy": "tfidf",
+        "evidence_hit": true
+      },
+      {
+        "id": "principles-management-p394-pg02",
+        "text": "For highly favorable and unfavorable situations, task-oriented leaders (those with a low LPC) are very effective. As tasks are accomplished, a task-oriented leader allows the group to perform its highly structured tasks without imposing more task-directed behavior. The job gets done without the need for the leader’s direction. Under unfavorable conditions, task-oriented behaviors, such as setting goals, detailing work methods, and guiding and controlling work behaviors, move the group toward task accomplishment.\nAs might be expected, leaders with mid-range LPC scores can be more effective in a wider range of situations than high- or low-LPC leaders. Under conditions of low favorability, for example, a middle-LPC leader can be task oriented to achieve performance, but show consideration for and allow organizational members to proceed on their own under conditions of high situational favorability.",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 394,
+        "metadata": {
+          "low_text": false,
+          "chunk_index": 2,
+          "document_id": "principles-management",
+          "section": "Leader-Situation Matches",
+          "chapter": 13,
+          "strategy": "paragraph",
+          "page": 394,
+          "chars": 3547,
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+          "empty": false
+        },
+        "score": 0.3355277588253906,
+        "strategy": "tfidf",
+        "evidence_hit": false
+      },
+      {
+        "id": "principles-management-p393-pg04",
+        "text": "The Leader’s Trait\nLeaders are asked about their least-preferred coworker (LPC), the person with whom they least like to work. The most popular interpretation of the LPC score is that it reflects a leader’s underlying disposition toward others—for example: pleasant/unpleasant, cold/warm, friendly/unfriendly, and untrustworthy/trustworthy. (You can examine your own LPC score by completing the LPC self-assessment on the following page.) Fiedler states that leaders with high LPC scores are relationship oriented—they need to develop and maintain close interpersonal relationships. They tend to evaluate their least-preferred coworkers in fairly favorable terms. Task accomplishment is a secondary need to this type of leader and becomes important only after the need for relationships is reasonably well satisfied. In contrast, leaders with low LPC scores tend to evaluate the individuals with whom they least like to work fairly negatively.",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 393,
+        "metadata": {
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+          "low_text": false,
+          "empty": false,
+          "document_id": "principles-management",
+          "chars": 4023,
+          "section": "The Leader’s Trait",
+          "strategy": "paragraph",
+          "chunk_index": 4,
+          "page": 393,
+          "chapter": 13
+        },
+        "score": 0.286183688932355,
+        "strategy": "tfidf",
+        "evidence_hit": false
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "context_evidence_hit": false,
+    "retrieval_ms": 0.8582999871578068
+  },
+  {
+    "query_id": "q17",
+    "split": "dev",
+    "strategy": "tfidf",
+    "question": "What problems can arise for followers and the group when a leader takes a more directive attitude than the situation calls for?",
+    "filter": {
+      "chapter": 13
+    },
+    "top_k": 3,
+    "context_budget_chars": 800,
+    "results": [
+      {
+        "id": "principles-management-p380-pg01",
+        "text": "The Process\nThe process of leadership is separate and distinct from the leader (the person who occupies a central role in the group). The process is a complex, interactive, and dynamic working relationship between leader and followers. This working relationship, built over time, is directed toward fulfilling the group’s maintenance and task needs. Part of the process consists of an exchange relationship between the leader and follower. The leader provides a resource directed toward fulfilling the group’s needs, and the group gives compliance, recognition, and esteem to the leader. To the extent that leadership is the exercise of influence, part of the leadership process is captured by the surrender of power by the followers and the exercise of influence over the followers by the leader. Thus, the leader influences the followers and the followers influence the leader, the context influences the leader and the followers, and both leader and followers influence the context.",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 380,
+        "metadata": {
+          "strategy": "paragraph",
+          "low_text": false,
+          "chunk_index": 1,
+          "chars": 3920,
+          "page": 380,
+          "section": "The Process",
+          "empty": false,
+          "document_id": "principles-management",
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+          "chapter": 13
+        },
+        "score": 0.2244981139013128,
+        "strategy": "tfidf",
+        "evidence_hit": false
+      },
+      {
+        "id": "principles-management-p394-pg01",
+        "text": "Leader-Situation Matches\nSome combinations of leaders and situations work well; others do not. In search of the best combinations, Fiedler examined a large number of leadership situations. He argued that most leaders have a relatively unchangeable or dominant style, so organizations need to design job situations to fit the leader. While the model has not been fully tested and tests have often produced mixed or contradictory findings, Fiedler’s research indicates that relationship-oriented (high-LPC) leaders are much more effective under conditions of intermediate favorability than under either highly favorable or highly unfavorable situations. Fiedler attributes the success of relationship-oriented leaders in situations with intermediate favorability to the leader’s nondirective, permissive attitude; a more directive attitude could lead to anxiety in followers, conflict in the group, and a lack of cooperation.",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 394,
+        "metadata": {
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+          "page": 394,
+          "strategy": "paragraph",
+          "low_text": false,
+          "chapter": 13,
+          "chars": 3547,
+          "document_id": "principles-management",
+          "chunk_index": 1,
+          "empty": false,
+          "section": "Leader-Situation Matches"
+        },
+        "score": 0.2050407840362632,
+        "strategy": "tfidf",
+        "evidence_hit": true
+      },
+      {
+        "id": "principles-management-p394-pg00",
+        "text": "which the task specifies a detailed, unambiguous goal and how to achieve it; and (3) position power—a leader’s direct ability to influence group members. The situation is most favorable for a leader when the relationship between the leader and group members is good, when the task is highly structured, and when the leader’s position power is strong (cell 1 in Exhibit 13.10). The least-favorable situation occurs under poor leader-member relations, an unstructured task, and weak position power (cell 8).",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 394,
+        "metadata": {
+          "strategy": "paragraph",
+          "chunk_index": 0,
+          "chapter": 13,
+          "low_text": false,
+          "chars": 3547,
+          "page": 394,
+          "document_id": "principles-management",
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+          "empty": false
+        },
+        "score": 0.1761608546306684,
+        "strategy": "tfidf",
+        "evidence_hit": false
+      }
+    ],
+    "context": "[principles-management-p394-pg00 | https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf | page 394]\nwhich the task specifies a detailed, unambiguous goal and how to achieve it; and (3) position power—a leader’s direct ability to influence group members. The situation is most favorable for a leader when the relationship between the leader and group members is good, when the task is highly structured, and when the leader’s position power is strong (cell 1 in Exhibit 13.10). The least-favorable situation occurs under poor leader-member relations, an unstructured task, and weak position power (cell 8).",
+    "context_ids": [
+      "principles-management-p394-pg00"
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": true,
+    "context_evidence_hit": false,
+    "retrieval_ms": 0.6398000114131719
+  },
+  {
+    "query_id": "q18",
+    "split": "dev",
+    "strategy": "tfidf",
+    "question": "What is the shortcoming called when people pay more attention to information that supports what they already believe and less to information that contradicts it?",
+    "filter": null,
+    "top_k": 3,
+    "context_budget_chars": 800,
+    "results": [
+      {
+        "id": "principles-management-p045-pg00",
+        "text": "organizing information into categories, and it doesn’t like to expend the effort to re-arrange once the categories are established. As a result, we tend to pay more attention to information that confirms our existing beliefs and less attention to information that is contrary to our beliefs, a shortcoming that is referred to as confirmation bias.",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 45,
+        "metadata": {
+          "document_id": "principles-management",
+          "low_text": false,
+          "chars": 3563,
+          "strategy": "paragraph",
+          "empty": false,
+          "page": 45,
+          "chunk_index": 0,
+          "chapter": 2,
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf"
+        },
+        "score": 0.3774448888401663,
+        "strategy": "tfidf",
+        "evidence_hit": true
+      },
+      {
+        "id": "principles-management-p058-pg02",
+        "text": "They also conduct research and collect information from others; they pay attention to their own biases and to ethical implications; and they think critically about the information that they have received to make decisions that will benefit the organization and its stakeholders.\n1. Explain why group decision-making can be more effective than individual decision-making.\n2. What are some things that can prevent groups from making good decisions?\n3. As a manager, what can you do to enhance the quality of group decision-making?",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 58,
+        "metadata": {
+          "chars": 1684,
+          "strategy": "paragraph",
+          "document_id": "principles-management",
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+          "empty": false,
+          "page": 58,
+          "chapter": 2,
+          "chunk_index": 2,
+          "section": "Improves quality: generates more options, prevents",
+          "low_text": false
+        },
+        "score": 0.2748794136278023,
+        "strategy": "tfidf",
+        "evidence_hit": false
+      },
+      {
+        "id": "principles-management-p045-pg01",
+        "text": "In fact, we don’t like our existing beliefs to be challenged. Such challenges feel like a threat, which tends to push our brains towards the reactive system and prevent us from being able to logically process the new information via the reflective system. It is hard to change people’s minds about something if they are already confident in their convictions. So, for example, when a manager hires a new employee who they really like and are convinced is going to be excellent, they will tend to pay attention to examples of excellent performance and ignore examples of poor performance (or attribute those events to things outside the employee’s control). The manager will also tend to trust that employee and therefore accept their explanations for poor performance without verifying the truth or accuracy of those statements. The opposite is also true; if we dislike someone, we will pay attention to their negatives and ignore or discount their positives.",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 45,
+        "metadata": {
+          "document_id": "principles-management",
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+          "strategy": "paragraph",
+          "empty": false,
+          "low_text": false,
+          "chars": 3563,
+          "page": 45,
+          "chapter": 2,
+          "chunk_index": 1
+        },
+        "score": 0.19665663117501297,
+        "strategy": "tfidf",
+        "evidence_hit": false
+      }
+    ],
+    "context": "[principles-management-p045-pg00 | https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf | page 45]\norganizing information into categories, and it doesn’t like to expend the effort to re-arrange once the categories are established. As a result, we tend to pay more attention to information that confirms our existing beliefs and less attention to information that is contrary to our beliefs, a shortcoming that is referred to as confirmation bias.",
+    "context_ids": [
+      "principles-management-p045-pg00"
+    ],
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "context_evidence_hit": true,
+    "retrieval_ms": 8.015300001716241
+  },
+  {
+    "query_id": "q19",
+    "split": "dev",
+    "strategy": "tfidf",
+    "question": "How can a manager reduce the distortion that comes from strongly liking or disliking someone when making a decision?",
+    "filter": null,
+    "top_k": 3,
+    "context_budget_chars": 800,
+    "results": [
+      {
+        "id": "principles-management-p035-pg00",
+        "text": "Introduction\nLearning Outcomes After reading this chapter, you should be able to answer these questions:\n1. What are the basic characteristics of managerial decision-making?\n2. What are the two systems of decision-making in the brain?\n3. What is the difference between programmed and nonprogrammed decisions?\n4. What barriers exist that make effective decision-making difficult?\n5. How can a manager improve the quality of her individual decision-making?\n6. What are the advantages and disadvantages of group decision-making, and how can a manager improve the quality of group decision-making?",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 35,
+        "metadata": {
+          "strategy": "paragraph",
+          "chunk_index": 0,
+          "low_text": false,
+          "page": 35,
+          "document_id": "principles-management",
+          "chars": 1877,
+          "empty": false,
+          "chapter": 2,
+          "section": "Introduction",
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf"
+        },
+        "score": 0.2403284552645686,
+        "strategy": "tfidf",
+        "evidence_hit": false
+      },
+      {
+        "id": "principles-management-p056-pg00",
+        "text": "bad for the organization in the long-term.\n3. What factors would you take into consideration if you were thinking about leaving your job rather than do something unethical?\n1. Explain what satisficing is and when it may be a good strategy.\n2. What are the six steps in the decision-making process?\n3. What are the four steps involved in ethical decision-making?\n2.6 Group Decision-Making\n6. What are the advantages and disadvantages of group decision-making, and how can a manager improve the quality of group decision-making?\nInvolving more people in the decision-making process can greatly improve the quality of a manager's decisions and outcomes. However, involving more people can also increase conflict and generate other challenges. We turn now to the advantages and disadvantages of group decision-making.",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 56,
+        "metadata": {
+          "section": "2.6 Group Decision-Making",
+          "strategy": "paragraph",
+          "chapter": 2,
+          "page": 56,
+          "chunk_index": 0,
+          "low_text": false,
+          "chars": 3356,
+          "empty": false,
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+          "document_id": "principles-management"
+        },
+        "score": 0.2134706934536278,
+        "strategy": "tfidf",
+        "evidence_hit": false
+      },
+      {
+        "id": "principles-management-p058-pg02",
+        "text": "They also conduct research and collect information from others; they pay attention to their own biases and to ethical implications; and they think critically about the information that they have received to make decisions that will benefit the organization and its stakeholders.\n1. Explain why group decision-making can be more effective than individual decision-making.\n2. What are some things that can prevent groups from making good decisions?\n3. As a manager, what can you do to enhance the quality of group decision-making?",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 58,
+        "metadata": {
+          "chars": 1684,
+          "strategy": "paragraph",
+          "document_id": "principles-management",
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+          "empty": false,
+          "page": 58,
+          "chapter": 2,
+          "chunk_index": 2,
+          "section": "Improves quality: generates more options, prevents",
+          "low_text": false
+        },
+        "score": 0.20339580980535965,
+        "strategy": "tfidf",
+        "evidence_hit": false
+      }
+    ],
+    "context": "[principles-management-p035-pg00 | https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf | page 35]\nIntroduction\nLearning Outcomes After reading this chapter, you should be able to answer these questions:\n1. What are the basic characteristics of managerial decision-making?\n2. What are the two systems of decision-making in the brain?\n3. What is the difference between programmed and nonprogrammed decisions?\n4. What barriers exist that make effective decision-making difficult?\n5. How can a manager improve the quality of her individual decision-making?\n6. What are the advantages and disadvantages of group decision-making, and how can a manager improve the quality of group decision-making?",
+    "context_ids": [
+      "principles-management-p035-pg00"
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "context_evidence_hit": false,
+    "retrieval_ms": 1.482499996200204
+  },
+  {
+    "query_id": "q20",
+    "split": "dev",
+    "strategy": "tfidf",
+    "question": "Why is it still right to confront an employee who is often late, even when that employee is otherwise valuable to the department?",
+    "filter": null,
+    "top_k": 3,
+    "context_budget_chars": 800,
+    "results": [
+      {
+        "id": "principles-management-p045-pg03",
+        "text": "Conflict\nFinally, effective decision-making can be difficult because of conflict. Most individuals dislike conflict and will avoid it when possible. However, the best decision might be one that is going to involve some conflict. Consider a manager who has a subordinate who is often late to work, causing others to have to step away from their responsibilities in order to cover for the late employee. The manager needs to have a conversation with that employee to correct the behavior, but the employee is not going to like the conversation and may react in a negative way. Both of them are going to be uncomfortable. The situation is likely to involve conflict, which most people find stressful. Yet, the correct decision is still to have the conversation even if (or especially if) the employee otherwise is an asset to the department.",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 45,
+        "metadata": {
+          "chapter": 2,
+          "document_id": "principles-management",
+          "section": "Conflict",
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+          "page": 45,
+          "chunk_index": 3,
+          "low_text": false,
+          "empty": false,
+          "chars": 3563,
+          "strategy": "paragraph"
+        },
+        "score": 0.38661584869843646,
+        "strategy": "tfidf",
+        "evidence_hit": false
+      },
+      {
+        "id": "principles-management-p399-pg02",
+        "text": "Carol Walker, president of Prepared to Lead, a management consulting firm, advises new managers to develop a job philosophy. She urges new managers to develop a core philosophy that provides a guide to the day-to-day job of leading. She urges managers to build up the people they are leading and work as a \"servant leader.\" The manager’s perspective should be on employee growth and success. Leaders must bear in mind that employees don’t work for the manager; they work for the organization—and for themselves. Managers coordinate this relationship; they are not the center of it. Work should not be assigned haphazardly, but with the employee’s skills and growth in mind. “An employee who understands why she has been asked to do something is far more likely to assume true ownership for the assignment,\" Walker says (Yakowicz 2015 n.p.). A leader’s agenda should be on employee success, not personal glory.",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 399,
+        "metadata": {
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+          "section": "You Are Now the Leader",
+          "document_id": "principles-management",
+          "chapter": 13,
+          "chars": 4043,
+          "page": 399,
+          "empty": false,
+          "low_text": false,
+          "chunk_index": 2,
+          "strategy": "paragraph"
+        },
+        "score": 0.18955993116407918,
+        "strategy": "tfidf",
+        "evidence_hit": false
+      },
+      {
+        "id": "principles-management-p399-pg03",
+        "text": "Employees are more receptive when they recognize that their leader is working not for their own success, but for the employee’s success.",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 399,
+        "metadata": {
+          "low_text": false,
+          "page": 399,
+          "section": "You Are Now the Leader",
+          "chunk_index": 3,
+          "chapter": 13,
+          "strategy": "paragraph",
+          "document_id": "principles-management",
+          "empty": false,
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+          "chars": 4043
+        },
+        "score": 0.17625033635691717,
+        "strategy": "tfidf",
+        "evidence_hit": false
+      }
+    ],
+    "context": "[principles-management-p399-pg03 | https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf | page 399]\nEmployees are more receptive when they recognize that their leader is working not for their own success, but for the employee’s success.",
+    "context_ids": [
+      "principles-management-p399-pg03"
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "context_evidence_hit": false,
+    "retrieval_ms": 1.2249999854248017
+  },
+  {
+    "query_id": "q21",
+    "split": "dev",
+    "strategy": "tfidf",
+    "question": "Why can the wish to avoid conflict get in the way of making the best decision?",
+    "filter": {
+      "chapter": 2
+    },
+    "top_k": 3,
+    "context_budget_chars": 800,
+    "results": [
+      {
+        "id": "principles-management-p045-pg03",
+        "text": "Conflict\nFinally, effective decision-making can be difficult because of conflict. Most individuals dislike conflict and will avoid it when possible. However, the best decision might be one that is going to involve some conflict. Consider a manager who has a subordinate who is often late to work, causing others to have to step away from their responsibilities in order to cover for the late employee. The manager needs to have a conversation with that employee to correct the behavior, but the employee is not going to like the conversation and may react in a negative way. Both of them are going to be uncomfortable. The situation is likely to involve conflict, which most people find stressful. Yet, the correct decision is still to have the conversation even if (or especially if) the employee otherwise is an asset to the department.",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 45,
+        "metadata": {
+          "chapter": 2,
+          "document_id": "principles-management",
+          "section": "Conflict",
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+          "page": 45,
+          "chunk_index": 3,
+          "low_text": false,
+          "empty": false,
+          "chars": 3563,
+          "strategy": "paragraph"
+        },
+        "score": 0.31029147278738795,
+        "strategy": "tfidf",
+        "evidence_hit": true
+      },
+      {
+        "id": "principles-management-p046-pg01",
+        "text": "It is also helpful to think about conflict in terms of process conflict or relationship conflict. Process conflict, conflict about the best way to do something, can actually lead to improved performance, as individuals explore various options together in order to identify superior solutions. Relationship conflict is conflict between individuals that is more personal and involves attacks on a person rather than an idea. This kind of conflict is generally harmful and should be quelled when possible. The harm from relationship conflict arises at least in part because feeling personally attacked will cause an individual to revert to the reactive system of the brain. Effective managers should be particularly aware of the possibility of relationship conflict when giving feedback and should keep feedback focused on behaviors and activities (how things are done) rather than on the individual.",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 46,
+        "metadata": {
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+          "chunk_index": 1,
+          "empty": false,
+          "chapter": 2,
+          "page": 46,
+          "chars": 4261,
+          "low_text": false,
+          "strategy": "paragraph",
+          "document_id": "principles-management"
+        },
+        "score": 0.300093862667611,
+        "strategy": "tfidf",
+        "evidence_hit": false
+      },
+      {
+        "id": "principles-management-p054-pg03",
+        "text": "Step 5: Implementing the Selected Alternative\nAfter selecting an alternative, you must implement it. This may seem too obvious to even mention, but implementation can sometimes be a challenge, particularly if the decision is going to create conflict or dissatisfaction among some stakeholders. Sometimes we know what we need to do but still try to avoid actually doing it because we know others in the organization will be upset—even if it’s the best solution. Follow-through is a necessity, however, to be effective as a manager. If you are not willing to implement a decision, it’s a good idea to engage in some self-reflection to understand why. If you know that the decision is going to create conflict, try to think about how you’ll address that conflict in a productive way. It’s also possible that we feel that there is no good alternative, or we are feeling pressured to make a decision that we know deep down is not right from an ethical perspective.",
+        "source_id": "principles-management",
+        "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+        "page": 54,
+        "metadata": {
+          "chunk_index": 3,
+          "section": "Step 5: Implementing the Selected Alternative",
+          "page": 54,
+          "empty": false,
+          "chars": 4259,
+          "document_id": "principles-management",
+          "strategy": "paragraph",
+          "source": "https://assets.openstax.org/oscms-prodcms/media/documents/principles-management_-_WEB.pdf",
+          "low_text": false,
+          "chapter": 2
+        },
+        "score": 0.22896517999358612,
+        "strategy": "tfidf",
+        "evidence_hit": false
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "context_evidence_hit": false,
+    "retrieval_ms": 0.6840999994892627
+  }
+]
