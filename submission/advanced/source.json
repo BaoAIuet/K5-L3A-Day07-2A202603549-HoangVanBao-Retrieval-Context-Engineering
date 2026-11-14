@@ -1,0 +1,27 @@
+{
+  "title": "Introductory Statistics 2e",
+  "authors": [
+    "Barbara Illowsky",
+    "Susan Dean"
+  ],
+  "publisher": "OpenStax, Rice University",
+  "edition": "2e",
+  "source_pdf": "https://assets.openstax.org/oscms-prodcms/media/documents/introductory-statistics-2e_-_WEB.pdf",
+  "source_book_page": "https://openstax.org/books/introductory-statistics-2e/pages/preface",
+  "license": "CC BY-NC-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "art_rights_note": "The OpenStax preface says most art is attributed in captions; uncredited OpenStax art may use the book attribution. Preserve individual credits where shown. Third-party protected items are not redistributed as image files in this submission.",
+  "downloaded_on": "2026-11-14",
+  "pdf_sha256": "a79a953b75e570030c74ea6f700b8bd70f41dc8c01bf4e9618e6a0adba3a382a",
+  "pdf_pages": 847,
+  "pages_with_extractable_text": 845,
+  "pages_without_extractable_text": [
+    1,
+    2
+  ],
+  "index_method": {
+    "text": "PyMuPDF page text extraction, sorted by layout, split into overlapping 1,600-character windows.",
+    "tables": "PyMuPDF find_tables() extraction; stored as row/column arrays and searchable row text.",
+    "visuals": "All PDF image instances, figure captions, page numbers, and page-space bounding boxes are indexed. Selected diagrams and charts have manually checked text descriptions. The original PDF page remains the source of truth."
+  }
+}

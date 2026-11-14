@@ -1,0 +1,24 @@
+{
+  "split": "dev",
+  "model": "gpt-4o-mini",
+  "method": "TF-IDF over page text, structured tables, figure captions, and indexed visual descriptions, with exact named table/figure boosts",
+  "top_k": 5,
+  "max_searches": 5,
+  "context_budget_chars": 12000,
+  "cases": 18,
+  "provider_errors": 0,
+  "usage_tokens": {
+    "prompt_tokens": 47080,
+    "completion_tokens": 1665,
+    "total_tokens": 48745,
+    "cached_prompt_tokens": 26496
+  },
+  "estimated_cost_usd": 0.006073799999999999,
+  "price_per_million_tokens": {
+    "input": 0.15,
+    "output": 0.6,
+    "cached_input": 0.075
+  },
+  "elapsed_ms_total": 57764.70040000277,
+  "output": "submission\\advanced\\results\\dev-final"
+}

@@ -1,0 +1,110 @@
+[
+  {
+    "id": "dev-table-01",
+    "split": "dev",
+    "answerable": true,
+    "primary_group": "table"
+  },
+  {
+    "id": "dev-table-02",
+    "split": "dev",
+    "answerable": true,
+    "primary_group": "table"
+  },
+  {
+    "id": "dev-table-03",
+    "split": "dev",
+    "answerable": true,
+    "primary_group": "table"
+  },
+  {
+    "id": "dev-image-01",
+    "split": "dev",
+    "answerable": true,
+    "primary_group": "image_diagram"
+  },
+  {
+    "id": "dev-image-02",
+    "split": "dev",
+    "answerable": true,
+    "primary_group": "image_diagram"
+  },
+  {
+    "id": "dev-image-03",
+    "split": "dev",
+    "answerable": true,
+    "primary_group": "image_diagram"
+  },
+  {
+    "id": "dev-chart-01",
+    "split": "dev",
+    "answerable": true,
+    "primary_group": "chart"
+  },
+  {
+    "id": "dev-chart-02",
+    "split": "dev",
+    "answerable": true,
+    "primary_group": "chart"
+  },
+  {
+    "id": "dev-chart-03",
+    "split": "dev",
+    "answerable": true,
+    "primary_group": "chart"
+  },
+  {
+    "id": "dev-multihop-01",
+    "split": "dev",
+    "answerable": true,
+    "primary_group": "multi_hop"
+  },
+  {
+    "id": "dev-multihop-02",
+    "split": "dev",
+    "answerable": true,
+    "primary_group": "multi_hop"
+  },
+  {
+    "id": "dev-multihop-03",
+    "split": "dev",
+    "answerable": true,
+    "primary_group": "multi_hop"
+  },
+  {
+    "id": "dev-text-01",
+    "split": "dev",
+    "answerable": true,
+    "primary_group": "text"
+  },
+  {
+    "id": "dev-text-02",
+    "split": "dev",
+    "answerable": true,
+    "primary_group": "text"
+  },
+  {
+    "id": "dev-text-03",
+    "split": "dev",
+    "answerable": true,
+    "primary_group": "text"
+  },
+  {
+    "id": "dev-unanswerable-01",
+    "split": "dev",
+    "answerable": false,
+    "primary_group": "unanswerable"
+  },
+  {
+    "id": "dev-unanswerable-02",
+    "split": "dev",
+    "answerable": false,
+    "primary_group": "unanswerable"
+  },
+  {
+    "id": "dev-unanswerable-03",
+    "split": "dev",
+    "answerable": false,
+    "primary_group": "unanswerable"
+  }
+]

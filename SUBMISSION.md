@@ -26,7 +26,9 @@ Thay phần trong `< >` bằng tên và địa chỉ thật. Nộp link theo hư
 
 ## Nếu làm thử thách nâng cao
 
-- [ ] Nguồn và quyền truy cập tài liệu từ 100 trang; thống kê, cấu hình index và phần chưa xử lý.
-- [ ] Benchmark dev/test, đáp án và evidence theo từng trang/vùng, gồm bảng, ảnh và biểu đồ.
-- [ ] Trace, nhãn và lý do cho toàn bộ test; tỷ lệ đạt chung và theo nhóm, lỗi, thời gian và chi phí.
+- [x] Nguồn và quyền truy cập tài liệu từ 100 trang; thống kê, cấu hình index và phần chưa xử lý.
+- [x] Benchmark dev/test, đáp án và evidence theo từng trang/vùng, gồm bảng, ảnh và biểu đồ.
+- [x] Trace, nhãn và lý do cho toàn bộ test; tỷ lệ đạt chung và theo nhóm, lỗi, thời gian và chi phí.
 - [ ] Cách chạy tái lập và bằng chứng đạt ít nhất 90% theo [ADVANCED.md](ADVANCED.md).
+
+Kết quả hiện tại: **25/30 (83,33%)**, chưa đạt điều kiện bonus. Xem [`submission/advanced/README.md`](submission/advanced/README.md) để biết nguồn, cách chạy và phân tích lỗi.

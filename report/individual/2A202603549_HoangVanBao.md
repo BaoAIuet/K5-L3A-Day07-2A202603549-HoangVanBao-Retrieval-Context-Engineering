@@ -54,9 +54,16 @@ Grounded-answer counts chỉ tính câu có đáp án; citation validity là cit
 - **Nhận xét lỗi:** Hybrid dev từ chối nhầm q02, q07, q13, q19; test từ chối nhầm q22. Evidence có lúc nằm trong ranking nhưng không được pack vào context cuối. Dev q08, q17, q20 trả lời sai hoặc không được citation hỗ trợ; q01 trả lời một phần. Test q23 trả lời một phần vì bỏ sót lợi ích giảm bias. Các nhãn lỗi được giữ nguyên, không chỉnh theo test.
 - **Ví dụ đã rà soát:** q05 trả lời đúng với citation hỗ trợ; `test-no-evidence-01` từ chối đúng; q20 là câu trả lời không được evidence hỗ trợ.
 - **Số lượt search:** Mỗi split dev có 19 câu 1 lượt và 4 câu 3 lượt; mỗi split test có 4 câu 1 lượt và 3 câu 3 lượt.
-- **Validation:** 34 unit tests pass; syntax và diagnostics Pylance cho các file Python đã sửa không có lỗi.
+- **Validation:** 40 unit tests pass; `compileall` và `git diff --check` pass.
 - **Trace agent:** `submission/results/agent-dense-{dev,test}/` và `submission/results/agent-hybrid-{dev,test}/`; mỗi thư mục có `cases.json`, `traces.json`, `reviews.json`, `metrics.json` và `run.json`.
 
 ## Thử thách nâng cao
 
-Chưa thực hiện. Index hiện tại chỉ gồm 49 trang nội dung được chọn, không phải tài liệu từ 100 trang có benchmark bảng, ảnh và biểu đồ.
+Đã xây dựng pipeline cho *Introductory Statistics 2e* của OpenStax/Rice University (847 trang, CC BY-NC-SA 4.0), index toàn bộ tài liệu, trích bảng có cấu trúc, ghi caption/metadata hình và bổ sung mô tả thủ công đã kiểm tra cho một tập sơ đồ/biểu đồ. Bản PDF không được commit; `submission/advanced/download_source.py` tải và kiểm tra checksum.
+
+- **Index:** 845 trang có text trích xuất, 524 bảng / 3.190 hàng, 345 figure captions, 517 image instances và 3.100 chunks. Trang 1–2 là bìa không có text. Cách chạy, nguồn, license, cấu hình và giới hạn được ghi trong [`submission/advanced/README.md`](../../submission/advanced/README.md).
+- **Benchmark:** 18 câu dev và 30 câu test; test có 24 câu answerable, 6 câu unanswerable và đạt tối thiểu từng nhóm. Hash test SHA-256: `6e746d4c787919310c9b872b3af264c70b7459a7fc5a167ec424066ef593b552`; manifest ở `submission/advanced/benchmark_manifest.json`.
+- **Cấu hình test:** TF-IDF với exact-reference boost cho bảng/hình được gọi tên, top-k 5, tối đa 5 lượt search, context 12.000 ký tự, `gpt-4o-mini`. Test được chạy một lượt sau khi đóng băng; lỗi provider/hệ thống: 0.
+- **Chấm thủ công:** 25/30 = **83,33%**, dưới ngưỡng bonus 90% (27/30). Theo nhóm: bảng 6/6, ảnh/sơ đồ 3/5, biểu đồ 5/5, multi-hop 2/4, text 3/4, unanswerable 6/6. Năm câu không đạt: ba answerable bị abstain do citation ID thiếu/sai định dạng; hai câu multi-hop không cite đủ các nguồn được yêu cầu.
+- **Chi phí và latency:** 76.851 input + 3.119 output tokens, chi phí ước tính $0.01082625; median 2.418 giây, tổng 93.538 giây. Giá là ước tính, không phải billing xác nhận.
+- **Kết luận:** đã hoàn thành artifacts và đánh giá thử thách nâng cao nhưng **không đạt điều kiện 90%**, nên không khai báo đủ điều kiện nhận 15 điểm bonus. Không tuning dựa trên test.

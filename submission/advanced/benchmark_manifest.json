@@ -1,0 +1,16 @@
+{
+  "hash_algorithm": "SHA-256",
+  "questions_file_sha256": "4d15bc8401b9e922c43ecd408efb2c0a48be554e30cd6132050a5f007f53a3dd",
+  "source_pdf_sha256": "a79a953b75e570030c74ea6f700b8bd70f41dc8c01bf4e9618e6a0adba3a382a",
+  "splits": {
+    "dev": {
+      "count": 18,
+      "canonical_questions_sha256": "9b7971335d61764f704173f37697b4aa2784b217dc4e85917b3c956dd7aa3b72"
+    },
+    "test": {
+      "count": 30,
+      "canonical_questions_sha256": "6e746d4c787919310c9b872b3af264c70b7459a7fc5a167ec424066ef593b552"
+    }
+  },
+  "freeze_policy": "Create after dev tuning and before the held-out test run. Do not tune against test results."
+}

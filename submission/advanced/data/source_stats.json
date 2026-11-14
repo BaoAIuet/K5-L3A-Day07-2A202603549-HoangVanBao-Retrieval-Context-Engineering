@@ -1,0 +1,24 @@
+{
+  "source_id": "openstax-introductory-statistics-2e",
+  "source": "Introductory Statistics 2e (OpenStax)",
+  "source_url": "https://assets.openstax.org/oscms-prodcms/media/documents/introductory-statistics-2e_-_WEB.pdf",
+  "pdf_sha256": "a79a953b75e570030c74ea6f700b8bd70f41dc8c01bf4e9618e6a0adba3a382a",
+  "pdf_size_bytes": 23503369,
+  "pdf_pages": 847,
+  "pages_with_extractable_text": 845,
+  "pages_without_extractable_text": [
+    1,
+    2
+  ],
+  "text_characters": 1973958,
+  "image_instances": 517,
+  "pages_with_images": 274,
+  "drawing_instances": 42695,
+  "structured_tables": 524,
+  "indexed_table_rows": 3190,
+  "figure_captions": 345,
+  "image_asset_records": 517,
+  "indexed_chunks": 3100,
+  "chunk_chars": 1600,
+  "chunk_overlap_chars": 160
+}

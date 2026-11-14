@@ -1,0 +1,1356 @@
+[
+  {
+    "query_id": "dev-table-01",
+    "split": "dev",
+    "question": "In the Singles data in Table 2.87, how many observations are in the $151-$200 amount class?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-introductory-statistics-2e",
+        "page": 174,
+        "evidence": "151-200 | 15 | 0.25"
+      }
+    ],
+    "results": [
+      {
+        "id": "st2e-p174-tb00",
+        "text": "Structured table on PDF page 174. Table 2.87 Singles\nAmount($) | Frequency | Relative Frequency\n51–100 | 5 | 0.08\n101–150 | 10 | 0.17\n151–200 | 15 | 0.25\n201–250 | 15 | 0.25\n251–300 | 10 | 0.17\n301–350 | 5 | 0.08",
+        "source_id": "openstax-introductory-statistics-2e",
+        "source": "Introductory Statistics 2e (OpenStax)",
+        "page": 174,
+        "metadata": {
+          "pdf_page": 174,
+          "book_page": 162,
+          "content_type": "table",
+          "bbox": [
+            215.22,
+            271.2,
+            414.2,
+            440.97
+          ],
+          "row_count": 7,
+          "column_count": 3
+        },
+        "score": 0.2909289525239919,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "st2e-p151-t01",
+        "text": "d it to the singles graph?\n      h.  Based on the graphs, do you think that individuals spend the same amount, more or less, as singles as they\n       do person by person as a couple? Explain why in one or two complete sentences.\n\n78. Twenty-five randomly selected students were asked the number of movies they watched the previous week. The\n     results are as follows.\n\n              # of movies  Frequency   Relative Frequency  Cumulative Relative Frequency\n\n                    0           5\n\n                    1           9\n\n                    2           6\n\n                    3           4\n\n                    4           1\n\n                Table 2.68\n\n      a.  Construct a histogram of the data.\n      b.  Complete the columns of the chart.",
+        "source_id": "openstax-introductory-statistics-2e",
+        "source": "Introductory Statistics 2e (OpenStax)",
+        "page": 151,
+        "metadata": {
+          "pdf_page": 151,
+          "book_page": 139,
+          "content_type": "text",
+          "image_count": 0,
+          "drawing_count": 44
+        },
+        "score": 0.2372246884617095,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "st2e-p037-t00",
+        "text": "1.2 • Data, Sampling, and Variation in Data and Sampling  25\n\n\nThink about what contributes to making Doreen’s and Jung’s samples different.\n\nIf Doreen and Jung took larger samples (i.e. the number of data values is increased), their sample results (the average\namount of time a student sleeps) might be closer to the actual population average. But still, their samples would be, in\nall likelihood, different from each other. This variability in samples cannot be stressed enough.\nSize of a Sample\nThe size of a sample (often called the number of observations) is important. The examples you have seen in this book so\nfar have been small. Samples of only a few hundred observations, or even smaller, are sufficient for many purposes. In\npolling, samples that are from 1,200 to 1,500 observations are considered large enough and good enough if the survey\nis random and is well done. You will learn why when you study confidence intervals.\n\nBe aware that many large samples are biased. For example, call-in surveys are invariably biased, because people choose\nto respond or not.\n\n      COLLABORATIVE EXERCISE\n\n Divide into groups of two, three, or four. Your instructor will give each group one six-sided die. Try this experiment\n  twice. Roll one fair die (six-sided) 20 times. Record the number of ones, twos, threes, fours, fives, and sixes you get in\n Table 1.8 and Table 1.9 (“frequency” is the number of times a particular face of the die occurs):\n\n                                       Face on Die  Frequency\n\n                                           1",
+        "source_id": "openstax-introductory-statistics-2e",
+        "source": "Introductory Statistics 2e (OpenStax)",
+        "page": 37,
+        "metadata": {
+          "pdf_page": 37,
+          "book_page": 25,
+          "content_type": "text",
+          "image_count": 0,
+          "drawing_count": 34
+        },
+        "score": 0.23140432278727108,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[st2e-p174-tb00 | Introductory Statistics 2e (OpenStax) | page 174]\nStructured table on PDF page 174. Table 2.87 Singles\nAmount($) | Frequency | Relative Frequency\n51–100 | 5 | 0.08\n101–150 | 10 | 0.17\n151–200 | 15 | 0.25\n201–250 | 15 | 0.25\n251–300 | 10 | 0.17\n301–350 | 5 | 0.08",
+    "context_ids": [
+      "st2e-p174-tb00"
+    ],
+    "context_chars": 280,
+    "elapsed_ms": 12.53589999396354,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "dev-table-02",
+    "split": "dev",
+    "question": "In Table 4.20, what is the probability assigned to x = 3?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-introductory-statistics-2e",
+        "page": 276,
+        "evidence": "3 | 0.15"
+      }
+    ],
+    "results": [
+      {
+        "id": "st2e-p825-tb00",
+        "text": "Structured table on PDF page 825. \nWhen the English says: | Interpret this as:\nX is at least 4. | X ≥ 4\nThe minimum of X is 4. | X ≥ 4\nX is no less than 4. | X ≥ 4\nX is greater than or equal to 4. | X ≥ 4\nX is at most 4. | X ≤ 4\nThe maximum of X is 4. | X ≤ 4\nX is no more than 4. | X ≤ 4\nX is less than or equal to 4. | X ≤ 4\nX does not exceed 4. | X ≤ 4\nX is greater than 4. | X > 4\nX is more than 4. | X > 4\nX exceeds 4. | X > 4\nX is less than 4. | X < 4\nThere are fewer X than 4. | X < 4\nX is 4. | X = 4\nX is equal to 4. | X = 4\nX is the same as 4. | X = 4\nX is not 4. | X ≠ 4\nX is not equal to 4. | X ≠ 4\nX is not the same as 4. | X ≠ 4\nX is different than 4. | X ≠ 4",
+        "source_id": "openstax-introductory-statistics-2e",
+        "source": "Introductory Statistics 2e (OpenStax)",
+        "page": 825,
+        "metadata": {
+          "pdf_page": 825,
+          "book_page": 813,
+          "content_type": "table",
+          "bbox": [
+            200.72,
+            127.29,
+            411.28,
+            666.38
+          ],
+          "row_count": 22,
+          "column_count": 2
+        },
+        "score": 0.38229871127331266,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "st2e-p825-t00",
+        "text": "F • Mathematical Phrases, Symbols, and Formulas  813\n\n   MATHEMATICAL PHRASES, SYMBOLS, AND F   FORMULAS\n\nEnglish Phrases Written Mathematically\n\n                         When the English says:      Interpret this as:\n\n                        X is at least 4.          X ≥ 4\n\n                               The minimum of X is 4.       X ≥ 4\n\n                      X is no less than 4.        X ≥ 4\n\n                   X is greater than or equal to 4.     X ≥ 4\n\n                       X is at most 4.          X ≤ 4\n\n                               The maximum of X is 4.       X ≤ 4\n\n                      X is no more than 4.        X ≤ 4\n\n                    X is less than or equal to 4.      X ≤ 4\n\n                      X does not exceed 4.        X ≤ 4\n\n                      X is greater than 4.        X > 4\n\n                       X is more than 4.         X > 4\n\n                        X exceeds 4.          X > 4\n\n                       X is less than 4.         X < 4\n\n                                 There are fewer X than 4.       X < 4\n\n                          X is 4.            X = 4\n\n                       X is equal to 4.          X = 4\n\n                      X is the same as 4.         X = 4\n\n                         X is not 4.           X ≠ 4\n\n                      X is not equal to 4.        X ≠ 4\n\n                     X is not the same as 4.       X ≠ 4\n\n                      X is different than 4.        X ≠ 4\n\n                              Table F1",
+        "source_id": "openstax-introductory-statistics-2e",
+        "source": "Introductory Statistics 2e (OpenStax)",
+        "page": 825,
+        "metadata": {
+          "pdf_page": 825,
+          "book_page": 813,
+          "content_type": "text",
+          "image_count": 0,
+          "drawing_count": 50
+        },
+        "score": 0.3737158655720604,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "st2e-p331-t00",
+        "text": "5 • Practice  319\n\n\n\n\n\n                                                  Figure 5.44\n\n15.  f(x), a continuous probability function, is equal to  and the function is restricted to 1 ≤ x ≤ 4. Describe\n\n\n5.2 The Uniform Distribution\nUsethefollowinginformationtoanswerthenexttenquestions. The data that follow are the square footage (in 1,000\nfeet squared) of 28 homes.\n\n                                        1.5   2.4   3.6   2.6   1.6   2.4   2.0\n\n                                        3.5   2.5   1.8   2.4   2.5   3.5   4.0\n\n                                        2.6   1.6   2.2   1.8   3.8   2.5   1.5\n\n                                        2.8   1.8   4.5   1.9   1.9   3.1   1.6\n\n                                  Table 5.4\n\nThe sample mean = 2.50 and the sample standard deviation = 0.8302.\n\nThe distribution can be written as X ~ U(1.5, 4.5).\n\n16. What type of distribution is this?\n\n17.  In this distribution, outcomes are equally likely. What does this mean?\n\n18. What is the height of f(x) for the continuous probability distribution?\n\n19. What are the constraints for the values of x?\n\n20. Graph P(2 < x < 3).\n\n21. What is P(2 < x < 3)?\n\n22. What is P(x < 3.5| x < 4)?\n\n23. What is P(x = 1.5)?\n24. What is the 90th percentile of square footage for homes?\n\n25. Find the probability that a randomly selected home has more than 3,000 square feet given that you already know\n    the house has more than 2,000 square feet.\n\n\nUsethefollowinginformationtoanswerthenexteightexercises. A distribution is given as X ~ U(0, 12).\n\n26. What is a? What does it represent?\n\n27. What is b? What",
+        "source_id": "openstax-introductory-statistics-2e",
+        "source": "Introductory Statistics 2e (OpenStax)",
+        "page": 331,
+        "metadata": {
+          "pdf_page": 331,
+          "book_page": 319,
+          "content_type": "text",
+          "image_count": 1,
+          "drawing_count": 48
+        },
+        "score": 0.3670388569068192,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[st2e-p825-tb00 | Introductory Statistics 2e (OpenStax) | page 825]\nStructured table on PDF page 825. \nWhen the English says: | Interpret this as:\nX is at least 4. | X ≥ 4\nThe minimum of X is 4. | X ≥ 4\nX is no less than 4. | X ≥ 4\nX is greater than or equal to 4. | X ≥ 4\nX is at most 4. | X ≤ 4\nThe maximum of X is 4. | X ≤ 4\nX is no more than 4. | X ≤ 4\nX is less than or equal to 4. | X ≤ 4\nX does not exceed 4. | X ≤ 4\nX is greater than 4. | X > 4\nX is more than 4. | X > 4\nX exceeds 4. | X > 4\nX is less than 4. | X < 4\nThere are fewer X than 4. | X < 4\nX is 4. | X = 4\nX is equal to 4. | X = 4\nX is the same as 4. | X = 4\nX is not 4. | X ≠ 4\nX is not equal to 4. | X ≠ 4\nX is not the same as 4. | X ≠ 4\nX is different than 4. | X ≠ 4",
+    "context_ids": [
+      "st2e-p825-tb00"
+    ],
+    "context_chars": 740,
+    "elapsed_ms": 9.835600008955225,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "dev-table-03",
+    "split": "dev",
+    "question": "In Table 11.28, what is the observed frequency for grade A?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-introductory-statistics-2e",
+        "page": 603,
+        "evidence": "A | 7"
+      }
+    ],
+    "results": [
+      {
+        "id": "st2e-p603-tb01",
+        "text": "Structured table on PDF page 603. The actual distribution for a class of 20 is in Table 11.28.\nGrade | Frequency\nA | 7\nB | 7\nC | 5\nD | 1",
+        "source_id": "openstax-introductory-statistics-2e",
+        "source": "Introductory Statistics 2e (OpenStax)",
+        "page": 603,
+        "metadata": {
+          "pdf_page": 603,
+          "book_page": 591,
+          "content_type": "table",
+          "bbox": [
+            260.57,
+            282.99,
+            351.43,
+            404.13
+          ],
+          "row_count": 5,
+          "column_count": 2
+        },
+        "score": 0.49141515954136217,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "st2e-p603-t00",
+        "text": "11 • Practice  591\n\n\n     actual maximum weights their clients lifted. They want to know how well their expectations met with what was\n    observed.\n\nUsethefollowinginformationtoanswerthenextfiveexercises: A teacher predicts that the distribution of grades on the\nfinal exam will be and they are recorded in Table 11.27.\n\n                                       Grade   Proportion\n\n                                       A         0.25\n\n                                      B         0.30\n\n                                       C         0.35\n\n                                  D         0.10\n\n                                           Table 11.27\n\nThe actual distribution for a class of 20 is in Table 11.28.\n\n                                        Grade  Frequency\n\n                                       A         7\n\n                                      B         7\n\n                                       C         5\n\n                                  D        1\n\n                                            Table 11.28\n\n 9.        ______\n\n10.  State the null and alternative hypotheses.\n11. χ2 test statistic = ______\n\n12. p-value = ______\n\n13. At the 5% significance level, what can you conclude?\n\n\nUsethefollowinginformationtoanswerthenextnineexercises: The cumulative number of COVID-19 related cases\nreported for Santa Clara County for a certain time period is broken down by ethnicity as in Table 11.29.\n\n                                           Ethnicity       Number of Cases\n\n                                        White                 2,229",
+        "source_id": "openstax-introductory-statistics-2e",
+        "source": "Introductory Statistics 2e (OpenStax)",
+        "page": 603,
+        "metadata": {
+          "pdf_page": 603,
+          "book_page": 591,
+          "content_type": "text",
+          "image_count": 0,
+          "drawing_count": 43
+        },
+        "score": 0.41541063180905496,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "st2e-p648-t00",
+        "text": "636  12 • Linear Regression and Correlation\n\n\n\n     b. The x values in the data are between 65 and 75. Ninety is outside of the domain of the observed x values in the data\n     (independent variable), so you cannot reliably predict the final exam score for this student. (Even though it is possible to\n     enter 90 into the equation for x and calculate a corresponding y value, the y value that you get will not be reliable.)\n    To understand really how unreliable the prediction can be outside of the observed x values observed in the data, make\n     the substitution x = 90 into the equation.\n\n\n\n    The final-exam score is predicted to be 261.19. The largest the final-exam score can be is 200.\n\n    NOTE\n\n     The process of predicting inside of the observed x values observed in the data is called interpolation. The process of\n      predicting outside of the observed x values observed in the data is called extrapolation.\n\n\n\n\n          TRY IT 12.11\n\n      Data are collected on the relationship between the number of hours per week practicing a musical instrument and\n      scores on a math test. The line of best fit is as follows:\n\n    ŷ = 72.5 + 2.8x\n     What would you predict the score on a math test would be for a student who practices a musical instrument for five\n      hours a week?\n\n   12.6 Outliers\n     In some data sets, there are values (observed data points) called outliers. Outliers are observed data points that are\n     far from the least squares line. They have large \"errors\", where the \"error\" or residual is the vertical distance from the\n      line to the point.",
+        "source_id": "openstax-introductory-statistics-2e",
+        "source": "Introductory Statistics 2e (OpenStax)",
+        "page": 648,
+        "metadata": {
+          "pdf_page": 648,
+          "book_page": 636,
+          "content_type": "text",
+          "image_count": 0,
+          "drawing_count": 35
+        },
+        "score": 0.3220787463551623,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[st2e-p603-tb01 | Introductory Statistics 2e (OpenStax) | page 603]\nStructured table on PDF page 603. The actual distribution for a class of 20 is in Table 11.28.\nGrade | Frequency\nA | 7\nB | 7\nC | 5\nD | 1",
+    "context_ids": [
+      "st2e-p603-tb01"
+    ],
+    "context_chars": 204,
+    "elapsed_ms": 9.297299984609708,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "dev-image-01",
+    "split": "dev",
+    "question": "In Figure 3.4, if the first marble drawn is red, how many red marbles remain out of how many total marbles for the second draw?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-introductory-statistics-2e",
+        "page": 203,
+        "evidence": "after drawing red, only 2 red marbles remain out of 10"
+      }
+    ],
+    "results": [
+      {
+        "id": "st2e-p203-v00",
+        "text": "Figure 3.4. Figure 3.4 Total =\nVisual description: A two-draw urn tree without replacement. The branches start with blue 8/11 and red 3/11; after drawing red, only 2 red marbles remain out of 10, and the four terminal probabilities sum to 110/110.",
+        "source_id": "openstax-introductory-statistics-2e",
+        "source": "Introductory Statistics 2e (OpenStax)",
+        "page": 203,
+        "metadata": {
+          "pdf_page": 203,
+          "book_page": 191,
+          "content_type": "visual_caption",
+          "figure_label": "3.4",
+          "bbox": [
+            226.25,
+            252.32,
+            296.22,
+            263.56
+          ],
+          "crop_bbox": [
+            0.0,
+            244.32,
+            612.0,
+            792.0
+          ],
+          "image_count": 1,
+          "drawing_count": 153
+        },
+        "score": 0.46852852188472505,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "st2e-p188-t01",
+        "text": "is taking a science class would change the chance they are taking math. For practice, show that P(H|G) = P(H) to\n    show that G and H are independent events.\n\n\n\n         TRY IT  3.9\n\n      In a bag, there are six red marbles and four green marbles. The red marbles are marked with the numbers 1, 2, 3, 4,\n       5, and 6. The green marbles are marked with the numbers 1, 2, 3, and 4.\n\n          • R = a red marble\n          • G = a green marble\n          • O = an odd-numbered marble\n          •  The sample space is S = {R1, R2, R3, R4, R5, R6, G1, G2, G3, G4}.\n\n    S has ten outcomes. What is P(G AND O)?\n\n\n\n\n\n     Access for free at openstax.org",
+        "source_id": "openstax-introductory-statistics-2e",
+        "source": "Introductory Statistics 2e (OpenStax)",
+        "page": 188,
+        "metadata": {
+          "pdf_page": 188,
+          "book_page": 176,
+          "content_type": "text",
+          "image_count": 0,
+          "drawing_count": 44
+        },
+        "score": 0.4604894641767416,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "st2e-p203-im00",
+        "text": "Visual asset on PDF page 203. Figure 3.4 Total =\nVisual description: A two-draw urn tree without replacement. The branches start with blue 8/11 and red 3/11; after drawing red, only 2 red marbles remain out of 10, and the four terminal probabilities sum to 110/110.",
+        "source_id": "openstax-introductory-statistics-2e",
+        "source": "Introductory Statistics 2e (OpenStax)",
+        "page": 203,
+        "metadata": {
+          "pdf_page": 203,
+          "book_page": 191,
+          "content_type": "image_asset",
+          "bbox": [
+            188.37,
+            63.37,
+            423.63,
+            248.79
+          ],
+          "xref": 735,
+          "figure_label": "3.4"
+        },
+        "score": 0.4457144539041519,
+        "strategy": "tfidf",
+        "hit": true
+      }
+    ],
+    "context": "[st2e-p203-v00 | Introductory Statistics 2e (OpenStax) | page 203]\nFigure 3.4. Figure 3.4 Total =\nVisual description: A two-draw urn tree without replacement. The branches start with blue 8/11 and red 3/11; after drawing red, only 2 red marbles remain out of 10, and the four terminal probabilities sum to 110/110.\n\n[st2e-p203-im00 | Introductory Statistics 2e (OpenStax) | page 203]\nVisual asset on PDF page 203. Figure 3.4 Total =\nVisual description: A two-draw urn tree without replacement. The branches start with blue 8/11 and red 3/11; after drawing red, only 2 red marbles remain out of 10, and the four terminal probabilities sum to 110/110.",
+    "context_ids": [
+      "st2e-p203-v00",
+      "st2e-p203-im00"
+    ],
+    "context_chars": 649,
+    "elapsed_ms": 12.8543000028003,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "dev-image-02",
+    "split": "dev",
+    "question": "In Figure 3.7's two-coin Venn diagram, which outcome lies in the overlap of events A and B?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-introductory-statistics-2e",
+        "page": 206,
+        "evidence": "TT lies in the overlap"
+      }
+    ],
+    "results": [
+      {
+        "id": "st2e-p206-v00",
+        "text": "Figure 3.7. Figure 3.7\nVisual description: A Venn diagram for two fair coin tosses: A is tails on the first coin and B is tails on the second. TT lies in the overlap, TH lies only in A, HT lies only in B, and HH lies outside both.",
+        "source_id": "openstax-introductory-statistics-2e",
+        "source": "Introductory Statistics 2e (OpenStax)",
+        "page": 206,
+        "metadata": {
+          "pdf_page": 206,
+          "book_page": 194,
+          "content_type": "visual_caption",
+          "figure_label": "3.7",
+          "bbox": [
+            285.96,
+            397.02,
+            328.18,
+            408.26
+          ],
+          "crop_bbox": [
+            0.0,
+            389.02,
+            612.0,
+            792.0
+          ],
+          "image_count": 1,
+          "drawing_count": 15
+        },
+        "score": 0.6056188061466109,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "st2e-p206-im00",
+        "text": "Visual asset on PDF page 206. Figure 3.7\nVisual description: A Venn diagram for two fair coin tosses: A is tails on the first coin and B is tails on the second. TT lies in the overlap, TH lies only in A, HT lies only in B, and HH lies outside both.",
+        "source_id": "openstax-introductory-statistics-2e",
+        "source": "Introductory Statistics 2e (OpenStax)",
+        "page": 206,
+        "metadata": {
+          "pdf_page": 206,
+          "book_page": 194,
+          "content_type": "image_asset",
+          "bbox": [
+            189.33,
+            237.29,
+            422.67,
+            394.29
+          ],
+          "xref": 751,
+          "figure_label": "3.7"
+        },
+        "score": 0.5754390870062296,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "st2e-p212-t01",
+        "text": "a planned activity carried out under controlled conditions\nIndependent Events  The occurrence of one event has no effect on the probability of the occurrence of another event.\n   Events A and B are independent if one of the following is true:\n   1.  P(A|B) = P(A)\n   2.  P(B|A) = P(B)\n   3.  P(A AND B) = P(A)P(B)\n\nMutually Exclusive  Two events are mutually exclusive if the probability that they both happen at the same time is zero.\n    If events A and B are mutually exclusive, then P(A AND B) = 0.\nOr Event  An outcome is in the event A OR B if the outcome is in A or is in B or is in both A and B.\nOutcome  a particular result of an experiment\nProbability  a number between zero and one, inclusive, that gives the likelihood that a specific event will occur; the\n   foundation of statistics is given by the following 3 axioms (by A.N. Kolmogorov, 1930’s): Let S denote the sample space\n  and A and B are two events in S. Then:\n    •  0 ≤ P(A) ≤ 1\n    •   If A and B are any two mutually exclusive events, then P(A OR B) = P(A) + P(B).\n    •  P(S) = 1\n\nSample Space  the set of all possible outcomes of an experiment\nTree Diagram  the useful visual representation of a sample space and events in the form of a “tree” with branches\n  marked by possible outcomes together with associated probabilities (frequencies, relative frequencies)\nVenn Diagram  the visual representation of a sample space and events in the form of circles or ovals showing their\n   intersections\nChapter Review\n3.1 Terminology\nIn this module we learned the basic terminology of probability. The set of all possible",
+        "source_id": "openstax-introductory-statistics-2e",
+        "source": "Introductory Statistics 2e (OpenStax)",
+        "page": 212,
+        "metadata": {
+          "pdf_page": 212,
+          "book_page": 200,
+          "content_type": "text",
+          "image_count": 0,
+          "drawing_count": 14
+        },
+        "score": 0.336177905167933,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[st2e-p206-v00 | Introductory Statistics 2e (OpenStax) | page 206]\nFigure 3.7. Figure 3.7\nVisual description: A Venn diagram for two fair coin tosses: A is tails on the first coin and B is tails on the second. TT lies in the overlap, TH lies only in A, HT lies only in B, and HH lies outside both.\n\n[st2e-p206-im00 | Introductory Statistics 2e (OpenStax) | page 206]\nVisual asset on PDF page 206. Figure 3.7\nVisual description: A Venn diagram for two fair coin tosses: A is tails on the first coin and B is tails on the second. TT lies in the overlap, TH lies only in A, HT lies only in B, and HH lies outside both.",
+    "context_ids": [
+      "st2e-p206-v00",
+      "st2e-p206-im00"
+    ],
+    "context_chars": 615,
+    "elapsed_ms": 10.966500005451962,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "dev-image-03",
+    "split": "dev",
+    "question": "According to Figure 3.16, what is the joint probability of drawing green on both draws when the card is replaced?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-introductory-statistics-2e",
+        "page": 236,
+        "evidence": "The joint outcome GG has probability 25/64."
+      }
+    ],
+    "results": [
+      {
+        "id": "st2e-p236-v00",
+        "text": "Figure 3.16. Figure 3.16\nVisual description: A two-card tree with replacement: each draw branches to green 5/8 or yellow 3/8. The joint outcome GG has probability 25/64.",
+        "source_id": "openstax-introductory-statistics-2e",
+        "source": "Introductory Statistics 2e (OpenStax)",
+        "page": 236,
+        "metadata": {
+          "pdf_page": 236,
+          "book_page": 224,
+          "content_type": "visual_caption",
+          "figure_label": "3.16",
+          "bbox": [
+            303.67,
+            402.55,
+            350.62,
+            413.78
+          ],
+          "crop_bbox": [
+            0.0,
+            394.55,
+            612.0,
+            792.0
+          ],
+          "image_count": 1,
+          "drawing_count": 68
+        },
+        "score": 0.366559804371031,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "st2e-p236-im00",
+        "text": "Visual asset on PDF page 236. Figure 3.16\nNearby text: 121 . \na.\nVisual description: A two-card tree with replacement: each draw branches to green 5/8 or yellow 3/8. The joint outcome GG has probability 25/64.",
+        "source_id": "openstax-introductory-statistics-2e",
+        "source": "Introductory Statistics 2e (OpenStax)",
+        "page": 236,
+        "metadata": {
+          "pdf_page": 236,
+          "book_page": 224,
+          "content_type": "image_asset",
+          "bbox": [
+            210.37,
+            233.59,
+            441.78,
+            402.39
+          ],
+          "xref": 854,
+          "figure_label": "3.16"
+        },
+        "score": 0.3086991094534647,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "st2e-p773-t00",
+        "text": "B • Practice Tests (1-4) and Final Exams  761\n\n\n21. X ~ B(100, 0.65)\n\n22. μ = np = 100(0.65) = 65\n\n23.\n\n24. X = Joe gets a hit in one at-bat (in one occasion of his coming to bat)\n\n25. X ~ B(20, 0.4)\n\n26. μ = np = 20(0.4) = 8\n\n27.\n4.4: Geometric Distribution\n28.\n\n 1.  A series of Bernoulli trials are conducted until one is a success, and then the experiment stops.\n 2.  At least one trial is conducted, but there is no upper limit to the number of trials.\n 3.  The probability of success or failure is the same for each trial.\n\n29. TTTTH\n\n30. The domain of X = {1, 2, 3, 4, 5, ….n}. Because you are drawing with replacement, there is no upper bound to the\nnumber of draws that may be necessary.\n\n31. The domain of X = {1, 2, 3, 4, 5, 6, 7, 8., 9, 10, 11, 12…27}. Because you are drawing without replacement, and 26 of\nthe 52 cards are red, you have to draw a red card within the first 17 draws.\n\n32. X ~ G(0.24)\n\n33.\n\n34.\n\n4.5: Hypergeometric Distribution\n35. Yes, because you are sampling from a population composed of two groups (boys and girls), have a group of interest\n(boys), and are sampling without replacement (hence, the probabilities change with each pick, and you are not\nperforming Bernoulli trials).\n\n36. The group of interest is the cards that are spades, the size of the group of interest is 13, and the sample size is five.\n4.6: Poisson Distribution\n37. A Poisson distribution models the number of events occurring in a fixed interval of time or space, when the events\nare independent and the average rate of the events is known.\n\n38. X ~ P(4)\n\n39. The domain of X = {0, 1, 2, 3,",
+        "source_id": "openstax-introductory-statistics-2e",
+        "source": "Introductory Statistics 2e (OpenStax)",
+        "page": 773,
+        "metadata": {
+          "pdf_page": 773,
+          "book_page": 761,
+          "content_type": "text",
+          "image_count": 0,
+          "drawing_count": 123
+        },
+        "score": 0.23026468686068033,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[st2e-p236-v00 | Introductory Statistics 2e (OpenStax) | page 236]\nFigure 3.16. Figure 3.16\nVisual description: A two-card tree with replacement: each draw branches to green 5/8 or yellow 3/8. The joint outcome GG has probability 25/64.\n\n[st2e-p236-im00 | Introductory Statistics 2e (OpenStax) | page 236]\nVisual asset on PDF page 236. Figure 3.16\nNearby text: 121 . \na.\nVisual description: A two-card tree with replacement: each draw branches to green 5/8 or yellow 3/8. The joint outcome GG has probability 25/64.",
+    "context_ids": [
+      "st2e-p236-v00",
+      "st2e-p236-im00"
+    ],
+    "context_chars": 515,
+    "elapsed_ms": 11.759199987864122,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "dev-chart-01",
+    "split": "dev",
+    "question": "In Figure 1.11(b), how are the pie-chart wedges ordered?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-introductory-statistics-2e",
+        "page": 29,
+        "evidence": "organized by the size of each wedge"
+      }
+    ],
+    "results": [
+      {
+        "id": "st2e-p025-v00",
+        "text": "Figure 1.3. juniors, or seniors. The data she collects are summarized in the pie chart Figure 1.3. What type of data does this graph show?",
+        "source_id": "openstax-introductory-statistics-2e",
+        "source": "Introductory Statistics 2e (OpenStax)",
+        "page": 25,
+        "metadata": {
+          "pdf_page": 25,
+          "book_page": 13,
+          "content_type": "visual_caption",
+          "figure_label": "1.3",
+          "bbox": [
+            72.0,
+            84.49,
+            530.46,
+            130.79
+          ],
+          "crop_bbox": [
+            0.0,
+            76.49,
+            612.0,
+            792.0
+          ],
+          "image_count": 2,
+          "drawing_count": 13
+        },
+        "score": 0.3157609376013032,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "st2e-p029-t00",
+        "text": "1.2 • Data, Sampling, and Variation in Data and Sampling   17\n\n\n\n\n\n                             Figure 1.9 Bar Graph with Other/Unknown Category\n\n\n\n\n\n                               Figure 1.10 Pareto Chart With Bars Sorted by Size\nPie Charts: No Missing Data\nThe following pie charts have the “Other/Unknown” category included (since the percentages must add to 100%). The\nchart in Figure 1.11(b) is organized by the size of each wedge, which makes it a more visually informative graph than the\nunsorted, alphabetical graph in Figure 1.11(a).\n\n\n\n\n\n                                                 Figure 1.11\nSampling\nGathering information about an entire population often costs too much or is virtually impossible. Instead, we use a\nsample of the population. A sample should have the same characteristics as the population it is representing. Most",
+        "source_id": "openstax-introductory-statistics-2e",
+        "source": "Introductory Statistics 2e (OpenStax)",
+        "page": 29,
+        "metadata": {
+          "pdf_page": 29,
+          "book_page": 17,
+          "content_type": "text",
+          "image_count": 3,
+          "drawing_count": 2
+        },
+        "score": 0.2871057195878996,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "st2e-p029-v04",
+        "text": "Figure 1.11. Figure 1.11",
+        "source_id": "openstax-introductory-statistics-2e",
+        "source": "Introductory Statistics 2e (OpenStax)",
+        "page": 29,
+        "metadata": {
+          "pdf_page": 29,
+          "book_page": 17,
+          "content_type": "visual_caption",
+          "figure_label": "1.11",
+          "bbox": [
+            283.6,
+            671.38,
+            330.54,
+            682.61
+          ],
+          "crop_bbox": [
+            0.0,
+            663.38,
+            612.0,
+            792.0
+          ],
+          "image_count": 3,
+          "drawing_count": 2
+        },
+        "score": 0.2684875987876617,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[st2e-p025-v00 | Introductory Statistics 2e (OpenStax) | page 25]\nFigure 1.3. juniors, or seniors. The data she collects are summarized in the pie chart Figure 1.3. What type of data does this graph show?\n\n[st2e-p029-v04 | Introductory Statistics 2e (OpenStax) | page 29]\nFigure 1.11. Figure 1.11",
+    "context_ids": [
+      "st2e-p025-v00",
+      "st2e-p029-v04"
+    ],
+    "context_chars": 296,
+    "elapsed_ms": 9.940299991285428,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "dev-chart-02",
+    "split": "dev",
+    "question": "What is the direction of skew in Terry's distribution in Figure 2.19?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-introductory-statistics-2e",
+        "page": 117,
+        "evidence": "right (positive) skew"
+      }
+    ],
+    "results": [
+      {
+        "id": "st2e-p117-v02",
+        "text": "Figure 2.19. Figure 2.19 Terry’s distribution has a right (positive) skew.",
+        "source_id": "openstax-introductory-statistics-2e",
+        "source": "Introductory Statistics 2e (OpenStax)",
+        "page": 117,
+        "metadata": {
+          "pdf_page": 117,
+          "book_page": 105,
+          "content_type": "visual_caption",
+          "figure_label": "2.19",
+          "bbox": [
+            203.37,
+            625.05,
+            428.78,
+            636.29
+          ],
+          "crop_bbox": [
+            0.0,
+            617.05,
+            612.0,
+            792.0
+          ],
+          "image_count": 2,
+          "drawing_count": 7
+        },
+        "score": 0.6733769124175093,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "st2e-p117-im01",
+        "text": "Visual asset on PDF page 117. Figure 2.19 Terry’s distribution has a right (positive) skew.",
+        "source_id": "openstax-introductory-statistics-2e",
+        "source": "Introductory Statistics 2e (OpenStax)",
+        "page": 117,
+        "metadata": {
+          "pdf_page": 117,
+          "book_page": 105,
+          "content_type": "image_asset",
+          "bbox": [
+            166.91,
+            539.17,
+            463.09,
+            624.89
+          ],
+          "xref": 439,
+          "figure_label": "2.19"
+        },
+        "score": 0.5857115105761483,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "st2e-p250-v01",
+        "text": "Figure 4.2. Figure 4.2 the skew of the binomial distribution when p is not equal to 0.5. In Figure 4.2 the distribution is skewed right as a result of because",
+        "source_id": "openstax-introductory-statistics-2e",
+        "source": "Introductory Statistics 2e (OpenStax)",
+        "page": 250,
+        "metadata": {
+          "pdf_page": 250,
+          "book_page": 238,
+          "content_type": "visual_caption",
+          "figure_label": "4.2",
+          "bbox": [
+            72.0,
+            200.4,
+            539.16,
+            234.74
+          ],
+          "crop_bbox": [
+            0.0,
+            192.4,
+            612.0,
+            792.0
+          ],
+          "image_count": 1,
+          "drawing_count": 134
+        },
+        "score": 0.3707326755803683,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[st2e-p117-v02 | Introductory Statistics 2e (OpenStax) | page 117]\nFigure 2.19. Figure 2.19 Terry’s distribution has a right (positive) skew.\n\n[st2e-p117-im01 | Introductory Statistics 2e (OpenStax) | page 117]\nVisual asset on PDF page 117. Figure 2.19 Terry’s distribution has a right (positive) skew.\n\n[st2e-p250-v01 | Introductory Statistics 2e (OpenStax) | page 250]\nFigure 4.2. Figure 4.2 the skew of the binomial distribution when p is not equal to 0.5. In Figure 4.2 the distribution is skewed right as a result of because",
+    "context_ids": [
+      "st2e-p117-v02",
+      "st2e-p117-im01",
+      "st2e-p250-v01"
+    ],
+    "context_chars": 529,
+    "elapsed_ms": 9.894600021652877,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "dev-chart-03",
+    "split": "dev",
+    "question": "What x-interval is shaded in the standard normal curve in Figure 5.4?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-introductory-statistics-2e",
+        "page": 304,
+        "evidence": "area between x=1 and x=2 shaded"
+      }
+    ],
+    "results": [
+      {
+        "id": "st2e-p304-v02",
+        "text": "Figure 5.4. Figure 5.4 The graph shows the Standard Normal Distribution with the area between x = 1 and x = 2 shaded to represent the probability that the value of the random variable X is in the interval between one and two. 5.1 Continuous Probability Functions\nVisual description: A standard normal bell curve has the area between x=1 and x=2 shaded.",
+        "source_id": "openstax-introductory-statistics-2e",
+        "source": "Introductory Statistics 2e (OpenStax)",
+        "page": 304,
+        "metadata": {
+          "pdf_page": 304,
+          "book_page": 292,
+          "content_type": "visual_caption",
+          "figure_label": "5.4",
+          "bbox": [
+            72.0,
+            638.16,
+            540.71,
+            682.45
+          ],
+          "crop_bbox": [
+            0.0,
+            630.16,
+            612.0,
+            792.0
+          ],
+          "image_count": 3,
+          "drawing_count": 0
+        },
+        "score": 0.5919261843153005,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "st2e-p304-v01",
+        "text": "Figure 5.3. Figure 5.3 The graph shows an Exponential Distribution with the area between x = 2 and x = 4 shaded to represent the probability that the value of the random variable X is in the interval between two and four.\nVisual description: An exponential-distribution curve decreases from left to right, with the area between x=2 and x=4 shaded.",
+        "source_id": "openstax-introductory-statistics-2e",
+        "source": "Introductory Statistics 2e (OpenStax)",
+        "page": 304,
+        "metadata": {
+          "pdf_page": 304,
+          "book_page": 292,
+          "content_type": "visual_caption",
+          "figure_label": "5.3",
+          "bbox": [
+            72.0,
+            530.38,
+            531.77,
+            553.16
+          ],
+          "crop_bbox": [
+            0.0,
+            522.38,
+            612.0,
+            792.0
+          ],
+          "image_count": 3,
+          "drawing_count": 0
+        },
+        "score": 0.4815516775693433,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "st2e-p304-im01",
+        "text": "Visual asset on PDF page 304. Figure 5.3 The graph shows an Exponential Distribution with the area between x = 2 and x = 4 shaded to represent the probability that the value of the random variable X is in the interval between two and four.\nNearby text: Figure 5.3 The graph shows an Exponential Distribution with the area between x = 2 and x = 4 shaded to represent the \nprobability that the value of the random variable X is in the interval between two and four.\nVisual description: An exponential-distribution curve decreases from left to right, with the area between x=2 and x=4 shaded.",
+        "source_id": "openstax-introductory-statistics-2e",
+        "source": "Introductory Statistics 2e (OpenStax)",
+        "page": 304,
+        "metadata": {
+          "pdf_page": 304,
+          "book_page": 292,
+          "content_type": "image_asset",
+          "bbox": [
+            188.25,
+            409.41,
+            423.75,
+            527.65
+          ],
+          "xref": 1067,
+          "figure_label": "5.3"
+        },
+        "score": 0.4508573355494432,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[st2e-p304-v02 | Introductory Statistics 2e (OpenStax) | page 304]\nFigure 5.4. Figure 5.4 The graph shows the Standard Normal Distribution with the area between x = 1 and x = 2 shaded to represent the probability that the value of the random variable X is in the interval between one and two. 5.1 Continuous Probability Functions\nVisual description: A standard normal bell curve has the area between x=1 and x=2 shaded.",
+    "context_ids": [
+      "st2e-p304-v02"
+    ],
+    "context_chars": 419,
+    "elapsed_ms": 10.13410001178272,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "dev-multihop-01",
+    "split": "dev",
+    "question": "Using the predicted proportions in Table 11.27 and the observed counts in Table 11.28, how many more or fewer grade C scores were observed than expected in the class of 20?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-introductory-statistics-2e",
+        "page": 603,
+        "evidence_ref": "table:11.27",
+        "evidence": "C | 0.35"
+      },
+      {
+        "source_id": "openstax-introductory-statistics-2e",
+        "page": 603,
+        "evidence_ref": "table:11.28",
+        "evidence": "The actual distribution for a class of 20"
+      },
+      {
+        "source_id": "openstax-introductory-statistics-2e",
+        "page": 603,
+        "evidence_ref": "table:11.28",
+        "evidence": "C | 5"
+      }
+    ],
+    "results": [
+      {
+        "id": "st2e-p648-t00",
+        "text": "636  12 • Linear Regression and Correlation\n\n\n\n     b. The x values in the data are between 65 and 75. Ninety is outside of the domain of the observed x values in the data\n     (independent variable), so you cannot reliably predict the final exam score for this student. (Even though it is possible to\n     enter 90 into the equation for x and calculate a corresponding y value, the y value that you get will not be reliable.)\n    To understand really how unreliable the prediction can be outside of the observed x values observed in the data, make\n     the substitution x = 90 into the equation.\n\n\n\n    The final-exam score is predicted to be 261.19. The largest the final-exam score can be is 200.\n\n    NOTE\n\n     The process of predicting inside of the observed x values observed in the data is called interpolation. The process of\n      predicting outside of the observed x values observed in the data is called extrapolation.\n\n\n\n\n          TRY IT 12.11\n\n      Data are collected on the relationship between the number of hours per week practicing a musical instrument and\n      scores on a math test. The line of best fit is as follows:\n\n    ŷ = 72.5 + 2.8x\n     What would you predict the score on a math test would be for a student who practices a musical instrument for five\n      hours a week?\n\n   12.6 Outliers\n     In some data sets, there are values (observed data points) called outliers. Outliers are observed data points that are\n     far from the least squares line. They have large \"errors\", where the \"error\" or residual is the vertical distance from the\n      line to the point.",
+        "source_id": "openstax-introductory-statistics-2e",
+        "source": "Introductory Statistics 2e (OpenStax)",
+        "page": 648,
+        "metadata": {
+          "pdf_page": 648,
+          "book_page": 636,
+          "content_type": "text",
+          "image_count": 0,
+          "drawing_count": 35
+        },
+        "score": 0.3236670770654837,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "st2e-p603-t00",
+        "text": "11 • Practice  591\n\n\n     actual maximum weights their clients lifted. They want to know how well their expectations met with what was\n    observed.\n\nUsethefollowinginformationtoanswerthenextfiveexercises: A teacher predicts that the distribution of grades on the\nfinal exam will be and they are recorded in Table 11.27.\n\n                                       Grade   Proportion\n\n                                       A         0.25\n\n                                      B         0.30\n\n                                       C         0.35\n\n                                  D         0.10\n\n                                           Table 11.27\n\nThe actual distribution for a class of 20 is in Table 11.28.\n\n                                        Grade  Frequency\n\n                                       A         7\n\n                                      B         7\n\n                                       C         5\n\n                                  D        1\n\n                                            Table 11.28\n\n 9.        ______\n\n10.  State the null and alternative hypotheses.\n11. χ2 test statistic = ______\n\n12. p-value = ______\n\n13. At the 5% significance level, what can you conclude?\n\n\nUsethefollowinginformationtoanswerthenextnineexercises: The cumulative number of COVID-19 related cases\nreported for Santa Clara County for a certain time period is broken down by ethnicity as in Table 11.29.\n\n                                           Ethnicity       Number of Cases\n\n                                        White                 2,229",
+        "source_id": "openstax-introductory-statistics-2e",
+        "source": "Introductory Statistics 2e (OpenStax)",
+        "page": 603,
+        "metadata": {
+          "pdf_page": 603,
+          "book_page": 591,
+          "content_type": "text",
+          "image_count": 0,
+          "drawing_count": 43
+        },
+        "score": 0.32268819108479146,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "st2e-p603-tb01",
+        "text": "Structured table on PDF page 603. The actual distribution for a class of 20 is in Table 11.28.\nGrade | Frequency\nA | 7\nB | 7\nC | 5\nD | 1",
+        "source_id": "openstax-introductory-statistics-2e",
+        "source": "Introductory Statistics 2e (OpenStax)",
+        "page": 603,
+        "metadata": {
+          "pdf_page": 603,
+          "book_page": 591,
+          "content_type": "table",
+          "bbox": [
+            260.57,
+            282.99,
+            351.43,
+            404.13
+          ],
+          "row_count": 5,
+          "column_count": 2
+        },
+        "score": 0.3177509075761152,
+        "strategy": "tfidf",
+        "hit": true
+      }
+    ],
+    "context": "[st2e-p603-tb01 | Introductory Statistics 2e (OpenStax) | page 603]\nStructured table on PDF page 603. The actual distribution for a class of 20 is in Table 11.28.\nGrade | Frequency\nA | 7\nB | 7\nC | 5\nD | 1",
+    "context_ids": [
+      "st2e-p603-tb01"
+    ],
+    "context_chars": 204,
+    "elapsed_ms": 12.70330001716502,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "dev-multihop-02",
+    "split": "dev",
+    "question": "Using the formula in Table 2.34 and the values in Table 2.35, what z-score formula should be applied, what are John's and Ali's z-scores, and whose GPA is higher relative to their school?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-introductory-statistics-2e",
+        "page": 128,
+        "evidence": "Use the formula: value = mean + (#ofSTDEVs)(standard deviation); solve for #ofSTDEVs."
+      },
+      {
+        "source_id": "openstax-introductory-statistics-2e",
+        "page": 129,
+        "evidence": "John has the better GPA when compared to his school"
+      }
+    ],
+    "results": [
+      {
+        "id": "st2e-p129-t00",
+        "text": "2.7 • Measures of the Spread of the Data   117\n\n\n\n EXAMPLE 2.35\n\n   Problem\nTwo students, John and Ali, from different high schools, wanted to find out who had the highest GPA when compared to\nhis school. Which student had the highest GPA when compared to his school?\n\n                      Student  GPA   School Mean GPA   School Standard Deviation\n\n                         John     2.85           3.0                       0.7\n\n                                    Ali      77          80                   10\n\n                      Table 2.35\n\n   Solution\nFor each student, determine how many standard deviations (#ofSTDEVs) his GPA is away from the average, for his\nschool. Pay careful attention to signs when comparing and interpreting the answer.\n\n\nFor John,\n\nFor Ali,\n\nJohn has the better GPA when compared to his school because his GPA is 0.21 standard deviations below his school's\nmean while Ali's GPA is 0.3 standard deviations below his school's mean.\n\nJohn's z-score of –0.21 is higher than Ali's z-score of –0.3. For GPA, higher values are better, so we conclude that John has\nthe better GPA when compared to his school.\n\n\n\n      TRY IT 2.35\n\n Two swimmers, Angie and Beth, from different teams, wanted to find out who had the fastest time for the 50 meter\n  freestyle when compared to her team. Which swimmer had the fastest time when compared to her team?\n\n              Swimmer  Time (seconds)  Team Mean Time  Team Standard Deviation\n\n                    Angie          26.2               27.2                      0.8\n\n                    Beth           27.3               30.1",
+        "source_id": "openstax-introductory-statistics-2e",
+        "source": "Introductory Statistics 2e (OpenStax)",
+        "page": 129,
+        "metadata": {
+          "pdf_page": 129,
+          "book_page": 117,
+          "content_type": "text",
+          "image_count": 0,
+          "drawing_count": 137
+        },
+        "score": 0.4393132031686176,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "st2e-p348-t01",
+        "text": "ate the\n     mean for each data set. Write the means on the x-axis of the appropriate graph below the peak. Shade the\n      approximate area that represents the probability that one randomly chosen male is taller than 72 inches. Shade the\n      approximate area that represents the probability that one randomly chosen female is shorter than 60 inches. If the\n       total area under each curve is one, does either probability appear to be more than 0.5?\n\n   6.1 The Standard Normal Distribution\n    The standard normal distribution is a normal distribution of standardized values called z-scores. A z-score is\n    measured in units of the standard deviation. For example, if the mean of a normal distribution is five and the\n     standard deviation is two, the value 11 is three standard deviations above (or to the right of) the mean. The calculation is\n     as follows:\n\n   x = μ + (z)(σ) = 5 + (3)(2) = 11\n\n    The z-score is three.\n\n    The mean for the standard normal distribution is zero, and the standard deviation is one. The transformation z =\n    produces the distribution Z ~ N(0, 1). The value x in the given equation comes from a normal distribution with mean μ\n    and standard deviation σ.\n   Z-Scores\n       If X is a normally distributed random variable and X ~ N(μ,σ), then the z-score is:\n\n\n\n    The z-score tells you how many standard deviations the value x is above (to the right of) or below (to the left of)\n    the mean, μ. Values of x that are larger than the mean have positive z-scores, and values of x that are smaller than the\n    mean have negative z-scores. If x",
+        "source_id": "openstax-introductory-statistics-2e",
+        "source": "Introductory Statistics 2e (OpenStax)",
+        "page": 348,
+        "metadata": {
+          "pdf_page": 348,
+          "book_page": 336,
+          "content_type": "text",
+          "image_count": 0,
+          "drawing_count": 58
+        },
+        "score": 0.29710797620927876,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "st2e-p364-t00",
+        "text": "352  6 • Practice\n\n\n 7. X ~ N(–2, 1)\n  μ = _______\n\n 8. What does a z-score measure?\n\n 9. What does standardizing a normal distribution do to the mean?\n\n10.  Is X ~ N(0, 1) a standardized normal distribution? Why or why not?\n\n11. What is the z-score of x = 12, if it is two standard deviations to the right of the mean?\n\n12. What is the z-score of x = 9, if it is 1.5 standard deviations to the left of the mean?\n\n13. What is the z-score of x = –2, if it is 2.78 standard deviations to the right of the mean?\n\n14. What is the z-score of x = 7, if it is 0.133 standard deviations to the left of the mean?\n\n15. Suppose X ~ N(2, 6). What value of x has a z-score of three?\n\n16. Suppose X ~ N(8, 1). What value of x has a z-score of –2.25?\n\n17. Suppose X ~ N(9, 5). What value of x has a z-score of –0.5?\n\n18. Suppose X ~ N(2, 3). What value of x has a z-score of –0.67?\n\n19. Suppose X ~ N(4, 2). What value of x is 1.5 standard deviations to the left of the mean?\n\n20. Suppose X ~ N(4, 2). What value of x is two standard deviations to the right of the mean?\n\n21. Suppose X ~ N(8, 9). What value of x is 0.67 standard deviations to the left of the mean?\n\n22. Suppose X ~ N(–1, 2). What is the z-score of x = 2?\n\n23. Suppose X ~ N(12, 6). What is the z-score of x = 2?\n\n24. Suppose X ~ N(9, 3). What is the z-score of x = 9?\n\n25. Suppose a normal distribution has a mean of six and a standard deviation of 1.5. What is the z-score of x = 5.5?\n\n26.  In a normal distribution, x = 5 and z = –1.25. This tells you that x = 5 is ____ standard deviations to the ____ (right or\n      left) of the mean.\n\n27.",
+        "source_id": "openstax-introductory-statistics-2e",
+        "source": "Introductory Statistics 2e (OpenStax)",
+        "page": 364,
+        "metadata": {
+          "pdf_page": 364,
+          "book_page": 352,
+          "content_type": "text",
+          "image_count": 0,
+          "drawing_count": 5
+        },
+        "score": 0.28994689934185847,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "context_chars": 0,
+    "elapsed_ms": 13.245699985418469,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "dev-multihop-03",
+    "split": "dev",
+    "question": "Using the simple random sampling section and the sample-mean definition, how is a sample selected, and what does its sample mean estimate?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-introductory-statistics-2e",
+        "page": 31,
+        "evidence": "To choose a simple random sample from each department, number each member"
+      },
+      {
+        "source_id": "openstax-introductory-statistics-2e",
+        "page": 114,
+        "evidence": "The sample mean is an example of a statistic which estimates the population mean"
+      }
+    ],
+    "results": [
+      {
+        "id": "st2e-p400-t00",
+        "text": "388  7 • Key Terms\n\nKey Terms\nAverage  a number that describes the central tendency of the data; there are a number of specialized averages,\n   including the arithmetic mean, weighted mean, median, mode, and geometric mean.\nCentral Limit Theorem  Given a random variable (RV) with known mean μ and known standard deviation, σ, we are\n   sampling with size n, and we are interested in two new RVs: the sample mean,     , and the sample sum, ΣΧ. If the size\n    (n) of the sample is sufficiently large, then   ~ N(μ,       ) and ΣΧ ~ N(nμ, (     )(σ)). If the size (n) of the sample is\n\n   sufficiently large, then the distribution of the sample means and the distribution of the sample sums will approximate\n   a normal distributions regardless of the shape of the population. The mean of the sample means will equal the\n   population mean, and the mean of the sample sums will equal n times the population mean. The standard deviation\n   of the distribution of the sample means,       , is called the standard error of the mean.\n\nExponential Distribution  a continuous random variable (RV) that appears when we are interested in the intervals of\n   time between some random events, for example, the length of time between emergency arrivals at a hospital,\n   notation: X ~ Exp(m). The mean is μ =   and the standard deviation is σ =     . The probability density function is f(x) =\n   me–mx, x ≥ 0 and the cumulative distribution function is P(X ≤ x) = 1 – e–mx.\nMean  a number that measures the central tendency; a common name for mean is \"average.\" The term \"mean\" is a\n   shortened form of",
+        "source_id": "openstax-introductory-statistics-2e",
+        "source": "Introductory Statistics 2e (OpenStax)",
+        "page": 400,
+        "metadata": {
+          "pdf_page": 400,
+          "book_page": 388,
+          "content_type": "text",
+          "image_count": 0,
+          "drawing_count": 258
+        },
+        "score": 0.3370877446434339,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "st2e-p381-t00",
+        "text": "7.1 • The Central Limit Theorem for Sample Means (Averages)  369\n\n\n\nThe probability that the mean time is between 1.8 hours and 2.3 hours is 0.9977.\n\n\n\n      TRY IT  7.2\n\n The length of time taken on the SAT for a group of students is normally distributed with a mean of 2.5 hours and a\n standard deviation of 0.25 hours. A sample size of n = 60 is drawn randomly from the population. Find the probability\n that the sample mean is between two hours and three hours.\n\n\n\n     USING THE TI-83, 83+, 84, 84+ CALCULATOR\n\n To find percentiles for means on the calculator, follow these steps.\n\n 2nd DIStR\n 3:invNorm\n\n k = invNorm\n\n where:\n    • k = the kth percentile\n    • mean is the mean of the original distribution\n    •  standarddeviation is the standard deviation of the original distribution\n    • samplesize = n\n\n\n\n EXAMPLE 7.3\n\n   Problem\nIn a recent study, it was reported that the mean age of iPad users is 34 years. Suppose the standard deviation is 15\nyears. Take a sample of size n = 100.\n\n a.  What are the mean and standard deviation for the sample mean ages of iPad users?\n b.  What does the distribution look like?\n c.  Find the probability that the sample mean age is more than 30 years (the reported mean age of iPad users in this\n     particular study).\n d.  Find the 95th percentile for the sample mean age (to one decimal place).\n\n   Solution\n a.  Since the sample mean tends to target the population mean, we have μχ = μ = 34. The sample standard deviation is\n    given by σχ =    =      =   = 1.5\n\n b.  The central limit theorem states that for large sample sizes(n), the sampling",
+        "source_id": "openstax-introductory-statistics-2e",
+        "source": "Introductory Statistics 2e (OpenStax)",
+        "page": 381,
+        "metadata": {
+          "pdf_page": 381,
+          "book_page": 369,
+          "content_type": "text",
+          "image_count": 0,
+          "drawing_count": 117
+        },
+        "score": 0.3333854519801702,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "st2e-p771-t00",
+        "text": "B • Practice Tests (1-4) and Final Exams  759\n\n\npopulation with a mean of 75 and a standard deviation of 4.5.\n\n73. What is the expected distribution of the sample means?\n\n74. One of your friends tries to convince you that the standard error of the mean should be 4.5. Explain what error your\nfriend made.\n\n75. What is the z-score for a sample mean of 76?\n\n76. What is the z-score for a sample mean of 74.7?\n\n77. What sample mean corresponds to a z-score of 1.5?\n\n78. If you decrease the sample size to 50, will the standard error of the mean be smaller or larger? What would be its\nvalue?\n\nUsethefollowinginformationtoanswerthenexttwoquestions. We use the empirical rule to analyze data for samples of\nsize 60 drawn from a population with a mean of 70 and a standard deviation of 9.\n\n79. What range of values would you expect to include 68 percent of the sample means?\n\n80. If you increased the sample size to 100, what range would you expect to contain 68 percent of the sample means,\napplying the empirical rule?\n7.2: The Central Limit Theorem for Sums\n81. How does the central limit theorem apply to sums of random variables?\n\n82. Explain how the rules applying the central limit theorem to sample means, and to sums of a random variable, are\nsimilar.\n\n83. If you repeatedly draw samples of size 50 from a population with a mean of 80 and a standard deviation of four, and\ncalculate the sum of each sample, what is the expected distribution of these sums?\n\nUsethefollowinginformationtoanswerthenextfourexercises. You draw one sample of size 40 from a population with\na mean of 125 and a standard",
+        "source_id": "openstax-introductory-statistics-2e",
+        "source": "Introductory Statistics 2e (OpenStax)",
+        "page": 771,
+        "metadata": {
+          "pdf_page": 771,
+          "book_page": 759,
+          "content_type": "text",
+          "image_count": 0,
+          "drawing_count": 5
+        },
+        "score": 0.33108891384819444,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "context_chars": 0,
+    "elapsed_ms": 10.631199984345585,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "dev-text-01",
+    "split": "dev",
+    "question": "In the book's definition of cluster sampling, what happens to every individual in a selected cluster?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-introductory-statistics-2e",
+        "page": 31,
+        "evidence": "All the members from these clusters are in the cluster sample."
+      }
+    ],
+    "results": [
+      {
+        "id": "st2e-p032-t03",
+        "text": "to every twentieth child under age ten who enters the supermarket.\n       3.  To find the average annual income of all adults in the United States, sample U.S. Representatives. Create a cluster\n         sample by considering each state as a stratum (group). By using simple random sampling, select states to be part\n          of the cluster. Then survey every U.S. Representative in the cluster.\n       4.  To determine the proportion of people taking public transportation to work, survey 20 people in New York City.\n         Conduct the survey by sitting in Central Park on a bench and interviewing every person who sits next to you.\n\n\n\n\n\n    Access for free at openstax.org",
+        "source_id": "openstax-introductory-statistics-2e",
+        "source": "Introductory Statistics 2e (OpenStax)",
+        "page": 32,
+        "metadata": {
+          "pdf_page": 32,
+          "book_page": 20,
+          "content_type": "text",
+          "image_count": 0,
+          "drawing_count": 4
+        },
+        "score": 0.3633877092618236,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "st2e-p056-t01",
+        "text": "population. Let k = (number of individuals in the\n   population)/(number of individuals needed in the sample). Choose every kth individual in the list starting with the one\n   that was randomly selected. If necessary, return to the beginning of the population list to complete your sample.\nTreatments  different values or components of the explanatory variable applied in an experiment\nVariable  a characteristic of interest for each person or object in a population\nChapter Review\n1.1 Definitions of Statistics, Probability, and Key Terms\nThe mathematical theory of statistics is easier to learn when you know the language. This module presents important\nterms that will be used throughout the text.\n1.2 Data, Sampling, and Variation in Data and Sampling\nData are individual items of information that come from a population or sample. Data may be classified as qualitative\n(categorical), quantitative continuous, or quantitative discrete.\n\nBecause it is not practical to measure the entire population in a study, researchers use samples to represent the\npopulation. A random sample is a representative group from the population chosen by using a method that gives each\nindividual in the population an equal chance of being included in the sample. Random sampling methods include simple\nrandom sampling, stratified sampling, cluster sampling, and systematic sampling. Convenience sampling is a\nnonrandom method of choosing a sample that often produces biased data.\n\nSamples that contain different individuals result in different data. This is true even when the samples are well-chosen\nand",
+        "source_id": "openstax-introductory-statistics-2e",
+        "source": "Introductory Statistics 2e (OpenStax)",
+        "page": 56,
+        "metadata": {
+          "pdf_page": 56,
+          "book_page": 44,
+          "content_type": "text",
+          "image_count": 0,
+          "drawing_count": 14
+        },
+        "score": 0.2718322533633715,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "st2e-p031-t01",
+        "text": "nt the\nmembers who make up the stratified sample.\n\nTo choose a cluster sample, divide the population into clusters (groups) and then randomly select some of the clusters.\nAll the members from these clusters are in the cluster sample. For example, if you randomly sample four departments\nfrom your college population, the four departments make up the cluster sample. Divide your college faculty by\ndepartment. The departments are the clusters. Number each department, and then choose four different numbers\nusing simple random sampling. All members of the four departments with those numbers are the cluster sample.\nTo choose a systematic sample, randomly select a starting point and take every nth piece of data from a listing of the\npopulation. For example, suppose you have to do a phone survey. Your phone book contains 20,000 residence listings.\nYou must choose 400 names for the sample. Number the population 1–20,000 and then use a simple random sample to\npick a number that represents the first name in the sample. Then choose every fiftieth name thereafter until you have a\ntotal of 400 names (you might have to go back to the beginning of your phone list). Systematic sampling is frequently\nchosen because it is a simple method.\n\nA type of sampling that is non-random is convenience sampling. Convenience sampling involves using results that are\nreadily available. For example, a computer software store conducts a marketing study by interviewing potential\ncustomers who happen to be in the store browsing through the available software. The results of convenience sampling\nmay be very good",
+        "source_id": "openstax-introductory-statistics-2e",
+        "source": "Introductory Statistics 2e (OpenStax)",
+        "page": 31,
+        "metadata": {
+          "pdf_page": 31,
+          "book_page": 19,
+          "content_type": "text",
+          "image_count": 1,
+          "drawing_count": 1
+        },
+        "score": 0.27024578384611675,
+        "strategy": "tfidf",
+        "hit": true
+      }
+    ],
+    "context": "[st2e-p032-t03 | Introductory Statistics 2e (OpenStax) | page 32]\nto every twentieth child under age ten who enters the supermarket.\n       3.  To find the average annual income of all adults in the United States, sample U.S. Representatives. Create a cluster\n         sample by considering each state as a stratum (group). By using simple random sampling, select states to be part\n          of the cluster. Then survey every U.S. Representative in the cluster.\n       4.  To determine the proportion of people taking public transportation to work, survey 20 people in New York City.\n         Conduct the survey by sitting in Central Park on a bench and interviewing every person who sits next to you.\n\n\n\n\n\n    Access for free at openstax.org",
+    "context_ids": [
+      "st2e-p032-t03"
+    ],
+    "context_chars": 742,
+    "elapsed_ms": 9.455899999011308,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "dev-text-02",
+    "split": "dev",
+    "question": "How does the book define a continuous random variable?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-introductory-statistics-2e",
+        "page": 303,
+        "evidence": "The outcomes are measured, not counted."
+      }
+    ],
+    "results": [
+      {
+        "id": "st2e-p303-t00",
+        "text": "5 • Introduction     291\n\n\n\n\n\n 5       CONTINUOUS RANDOM VARIABLES\n\n\n\n\n\nFigure 5.1 The heights of these radish plants are continuous random variables. (credit: modification of work “Radish\n(Raphanus sativus): White rust caused by Albugo candida” by Scot Nelson/ Flickr, Public Domain)\n\nChapter Objectives\nBy the end of this chapter, the student should be able to:\n    Recognize and understand continuous probability density functions in general.\n    Recognize the uniform probability distribution and apply it appropriately.\n    Recognize the exponential probability distribution and apply it appropriately.\n\n    Introduction\nContinuous random variables have many applications. Baseball batting averages, IQ scores, the length of time a long\ndistance telephone call lasts, the amount of money a person carries, the length of time a computer chip lasts, and SAT\nscores are just a few. The field of reliability depends on a variety of continuous random variables.\n\n NOTE\n\n The values of discrete and continuous random variables can be ambiguous. For example, if X is equal to the number\n  of miles (to the nearest mile) you drive to work, then X is a discrete random variable. You count the miles. If X is the\n  distance you drive to work, then you measure values of X and X is a continuous random variable. For a second\n example, if X is equal to the number of books in a backpack, then X is a discrete random variable. If X is the weight of\n a book, then X is a continuous random variable because weights are measured. How the random variable is defined is\n  very important.\n\nProperties of",
+        "source_id": "openstax-introductory-statistics-2e",
+        "source": "Introductory Statistics 2e (OpenStax)",
+        "page": 303,
+        "metadata": {
+          "pdf_page": 303,
+          "book_page": 291,
+          "content_type": "text",
+          "image_count": 3,
+          "drawing_count": 17
+        },
+        "score": 0.35768333210845993,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "st2e-p769-t01",
+        "text": "would you express this\ndistribution?\n\n39. What is the domain of X?\n\n40. What are the mean and standard deviation of X?\n5.1: Continuous Probability Functions\n41. You conduct a survey of students to see how many books they purchased the previous semester, the total amount\nthey paid for those books, the number they sold after the semester was over, and the amount of money they received for\nthe books they sold. Which variables in this survey are discrete, and which are continuous?\n\n42. With continuous random variables, we never calculate the probability that X has a particular value, but always speak\nin terms of the probability that X has a value within a particular range. Why is this?\n\n43. For a continuous random variable, why are P(x < c) and P(x ≤ c) equivalent statements?\n\n44. For a continuous probability function, P(x < 5) = 0.35. What is P(x > 5), and how do you know?\n\n45. Describe how you would draw the continuous probability distribution described by the function            for\n                    . What type of a distribution is this?\n\n46. For the continuous probability distribution described by the function            for                     , what is the P(0 < x <\n4)?\n5.2: The Uniform Distribution\n47. For the continuous probability distribution described by the function            for                     , what is the P(2 < x <\n5)?\n\nUsethefollowinginformationtoanswerthenextfourexercises. The number of minutes that a patient waits at a medical\nclinic to see a doctor is represented by a uniform distribution between zero and 30 minutes, inclusive.\n\n48. If X equals the",
+        "source_id": "openstax-introductory-statistics-2e",
+        "source": "Introductory Statistics 2e (OpenStax)",
+        "page": 769,
+        "metadata": {
+          "pdf_page": 769,
+          "book_page": 757,
+          "content_type": "text",
+          "image_count": 0,
+          "drawing_count": 50
+        },
+        "score": 0.2732788708410592,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "st2e-p773-t01",
+        "text": "fixed interval of time or space, when the events\nare independent and the average rate of the events is known.\n\n38. X ~ P(4)\n\n39. The domain of X = {0, 1, 2, 3, …..) i.e., any integer from 0 upwards.\n\n40.\n\n5.1: Continuous Probability Functions\n41. The discrete variables are the number of books purchased, and the number of books sold after the end of the\nsemester. The continuous variables are the amount of money spent for the books, and the amount of money received\nwhen they were sold.\n\n42. Because for a continuous random variable, P(x = c) = 0, where c is any single value. Instead, we calculate P(c < x < d),\ni.e., the probability that the value of x is between the values c and d.\n\n43. Because P(x = c) = 0 for any continuous random variable.\n\n44. P(x > 5) = 1 – 0.35 = 0.65, because the total probability of a continuous probability function is always 1.\n\n45. This is a uniform probability distribution. You would draw it as a rectangle with the vertical sides at 0 and 20, and the",
+        "source_id": "openstax-introductory-statistics-2e",
+        "source": "Introductory Statistics 2e (OpenStax)",
+        "page": 773,
+        "metadata": {
+          "pdf_page": 773,
+          "book_page": 761,
+          "content_type": "text",
+          "image_count": 0,
+          "drawing_count": 123
+        },
+        "score": 0.23692360738203377,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "context_chars": 0,
+    "elapsed_ms": 7.417700020596385,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "dev-text-03",
+    "split": "dev",
+    "question": "According to the sampling section, what is convenience sampling and what bias risk is associated with it?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-introductory-statistics-2e",
+        "page": 31,
+        "evidence": "A type of sampling that is non-random is convenience sampling."
+      },
+      {
+        "source_id": "openstax-introductory-statistics-2e",
+        "page": 31,
+        "evidence": "The results of convenience sampling may be very good in some cases and highly biased"
+      }
+    ],
+    "results": [
+      {
+        "id": "st2e-p032-t00",
+        "text": "20   1 • Sampling and Data\n\n\n    the population and thus may be chosen more than once. However for practical reasons, in most populations, simple\n   random sampling without replacement is done. Surveys are typically done without replacement. That is, a member of\n    the population may be chosen only once. Most samples are taken from large populations and the sample tends to be\n    small in comparison to the population. Since this is the case, sampling without replacement is approximately the same\n    as sampling with replacement because the chance of picking the same individual more than once with replacement is\n    very low.\n\n    Sampling without replacement instead of sampling with replacement becomes a mathematical issue only when the\n    population is small.\n\n   When you analyze data, it is important to be aware of sampling errors and nonsampling errors. The actual process of\n    sampling causes sampling errors. For example, the sample may not be large enough. Factors not related to the sampling\n    process cause nonsampling errors. A defective counting device can cause a nonsampling error.\n\n    In reality, a sample will never be exactly representative of the population so there will always be some sampling error. As\n   a rule, the larger the sample, the smaller the sampling error.\n\n    In statistics, a sampling bias is created when a sample is collected from a population and some members of the\n    population are not as likely to be chosen as others (remember, each member of the population should have an equally\n     likely chance of being chosen). When a sampling",
+        "source_id": "openstax-introductory-statistics-2e",
+        "source": "Introductory Statistics 2e (OpenStax)",
+        "page": 32,
+        "metadata": {
+          "pdf_page": 32,
+          "book_page": 20,
+          "content_type": "text",
+          "image_count": 0,
+          "drawing_count": 4
+        },
+        "score": 0.31344161606098137,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "st2e-p331-t01",
+        "text": "Usethefollowinginformationtoanswerthenexteightexercises. A distribution is given as X ~ U(0, 12).\n\n26. What is a? What does it represent?\n\n27. What is b? What does it represent?\n\n28. What is the probability density function?\n\n29. What is the theoretical mean?",
+        "source_id": "openstax-introductory-statistics-2e",
+        "source": "Introductory Statistics 2e (OpenStax)",
+        "page": 331,
+        "metadata": {
+          "pdf_page": 331,
+          "book_page": 319,
+          "content_type": "text",
+          "image_count": 1,
+          "drawing_count": 48
+        },
+        "score": 0.2604357270081706,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "st2e-p056-t01",
+        "text": "population. Let k = (number of individuals in the\n   population)/(number of individuals needed in the sample). Choose every kth individual in the list starting with the one\n   that was randomly selected. If necessary, return to the beginning of the population list to complete your sample.\nTreatments  different values or components of the explanatory variable applied in an experiment\nVariable  a characteristic of interest for each person or object in a population\nChapter Review\n1.1 Definitions of Statistics, Probability, and Key Terms\nThe mathematical theory of statistics is easier to learn when you know the language. This module presents important\nterms that will be used throughout the text.\n1.2 Data, Sampling, and Variation in Data and Sampling\nData are individual items of information that come from a population or sample. Data may be classified as qualitative\n(categorical), quantitative continuous, or quantitative discrete.\n\nBecause it is not practical to measure the entire population in a study, researchers use samples to represent the\npopulation. A random sample is a representative group from the population chosen by using a method that gives each\nindividual in the population an equal chance of being included in the sample. Random sampling methods include simple\nrandom sampling, stratified sampling, cluster sampling, and systematic sampling. Convenience sampling is a\nnonrandom method of choosing a sample that often produces biased data.\n\nSamples that contain different individuals result in different data. This is true even when the samples are well-chosen\nand",
+        "source_id": "openstax-introductory-statistics-2e",
+        "source": "Introductory Statistics 2e (OpenStax)",
+        "page": 56,
+        "metadata": {
+          "pdf_page": 56,
+          "book_page": 44,
+          "content_type": "text",
+          "image_count": 0,
+          "drawing_count": 14
+        },
+        "score": 0.24862093865114474,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[st2e-p331-t01 | Introductory Statistics 2e (OpenStax) | page 331]\nUsethefollowinginformationtoanswerthenexteightexercises. A distribution is given as X ~ U(0, 12).\n\n26. What is a? What does it represent?\n\n27. What is b? What does it represent?\n\n28. What is the probability density function?\n\n29. What is the theoretical mean?",
+    "context_ids": [
+      "st2e-p331-t01"
+    ],
+    "context_chars": 326,
+    "elapsed_ms": 7.981600007042289,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  }
+]

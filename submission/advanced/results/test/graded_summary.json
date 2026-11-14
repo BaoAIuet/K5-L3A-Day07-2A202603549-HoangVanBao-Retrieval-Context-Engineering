@@ -1,0 +1,48 @@
+{
+  "split": "test",
+  "n": 30,
+  "passed": 25,
+  "failed": 5,
+  "pass_rate": 0.8333333333333334,
+  "pass_rate_percent": 83.33333333333333,
+  "groups": {
+    "table": {
+      "passed": 6,
+      "total": 6,
+      "rate": 1.0
+    },
+    "image_diagram": {
+      "passed": 3,
+      "total": 5,
+      "rate": 0.6
+    },
+    "chart": {
+      "passed": 5,
+      "total": 5,
+      "rate": 1.0
+    },
+    "multi_hop": {
+      "passed": 2,
+      "total": 4,
+      "rate": 0.5
+    },
+    "text": {
+      "passed": 3,
+      "total": 4,
+      "rate": 0.75
+    },
+    "unanswerable": {
+      "passed": 6,
+      "total": 6,
+      "rate": 1.0
+    }
+  },
+  "system_errors": 0,
+  "latency_ms": {
+    "median": 2418.2472500106087,
+    "total": 93537.6905000303,
+    "queries_with_latency": 30
+  },
+  "estimated_cost_usd": 0.010826249999999999,
+  "review_method": "manual comparison with cited PDF pages/regions; all-or-nothing"
+}

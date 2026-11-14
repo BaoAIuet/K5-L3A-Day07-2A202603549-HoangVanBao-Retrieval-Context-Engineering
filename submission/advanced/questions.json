@@ -1,0 +1,721 @@
+[
+  {
+    "id": "dev-table-01",
+    "split": "dev",
+    "primary_group": "table",
+    "question": "In the Singles data in Table 2.87, how many observations are in the $151-$200 amount class?",
+    "answerable": true,
+    "expected_answer": "15 observations.",
+    "gold": [
+      {
+        "source_id": "openstax-introductory-statistics-2e",
+        "page": 174,
+        "evidence": "151-200 | 15 | 0.25"
+      }
+    ]
+  },
+  {
+    "id": "dev-table-02",
+    "split": "dev",
+    "primary_group": "table",
+    "question": "In Table 4.20, what is the probability assigned to x = 3?",
+    "answerable": true,
+    "expected_answer": "P(x=3) is 0.15.",
+    "gold": [
+      {
+        "source_id": "openstax-introductory-statistics-2e",
+        "page": 276,
+        "evidence": "3 | 0.15"
+      }
+    ]
+  },
+  {
+    "id": "dev-table-03",
+    "split": "dev",
+    "primary_group": "table",
+    "question": "In Table 11.28, what is the observed frequency for grade A?",
+    "answerable": true,
+    "expected_answer": "The observed frequency for grade A is 7.",
+    "gold": [
+      {
+        "source_id": "openstax-introductory-statistics-2e",
+        "page": 603,
+        "evidence": "A | 7"
+      }
+    ]
+  },
+  {
+    "id": "dev-image-01",
+    "split": "dev",
+    "primary_group": "image_diagram",
+    "question": "In Figure 3.4, if the first marble drawn is red, how many red marbles remain out of how many total marbles for the second draw?",
+    "answerable": true,
+    "expected_answer": "2 red marbles remain out of 10 total marbles.",
+    "gold": [
+      {
+        "source_id": "openstax-introductory-statistics-2e",
+        "page": 203,
+        "evidence": "after drawing red, only 2 red marbles remain out of 10"
+      }
+    ]
+  },
+  {
+    "id": "dev-image-02",
+    "split": "dev",
+    "primary_group": "image_diagram",
+    "question": "In Figure 3.7's two-coin Venn diagram, which outcome lies in the overlap of events A and B?",
+    "answerable": true,
+    "expected_answer": "TT lies in the overlap.",
+    "gold": [
+      {
+        "source_id": "openstax-introductory-statistics-2e",
+        "page": 206,
+        "evidence": "TT lies in the overlap"
+      }
+    ]
+  },
+  {
+    "id": "dev-image-03",
+    "split": "dev",
+    "primary_group": "image_diagram",
+    "question": "According to Figure 3.16, what is the joint probability of drawing green on both draws when the card is replaced?",
+    "answerable": true,
+    "expected_answer": "The probability is 25/64.",
+    "gold": [
+      {
+        "source_id": "openstax-introductory-statistics-2e",
+        "page": 236,
+        "evidence": "The joint outcome GG has probability 25/64."
+      }
+    ]
+  },
+  {
+    "id": "dev-chart-01",
+    "split": "dev",
+    "primary_group": "chart",
+    "question": "In Figure 1.11(b), how are the pie-chart wedges ordered?",
+    "answerable": true,
+    "expected_answer": "They are ordered by wedge size.",
+    "gold": [
+      {
+        "source_id": "openstax-introductory-statistics-2e",
+        "page": 29,
+        "evidence": "organized by the size of each wedge"
+      }
+    ]
+  },
+  {
+    "id": "dev-chart-02",
+    "split": "dev",
+    "primary_group": "chart",
+    "question": "What is the direction of skew in Terry's distribution in Figure 2.19?",
+    "answerable": true,
+    "expected_answer": "It is right-skewed (positively skewed).",
+    "gold": [
+      {
+        "source_id": "openstax-introductory-statistics-2e",
+        "page": 117,
+        "evidence": "right (positive) skew"
+      }
+    ]
+  },
+  {
+    "id": "dev-chart-03",
+    "split": "dev",
+    "primary_group": "chart",
+    "question": "What x-interval is shaded in the standard normal curve in Figure 5.4?",
+    "answerable": true,
+    "expected_answer": "The interval from x = 1 to x = 2 is shaded.",
+    "gold": [
+      {
+        "source_id": "openstax-introductory-statistics-2e",
+        "page": 304,
+        "evidence": "area between x=1 and x=2 shaded"
+      }
+    ]
+  },
+  {
+    "id": "dev-multihop-01",
+    "split": "dev",
+    "primary_group": "multi_hop",
+    "question": "Using the predicted proportions in Table 11.27 and the observed counts in Table 11.28, how many more or fewer grade C scores were observed than expected in the class of 20?",
+    "answerable": true,
+    "expected_answer": "The expected count was 0.35 × 20 = 7 and 5 were observed, so 2 fewer grade C scores were observed than expected.",
+    "gold": [
+      {
+        "source_id": "openstax-introductory-statistics-2e",
+        "page": 603,
+        "evidence_ref": "table:11.27",
+        "evidence": "C | 0.35"
+      },
+      {
+        "source_id": "openstax-introductory-statistics-2e",
+        "page": 603,
+        "evidence_ref": "table:11.28",
+        "evidence": "The actual distribution for a class of 20"
+      },
+      {
+        "source_id": "openstax-introductory-statistics-2e",
+        "page": 603,
+        "evidence_ref": "table:11.28",
+        "evidence": "C | 5"
+      }
+    ]
+  },
+  {
+    "id": "dev-multihop-02",
+    "split": "dev",
+    "primary_group": "multi_hop",
+    "question": "Using the formula in Table 2.34 and the values in Table 2.35, what z-score formula should be applied, what are John's and Ali's z-scores, and whose GPA is higher relative to their school?",
+    "answerable": true,
+    "expected_answer": "z = (value - mean) / standard deviation; John's z-score is about -0.21 and Ali's is -0.30, so John has the higher GPA relative to his school.",
+    "gold": [
+      {
+        "source_id": "openstax-introductory-statistics-2e",
+        "page": 128,
+        "evidence": "Use the formula: value = mean + (#ofSTDEVs)(standard deviation); solve for #ofSTDEVs."
+      },
+      {
+        "source_id": "openstax-introductory-statistics-2e",
+        "page": 129,
+        "evidence": "John has the better GPA when compared to his school"
+      }
+    ]
+  },
+  {
+    "id": "dev-multihop-03",
+    "split": "dev",
+    "primary_group": "multi_hop",
+    "question": "Using the simple random sampling section and the sample-mean definition, how is a sample selected, and what does its sample mean estimate?",
+    "answerable": true,
+    "expected_answer": "Simple random sampling selects individuals using randomly generated labels; the sample mean estimates the population mean.",
+    "gold": [
+      {
+        "source_id": "openstax-introductory-statistics-2e",
+        "page": 31,
+        "evidence": "To choose a simple random sample from each department, number each member"
+      },
+      {
+        "source_id": "openstax-introductory-statistics-2e",
+        "page": 114,
+        "evidence": "The sample mean is an example of a statistic which estimates the population mean"
+      }
+    ]
+  },
+  {
+    "id": "dev-text-01",
+    "split": "dev",
+    "primary_group": "text",
+    "question": "In the book's definition of cluster sampling, what happens to every individual in a selected cluster?",
+    "answerable": true,
+    "expected_answer": "Every individual in the chosen clusters is included in the sample.",
+    "gold": [
+      {
+        "source_id": "openstax-introductory-statistics-2e",
+        "page": 31,
+        "evidence": "All the members from these clusters are in the cluster sample."
+      }
+    ]
+  },
+  {
+    "id": "dev-text-02",
+    "split": "dev",
+    "primary_group": "text",
+    "question": "How does the book define a continuous random variable?",
+    "answerable": true,
+    "expected_answer": "It is a random variable whose outcomes are measured.",
+    "gold": [
+      {
+        "source_id": "openstax-introductory-statistics-2e",
+        "page": 303,
+        "evidence": "The outcomes are measured, not counted."
+      }
+    ]
+  },
+  {
+    "id": "dev-text-03",
+    "split": "dev",
+    "primary_group": "text",
+    "question": "According to the sampling section, what is convenience sampling and what bias risk is associated with it?",
+    "answerable": true,
+    "expected_answer": "It is a nonrandom method that selects easily accessible individuals and may result in biased data.",
+    "gold": [
+      {
+        "source_id": "openstax-introductory-statistics-2e",
+        "page": 31,
+        "evidence": "A type of sampling that is non-random is convenience sampling."
+      },
+      {
+        "source_id": "openstax-introductory-statistics-2e",
+        "page": 31,
+        "evidence": "The results of convenience sampling may be very good in some cases and highly biased"
+      }
+    ]
+  },
+  {
+    "id": "dev-unanswerable-01",
+    "split": "dev",
+    "primary_group": "unanswerable",
+    "question": "What was Vietnam's GDP per capita in 2025?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The source is a statistics textbook and does not provide Vietnam's 2025 GDP per capita."
+  },
+  {
+    "id": "dev-unanswerable-02",
+    "split": "dev",
+    "primary_group": "unanswerable",
+    "question": "Who won the 2025 UEFA Champions League?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The source does not cover this sports result."
+  },
+  {
+    "id": "dev-unanswerable-03",
+    "split": "dev",
+    "primary_group": "unanswerable",
+    "question": "What is the current spot price of silver in USD per ounce?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The source contains no live commodity prices."
+  },
+  {
+    "id": "test-table-01",
+    "split": "test",
+    "primary_group": "table",
+    "question": "According to Table 1.3, what was the total enrollment at Foothill College?",
+    "answerable": true,
+    "expected_answer": "14,183 students.",
+    "gold": [
+      {
+        "source_id": "openstax-introductory-statistics-2e",
+        "page": 26,
+        "evidence": "14,183"
+      }
+    ]
+  },
+  {
+    "id": "test-table-02",
+    "split": "test",
+    "primary_group": "table",
+    "question": "In Table 1.4, what percentage of De Anza students intend to transfer to a four-year educational institution?",
+    "answerable": true,
+    "expected_answer": "48.6%.",
+    "gold": [
+      {
+        "source_id": "openstax-introductory-statistics-2e",
+        "page": 27,
+        "evidence": "48.6%"
+      }
+    ]
+  },
+  {
+    "id": "test-table-03",
+    "split": "test",
+    "primary_group": "table",
+    "question": "In Table 1.5, how many De Anza students were listed as Hispanic/Latino?",
+    "answerable": true,
+    "expected_answer": "4,180 students.",
+    "gold": [
+      {
+        "source_id": "openstax-introductory-statistics-2e",
+        "page": 28,
+        "evidence": "Hispanic/Latino | 4,180 | 17.1%"
+      }
+    ]
+  },
+  {
+    "id": "test-table-04",
+    "split": "test",
+    "primary_group": "table",
+    "question": "For the Singles data in Table 2.87, what is the relative frequency for the $151-$200 amount class?",
+    "answerable": true,
+    "expected_answer": "0.25 (25%).",
+    "gold": [
+      {
+        "source_id": "openstax-introductory-statistics-2e",
+        "page": 174,
+        "evidence": "151-200 | 15 | 0.25"
+      }
+    ]
+  },
+  {
+    "id": "test-table-05",
+    "split": "test",
+    "primary_group": "table",
+    "question": "In Table 4.20, what is P(x=3)?",
+    "answerable": true,
+    "expected_answer": "P(x=3) is 0.15.",
+    "gold": [
+      {
+        "source_id": "openstax-introductory-statistics-2e",
+        "page": 276,
+        "evidence": "3 | 0.15"
+      }
+    ]
+  },
+  {
+    "id": "test-table-06",
+    "split": "test",
+    "primary_group": "table",
+    "question": "In Table 13.8, what was the highest GPA shown for the hockey team?",
+    "answerable": true,
+    "expected_answer": "4.0.",
+    "gold": [
+      {
+        "source_id": "openstax-introductory-statistics-2e",
+        "page": 700,
+        "evidence": "Basketball | Baseball | Hockey | Lacrosse\n3.6 | 2.1 | 4.0 | 2.0"
+      }
+    ]
+  },
+  {
+    "id": "test-image-01",
+    "split": "test",
+    "primary_group": "image_diagram",
+    "question": "In Figure 3.2, what is the total of the four terminal outcome frequencies?",
+    "answerable": true,
+    "expected_answer": "The terminal frequencies total 121.",
+    "gold": [
+      {
+        "source_id": "openstax-introductory-statistics-2e",
+        "page": 201,
+        "evidence": "totaling 121"
+      }
+    ]
+  },
+  {
+    "id": "test-image-02",
+    "split": "test",
+    "primary_group": "image_diagram",
+    "question": "In Figure 3.3, how many face cards and non-face cards are possible on the first draw?",
+    "answerable": true,
+    "expected_answer": "There are 12 face cards and 40 non-face cards.",
+    "gold": [
+      {
+        "source_id": "openstax-introductory-statistics-2e",
+        "page": 202,
+        "evidence": "the first draw has 12 face cards and 40 non-face cards"
+      }
+    ]
+  },
+  {
+    "id": "test-image-03",
+    "split": "test",
+    "primary_group": "image_diagram",
+    "question": "In Figure 3.5, given that the first card is a face card, what is the probability that the second card is also a face card?",
+    "answerable": true,
+    "expected_answer": "11/51.",
+    "gold": [
+      {
+        "source_id": "openstax-introductory-statistics-2e",
+        "page": 204,
+        "evidence": "after F, second-draw branches are F 11/51"
+      }
+    ]
+  },
+  {
+    "id": "test-image-04",
+    "split": "test",
+    "primary_group": "image_diagram",
+    "question": "In Figure 3.8, what is the probability that a person both belongs to a club and works part time?",
+    "answerable": true,
+    "expected_answer": "0.05.",
+    "gold": [
+      {
+        "source_id": "openstax-introductory-statistics-2e",
+        "page": 207,
+        "evidence": "P(C and PT)=0.05"
+      }
+    ]
+  },
+  {
+    "id": "test-image-05",
+    "split": "test",
+    "primary_group": "image_diagram",
+    "question": "In Figure 3.14, after the coin is tossed, what is the probability of drawing a red bead?",
+    "answerable": true,
+    "expected_answer": "3/12 (1/4) after either coin outcome.",
+    "gold": [
+      {
+        "source_id": "openstax-introductory-statistics-2e",
+        "page": 227,
+        "evidence": "each coin branch then splits into red, yellow, and blue beads with probabilities 3/12"
+      }
+    ]
+  },
+  {
+    "id": "test-chart-01",
+    "split": "test",
+    "primary_group": "chart",
+    "question": "In Figure 1.10, what ordering rule is used for the bars in the Pareto chart?",
+    "answerable": true,
+    "expected_answer": "The bars are sorted from largest to smallest.",
+    "gold": [
+      {
+        "source_id": "openstax-introductory-statistics-2e",
+        "page": 29,
+        "evidence": "ordered from largest to smallest"
+      }
+    ]
+  },
+  {
+    "id": "test-chart-02",
+    "split": "test",
+    "primary_group": "chart",
+    "question": "What are the mean, median, and mode in the symmetric histogram in Figure 2.16?",
+    "answerable": true,
+    "expected_answer": "All three are 7.",
+    "gold": [
+      {
+        "source_id": "openstax-introductory-statistics-2e",
+        "page": 116,
+        "evidence": "the mean, median, and mode are all 7"
+      }
+    ]
+  },
+  {
+    "id": "test-chart-03",
+    "split": "test",
+    "primary_group": "chart",
+    "question": "Is the histogram in Figure 2.18 skewed to the left or to the right?",
+    "answerable": true,
+    "expected_answer": "It is skewed to the right.",
+    "gold": [
+      {
+        "source_id": "openstax-introductory-statistics-2e",
+        "page": 117,
+        "evidence": "It is skewed to the right."
+      }
+    ]
+  },
+  {
+    "id": "test-chart-04",
+    "split": "test",
+    "primary_group": "chart",
+    "question": "What type of distribution is shown in Figure 5.2, and what interval is shaded?",
+    "answerable": true,
+    "expected_answer": "A uniform distribution with the interval from x=3 to x=6 shaded.",
+    "gold": [
+      {
+        "source_id": "openstax-introductory-statistics-2e",
+        "page": 304,
+        "evidence": "The graph shows a Uniform Distribution with the area between x = 3 and x = 6 shaded"
+      }
+    ]
+  },
+  {
+    "id": "test-chart-05",
+    "split": "test",
+    "primary_group": "chart",
+    "question": "What type of distribution is shown in Figure 5.3, and which x-interval is shaded?",
+    "answerable": true,
+    "expected_answer": "An exponential distribution with the interval from x=2 to x=4 shaded.",
+    "gold": [
+      {
+        "source_id": "openstax-introductory-statistics-2e",
+        "page": 304,
+        "evidence": "The graph shows an Exponential Distribution with the area between x = 2 and x = 4 shaded"
+      }
+    ]
+  },
+  {
+    "id": "test-multihop-01",
+    "split": "test",
+    "primary_group": "multi_hop",
+    "question": "Using the De Anza figures in Tables 1.3 and 1.4, by how many percentage points does the share of students under age 25 exceed the share who are full-time?",
+    "answerable": true,
+    "expected_answer": "It exceeds the full-time share by 20.1 percentage points (61.0% - 40.9%).",
+    "gold": [
+      {
+        "source_id": "openstax-introductory-statistics-2e",
+        "page": 26,
+        "evidence": "Full-time | 9,200 | 40.9%"
+      },
+      {
+        "source_id": "openstax-introductory-statistics-2e",
+        "page": 27,
+        "evidence": "Students under age 25 | 61.0%"
+      }
+    ]
+  },
+  {
+    "id": "test-multihop-02",
+    "split": "test",
+    "primary_group": "multi_hop",
+    "question": "Compare Figures 2.16 and 2.18: how does the shape of the first histogram differ from the second?",
+    "answerable": true,
+    "expected_answer": "Figure 2.16 is symmetric; Figure 2.18 is skewed to the right.",
+    "gold": [
+      {
+        "source_id": "openstax-introductory-statistics-2e",
+        "page": 116,
+        "evidence": "displays a symmetrical distribution of data"
+      },
+      {
+        "source_id": "openstax-introductory-statistics-2e",
+        "page": 117,
+        "evidence": "It is skewed to the right."
+      }
+    ]
+  },
+  {
+    "id": "test-multihop-03",
+    "split": "test",
+    "primary_group": "multi_hop",
+    "question": "Using the definition of cumulative relative frequency and Table 2.23, what proportion of the surveyed students slept 8 hours or fewer?",
+    "answerable": true,
+    "expected_answer": "0.80 (80%).",
+    "gold": [
+      {
+        "source_id": "openstax-introductory-statistics-2e",
+        "page": 40,
+        "evidence": "Cumulative relative frequency is the accumulation of the previous relative frequencies."
+      },
+      {
+        "source_id": "openstax-introductory-statistics-2e",
+        "page": 101,
+        "evidence": "8 | 14 | 0.28 | 0.80"
+      }
+    ]
+  },
+  {
+    "id": "test-multihop-04",
+    "split": "test",
+    "primary_group": "multi_hop",
+    "question": "Figure 12.15(b) shows a negative correlation. What direction does a line with b < 0 have in Figure 12.4?",
+    "answerable": true,
+    "expected_answer": "It slopes downward to the right.",
+    "gold": [
+      {
+        "source_id": "openstax-introductory-statistics-2e",
+        "page": 642,
+        "evidence": "panel (b) is negative"
+      },
+      {
+        "source_id": "openstax-introductory-statistics-2e",
+        "page": 631,
+        "evidence": "If b < 0, the line slopes downward to the right."
+      }
+    ]
+  },
+  {
+    "id": "test-text-01",
+    "split": "test",
+    "primary_group": "text",
+    "question": "What is a statistic, and how is it related to a population parameter?",
+    "answerable": true,
+    "expected_answer": "A statistic is a number describing a sample property, and it estimates a population parameter.",
+    "gold": [
+      {
+        "source_id": "openstax-introductory-statistics-2e",
+        "page": 19,
+        "evidence": "A statistic is a number that represents a property of the sample."
+      },
+      {
+        "source_id": "openstax-introductory-statistics-2e",
+        "page": 19,
+        "evidence": "The statistic is an estimate of a population parameter."
+      }
+    ]
+  },
+  {
+    "id": "test-text-02",
+    "split": "test",
+    "primary_group": "text",
+    "question": "According to the book, what makes a sample a simple random sample?",
+    "answerable": true,
+    "expected_answer": "Every group of n individuals is equally likely to be selected as any other group of n individuals.",
+    "gold": [
+      {
+        "source_id": "openstax-introductory-statistics-2e",
+        "page": 30,
+        "evidence": "Any group of n individuals is equally likely to be chosen as any other group of n individuals"
+      }
+    ]
+  },
+  {
+    "id": "test-text-03",
+    "split": "test",
+    "primary_group": "text",
+    "question": "How does the book describe the shape of a normal distribution's graph?",
+    "answerable": true,
+    "expected_answer": "It is bell-shaped.",
+    "gold": [
+      {
+        "source_id": "openstax-introductory-statistics-2e",
+        "page": 347,
+        "evidence": "Its graph is bell-shaped."
+      }
+    ]
+  },
+  {
+    "id": "test-text-04",
+    "split": "test",
+    "primary_group": "text",
+    "question": "What expression defines the residual epsilon-zero in the regression example?",
+    "answerable": true,
+    "expected_answer": "ε0 = y0 - ŷ0 (observed value minus fitted value).",
+    "gold": [
+      {
+        "source_id": "openstax-introductory-statistics-2e",
+        "page": 637,
+        "evidence": "y0 – ŷ0 = ε0 is the residual"
+      }
+    ]
+  },
+  {
+    "id": "test-unanswerable-01",
+    "split": "test",
+    "primary_group": "unanswerable",
+    "question": "What was Vietnam's GDP per capita in 2025?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The textbook does not contain Vietnam's 2025 GDP per capita."
+  },
+  {
+    "id": "test-unanswerable-02",
+    "split": "test",
+    "primary_group": "unanswerable",
+    "question": "Who won the 2025 UEFA Champions League?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The textbook does not cover this sports result."
+  },
+  {
+    "id": "test-unanswerable-03",
+    "split": "test",
+    "primary_group": "unanswerable",
+    "question": "What is the current spot price of silver in USD per ounce?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The textbook does not contain live commodity prices."
+  },
+  {
+    "id": "test-unanswerable-04",
+    "split": "test",
+    "primary_group": "unanswerable",
+    "question": "What is the current weather in Ho Chi Minh City?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The textbook does not provide live weather information."
+  },
+  {
+    "id": "test-unanswerable-05",
+    "split": "test",
+    "primary_group": "unanswerable",
+    "question": "What was the population of Hanoi on January 1, 2026?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The textbook does not provide this current city population figure."
+  },
+  {
+    "id": "test-unanswerable-06",
+    "split": "test",
+    "primary_group": "unanswerable",
+    "question": "What is the current price of one bitcoin in US dollars?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The textbook does not contain live cryptocurrency prices."
+  }
+]

@@ -30,7 +30,12 @@ class AgentTests(unittest.TestCase):
     def test_invalid_citation_and_empty_context_abstain(self):
         for rows, cid in (([CHUNK], 'not-present'), ([], 'c1')):
             c = Controller([{'action':'search','query':'q'}, {'action':'answer','answer':f'7 ngày [{cid}]','citations':[cid]}])
-            self.assertEqual(run_agent('q', c, Retriever(rows))['status'], 'abstain')
+            result = run_agent('q', c, Retriever(rows))
+            self.assertEqual(result['status'], 'abstain')
+            self.assertEqual(
+                result['events'][-1]['candidate_citations'],
+                [cid],
+            )
 
     def test_search_limit_is_enforced(self):
         c = Controller([{'action':'search','query':'one'}, {'action':'search','query':'two'}, {'action':'search','query':'three'}])
