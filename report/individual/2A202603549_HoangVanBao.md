@@ -33,11 +33,11 @@ Một số lỗi test retrieval đã xem: q23 không có evidence trong top-3 hy
 
 - **Trace retrieval:** `submission/results/retrieval/{tfidf-dev,dense-dev,hybrid-dev,hybrid-k5-dev,hybrid-k5-b1600-dev,tfidf-test,hybrid-k5-b1600-test}/`.
 - **Lệnh chạy:** xem mục “Benchmark retrieval” trong `starter/README.md`; dùng Python environment Day 6 có Chroma/FastEmbed.
-- **Giới hạn:** test retrieval chỉ có 5 câu trả lời được; TF-IDF tokenize đơn giản; context vẫn bỏ sót evidence. Agent đã chạy thật; token usage có ghi nhưng chi phí USD chưa tính.
+- **Giới hạn:** test retrieval chỉ có 5 câu trả lời được; TF-IDF tokenize đơn giản; context vẫn bỏ sót evidence. Chi phí agent là ước tính theo token và bảng giá model, không phải số tiền billing xác nhận.
 
 ## Agent và đánh giá
 
-- **Tool/agent:** `agent_runner.py` gọi `OpenAICompatibleController` với tool `search`, dùng dense Chroma Day 6. Mặc định tối đa 3 lượt search, top-3 và budget 1,600 ký tự; lỗi được lưu riêng, không dùng kết quả giả.
+- **Tool/agent:** `agent_runner.py` gọi `OpenAICompatibleController` với tool `search`; hỗ trợ dense Chroma Day 6 và hybrid RRF (dense + TF-IDF). Đánh giá baseline dense và cấu hình hybrid đã chọn; mỗi cấu hình tối đa 3 lượt search, budget 1,600 ký tự; lỗi được lưu riêng, không dùng kết quả giả.
 - **Model:** `gpt-4o-mini`, cấu hình bằng `.env` local (không commit secret). Chỉ gửi tài liệu tới provider được phép xử lý nội dung này.
 - **Cấu hình được đánh giá:** Dense baseline: Day 6 strategy B, top-3. Cấu hình đã chọn: Hybrid RRF với Dense Day 6 + TF-IDF, candidate-10, RRF-k=60, top-5. Cả hai dùng tối đa 3 lượt search và context budget 1,600 ký tự.
 - **Chấm thủ công:** Đã đọc toàn bộ 23 câu dev và 7 câu test, gồm 5 câu test có đáp án và 2 câu test thiếu evidence. Citation chỉ được chấm đúng khi có trong context và hỗ trợ phát biểu tương ứng. Mỗi query, tool call, context, câu trả lời, thời gian, token usage, nhãn và lý do được lưu trong `submission/results/`.
