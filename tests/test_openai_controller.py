@@ -1,7 +1,9 @@
 import json
 import sys
 import unittest
+from io import BytesIO
 from pathlib import Path
+from urllib.error import HTTPError
 from unittest.mock import patch
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "starter"))
@@ -74,6 +76,19 @@ class OpenAIControllerTests(unittest.TestCase):
             OpenAICompatibleController(api_key="", model="test")
         with self.assertRaisesRegex(ValueError, "OPENAI_MODEL"):
             OpenAICompatibleController(api_key="test", model="")
+
+    @patch("openai_controller.urlopen")
+    def test_provider_error_includes_safe_diagnostic_message(self, urlopen):
+        body = BytesIO(b'{"error":{"message":"The selected model is unavailable."}}')
+        urlopen.side_effect = HTTPError(
+            "https://example.test/v1/chat/completions",
+            400,
+            "Bad Request",
+            hdrs=None,
+            fp=body,
+        )
+        with self.assertRaisesRegex(RuntimeError, "selected model is unavailable"):
+            self.make_controller().decide("question", [])
 
 
 if __name__ == "__main__":

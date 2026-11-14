@@ -87,8 +87,16 @@ class OpenAICompatibleController:
             with urlopen(request, timeout=self._timeout_seconds) as response:
                 result = json.loads(response.read().decode("utf-8"))
         except HTTPError as exc:
+            body = exc.read().decode("utf-8", errors="replace")
+            try:
+                error = json.loads(body).get("error")
+            except json.JSONDecodeError:
+                error = None
+            detail = error.get("message") if isinstance(error, dict) else None
+            if not isinstance(detail, str) or not detail:
+                detail = body[:500] or str(exc.reason)
             raise RuntimeError(
-                f"Model provider returned HTTP {exc.code}: {exc.reason}"
+                f"Model provider returned HTTP {exc.code}: {detail}"
             ) from exc
         except URLError as exc:
             raise RuntimeError(f"Could not reach model provider: {exc.reason}") from exc

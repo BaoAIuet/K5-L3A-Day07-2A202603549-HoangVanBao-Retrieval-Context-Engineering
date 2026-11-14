@@ -18,13 +18,18 @@ def main() -> None:
     parser.add_argument("--top-k", type=int, default=3)
     parser.add_argument("--max-searches", type=int, default=3)
     parser.add_argument("--budget", type=int, default=1600)
+    parser.add_argument("--limit", type=int, help="Run only the first N questions in this split")
     parser.add_argument("--output", type=Path, required=True)
     args = parser.parse_args()
     if args.top_k < 1 or args.max_searches < 1 or args.budget < 1:
         parser.error("--top-k, --max-searches and --budget must be positive")
+    if args.limit is not None and args.limit < 1:
+        parser.error("--limit must be positive")
 
     questions = json.loads(args.questions.read_text(encoding="utf-8"))
     selected = [question for question in questions if question["split"] == args.split]
+    if args.limit is not None:
+        selected = selected[:args.limit]
     if not selected:
         raise ValueError(f"No questions found for split {args.split}")
     retriever = Day6DenseRetriever.from_persistent_index(
