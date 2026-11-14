@@ -36,6 +36,13 @@ def validate(chunks, questions):
         ids.add(q['id'])
         if q.get('split') not in ('dev', 'test') or not isinstance(q.get('question'), str) or not q['question'].strip():
             raise ValueError(f"question {q['id']}: split hoặc question không hợp lệ")
+        answerable = q.get('answerable', True)
+        if not isinstance(answerable, bool):
+            raise ValueError(f"question {q['id']}: answerable phải là boolean")
+        if not answerable:
+            if q.get('expected_behavior') != 'search_and_abstain' or not isinstance(q.get('absence_reason'), str) or not q['absence_reason'].strip():
+                raise ValueError(f"question {q['id']}: câu thiếu evidence cần expected_behavior và absence_reason")
+            continue
         if not isinstance(q.get('expected_answer'), str) or not q['expected_answer'].strip():
             raise ValueError(f"question {q['id']}: expected_answer phải là chuỗi không rỗng")
         if not isinstance(q.get('gold'), list) or not q['gold']:
@@ -48,7 +55,17 @@ def validate(chunks, questions):
 
 
 def hit(chunk, gold):
-    return any(chunk['source_id'] == g['source_id'] and chunk['page'] == g['page'] and g['evidence'] in chunk['text'] for g in gold)
+    def normalized(text):
+        return ''.join(
+            char for char in unicodedata.normalize('NFC', text).casefold() if char.isalnum()
+        )
+
+    return any(
+        chunk['source_id'] == g['source_id']
+        and chunk['page'] == g['page']
+        and normalized(g['evidence']) in normalized(chunk['text'])
+        for g in gold
+    )
 
 
 class TfidfIndex:
@@ -90,6 +107,8 @@ def pack_context(results, budget=800):
 def evaluate(index, questions, budget=800):
     traces = []
     for q in questions:
+        if q.get('answerable', True) is False:
+            continue
         start = time.perf_counter()
         results = index.search(q['question'], top_k=3)
         context, ids = pack_context(results, budget)
@@ -123,6 +142,7 @@ def main():
     traces = evaluate(index, selected)
     summary = {'strategy': 'tfidf', 'split': args.split, 'n': len(traces),
                'hit1': sum(t['hit1'] for t in traces), 'hit3': sum(t['hit3'] for t in traces),
+               'unanswerable_count': sum(q.get('answerable', True) is False for q in selected),
                'context_hit': sum(t['context_hit'] for t in traces),
                'avg_context_chars': statistics.mean(t['context_chars'] for t in traces),
                'median_ms': statistics.median(t['elapsed_ms'] for t in traces),

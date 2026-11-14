@@ -13,10 +13,14 @@ def convert_chunk(c):
 def convert_question(q):
     gold = q.get('gold')
     if gold is None:
-        gold = [{'source_id': q.get('gold_source_id'), 'page': q.get('gold_page'),
-                 'evidence': q.get('evidence_quote')}]
+        pages = q.get('gold_page')
+        if not isinstance(pages, list):
+            pages = [pages]
+        gold = [{'source_id': q.get('gold_source_id'), 'page': page,
+                 'evidence': q.get('evidence_quote')} for page in pages]
     result = {'id': q.get('id'), 'split': q.get('split'), 'question': q.get('question'),
-              'gold': gold, 'expected_answer': q.get('expected_answer')}
+              'gold': gold, 'expected_answer': q.get('expected_answer'),
+              'answerable': q.get('answerable', True)}
     if 'filter' in q:
         result['filter'] = q['filter']
     return result

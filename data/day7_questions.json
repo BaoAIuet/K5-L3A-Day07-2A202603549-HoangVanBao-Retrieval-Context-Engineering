@@ -1,0 +1,427 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "What characterizes the criteria used in programmed decisions?",
+    "gold": [
+      {
+        "source_id": "principles-management",
+        "page": 41,
+        "evidence": "criteria that go into making the decision are all known or can at least be estimated with a reasonable degree of accuracy"
+      }
+    ],
+    "expected_answer": "The criteria are all known, or can at least be estimated with a reasonable degree of accuracy.",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "Which factors should drive a decision about how many raw materials to order?",
+    "gold": [
+      {
+        "source_id": "principles-management",
+        "page": 41,
+        "evidence": "anticipated production, existing stock, and anticipated length of time for the delivery of the final product"
+      }
+    ],
+    "expected_answer": "Anticipated production, existing stock, and the anticipated time for delivery of the final product.",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "Why is building a weekly schedule for part-time store employees still a programmed decision even though it can be complex?",
+    "gold": [
+      {
+        "source_id": "principles-management",
+        "page": 41,
+        "evidence": "it is made on a regular basis based on well-understood criteria, so structure can be applied to the process"
+      }
+    ],
+    "expected_answer": "Because it is made regularly using well-understood criteria, so structure can be applied to the process.",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "What do managers use as mental shortcuts when making routine, structured decisions?",
+    "gold": [
+      {
+        "source_id": "principles-management",
+        "page": 41,
+        "evidence": "heuristics, or mental shortcuts, to help reach a decision"
+      }
+    ],
+    "expected_answer": "Heuristics.",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "In French and Raven's typology, what is reward power?",
+    "gold": [
+      {
+        "source_id": "principles-management",
+        "page": 383,
+        "evidence": "the power a person has because people believe that they can bestow rewards or outcomes, such as money or recognition that others desire"
+      }
+    ],
+    "expected_answer": "The power a person has because people believe they can bestow rewards or outcomes, such as money or recognition, that others desire.",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "Which source of a leader's power rests on followers believing the leader can cause them harm or take away something they value?",
+    "gold": [
+      {
+        "source_id": "principles-management",
+        "page": 383,
+        "evidence": "inflicting pain or by withholding or taking away something that they value"
+      }
+    ],
+    "expected_answer": "Coercive power.",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "What do we call a leader who arises from the processes within a group working toward a shared goal, rather than being placed in the role by outside forces?",
+    "gold": [
+      {
+        "source_id": "principles-management",
+        "page": 383,
+        "evidence": "Emergent leaders, on the other hand, arise from the dynamics and processes that unfold within and among a group of individuals"
+      }
+    ],
+    "expected_answer": "An emergent leader.",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "Why are people unlikely to follow someone as a leader, according to research on leader emergence?",
+    "gold": [
+      {
+        "source_id": "principles-management",
+        "page": 383,
+        "evidence": "drive, self-confidence, knowledge of the situation, honesty"
+      }
+    ],
+    "expected_answer": "They are unlikely to follow individuals who do not display drive, self-confidence, knowledge of the situation, honesty, and integrity.",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "What gives a group member the status to influence the group's direction after contributing to its goals?",
+    "gold": [
+      {
+        "source_id": "principles-management",
+        "page": 383,
+        "evidence": "he has accumulated idiosyncrasy credits (a form of competency-based status)"
+      }
+    ],
+    "expected_answer": "Idiosyncrasy credits, a form of competency-based status.",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "What is the role of a devil's advocate in a group that is trying to reach a decision?",
+    "gold": [
+      {
+        "source_id": "principles-management",
+        "page": 57,
+        "evidence": "Their job is to point out flawed logic, to challenge the group's evaluations of various alternatives, and to identify weaknesses in proposed solutions"
+      }
+    ],
+    "expected_answer": "The devil's advocate intentionally plays the critic: pointing out flawed logic, challenging the group's evaluations of alternatives, and identifying weaknesses in proposed solutions.",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "What is the consequence for a team when its members hold back their own ideas and perspectives?",
+    "gold": [
+      {
+        "source_id": "principles-management",
+        "page": 57,
+        "evidence": "then the group is not getting the benefits of group decision-making"
+      }
+    ],
+    "expected_answer": "The group does not get the benefits of group decision-making.",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "What should a manager do when there is too much conflict among the members of a group?",
+    "gold": [
+      {
+        "source_id": "principles-management",
+        "page": 57,
+        "evidence": "managers need to help group members reduce conflict by finding some common ground"
+      }
+    ],
+    "expected_answer": "Help members reduce conflict by finding common ground, such as common interests, values, beliefs, experiences, or goals.",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "How do effective managers try to ensure quality group decision-making when forming a group?",
+    "gold": [
+      {
+        "source_id": "principles-management",
+        "page": 57,
+        "evidence": "forming groups with diverse members so that a variety of perspectives will contribute to the process"
+      }
+    ],
+    "expected_answer": "They form groups with diverse members so that a variety of perspectives contribute to the process.",
+    "answerable": true,
+    "filter": {
+      "chapter": 2
+    }
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "In Fiedler's contingency model, what is position power?",
+    "gold": [
+      {
+        "source_id": "principles-management",
+        "page": 394,
+        "evidence": "position power—a leader’s direct ability to influence group members"
+      }
+    ],
+    "expected_answer": "A leader's direct ability to influence group members.",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "Under what combination of conditions is the situation most favorable for a leader?",
+    "gold": [
+      {
+        "source_id": "principles-management",
+        "page": 394,
+        "evidence": "most favorable for a leader when the relationship between the leader and group members is good, when the task is highly structured, and when the leader’s position power is strong"
+      }
+    ],
+    "expected_answer": "When leader-member relations are good, the task is highly structured, and the leader's position power is strong.",
+    "answerable": true,
+    "filter": {
+      "chapter": 13
+    }
+  },
+  {
+    "id": "q16",
+    "split": "dev",
+    "question": "According to Fiedler's research, when are relationship-oriented (high-LPC) leaders much more effective than in other situations?",
+    "gold": [
+      {
+        "source_id": "principles-management",
+        "page": 394,
+        "evidence": "relationship-oriented (high-LPC) leaders are much more effective under conditions of intermediate favorability than under either highly favorable or highly unfavorable situations"
+      }
+    ],
+    "expected_answer": "Under conditions of intermediate favorability, rather than highly favorable or highly unfavorable situations.",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "q17",
+    "split": "dev",
+    "question": "What problems can arise for followers and the group when a leader takes a more directive attitude than the situation calls for?",
+    "gold": [
+      {
+        "source_id": "principles-management",
+        "page": 394,
+        "evidence": "a more directive attitude could lead to anxiety in followers, conflict in the group, and a lack of cooperation"
+      }
+    ],
+    "expected_answer": "Anxiety in followers, conflict in the group, and a lack of cooperation.",
+    "answerable": true,
+    "filter": {
+      "chapter": 13
+    }
+  },
+  {
+    "id": "q18",
+    "split": "dev",
+    "question": "What is the shortcoming called when people pay more attention to information that supports what they already believe and less to information that contradicts it?",
+    "gold": [
+      {
+        "source_id": "principles-management",
+        "page": 45,
+        "evidence": "we tend to pay more attention to information that confirms our existing beliefs and less attention to information that is contrary to our beliefs"
+      }
+    ],
+    "expected_answer": "Confirmation bias.",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "q19",
+    "split": "dev",
+    "question": "How can a manager reduce the distortion that comes from strongly liking or disliking someone when making a decision?",
+    "gold": [
+      {
+        "source_id": "principles-management",
+        "page": 45,
+        "evidence": "The effective manager will try to evaluate situations from multiple perspectives and gather multiple opinions to offset this bias when making decisions"
+      }
+    ],
+    "expected_answer": "Evaluate situations from multiple perspectives and gather multiple opinions.",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "q20",
+    "split": "dev",
+    "question": "Why is it still right to confront an employee who is often late, even when that employee is otherwise valuable to the department?",
+    "gold": [
+      {
+        "source_id": "principles-management",
+        "page": 45,
+        "evidence": "If the bad behavior is not corrected, it will continue, which is going to cause more problems in the workplace in the long run"
+      }
+    ],
+    "expected_answer": "Because uncorrected bad behavior will continue and cause more problems in the workplace in the long run.",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "q21",
+    "split": "dev",
+    "question": "Why can the wish to avoid conflict get in the way of making the best decision?",
+    "gold": [
+      {
+        "source_id": "principles-management",
+        "page": 45,
+        "evidence": "the best decision might be one that is going to involve some conflict"
+      }
+    ],
+    "expected_answer": "Most people dislike conflict and avoid it, but the best decision might be one that involves some conflict.",
+    "answerable": true,
+    "filter": {
+      "chapter": 2
+    }
+  },
+  {
+    "answerable": true,
+    "id": "q22",
+    "question": "What six steps does the chapter list for the decision-making process?",
+    "expected_answer": "Recognize the decision, generate alternatives, analyze them, select one, implement it, and evaluate its effectiveness.",
+    "gold": [
+      {
+        "source_id": "principles-management",
+        "page": 42,
+        "evidence": "1. Recognize that a decision needs to be made.\n2. Generate multiple alternatives.\n3. Analyze the alternatives.\n4. Select an alternative.\n5. Implement the selected alternative.\n6. Evaluate its effectiveness."
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "answerable": true,
+    "id": "q23",
+    "question": "What decision-making benefits does the chapter attribute to talking to other people?",
+    "expected_answer": "It can improve quality by generating more options and reducing bias.",
+    "gold": [
+      {
+        "source_id": "principles-management",
+        "page": 47,
+        "evidence": "Talk to other people. Improves quality: generates more options, reduces bias"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "answerable": true,
+    "id": "q24",
+    "question": "How does the chapter define critical thinking?",
+    "expected_answer": "It is a disciplined process for evaluating information quality, especially data and arguments from other sources, to assess trustworthiness and validity.",
+    "gold": [
+      {
+        "source_id": "principles-management",
+        "page": 50,
+        "evidence": "Critical thinking is a disciplined process of evaluating the quality of information, especially data collected from other sources and arguments made by other people, to determine whether the source should be trusted or whether the argument is valid."
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "answerable": true,
+    "id": "q25",
+    "question": "Which two major sets of leader behaviors did the Ohio State University studies identify?",
+    "expected_answer": "Consideration and initiating structure.",
+    "gold": [
+      {
+        "source_id": "principles-management",
+        "page": 390,
+        "evidence": "Their results identified two major sets of leader behaviors: consideration and initiating structure."
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "answerable": true,
+    "id": "q26",
+    "question": "According to path-goal theory, what does an effective leader provide to organizational members?",
+    "expected_answer": "A path to a valued goal.",
+    "gold": [
+      {
+        "source_id": "principles-management",
+        "page": 395,
+        "evidence": "an effective leader provides organizational members with a path to a valued goal"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "id": "dev-no-evidence-01",
+    "split": "dev",
+    "question": "What was Away's exact net profit margin during its first year?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The Away case reports first-year sales but does not state its net profit margin."
+  },
+  {
+    "id": "dev-no-evidence-02",
+    "split": "dev",
+    "question": "How many Microsoft board members voted to approve the culture change?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The selected decision-making pages discuss Microsoft's culture change but contain no board vote or vote count."
+  },
+  {
+    "id": "test-no-evidence-01",
+    "split": "test",
+    "question": "What was the Springfield Sea Lions' exact win-loss record in John Arroyo's season?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The leadership case describes Arroyo's plans and staff response but gives no season win-loss record."
+  },
+  {
+    "id": "test-no-evidence-02",
+    "split": "test",
+    "question": "What percentage increase in employee satisfaction did Arroyo's plan produce?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The Sea Lions case describes the staff response to Arroyo's plan but reports no measured employee-satisfaction percentage."
+  }
+]

@@ -31,6 +31,14 @@ Kết quả có `summary.json` và `traces.json`. Dữ liệu mẫu chỉ có m�
 
 ## 3. Dùng dữ liệu Day 6
 
+Để chuẩn bị bộ benchmark Day 7 và xuất chunks từ Chroma Day 6, chạy bằng Python environment của Day 6:
+
+```powershell
+python starter\prepare_day7_data.py --day6-root "D:\path\to\Day06"
+```
+
+Lệnh tạo `data/day7_questions.json` và `starter/data/day6_chunks.json`. Các câu test Day 6 đã xem được chuyển sang dev; bộ test mới có năm câu có evidence và hai câu thiếu evidence. Script kiểm tra evidence trước khi ghi file. Thư mục `starter/data/` bị Git bỏ qua; không nộp chunks trích xuất nếu chưa xác nhận quyền chia sẻ. Đọc và kiểm tra các câu, đặc biệt là `absence_reason`, trước khi chạy agent.
+
 Xuất chunk và câu hỏi thành hai JSON array. Starter Day 6 không quy định tên bảng hay cách xuất; bạn cần tự thực hiện. Nếu chunk có `chunk_id`, `document_id`, `source`, `page`, `text`, `metadata` và câu hỏi có `gold_source_id`, `gold_page`, `evidence_quote`, chạy:
 
 ```bash
@@ -39,6 +47,23 @@ python3 starter/baseline.py --chunks starter/data/converted/chunks.json --questi
 ```
 
 Thay phần trong `< >` bằng đường dẫn thật. Script chỉ đổi tên trường, không tự truy cập database hay đoán evidence. Nếu cấu trúc khác, tự viết adapter. Đối chiếu lại nguồn, trang và evidence.
+
+Để dense retrieval trực tiếp từ Chroma Day 6, dùng adapter `Day6DenseRetriever`. Adapter dùng FastEmbed `BAAI/bge-small-en-v1.5` và collection `chunks_A` hoặc `chunks_B`; hãy chạy bằng Python environment có `chromadb` và `fastembed` của Day 6:
+
+```python
+import os
+from pathlib import Path
+from day6_retriever import Day6DenseRetriever
+
+day6_root = Path(os.environ["DAY6_ROOT"])
+retriever = Day6DenseRetriever.from_persistent_index(
+    day6_root / "starter" / "data" / "chroma_v2_b1000",
+    strategy="B",
+)
+hits = retriever.search("your question", filters={"chapter": 13}, top_k=3)
+```
+
+Chạy đoạn trên từ thư mục `starter` của Day 7. Adapter trả về chunk theo schema Day 7 và để lỗi index, model hoặc kết nối nổi lên thay vì dùng dữ liệu giả. Hỗ trợ filter Day 6: `chapter`, `page`, `document_id`, `section`. Nếu chưa có index `chroma_v2_b1000`, chọn một thư mục Chroma đã tồn tại và đúng strategy. Converter chuẩn hóa `gold_page` dạng số hoặc danh sách thành evidence tương ứng.
 
 `--split dev` chỉ chấm dev. Sau khi chốt cấu hình, dùng `--split test` và chọn thư mục kết quả khác. Nếu test Day 6 từng dùng để chỉnh hệ thống, tạo test mới theo [GUIDE.md](../GUIDE.md). Baseline mẫu dùng evidence nằm trong một chunk và context từ top-3; cần mở rộng hoặc tự đánh giá nếu dùng multi-hop, context từ nhiều lượt hay schema khác. Khớp nguyên văn bằng code không thay thế đánh giá thủ công.
 

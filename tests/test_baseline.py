@@ -35,6 +35,10 @@ class BaselineTests(unittest.TestCase):
         wrong = {'source_id': 'doc', 'page': 2, 'evidence': 'bảy ngày'}
         self.assertFalse(hit(self.chunks[0], [wrong]))
         self.assertTrue(hit(self.chunks[0], [wrong, valid]))
+        extraction_artifact = {**self.chunks[0], 'text': "The group�s evaluations were reviewed."}
+        self.assertTrue(hit(extraction_artifact, [{
+            'source_id': 'doc', 'page': 1, 'evidence': "group's evaluations"
+        }]))
         with self.assertRaises(ValueError):
             validate(self.chunks, [{**self.q, 'gold': [wrong]}])
 
@@ -57,6 +61,29 @@ class BaselineTests(unittest.TestCase):
         validate([c], [q])
         self.assertEqual(q['filter'], {'year': 2025})
         self.assertEqual(c['id'], 'c1')
+
+    def test_convert_day6_page_list_to_alternative_evidence(self):
+        raw_q = {'id': 'q', 'split': 'dev', 'question': 'bao lâu', 'gold_source_id': 'doc',
+                 'gold_page': [1, 2], 'evidence_quote': 'bảy ngày', 'expected_answer': 'bảy ngày'}
+        converted = convert_question(raw_q)
+        self.assertEqual(
+            converted['gold'],
+            [
+                {'source_id': 'doc', 'page': 1, 'evidence': 'bảy ngày'},
+                {'source_id': 'doc', 'page': 2, 'evidence': 'bảy ngày'},
+            ],
+        )
+
+    def test_unanswerable_questions_are_valid_but_excluded_from_retrieval_metrics(self):
+        absent = {'id': 'absent', 'split': 'dev', 'question': 'What is missing?',
+                  'answerable': False, 'expected_behavior': 'search_and_abstain',
+                  'absence_reason': 'The fixture does not contain this information.'}
+        validate(self.chunks, [self.q, absent])
+        traces = evaluate(TfidfIndex(self.chunks), [self.q, absent])
+        self.assertEqual(len(traces), 1)
+        self.assertEqual(traces[0]['query_id'], 'q')
+        with self.assertRaisesRegex(ValueError, 'absence_reason'):
+            validate(self.chunks, [{**absent, 'absence_reason': ''}])
 
     def test_cli_uses_requested_split_only(self):
         with tempfile.TemporaryDirectory() as d:
