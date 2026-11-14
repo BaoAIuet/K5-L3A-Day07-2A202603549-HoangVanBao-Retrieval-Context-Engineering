@@ -48,6 +48,12 @@ class BaselineTests(unittest.TestCase):
         self.assertLessEqual(len(context), 800)
         self.assertEqual(pack_context(self.chunks, 1), ('', []))
         self.assertEqual(TfidfIndex(self.chunks).search('khôngkhớp'), [])
+        filtered = TfidfIndex(self.chunks).search(
+            'giao hàng', filters={'page': 1}
+        )
+        self.assertEqual(filtered, [])
+        with self.assertRaises(ValueError):
+            TfidfIndex(self.chunks).search('q', filters={'unknown': 1})
         trace = evaluate(TfidfIndex(self.chunks), [self.q], budget=1)[0]
         self.assertTrue(trace['hit3'])
         self.assertFalse(trace['context_hit'])

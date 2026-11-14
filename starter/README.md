@@ -4,6 +4,11 @@
 |---|---|
 | `agentic.py` | Khung agent ví dụ với số lượt search, top-k và context budget có thể cấu hình |
 | `baseline.py` | TF-IDF lexical baseline, chạy offline |
+| `retrievers.py` | Hybrid retrieval kết hợp dense và TF-IDF bằng RRF |
+| `retrieval_benchmark.py` | Benchmark TF-IDF, dense Day 6 và hybrid trên dev/test |
+| `openai_controller.py` | Controller dùng API tương thích OpenAI để gọi search tool |
+| `agent_runner.py` | Chạy agent thật và lưu trace/cases, không đưa gold vào model |
+| `prepare_day7_data.py` | Export chunks và chuẩn bị benchmark từ Day 6 |
 | `convert_day6.py` | Chuyển một số trường JSON từ Day 6 |
 | `agent_metrics.py` | Tổng hợp nhãn đánh giá do bạn tự chấm |
 
@@ -67,7 +72,32 @@ Chạy đoạn trên từ thư mục `starter` của Day 7. Adapter trả về c
 
 `--split dev` chỉ chấm dev. Sau khi chốt cấu hình, dùng `--split test` và chọn thư mục kết quả khác. Nếu test Day 6 từng dùng để chỉnh hệ thống, tạo test mới theo [GUIDE.md](../GUIDE.md). Baseline mẫu dùng evidence nằm trong một chunk và context từ top-3; cần mở rộng hoặc tự đánh giá nếu dùng multi-hop, context từ nhiều lượt hay schema khác. Khớp nguyên văn bằng code không thay thế đánh giá thủ công.
 
-## 4. Tổng hợp đánh giá agent
+## 5. Benchmark retrieval
+
+Chạy bằng Python environment Day 6 (có `chromadb` và `fastembed`), từ thư mục gốc Day 7:
+
+```powershell
+python starter\retrieval_benchmark.py --chunks starter\data\day6_chunks.json --questions data\day7_questions.json --split dev --method tfidf --top-k 3 --budget 800 --output starter\results\tfidf-dev
+python starter\retrieval_benchmark.py --chunks starter\data\day6_chunks.json --questions data\day7_questions.json --split dev --method dense --day6-index "D:\path\to\Day06\starter\data\chroma_v2_b1000" --strategy B --top-k 3 --budget 800 --output starter\results\dense-dev
+python starter\retrieval_benchmark.py --chunks starter\data\day6_chunks.json --questions data\day7_questions.json --split dev --method hybrid --day6-index "D:\path\to\Day06\starter\data\chroma_v2_b1000" --strategy B --candidate-k 10 --top-k 5 --budget 1600 --output starter\results\hybrid-dev
+```
+
+Hybrid dùng Reciprocal Rank Fusion (RRF) với `rrf-k=60`; thay đổi `--top-k` và `--budget` là cấu hình cải thiện, không phải phương pháp mới. Chỉ chạy test sau khi chọn cấu hình trên dev.
+
+## 6. Chạy model thật
+
+`OpenAICompatibleController` dùng Chat Completions tool calling. Cấu hình trong PowerShell; không ghi key vào repo, trace hoặc commit:
+
+```powershell
+$env:OPENAI_API_KEY = "<your-key>"
+$env:OPENAI_MODEL = "<tool-calling-model>"
+$env:OPENAI_BASE_URL = "https://api.openai.com/v1"
+python starter\agent_runner.py --questions data\day7_questions.json --split dev --day6-index "D:\path\to\Day06\starter\data\chroma_v2_b1000" --strategy B --top-k 3 --max-searches 3 --budget 1600 --output starter\results\agent-dev
+```
+
+Có thể bỏ `OPENAI_BASE_URL` để dùng endpoint mặc định. Chỉ dùng endpoint/model được phép gửi tài liệu tới; runner ghi token usage nhưng không đoán giá vì chi phí phụ thuộc provider/model. Nó tạo `cases.json` và `traces.json`; hãy đọc trace/citation và tự chấm `reviews.json` trước khi chạy `agent_metrics.py`. Không đánh giá chất lượng agent bằng mock.
+
+## 7. Tổng hợp đánh giá agent
 
 Sau khi chạy agent thật và tự chấm, chuẩn bị ba JSON array:
 

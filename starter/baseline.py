@@ -81,10 +81,25 @@ class TfidfIndex:
         norm = math.sqrt(sum(value * value for value in vector.values())) or 1
         return {term: value / norm for term, value in vector.items()}
 
-    def search(self, question, top_k=3):
+    def search(self, question, top_k=3, filters=None):
+        if filters is None:
+            filters = {}
+        elif not isinstance(filters, dict):
+            raise ValueError('filters must be a dictionary')
+        allowed_filters = {'chapter', 'page', 'document_id', 'section'}
+        if any(key not in allowed_filters for key in filters):
+            raise ValueError(f'filters must contain only {sorted(allowed_filters)}')
+        if any(value is None or not isinstance(value, (str, int, float, bool)) for value in filters.values()):
+            raise ValueError('filter values must be non-null scalars')
         query = self._vector(Counter(tokenize(question)))
         results = []
         for chunk, vector in zip(self.chunks, self.vectors):
+            metadata = chunk.get('metadata', {})
+            if any(
+                (chunk.get(key, metadata.get(key)) != value)
+                for key, value in filters.items()
+            ):
+                continue
             score = sum(value * vector.get(term, 0) for term, value in query.items())
             if score > 0:
                 results.append({**chunk, 'score': score, 'strategy': 'tfidf'})
